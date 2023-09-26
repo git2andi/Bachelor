@@ -192,8 +192,4 @@ Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
 \newblock Diffusion models: A comprehensive survey of methods and applications.
 \newblock {\em arXiv preprint arXiv:2209.00796}.
 
-\bibitem[Zhao et~al., 2018]{zhaoVAE}
-Zhao, S., Song, J., and Ermon, S. (2018).
-\newblock Infovae: Information maximizing variational autoencoders.
-
 \end{thebibliography}

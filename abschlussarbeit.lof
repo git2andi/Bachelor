@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces Autoencoder: The encoder reduces the input dimension to a latent vector that captures the most important features. The decoder then uses this vector to reconstruct the input, with training aimed at minimizing reconstruction loss.}}{3}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Functionality of a Variational Autoencoder, demonstrating incorporation of mean and standard deviation for enhancing generative capabilities.}}{4}{}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Simplified functionality of a Generative Adversarial Network}}{5}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Simplified functionality of a Generative Adversarial Network}}{6}{}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Forward process adding noise to an image}}{7}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
