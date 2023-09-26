@@ -1,0 +1,199 @@
+\begin{thebibliography}{}
+
+\bibitem[Brophy et~al., 2023]{brophyGAN}
+Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
+\newblock Generative adversarial networks in time series: A systematic
+  literature review.
+\newblock {\em ACM Computing Surveys}, 55(10):1--31.
+
+\bibitem[Diggle and Gratton, 1984]{diggleImplicitPrescribed}
+Diggle, P.~J. and Gratton, R.~J. (1984).
+\newblock Monte carlo methods of inference for implicit statistical models.
+\newblock {\em Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 46(2):193--212.
+
+\bibitem[Doersch, 2016]{doerschVAE}
+Doersch, C. (2016).
+\newblock Tutorial on variational autoencoders.
+\newblock {\em arXiv preprint arXiv:1606.05908}.
+
+\bibitem[Dosovitskiy et~al., 2021]{dosovitskiyViT}
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
+  Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S.,
+  Uszkoreit, J., and Houlsby, N. (2021).
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+
+\bibitem[Goodfellow et~al., 2020]{goodfellowGAN}
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
+  S., Courville, A., and Bengio, Y. (2020).
+\newblock Generative adversarial networks.
+\newblock {\em Communications of the ACM}, 63(11):139--144.
+
+\bibitem[Goodfellow et~al., 2016]{GoodfellowDeepLearning}
+Goodfellow, I.~J., Bengio, Y., and Courville, A. (2016).
+\newblock {\em Deep Learning}.
+\newblock MIT Press, Cambridge, MA, USA.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem[He et~al., 2016]{heResnet}
+He, K., Zhang, X., Ren, S., and Sun, J. (2016).
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}.
+
+\bibitem[Higgins et~al., 2017]{higginsVAE}
+Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M.,
+  Mohamed, S., and Lerchner, A. (2017).
+\newblock beta-{VAE}: Learning basic visual concepts with a constrained
+  variational framework.
+\newblock In {\em International Conference on Learning Representations}.
+
+\bibitem[Hinton and Salakhutdinov, 2006]{hintonCode}
+Hinton, G.~E. and Salakhutdinov, R.~R. (2006).
+\newblock Reducing the dimensionality of data with neural networks.
+\newblock {\em science}, 313(5786):504--507.
+
+\bibitem[Ho et~al., 2020]{hoDDPMs}
+Ho, J., Jain, A., and Abbeel, P. (2020).
+\newblock Denoising diffusion probabilistic models.
+\newblock {\em ArXiv}, abs/2006.11239.
+
+\bibitem[Hyv{\"a}rinen and Dayan, 2005]{hyvarinenScoreMatching}
+Hyv{\"a}rinen, A. and Dayan, P. (2005).
+\newblock Estimation of non-normalized statistical models by score matching.
+\newblock {\em Journal of Machine Learning Research}, 6(4).
+
+\bibitem[Jain et~al., 2022]{jainDreamFields}
+Jain, A., Mildenhall, B., Barron, J.~T., Abbeel, P., and Poole, B. (2022).
+\newblock Zero-shot text-guided object generation with dream fields.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 867--876.
+
+\bibitem[Jun and Nichol, 2023]{junShapeE}
+Jun, H. and Nichol, A. (2023).
+\newblock Shap-e: Generating conditional 3d implicit functions.
+
+\bibitem[Kingma and Welling, 2022]{kingmaVAE}
+Kingma, D.~P. and Welling, M. (2022).
+\newblock Auto-encoding variational bayes.
+
+\bibitem[Liu et~al., 2016]{steinScore}
+Liu, Q., Lee, J., and Jordan, M. (2016).
+\newblock A kernelized stein discrepancy for goodness-of-fit tests.
+\newblock In Balcan, M.~F. and Weinberger, K.~Q., editors, {\em Proceedings of
+  The 33rd International Conference on Machine Learning}, volume~48 of {\em
+  Proceedings of Machine Learning Research}, pages 276--284, New York, New
+  York, USA. PMLR.
+
+\bibitem[Mildenhall et~al., 2020]{mildenhallNERF}
+Mildenhall, B., Srinivasan, P.~P., Tancik, M., Barron, J.~T., Ramamoorthi, R.,
+  and Ng, R. (2020).
+\newblock Nerf: Representing scenes as neural radiance fields for view
+  synthesis.
+\newblock In {\em ECCV}.
+
+\bibitem[Nichol et~al., 2021]{nicholGLIDE}
+Nichol, A., Dhariwal, P., Ramesh, A., Shyam, P., Mishkin, P., McGrew, B.,
+  Sutskever, I., and Chen, M. (2021).
+\newblock Glide: Towards photorealistic image generation and editing with
+  text-guided diffusion models.
+\newblock {\em arXiv preprint arXiv:2112.10741}.
+
+\bibitem[Nichol et~al., 2022]{nicholPointE}
+Nichol, A., Jun, H., Dhariwal, P., Mishkin, P., and Chen, M. (2022).
+\newblock Point-e: A system for generating 3d point clouds from complex
+  prompts.
+\newblock {\em arXiv preprint arXiv:2212.08751}.
+
+\bibitem[Poole et~al., 2022]{pooleDreamfusion}
+Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
+\newblock Dreamfusion: Text-to-3d using 2d diffusion.
+\newblock {\em arXiv preprint arXiv:2209.14988}.
+
+\bibitem[Radford et~al., 2021]{radfordCLIP}
+Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
+  G., Askell, A., Mishkin, P., Clark, J., Krueger, G., and Sutskever, I.
+  (2021).
+\newblock Learning transferable visual models from natural language
+  supervision.
+
+\bibitem[Rezende et~al., 2014]{rezendeVAE}
+Rezende, D.~J., Mohamed, S., and Wierstra, D. (2014).
+\newblock Stochastic backpropagation and approximate inference in deep
+  generative models.
+
+\bibitem[Roberts and Tweedie, 1996]{robertsLangevin}
+Roberts, G.~O. and Tweedie, R.~L. (1996).
+\newblock Exponential convergence of langevin distributions and their discrete
+  approximations.
+\newblock {\em Bernoulli}, pages 341--363.
+
+\bibitem[Rombach et~al., 2021]{rombachStableDiffusion}
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021).
+\newblock High-resolution image synthesis with latent diffusion models.
+
+\bibitem[Salimans et~al., 2016]{salimansNIPS}
+Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., Chen, X.,
+  and Chen, X. (2016).
+\newblock Improved techniques for training gans.
+\newblock In Lee, D., Sugiyama, M., Luxburg, U., Guyon, I., and Garnett, R.,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~29.
+  Curran Associates, Inc.
+
+\bibitem[Sohl-Dickstein et~al., 2015]{sohlDDPM}
+Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., and Ganguli, S. (2015).
+\newblock Deep unsupervised learning using nonequilibrium thermodynamics.
+\newblock In {\em International conference on machine learning}, pages
+  2256--2265. PMLR.
+
+\bibitem[Song et~al., 2021]{song2021maximum}
+Song, Y., Durkan, C., Murray, I., and Ermon, S. (2021).
+\newblock Maximum likelihood training of score-based diffusion models.
+\newblock {\em Advances in Neural Information Processing Systems},
+  34:1415--1428.
+
+\bibitem[Song and Ermon, 2019]{song2019SGM}
+Song, Y. and Ermon, S. (2019).
+\newblock Generative modeling by estimating gradients of the data distribution.
+\newblock {\em Advances in neural information processing systems}, 32.
+
+\bibitem[Song and Ermon, 2020]{song2020improved}
+Song, Y. and Ermon, S. (2020).
+\newblock Improved techniques for training score-based generative models.
+
+\bibitem[Song et~al., 2020]{song2020score}
+Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
+  B. (2020).
+\newblock Score-based generative modeling through stochastic differential
+  equations.
+\newblock {\em arXiv preprint arXiv:2011.13456}.
+
+\bibitem[Tancik et~al., 2023]{tancikNerfstudio}
+Tancik, M., Weber, E., Ng, E., Li, R., Yi, B., Kerr, J., Wang, T.,
+  Kristoffersen, A., Austin, J., Salahi, K., Ahuja, A., McAllister, D., and
+  Kanazawa, A. (2023).
+\newblock Nerfstudio: A modular framework for neural radiance field
+  development.
+
+\bibitem[Tang, 2022]{stable-dreamfusion}
+Tang, J. (2022).
+\newblock Stable-dreamfusion: Text-to-3d with stable-diffusion.
+\newblock https://github.com/ashawkey/stable-dreamfusion.
+
+\bibitem[Vaswani et~al., 2023]{vaswani2023attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, L., and Polosukhin, I. (2023).
+\newblock Attention is all you need.
+
+\bibitem[Yang et~al., 2022]{yangdiffusionSummary}
+Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
+  Cui, B., and Yang, M.-H. (2022).
+\newblock Diffusion models: A comprehensive survey of methods and applications.
+\newblock {\em arXiv preprint arXiv:2209.00796}.
+
+\bibitem[Zhao et~al., 2018]{zhaoVAE}
+Zhao, S., Song, J., and Ermon, S. (2018).
+\newblock Infovae: Information maximizing variational autoencoders.
+
+\end{thebibliography}
