@@ -169,13 +169,6 @@ Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
   equations.
 \newblock {\em arXiv preprint arXiv:2011.13456}.
 
-\bibitem[Tancik et~al., 2023]{tancikNerfstudio}
-Tancik, M., Weber, E., Ng, E., Li, R., Yi, B., Kerr, J., Wang, T.,
-  Kristoffersen, A., Austin, J., Salahi, K., Ahuja, A., McAllister, D., and
-  Kanazawa, A. (2023).
-\newblock Nerfstudio: A modular framework for neural radiance field
-  development.
-
 \bibitem[Tang, 2022]{stable-dreamfusion}
 Tang, J. (2022).
 \newblock Stable-dreamfusion: Text-to-3d with stable-diffusion.
