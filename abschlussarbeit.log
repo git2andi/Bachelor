@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  9 OCT 2023 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  17 OCT 2023 01:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -150,7 +150,16 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: always capitalise cross-reference names on input line 7825.
 Package cleveref Info: no abbreviation of names on input line 7852.
@@ -218,20 +227,20 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (abschlussarbeit.aux)
 \openout1 = `abschlussarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -293,7 +302,14 @@ File: figures/ub_logo.png Graphic file (type png)
 <use figures/ub_logo.png>
 Package pdftex.def Info: figures/ub_logo.png  used on input line 32.
 (pdftex.def)             Requested size: 128.0387pt x 128.0383pt.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Overfull \hbox (12.00002pt too wide) in paragraph at lines 32--32
  [][] 
  []
@@ -352,44 +368,50 @@ Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 14.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
  [7 <./figures/manta_DDMP3.png>] [8]) (chapters/Basics/CLIP.tex) (chapters/Basics/3Drepresentation.tex [9])) (chapters/models.tex [10]
 Chapter 3.
-(chapters/Models/NeRF.tex [11
-
-]
-<figures/NeRF_Fig_2_Mildenhall.png, id=71, 1358.07375pt x 411.78844pt>
+(chapters/Models/NeRF.tex
+<figures/NeRF_Fig_2_Mildenhall.png, id=68, 1358.07375pt x 411.78844pt>
 File: figures/NeRF_Fig_2_Mildenhall.png Graphic file (type png)
 <use figures/NeRF_Fig_2_Mildenhall.png>
-Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 14.
+Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 129.40614pt.
- [12 <./figures/NeRF_Fig_2_Mildenhall.png>]) (chapters/Models/3dFromImage.tex) (chapters/Models/3dFromText.tex [13] (chapters/Models/dreamfields.tex) (chapters/Models/dreamfusion.tex) (chapters/Models/point-e.tex) (chapters/Models/shap-e.tex)) (chapters/Models/3dFromVideo.tex)) (chapters/compare.tex [14] [15]
+ [11
+
+ <./figures/NeRF_Fig_2_Mildenhall.png>] [12] [13]) (chapters/Models/3dFromImage.tex) (chapters/Models/3dFromText.tex (chapters/Models/dreamfields.tex [14] [15]) (chapters/Models/dreamfusion.tex [16] [17]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 48.
+
+) (chapters/Models/point-e.tex) (chapters/Models/shap-e.tex)) (chapters/Models/3dFromVideo.tex [18])) (chapters/compare.tex [19]
 Chapter 4.
-) (chapters/future.tex [16
+) (chapters/future.tex [20
 
 ]
 Chapter 5.
-) (chapters/conclusion.tex [17
+) (chapters/conclusion.tex [21
 
 ]
 Chapter 6.
-) (abschlussarbeit.bbl [18
+) (abschlussarbeit.bbl [22
 
 ]
-Underfull \hbox (badness 4291) in paragraph at lines 16--19
+Underfull \hbox (badness 4291) in paragraph at lines 20--23
 []\OT1/cmr/m/n/10.95 Doersch, C. (2016).  Tu-to-rial on vari-a-tional au-toen-coders.  \OT1/cmr/m/it/10.95 arXiv preprint
  []
 
-[19
+[23
 
-] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 173--176
+] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 []\OT1/cmr/m/n/10.95 Tang, J. (2022).  Stable-dreamfusion: Text-to-3d with stable-diffusion.
  []
 
-) [21] (chapters/erklaerung.tex
+) [25] (chapters/erklaerung.tex
 Overfull \hbox (33.26138pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10.95 [TODO: F^^?ugen Sie hier die Erkl^^?arung zur selb-stst^^?andi-gen Bear-beitung gem^^?a^^Y Ihrer Themabest^^?ati-
  []
 
-) [22
+) [26
 
 ] (abschlussarbeit.aux)
  ***********
@@ -398,17 +420,17 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7820 strings out of 475248
- 139200 string characters out of 5758285
- 1929785 words of memory out of 5000000
- 29204 multiletter control sequences out of 15000+600000
- 566472 words of font info for 65 fonts, out of 8000000 for 9000
+ 8370 strings out of 475248
+ 145934 string characters out of 5758285
+ 1930785 words of memory out of 5000000
+ 29735 multiletter control sequences out of 15000+600000
+ 568736 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,70p,1898b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on abschlussarbeit.pdf (28 pages, 23773802 bytes).
+ 59i,12n,70p,2589b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on abschlussarbeit.pdf (32 pages, 23843041 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

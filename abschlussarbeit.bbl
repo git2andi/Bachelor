@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[Arandjelović and Zisserman, 2021]{arandjelović2021nerf}
+Arandjelović, R. and Zisserman, A. (2021).
+\newblock Nerf in detail: Learning to sample for view synthesis.
+
 \bibitem[Brophy et~al., 2023]{brophyGAN}
 Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
 \newblock Generative adversarial networks in time series: A systematic
@@ -23,6 +27,11 @@ Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
   Uszkoreit, J., and Houlsby, N. (2021).
 \newblock An image is worth 16x16 words: Transformers for image recognition at
   scale.
+
+\bibitem[Gerats et~al., 2023]{gerats2023dynamic}
+Gerats, B. G.~A., Wolterink, J.~M., and Broeders, I. A. M.~J. (2023).
+\newblock Dynamic depth-supervised nerf for multi-view rgb-d operating room
+  images.
 
 \bibitem[Goodfellow et~al., 2020]{goodfellowGAN}
 Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
@@ -58,6 +67,12 @@ Hinton, G.~E. and Salakhutdinov, R.~R. (2006).
 Ho, J., Jain, A., and Abbeel, P. (2020).
 \newblock Denoising diffusion probabilistic models.
 \newblock {\em ArXiv}, abs/2006.11239.
+
+\bibitem[Hu et~al., 2023]{hu2023consistentnerf}
+Hu, S., Zhou, K., Li, K., Yu, L., Hong, L., Hu, T., Li, Z., Lee, G.~H., and
+  Liu, Z. (2023).
+\newblock Consistentnerf: Enhancing neural radiance fields with 3d consistency
+  for sparse view synthesis.
 
 \bibitem[Hyv{\"a}rinen and Dayan, 2005]{hyvarinenScoreMatching}
 Hyv{\"a}rinen, A. and Dayan, P. (2005).
@@ -110,6 +125,11 @@ Nichol, A., Jun, H., Dhariwal, P., Mishkin, P., and Chen, M. (2022).
 Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
 \newblock Dreamfusion: Text-to-3d using 2d diffusion.
 \newblock {\em arXiv preprint arXiv:2209.14988}.
+
+\bibitem[Rabby and Zhang, 2023]{rabby2023beyondpixels}
+Rabby, A. S.~A. and Zhang, C. (2023).
+\newblock Beyondpixels: A comprehensive review of the evolution of neural
+  radiance fields.
 
 \bibitem[Radford et~al., 2021]{radfordCLIP}
 Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
@@ -179,10 +199,21 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., and Polosukhin, I. (2023).
 \newblock Attention is all you need.
 
+\bibitem[Wei et~al., 2021]{wei2021nerfingmvs}
+Wei, Y., Liu, S., Rao, Y., Zhao, W., Lu, J., and Zhou, J. (2021).
+\newblock Nerfingmvs: Guided optimization of neural radiance fields for indoor
+  multi-view stereo.
+
 \bibitem[Yang et~al., 2022]{yangdiffusionSummary}
 Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
   Cui, B., and Yang, M.-H. (2022).
 \newblock Diffusion models: A comprehensive survey of methods and applications.
 \newblock {\em arXiv preprint arXiv:2209.00796}.
+
+\bibitem[Yariv et~al., 2020]{yariv2020multiview}
+Yariv, L., Kasten, Y., Moran, D., Galun, M., Atzmon, M., Basri, R., and Lipman,
+  Y. (2020).
+\newblock Multiview neural surface reconstruction by disentangling geometry and
+  appearance.
 
 \end{thebibliography}
