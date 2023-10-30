@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex abschlussarbeit"] 1698590561 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1698590571 0
-  "./bibl.bib" 1697794552 16954 4b75cc9cebaeef9f05f77f5953c0e519 ""
+["bibtex abschlussarbeit"] 1698683044 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1698683219 0
+  "./bibl.bib" 1698671113 17185 1d2bea4993307a7c4cce7ab78c8ab81d ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "abschlussarbeit.aux" 1698590569 13499 921d562502e42f350123fe798ae6e1cc "pdflatex"
+  "abschlussarbeit.aux" 1698683218 13626 f35d8c3ce52cea96ad79aee9de1a84a6 "pdflatex"
   (generated)
   "abschlussarbeit.bbl"
   "abschlussarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1698590562 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1698590571 0
+["pdflatex"] 1698683211 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1698683219 0
   "C:/Users/andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696237784 81677 c379ed05e4814e4747cf0f6640850008 ""
   "C:/Users/andi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695627327 24141436 f5ceb816a26d4adc78fbb0bd7a7be1f4 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -103,17 +103,17 @@
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1686252040 13231 df28b16cc1506f657b947b66cabad463 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "abschlussarbeit.aux" 1698590569 13499 921d562502e42f350123fe798ae6e1cc "pdflatex"
-  "abschlussarbeit.bbl" 1698590562 9453 e750904e07e46f5e020585c52917909c "bibtex abschlussarbeit"
-  "abschlussarbeit.lof" 1698590569 1050 9484fc9701a3d3a654393d32b47b528c "pdflatex"
-  "abschlussarbeit.lot" 1698590569 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
+  "abschlussarbeit.aux" 1698683218 13626 f35d8c3ce52cea96ad79aee9de1a84a6 "pdflatex"
+  "abschlussarbeit.bbl" 1698683044 9579 791228b4781701774dc9118de6feb740 "bibtex abschlussarbeit"
+  "abschlussarbeit.lof" 1698683218 1054 fc70f22b8a42f507a1f4bcab7143e13a "pdflatex"
+  "abschlussarbeit.lot" 1698683218 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
   "abschlussarbeit.tex" 1698583961 1542 af18b422f2004e0e269ca710e5feb9d9 ""
-  "abschlussarbeit.toc" 1698590569 2528 3b7c2e278ffe7716caaca131d604793b "pdflatex"
+  "abschlussarbeit.toc" 1698683218 2528 3b7c2e278ffe7716caaca131d604793b "pdflatex"
   "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" 1698583961 1542 af18b422f2004e0e269ca710e5feb9d9 ""
   "chapters/Basics/3Drepresentation.tex" 1697210267 170 a2edd68f055b49f0ab0f4ff52d0abf79 ""
   "chapters/Basics/CLIP.tex" 1697210267 2940 10167b7f514dd2ba2896e56cf1308cbd ""
   "chapters/Basics/GANs.tex" 1698590548 6409 892dcf9bcadb28745df53034dea4051f ""
-  "chapters/Basics/VAEs.tex" 1698590022 7658 25b6004c9c58ec776a1fe90f280e2ca3 ""
+  "chapters/Basics/VAEs.tex" 1698683210 8007 8143b64ec6455a4ec6e9f566d81e9edf ""
   "chapters/Basics/diffusionModels.tex" 1697210267 8235 597d3e2e0165564cd3247bbd6258d411 ""
   "chapters/Models/3dFromImage.tex" 1697210267 54 5a2555e8acd7f51c77fc638521f03cae ""
   "chapters/Models/3dFromText.tex" 1697210267 201 4e5ad4aff5a83d65af9197febb5cd108 ""
