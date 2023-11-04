@@ -3,10 +3,15 @@
 
 The limitations of GANs, which were just stated above, have led to the emergence of diffusion models, a class of AI tools that offer distinct advantages over traditional generative models. These models differ from GANs in their approach to modeling and generating data.  Instead of explicitly modeling the joint distribution of data and noise variables, diffusion models operate by progressively perturbing data with noise and then learning to reverse this process to generate new samples.
 
-\citeauthor{yangdiffusionSummary} distingueshes between three main approaches that dominate the study of diffusion models, which are going to be discussed shortly: Denoising Diffusion Probabilistic Models (DDPMs) \citep{hoDDPMs}, Score-based Generative Models (SGMs) \citep{song2019SGM}, and Stochastic Differential Equations (Score SDEs) \citep{song2020score, song2021maximum}.
+\citeauthor{yangdiffusionSummary} distingueshes between three main approaches that dominate the study of diffusion models, which are going to be discussed shortly: Denoising Diffusion Probabilistic Models (DDPMs) \citep{hoDDPMs,sohlDDPM}, Score-based Generative Models (SGMs) \citep{song2019SGM}, and Stochastic Differential Equations (Score SDEs) \citep{song2020score, song2021maximum}.
 
 \subsection{Denoising Diffusion Probabilistic Models}
-DDPMs employ two Markov chains, a forward chain and a reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}. The forward chain introduces noise to the data, in T steps, using a normal distribution. This iterative process continues until the data converges to a pure isotropic Gaussian noise. The introduction of noise aims to gradually steer the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. 
+DDPMs employ two Markov chains, a forward chain and a reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}. 
+
+The forward diffusion process is comparable to latent variable models, sharing some similarities with Variational Autoencoders (VAEs), as focus is lying on a latent feature space of the initial data distribution. They differ in the fact that the forward process in DDPMs "is fixed to a Markov chain that gradually adds Gaussian noise to the data according to a variance schedule \(\beta_1, ..., \beta_T \) \cite{hoDDPMs}.
+
+
+The forward chain introduces noise to the data, in T steps, using a normal distribution. This iterative process continues to add noise "until all structures [in the data] are lost \citep{yangdiffusionSummary}. The introduction of noise aims to gradually steer the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. 
 
 \begin{figure}[ht]
 \centering
@@ -43,3 +48,21 @@ In Score SDEs, the diffusion process is represented as the continuous-time evolu
 Training SDEs involves estimating the parameters of the drift and diffusion coefficients. This is typically done by maximizing the likelihood of the observed data under the SDE framework. Various estimation techniques, such as maximum likelihood estimation or Bayesian inference, can be employed to optimize the parameters.
 SDEs can capture long-term dependencies and accurately model the evolution of data over time. Additionally, the stochastic nature of SDEs enables them to generate diverse and realistic samples by incorporating inherent randomness into the data generation process.}
 
+
+
+
+
+
+
+
+DDPMs utilize two Markov chains - a forward chain and a reverse chain, known as forward and reverse diffusion processes, to introduce noise to data through a series of steps, following a normal distribution. This noise addition continues iteratively until the data evolves into pure isotropic Gaussian noise, steering the data distribution towards a more manageable prior distribution.
+
+Now, delving deeper into the forward diffusion aspect, it's akin to latent variable models, sharing some similarities with Variational Autoencoders (VAEs) in that it refers to a concealed continuous feature space. Unlike flow-based models, which are bound to a specific type of neural network, the formulation of DDPMs embraces a more lenient structure through a Markov chain of TT steps. Each step in this chain relies solely on the preceding step, which is a mild assumption, thus offering a bit more flexibility.
+
+When you have a data point \( x_0 \) sampled from the real data distribution \( q(x) \) (\( x_0 \sim q(x) \)), the forward diffusion process kicks in by adding noise. Specifically, at each step in the Markov chain, Gaussian noise with a variance \( \beta_t \) is added to \( x_{t-1} \), generating a new latent variable \( x_t \) with a distribution \( q(x_t | x_{t-1}) \). This can be expressed by the equation: \( q(x_t | x_{t-1}) = \mathcal{N}(x_t; \mu_t = (1 - \beta_t)x_{t-1}, \Sigma_t = \beta_t I) \). Here, the identity matrix \( I \) indicates that each dimension possesses the same standard deviation \( \beta_t \), as we are dealing with a multi-dimensional scenario.
+
+The process facilitates a smooth transition from the input data \( x_0 \) to \( x_T \) in a closed form, mathematically represented as the posterior probability: \( q(x_{1:T} | x_0) = \prod_{t=1}^T q(x_t | x_{t-1}) \). The term \( :: \) in \( q(x_{1:T}) \) signifies the repeated application of \( q \) from timestep 1 to \( T \), termed as trajectory.
+
+However, a hiccup arises when, for timestep \( t = 500 < T \), the model requires the application of \( q \) 500 times to sample \( x_t \). This is where the reparametrization trick shines by enabling tractable closed-form sampling at any timestep. Defining \( \alpha_t = 1 - \beta_t \), \( \overline{\alpha}_t = \prod_{s=0}^t \alpha_s \), and with \( \epsilon_{0,...,t-2,t-1} \sim \mathcal{N}(0,I) \), the trick recursively demonstrates that \( x_t = (1 - \beta_t) x_{t-1} + \beta_t \epsilon_{t-1} = \alpha_t x_{t-2} + (1 - \alpha_t) \epsilon_{t-2} = ... = \overline{\alpha}_t x_0 + (1 - \overline{\alpha}_t) \epsilon_0 \). Thus, to yield a sample \( x_t \), the distribution \( x_t \sim q(x_t | x_0) = \mathcal{N}(x_t; \overline{\alpha}_t x_0, (1 - \overline{\alpha}_t) I) \) is employed.
+
+The variance parameter \( \beta_t \) can either remain constant or follow a schedule across the \( T \) timesteps. A variety of schedules like linear, quadratic, or cosine can be used. While the original DDPM authors used a linear schedule that increased from \( \beta_1 = 10^{-4} \) to \( \beta_T = 0.02 \), Nichol et al. 2021 found that a cosine schedule performed better. This variance scheduling and the reparametrization trick collectively enable sampling of the latent variable \( x_t \) at any arbitrary timestep, setting the stage for calculating a tractable objective loss \( L_t \) later on.
