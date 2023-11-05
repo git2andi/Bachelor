@@ -4,7 +4,7 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Autoencoder: The encoder reduces the input dimension to a latent vector that captures the most important features. The decoder then uses this vector to reconstruct the input, with training aimed at minimizing reconstruction loss. TODO: ADD LOSS: https://towardsdatascience.com/difference-between-autoencoder-ae-and-variational-autoencoder-vae-ed7be1c038f2}}{3}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Functionality of a Variational Autoencoder, demonstrating incorporation of the latent distribution - the mean and standard deviation - for enhancing latent space regularization.}}{4}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Simplified functionality of a Generative Adversarial Network}}{6}{}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Forward process adding noise to an image}}{7}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Forward process adding noise to an image}}{8}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5}{\ignorespaces Neuronal Radiance Field. Figure taken From Mildenhall \cite {mildenhallNERF} - Figure 2}}{12}{}%
 \addvspace {10\p@ }

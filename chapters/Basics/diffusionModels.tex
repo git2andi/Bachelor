@@ -8,10 +8,13 @@ The limitations of GANs, which were just stated above, have led to the emergence
 \subsection{Denoising Diffusion Probabilistic Models}
 DDPMs employ two Markov chains, a forward chain and a reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}. 
 
-The forward diffusion process is comparable to latent variable models, sharing some similarities with Variational Autoencoders (VAEs), as focus is lying on a latent feature space of the initial data distribution. They differ in the fact that the forward process in DDPMs "is fixed to a Markov chain that gradually adds Gaussian noise to the data according to a variance schedule \(\beta_1, ..., \beta_T \) \cite{hoDDPMs}.
+The forward diffusion process is similar to latent variable models, and it shares some characteristics with Variational Autoencoders, especially focusing on a hidden or latent feature space from the initial data distribution. However, the forward process in DDPMs is distinct because it follows a fixed path, called a Markov chain, that steadily adds Gaussian noise to the data following a certain pattern of variance, denoted as \( \beta_1, ..., \beta_T \) \citep{hoDDPMs}. This iterative process continues to add noise "until all structures [in the data] are lost" \citep{yangdiffusionSummary}. The introduction of noise aims to gradually move the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}.
 
+After taking a data point \( x_0 \) from the real data distribution \( q(x) \) (\( x_0 \sim q(x) \)), the forward diffusion process starts by adding noise. Specifically, in each step of the Markov chain, Gaussian noise with a variance \( \beta_t \) is added to \( x_{t-1} \), creating a new latent variable \( x_t \) with a distribution \( q(x_t | x_{t-1}) \). This is represented by the formula: 
 
-The forward chain introduces noise to the data, in T steps, using a normal distribution. This iterative process continues to add noise "until all structures [in the data] are lost \citep{yangdiffusionSummary}. The introduction of noise aims to gradually steer the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. 
+\[ q(x_t | x_{t-1}) = \mathcal{N}(x_t; \mu_t = \sqrt{1 - \beta_t}x_{t-1}, \Sigma_t = \beta_t I) \] 
+
+There, the identity matrix \( I \) shows that each dimension has the same standard deviation \( \beta_t \), highlighting the multi-dimensional aspect of the scenario. This process makes it possible to move smoothly from the input data \( x_0 \) to \( x_T \) in a structured manner, which is represented mathematically as the posterior probability: \[ q(x_{1:T} | x_0) = \prod_{t=1}^T q(x_t | x_{t-1}) \].
 
 \begin{figure}[ht]
 \centering
