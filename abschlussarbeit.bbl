@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Anderson, 1982]{anderson1982313}
+Anderson, B.~D. (1982).
+\newblock Reverse-time diffusion equation models.
+\newblock {\em Stochastic Processes and their Applications}, 12(3):313--326.
+
 \bibitem[Arandjelović and Zisserman, 2021]{arandjelović2021nerf}
 Arandjelović, R. and Zisserman, A. (2021).
 \newblock Nerf in detail: Learning to sample for view synthesis.
@@ -195,10 +200,6 @@ Song, Y., Durkan, C., Murray, I., and Ermon, S. (2021).
 Song, Y. and Ermon, S. (2019).
 \newblock Generative modeling by estimating gradients of the data distribution.
 \newblock {\em Advances in neural information processing systems}, 32.
-
-\bibitem[Song and Ermon, 2020]{song2020improved}
-Song, Y. and Ermon, S. (2020).
-\newblock Improved techniques for training score-based generative models.
 
 \bibitem[Song et~al., 2020]{song2020score}
 Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,

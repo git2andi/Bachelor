@@ -243,6 +243,13 @@ INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
+INPUT .\figures\DiffusionModels_SDEs.png
 INPUT .\chapters\Basics\CLIP.tex
 INPUT .\chapters\Basics\CLIP.tex
 INPUT .\chapters\Basics\CLIP.tex
@@ -349,6 +356,8 @@ INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb

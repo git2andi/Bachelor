@@ -7,8 +7,9 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Simplified functionality of a Generative Adversarial Network}}{6}{}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Forward process adding noise to an image}}{8}{}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Forward process adding noise to an image}}{9}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Summary of the score-based generative modeling through SDEs \citep {song2020score}}}{11}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7}{\ignorespaces Neuronal Radiance Field. Figure taken From Mildenhall~\cite {mildenhallNERF}~--~Figure 2}}{12}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Neuronal Radiance Field. Figure taken From Mildenhall~\cite {mildenhallNERF}~--~Figure 2}}{14}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
