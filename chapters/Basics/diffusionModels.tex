@@ -1,5 +1,4 @@
-\section{Diffusion models}
-\label{diffusion Models}
+\section{Diffusion models}\label{diffusion Models}
 
 The limitations of VAEs and GANs, which were just stated above, have led to the emergence of diffusion models, a method that offer distinct advantages over traditional generative models. Diffusion models operate by progressively perturbing data with noise and then learning to reverse this process to generate new samples. 
 
@@ -8,7 +7,7 @@ The limitations of VAEs and GANs, which were just stated above, have led to the 
 \subsection{Denoising Diffusion Probabilistic Models}
 DDPMs employ two Markov chains, a forward chain and a reverse chain, also known as the forward and reverse diffusion processes, seen in Figure~\ref{fig:figureForwardProcess} and Figure~\ref{fig:figureReverseProcess} \citep{sohlDDPM}. 
 
-The forward diffusion process is comparable to latent variable models, sharing some similarities with Variational Autoencoders (VAEs), as focus is lying on a latent feature space of the initial data distribution. They differ in the fact that the forward process in DDPMs "is fixed to a Markov chain that gradually [over a span of T steps] adds Gaussian noise to the data according to a variance schedule \(\beta_1, ..., \beta_T \)" \cite{hoDDPMs}. This iterative process continues to add noise "until all structures are lost" \citep{yangdiffusionSummary} resulting in an image of pure noise. The introduction of noise aims to gradually steer the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. Mathematically, the forward process can be described in two equations:
+The forward diffusion process is comparable to latent variable models, sharing some similarities with Variational Autoencoders (VAEs), as focus is lying on a latent feature space of the initial data distribution. They differ in the fact that the forward process in DDPMs ``is fixed to a Markov chain that gradually [over a span of T steps] adds Gaussian noise to the data according to a variance schedule \(\beta_1, \ldots, \beta_T \)''~\cite{hoDDPMs}. This iterative process continues to add noise ``until all structures are lost'' \citep{yangdiffusionSummary} resulting in an image of pure noise. The introduction of noise aims to gradually steer the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. Mathematically, the forward process can be described in two equations:
 
 \[
 q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t}x_{t-1}, \beta_t I) \quad \text{where} \quad \sqrt{1 - \beta_t}x_{t-1} = \mu_t \quad \text{and} \quad \beta_t I = \Sigma_t
@@ -23,8 +22,7 @@ q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t}x_{t-1}, \beta_t I) \quad 
 \begin{figure}[ht]
 \centering
   \includegraphics[width=1\columnwidth]{figures/manta_DDMP3.png}
-  \caption{Forward process adding noise to an image}
-  \label{fig:figureForwardProcess}
+  \caption{Forward process adding noise to an image}\label{fig:figureForwardProcess}
 \end{figure}
 
 The reverse chain is trained to approximate the inverse of the forward process using a deep neural network parameterized with~\(\Theta\), effectively removing the noise added by the forward chain \citep{sohlDDPM, yangdiffusionSummary}. The function \( p_\theta(x_{t-1} | x_t) \) is a probability distribution that estimates how to reverse the diffusion process. Given a data point \( x_t \), it attempts to predict the previous data point \( x_{t-1} \) before noise was added. It is modeled as a normal distribution with a mean \( \mu_\theta(x_t, t) \) and covariance \( \Sigma_\theta(x_t, t) \), both of which are functions parameterized by \( \theta \) \citep{yangdiffusionSummary}.
@@ -41,26 +39,25 @@ The reverse chain is trained to approximate the inverse of the forward process u
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/manta_DDMP3.png}
-    \caption{Forward process adding noise to an image}
-    \label{fig:figureReverseProcess}
+    \caption{Forward process adding noise to an image}\label{fig:figureReverseProcess}
 \end{figure}
 
 
-The incremental introduction of the forward and backward diffusion processes offers an advantage as "estimating small perturbations is more tractable than explicitly describing the full distribution with a single, non-analytically-normalizable, potential function" \citep{sohlDDPM}.
+The incremental introduction of the forward and backward diffusion processes offers an advantage as ``estimating small perturbations is more tractable than explicitly describing the full distribution with a single, non-analytically-normalizable, potential function'' \citep{sohlDDPM}.
 According to \citep{hoDDPMs}, the neural network in the reverse process can be trained to predict one of three possibilities: the mean value of the noise at each time step, the original image itself, or the noise of the image \citep{hoDDPMs}. As previously mentioned, the second approach is not as advantageous. Hence, the research focuses on the first and last possibilities, which are essentially identical but parameterized differently. Predicting the image noise allows for straightforward subtraction of the noise from the image, resulting in a less noisy version. By employing this method iteratively, it becomes possible to completely learn an image from noise.
 
-Nevertheless, DDPMs also have their drawbacks with the most severe being the time requirement to generate new samples \citep{xiao2022tackling}. "This is caused by the fact that a Markov process has to be simulated at each generation step, which greatly slows down the process" \citep {martinez2023understanding}. 
+Nevertheless, DDPMs also have their drawbacks with the most severe being the time requirement to generate new samples \citep{xiao2022tackling}. ``This is caused by the fact that a Markov process has to be simulated at each generation step, which greatly slows down the process'' \citep{martinez2023understanding}. 
 
 \subsection{Score-Based Generative Models}
 SGMs are a class of diffusion models that have gained prominence in the field of generative modeling due to their ability to capture complex data distributions and generate diverse and realistic samples.
 
-Score-based generative models (SGMs) take a unique approach to generative modeling by prioritizing the learning of a score function that plays a central role in guiding the generative process. This score function aims to capture the Stein score \citep{steinScore}, which is essentially "the gradient of the log-density function at the input data point" \citep{song2019SGM}. To put it simply, the score can be seen as a vector field, indicating the direction in which the logarithm of the data density experiences the most significant growth \citep{song2019SGM}. In essence, the score function reveals how the data distribution responds to small variations within the data itself, serving as a guiding principle for the generative model. To train a neural network for SGMs, \cite{song2019SGM} employ a technique called score matching \citep{hyvarinenScoreMatching}. This involves estimating the score function for data points intentionally perturbed with Gaussian noise. This means that score matching effectively learns how to denoise the noisy data and restore the original data distribution. \citep{song2020improved}.
+Score-based generative models (SGMs) take a unique approach to generative modeling by prioritizing the learning of a score function that plays a central role in guiding the generative process. This score function aims to capture the Stein score \citep{steinScore}, which is essentially ``the gradient of the log-density function at the input data point'' \citep{song2019SGM}. To put it simply, the score can be seen as a vector field, indicating the direction in which the logarithm of the data density experiences the most significant growth \citep{song2019SGM}. In essence, the score function reveals how the data distribution responds to small variations within the data itself, serving as a guiding principle for the generative model. To train a neural network for SGMs,~\cite{song2019SGM} employ a technique called score matching \citep{hyvarinenScoreMatching}. This involves estimating the score function for data points intentionally perturbed with Gaussian noise. This means that score matching effectively learns how to denoise the noisy data and restore the original data distribution \citep{song2020improved}.
 
-In order to generate Samples, Langevin Dynamics \citep{robertsLangevin} is used, which simulates a particle's movement in a field of potential energy, where the score function serves as the guiding force. By moving data samples along the direction of the score function, Langevin Dynamics effectively 'pulls' them toward areas where data density is higher, essentially places where they blend better with the overall dataset.
+In order to generate Samples, Langevin Dynamics \citep{robertsLangevin} is used, which simulates a particle's movement in a field of potential energy, where the score function serves as the guiding force. By moving data samples along the direction of the score function, Langevin Dynamics effectively `pulls' them toward areas where data density is higher, essentially places where they blend better with the overall dataset.
 
 However, in the specific context of score-based generative modeling, there's a notable challenge to overcome. The estimated score function may not be entirely accurate in regions of the data space where there's minimal or no training data available \citep{song2019SGM}. In such cases, Langevin Dynamics might not converge correctly, resulting in complications during the sample generation process. 
 
-To address this issue, \cite{song2019SGM} suggest "to perturb the data with random Gaussian noise of various magnitudes", while simultaneously estimate the score functions for these noise-altered data distributions. This approach ensures that the resulting data distribution doesn't condense into a lower-dimensional structure \citep{song2019SGM}.
+To address this issue,~\cite{song2019SGM} suggest ``to perturb the data with random Gaussian noise of various magnitudes'', while simultaneously estimate the score functions for these noise-altered data distributions. This approach ensures that the resulting data distribution doesn't condense into a lower-dimensional structure \citep{song2019SGM}.
 
 
 

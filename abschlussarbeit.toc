@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {chapter}{\numberline {2}Basics}{2}{}%
-\contentsline {section}{\numberline {2.1}Variational Autoencoders - VAEs}{3}{}%
-\contentsline {section}{\numberline {2.2}Generative Adversarial Networks - GANs}{5}{}%
+\contentsline {section}{\numberline {2.1}Variational Autoencoders~--~VAEs}{3}{}%
+\contentsline {section}{\numberline {2.2}Generative Adversarial Networks~--~GANs}{5}{}%
 \contentsline {section}{\numberline {2.3}Diffusion models}{7}{}%
 \contentsline {subsection}{\numberline {2.3.1}Denoising Diffusion Probabilistic Models}{7}{}%
 \contentsline {subsection}{\numberline {2.3.2}Score-Based Generative Models}{9}{}%
@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.5.2}Point-Clouds}{11}{}%
 \contentsline {subsection}{\numberline {2.5.3}Voxels}{11}{}%
 \contentsline {chapter}{\numberline {3}Models}{12}{}%
-\contentsline {section}{\numberline {3.1}Neural Radiance Fields - NeRFs}{12}{}%
+\contentsline {section}{\numberline {3.1}Neural Radiance Fields~--~NeRFs}{12}{}%
 \contentsline {section}{\numberline {3.2}3D from Image}{15}{}%
 \contentsline {section}{\numberline {3.3}3D from Text input}{15}{}%
 \contentsline {subsection}{\numberline {3.3.1}Dreamfields}{15}{}%

@@ -1,15 +1,13 @@
-\chapter{Basics}
-\label{ch:basics}
+\chapter{Basics}\label{ch:basics}
 
 The chapter provides the groundwork necessary for the comparative analysis of automatic 3D model generation techniques by introducing the key technologies that drive these methods. It is essential to have a common understanding of the generative machine learning algorithms and 3D data representations that form the basis of this field.
 
-The section starts with Variational Autoencoders (VAEs) \citep{kingmaVAE,rezendeVAE}, which serve as probabilistic frameworks for learning complex data representations. Generative Adversarial Networks (GANs) \citep{goodfellowGAN} are then discussed, highlighting their unique training dynamics that include both generator and discriminator components. The section further explores the domain of Diffusion Models, particularly Denoising Diffusion Probabilistic Models (DDPMs) \citep{hoDDPMs,sohlDDPM}, while also briefly covering Stochastic Gradient Methods (SGMs) \citep{song2019SGM} and Stochastic Differential Equations (SDEs) \citep{song2020score,song2021maximum}. These mentioned models, as captured by the "generative learning trilemma" \citep{xiao2022tackling}, highlight the balance and compromises inherent in their design and application.
+The section starts with Variational Autoencoders (VAEs) \citep{kingmaVAE,rezendeVAE}, which serve as probabilistic frameworks for learning complex data representations. Generative Adversarial Networks (GANs) \citep{goodfellowGAN} are then discussed, highlighting their unique training dynamics that include both generator and discriminator components. The section further explores the domain of Diffusion Models, particularly Denoising Diffusion Probabilistic Models (DDPMs) \citep{hoDDPMs,sohlDDPM}, while also briefly covering Stochastic Gradient Methods (SGMs) \citep{song2019SGM} and Stochastic Differential Equations (SDEs) \citep{song2020score,song2021maximum}. These mentioned models, as captured by the ``generative learning trilemma'' \citep{xiao2022tackling}, highlight the balance and compromises inherent in their design and application.
 
 \begin{figure}[ht]
     \centering
       \includegraphics[width=.4\columnwidth]{figures/BasicTrilemma.png}
-      \caption{A short characterization of the most important features and drawbacks of the generative models discussed in this section.~\citep{xiao2022tackling}}
-      \label{fig:generativeTrilemma}
+      \caption{A short characterization of the most important features and drawbacks of the generative models discussed in this section.~\citep{xiao2022tackling}}\label{fig:generativeTrilemma}
 \end{figure}
 
 The chapter also examines Contrastive Language-Image Pre-training (CLIP) \citep{radfordCLIP}, showcasing its ability to bridge natural language and visual data, thereby facilitating text-guided 3D model generation. Lastly, various forms of representation of 3D data are examined, including Meshes, Point-Clouds, and Voxels, constituting the foundational structure of 3D objects in computational environments. Proficiency in these representations is required for comprehending the 3D model generation.

@@ -1,5 +1,4 @@
-\subsection{Dreamfusion}
-\label{dreamfusion}
+\subsection{Dreamfusion}\label{dreamfusion}
 
 DreamFusion leverages Neural Radiance Fields (NeRFs) \citep{mildenhallNERF} and uses a novel technique called Score Distillation Sampling (SDS) \citep{pooleDreamfusion} which "generates high-fidelity coherent 3D objects and scenes for a diverse set of user-provided text prompts \citep{pooleDreamfusion}. However, it is important to note that for the practical purposes of this thesis, \emph{Stable} DreamFusion \citep{stable-dreamfusion}, is used,  which is an open-source variant of DreamFusion. This variant introduces some differences compared to the original model. Stable DreamFusion modifies the original Imagen model by incorporating Stable Diffusion \citep{rombachStableDiffusion}, a latent diffusion model. It also employs the "multi-resolution grid encoder [from torch-ngp] to implement the NeRF backbone" \citep{stable-dreamfusion} and uses the Adan optimizer as the default option \citep{stable-dreamfusion}.
 
@@ -45,7 +44,7 @@ Mathematically, the process can be broken down into several steps:
 
 3. **Effective Gradient**:
    - To bypass the computation of certain Jacobian terms, an effective gradient is proposed:
-     \[ \nabla_{\theta}\mathcal{L}_{\text{SDS}}(\phi,\mathbf{x}=g(\theta))\triangleq\mathbb{E}_{t,\epsilon}\left[w(t)\left(\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)-\epsilon\right){\partial\mathbf{x}\over\partial\theta}\right] \]
+     \[ \nabla_{\theta}\mathcal{L}_{\text{SDS}}(\phi,\mathbf{x}=g(\theta))\triangleq\mathbb{E}_{t,\epsilon}\left[w(t)\left(\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)-\epsilon\right){\partial\mathbf{x}\frac\partial\theta}\right] \]
 
     - The original gradient computation can be quite complex and computationally expensive. So, an alternative, simplified version of the gradient is used to make the optimization process more manageable. This simplified gradient still gives a good direction to adjust the parameters \( \theta \) to minimize the loss, but without some of the computational overhead of the original gradient computation.
 
