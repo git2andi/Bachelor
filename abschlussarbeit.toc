@@ -1,12 +1,12 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {chapter}{\numberline {2}Basics}{2}{}%
-\contentsline {section}{\numberline {2.1}Variational Autoencoders - VAEs}{2}{}%
+\contentsline {section}{\numberline {2.1}Variational Autoencoders - VAEs}{3}{}%
 \contentsline {section}{\numberline {2.2}Generative Adversarial Networks - GANs}{5}{}%
 \contentsline {section}{\numberline {2.3}Diffusion models}{7}{}%
 \contentsline {subsection}{\numberline {2.3.1}Denoising Diffusion Probabilistic Models}{7}{}%
 \contentsline {subsection}{\numberline {2.3.2}Score-Based Generative Models}{9}{}%
-\contentsline {subsection}{\numberline {2.3.3}Stochastic Differential Equations}{9}{}%
+\contentsline {subsection}{\numberline {2.3.3}Stochastic Differential Equations}{10}{}%
 \contentsline {section}{\numberline {2.4}Contrastive Language-Image Pre-training - CLIP}{10}{}%
 \contentsline {section}{\numberline {2.5}Representation forms of 3D Data}{11}{}%
 \contentsline {subsection}{\numberline {2.5.1}Meshes}{11}{}%

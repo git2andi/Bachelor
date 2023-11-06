@@ -187,6 +187,13 @@ INPUT .\chapters\basics.tex
 INPUT .\chapters\basics.tex
 INPUT .\chapters\basics.tex
 INPUT chapters\basics.tex
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
+INPUT .\figures\BasicTrilemma.png
 INPUT .\chapters\Basics\VAEs.tex
 INPUT .\chapters\Basics\VAEs.tex
 INPUT .\chapters\Basics\VAEs.tex
@@ -225,6 +232,10 @@ INPUT .\chapters\Basics\diffusionModels.tex
 INPUT .\chapters\Basics\diffusionModels.tex
 INPUT .\chapters\Basics\diffusionModels.tex
 INPUT chapters\Basics\diffusionModels.tex
+INPUT .\figures\manta_DDMP3.png
+INPUT .\figures\manta_DDMP3.png
+INPUT .\figures\manta_DDMP3.png
+INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png
 INPUT .\figures\manta_DDMP3.png

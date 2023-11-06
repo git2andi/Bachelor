@@ -10,6 +10,10 @@ Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
   literature review.
 \newblock {\em ACM Computing Surveys}, 55(10):1--31.
 
+\bibitem[Croitoru et~al., 2023]{croitoru2023diffusion}
+Croitoru, F.-A., Hondru, V., Ionescu, R.~T., and Shah, M. (2023).
+\newblock Diffusion models in vision: A survey.
+
 \bibitem[Diggle and Gratton, 1984]{diggleImplicitPrescribed}
 Diggle, P.~J. and Gratton, R.~J. (1984).
 \newblock Monte carlo methods of inference for implicit statistical models.
@@ -89,6 +93,10 @@ Jain, A., Mildenhall, B., Barron, J.~T., Abbeel, P., and Poole, B. (2022).
 Jun, H. and Nichol, A. (2023).
 \newblock Shap-e: Generating conditional 3d implicit functions.
 
+\bibitem[Kingma et~al., 2023]{kingma2023variationalDM}
+Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
+\newblock Variational diffusion models.
+
 \bibitem[Kingma and Welling, 2022]{kingmaVAE}
 Kingma, D.~P. and Welling, M. (2022).
 \newblock Auto-encoding variational bayes.
@@ -100,6 +108,12 @@ Liu, Q., Lee, J., and Jordan, M. (2016).
   The 33rd International Conference on Machine Learning}, volume~48 of {\em
   Proceedings of Machine Learning Research}, pages 276--284, New York, New
   York, USA. PMLR.
+
+\bibitem[Martínez et~al., 2023]{martinez2023understanding}
+Martínez, G., Watson, L., Reviriego, P., Hernández, J.~A., Juarez, M., and
+  Sarkar, R. (2023).
+\newblock Towards understanding the interplay of generative artificial
+  intelligence and the internet.
 
 \bibitem[Michelucci, 2022]{michelucci2022introduction}
 Michelucci, U. (2022).
@@ -207,6 +221,11 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
 Wei, Y., Liu, S., Rao, Y., Zhao, W., Lu, J., and Zhou, J. (2021).
 \newblock Nerfingmvs: Guided optimization of neural radiance fields for indoor
   multi-view stereo.
+
+\bibitem[Xiao et~al., 2022]{xiao2022tackling}
+Xiao, Z., Kreis, K., and Vahdat, A. (2022).
+\newblock Tackling the generative learning trilemma with denoising diffusion
+  gans.
 
 \bibitem[Yang et~al., 2022]{yangdiffusionSummary}
 Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
