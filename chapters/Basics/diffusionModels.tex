@@ -52,7 +52,7 @@ Nevertheless, DDPMs also have their drawbacks with the most severe being the tim
 
 SGMs \citep{song2019SGM} take a unique approach to generative modeling by prioritizing the learning of a score function that plays a central role in guiding the generative process. This function aims to capture the Stein score \citep{steinScore}, which is essentially ``the gradient of the log-density function at the input data point'' \citep{song2019SGM}. The score can be viewed as a vector field that indicates the direction that increases the data density the most \citep{song2019SGM}. This reveals how slight adjustments within the data can affect the overall distribution, informing the model on how to proceed with sample generation in a way that matches the actual data structure.
 
-To train a neural network for SGMs,~\cite{song2019SGM} employ two technique, namely Score matching and Langevin dynamics \citep{hyvarinenScoreMatching}. 
+To train a neural network for SGMs,~\cite{song2019SGM} employ two techniques, namely Score matching and Langevin dynamics \citep{hyvarinenScoreMatching}. 
 Score matching allows to train a neural network, referred to as a score network \( s_\theta(x) \), to predict the gradient of the logarithm of the probability density of the data \( \nabla_x \log p_{\text{data}}(x) \) directly without the need to first construct a model that can estimate the probability density \( p_{\text{data}}(x) \) itself \citep{song2019SGM}. The aim of this process is to minimize the difference between the predictions of the score network and the true gradient of the log-likelihood, which under certain conditions ensures that the trained network approximates the true score ``almost surely'' \citep{song2019SGM}. The term \( \frac{1}{2} \|s_\theta(x)\|^2_2 \) is part of the objective function that needs to be minimized and is used to regularize the scores predicted by the neural network while the term \( tr(\nabla_x s_\theta(x)) \), involving the trace of the Jacobian \citep{song2019SGM} of the score function, further refines the objective function by capturing the divergence of the score vector field. 
 
 \[
@@ -78,7 +78,7 @@ The idea is to create a continuous diffusion process, indexed by time, that tran
 
 \[ dx = f(x, t)dt + g(t)dw, \]
 
-\citep{yangdiffusionSummary} where the data evolves as noise intensity increases over time. The process is governed by two coefficients: a drift coefficient \( f(x, t) \), and a diffusion coefficient \( g(t) \), which scales the random noise introduced by Brownian motion \( dw \) (Wiener process) \citep{song2020score}. This Brownian motion represents the random movement of particles in a fluid as they collide with fast-moving molecules in the fluid. 
+\citep{yangdiffusionSummary} where the data evolves as noise intensity increases over time. The process is governed by two coefficients: a drift coefficient \( f(x, t) \), governing the deterministic properties of the stochastic process, and a diffusion coefficient \( g(t) \), which scales the random noise introduced by Brownian motion \( dw \) (Wiener process) \citep{song2020score}. This Brownian motion represents the random movement of particles in a fluid as they collide with fast-moving molecules in the fluid. 
 
 ``A remarkable result from Anderson \citep{anderson1982313} states that the reverse of a diffusion process is also a diffusion process, running backwards in time and given by the [following] reverse-time SDE:\@'' \citep{song2020score}
 
@@ -92,12 +92,12 @@ This equation describes the process of recovering data from noise by moving back
     \caption{Summary of the score-based generative modeling through SDEs \citep{song2020score}}\label{fig:DM_SDEs}
 \end{figure}
 
-knowledge of the scores at each time requires the estimation of the scores for an SDE which involves training a model to approximate the gradient of the log probability of data at various noise levels \citep{song2020score}. The training objective is given by:
+Knowledge of the scores at each time requires the estimation of the scores for an SDE which involves training a model to approximate the gradient of the log probability of data at various noise levels \citep{song2020score}. The training objective is given by:
 
 \[
 \theta^* = \arg\min_\theta \mathbb{E}_t \left\{ \lambda(t) \mathbb{E}_{x_0} \mathbb{E}_{x_t|x_0} \left\| s_\theta(x_t, t) - \nabla_{x_t} \log p_{0t}(x_t | x_0) \right\|_2^2 \right\}
 \]
 
-\citep{song2020score} The equation presents a method to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the scores estimated by the model and the actual data transition scores over time, which are influenced by the noise \citep{song2020score}.The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_\theta*(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2020score}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.
+\citep{song2020score} The equation presents a method to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the scores estimated by the model and the actual data transition scores over time, which are influenced by the noise \citep{song2020score}. The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_\theta*(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2020score}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.
 
 
