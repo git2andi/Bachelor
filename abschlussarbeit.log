@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  7 NOV 2023 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  17 NOV 2023 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,43 +394,67 @@ Package pdftex.def Info: figures/DiffusionModels_SDEs.png  used on input line 91
  [11 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/CLIP.tex) (chapters/Basics/3Drepresentation.tex [12])) (chapters/models.tex [13]
 Chapter 3.
 (chapters/Models/NeRF.tex
-<figures/NeRF_Fig_2_Mildenhall.png, id=91, 1358.07375pt x 411.78844pt>
+<figures/NeRF_Fig_2_Mildenhall.png, id=91, 943.27406pt x 411.78844pt>
 File: figures/NeRF_Fig_2_Mildenhall.png Graphic file (type png)
 <use figures/NeRF_Fig_2_Mildenhall.png>
 Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 7.
-(pdftex.def)             Requested size: 426.79135pt x 129.40614pt.
+(pdftex.def)             Requested size: 426.79135pt x 186.32098pt.
  [14
 
- <./figures/NeRF_Fig_2_Mildenhall.png>] [15] [16]) (chapters/Models/3dFromImage.tex) (chapters/Models/3dFromText.tex (chapters/Models/dreamfields.tex [17] [18]) (chapters/Models/dreamfusion.tex [19] [20]) (chapters/Models/point-e.tex) (chapters/Models/shap-e.tex)) (chapters/Models/3dFromVideo.tex [21])) (chapters/compare.tex [22]
+ <./figures/NeRF_Fig_2_Mildenhall.png>] [15] [16]) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex
+<figures/Magic123.png, id=102, 1086.30844pt x 428.35031pt>
+File: figures/Magic123.png Graphic file (type png)
+<use figures/Magic123.png>
+Package pdftex.def Info: figures/Magic123.png  used on input line 8.
+(pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
+)) (chapters/Models/3dFromText.tex (chapters/Models/dreamfields.tex [17 <./figures/Magic123.png>] [18]) (chapters/Models/dreamfusion.tex [19] [20] [21]
+<figures/Dreamfusion.png, id=123, 1254.93843pt x 405.76593pt>
+File: figures/Dreamfusion.png Graphic file (type png)
+<use figures/Dreamfusion.png>
+Package pdftex.def Info: figures/Dreamfusion.png  used on input line 58.
+(pdftex.def)             Requested size: 426.79135pt x 137.99573pt.
+) (chapters/Models/fantasia3D.tex
+<figures/Fantasia3D.png, id=124, 1227.83719pt x 301.125pt>
+File: figures/Fantasia3D.png Graphic file (type png)
+<use figures/Fantasia3D.png>
+Package pdftex.def Info: figures/Fantasia3D.png  used on input line 8.
+(pdftex.def)             Requested size: 426.79135pt x 104.66934pt.
+) (chapters/Models/Magic3D.tex
+<figures/Magic3D.png, id=125, 1135.99406pt x 371.88937pt>
+File: figures/Magic3D.png Graphic file (type png)
+<use figures/Magic3D.png>
+Package pdftex.def Info: figures/Magic3D.png  used on input line 8.
+(pdftex.def)             Requested size: 426.79135pt x 139.7192pt.
+)) (chapters/Models/3dFromVideo.tex [22 <./figures/Dreamfusion.png> <./figures/Fantasia3D.png>])) (chapters/compare.tex [23 <./figures/Magic3D.png>]
 Chapter 4.
-) (chapters/future.tex [23
+) (chapters/future.tex [24
 
 ]
 Chapter 5.
-) (chapters/conclusion.tex [24
+) (chapters/conclusion.tex [25
 
 ]
 Chapter 6.
-) (abschlussarbeit.bbl [25
+) (abschlussarbeit.bbl [26
 
 ]
 Underfull \hbox (badness 4291) in paragraph at lines 29--32
 []\OT1/cmr/m/n/10.95 Doersch, C. (2016).  Tu-to-rial on vari-a-tional au-toen-coders.  \OT1/cmr/m/it/10.95 arXiv preprint
  []
 
-[26
+[27
 
-] [27]
+] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 212--215
 []\OT1/cmr/m/n/10.95 Tang, J. (2022).  Stable-dreamfusion: Text-to-3d with stable-diffusion.
  []
 
-) [28] (chapters/erklaerung.tex
+) [29] (chapters/erklaerung.tex
 Overfull \hbox (33.26138pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10.95 [TODO: F^^?ugen Sie hier die Erkl^^?arung zur selb-stst^^?andi-gen Bear-beitung gem^^?a^^Y Ihrer Themabest^^?ati-
  []
 
-) [29
+) [30
 
 ] (abschlussarbeit.aux)
  ***********
@@ -439,17 +463,17 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8507 strings out of 475248
- 148359 string characters out of 5758285
+ 8549 strings out of 475248
+ 149525 string characters out of 5758285
  1930785 words of memory out of 5000000
- 29862 multiletter control sequences out of 15000+600000
+ 29901 multiletter control sequences out of 15000+600000
  571190 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,69p,2589b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,72p,2589b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on abschlussarbeit.pdf (35 pages, 25533029 bytes).
+Output written on abschlussarbeit.pdf (36 pages, 27341638 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 232 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
