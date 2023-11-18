@@ -1,60 +1,34 @@
 \subsection{Dreamfusion}\label{dreamfusion}
 
-DreamFusion leverages Neural Radiance Fields (NeRFs) \citep{mildenhallNERF} and uses a novel technique called Score Distillation Sampling (SDS) \citep{pooleDreamfusion} which "generates high-fidelity coherent 3D objects and scenes for a diverse set of user-provided text prompts \citep{pooleDreamfusion}. However, it is important to note that for the practical purposes of this thesis, \emph{Stable} DreamFusion \citep{stable-dreamfusion}, is used,  which is an open-source variant of DreamFusion. This variant introduces some differences compared to the original model. Stable DreamFusion modifies the original Imagen model by incorporating Stable Diffusion \citep{rombachStableDiffusion}, a latent diffusion model. It also employs the "multi-resolution grid encoder [from torch-ngp] to implement the NeRF backbone" \citep{stable-dreamfusion} and uses the Adan optimizer as the default option \citep{stable-dreamfusion}.
+DreamFusion, a concept introduced by \citeauthor{pooleDreamfusion}, represents a significant advancement in the field of 3D modeling. Building upon Neuronal Radiance Fields, DreamFusion employs a novel technique called Score Distillation Sampling (SDS) to create coherent 3D objects and scenes from diverse text prompts. Unlike traditional methods that rely on pre-existing images of an object from various angles, DreamFusion generates these images during training using a diffusion model.
 
-DreamFusion, a product of Google Research, embodies a significant leap in the domain of text-to-3D synthesis, a realm where textual descriptions are converted into three-dimensional visual models. It builds upon recent advancements in text-to-image synthesis driven by diffusion models trained on extensive image-text datasets. Unlike its predecessors, DreamFusion adeptly navigates the challenges posed by the lack of large-scale datasets of labeled 3D assets and efficient architectures for denoising 3D data. 
+A key aspect of DreamFusion is its use of Differentiable Image Parameterization (DIP) \citep{mordvintsevDIP}, a method that allows for the parametrization of images through parameters (\( \theta \)) and a differentiable generator (\( g \)). This generator transforms parameters \( \theta \) into an image \( \mathbf{x} = g(\theta) \), offering refined optimization even at the pixel level \citep{pooleDreamfusion}. This technique marks a shift from the conventional approach of diffusion models, which usually produce outputs similar to their training data. In DreamFusion, the parameters \( \theta \) define 3D volumes, with \
 
-The genesis of DreamFusion lies in the evolution of Dream Fields, a generative 3D AI system unveiled by Google in late 2021. Dream Fields initially married OpenAI's image analysis model, CLIP, with Neural Radiance Fields (NeRF) to foster the generation of 3D views from text. DreamFusion further refined this approach by introducing a new loss based on Google's large AI image model, Imagen, thus paving the way for enhanced text to 3D synthesis.
+The mathematical foundation of Score Distillation Sampling in DreamFusion starts with minimizing a diffusion training loss with respect to a generated data point \( \mathbf{x} = g(\theta) \), formulated as \[ \theta^{*} = \text{arg min}_{\theta} \mathcal{L}_{\text{Diff}}(\phi, \mathbf{x} = g(\theta)) \]. This equation seeks the optimal set of parameters (\( \theta \)) that produce the most accurate 3D model in correspondence with the text input \citep{pooleDreamfusion}.
+  
+The computation of the gradient of the loss function \( \mathcal{L}_{\text{Diff}} \) is crucial in determining the direction for adjusting the parameters \( \theta \) to reduce the loss. However, this computation, represented as \( \nabla_{\theta}\mathcal{L}_{\text{Diff}}(\phi,\mathbf{x}=g(\theta)) \), is typically resource-intensive and complex, involving expensive Jacobian terms. To address this, DreamFusion employs a method that simplifies the optimization process by omitting certain Jacobian terms, yet still provides a reliable direction for adjusting \( \theta \) to minimize the loss.
 
+The SDS approach in DreamFusion is an intuitive and robust method for text-to-3D synthesis. It is based on perturbing an image \( x \) with random noise at a specific timestep \( t \), and then computing an update direction using the score function of the diffusion model to move towards regions of higher density. This methodology is anchored in a weighted probability density distillation loss, which incorporates learned score functions from the diffusion model.
 
-At the core of DreamFusion's operation lies a fusion of Google's Imagen and NeRF's 3D capabilities. Imagen, a pre-trained 2D text-image diffusion model, forms the basis for text to 3D synthesis in DreamFusion. This synergy with NeRF, specialized for 3D generation tasks, enables the recovery and synthesis of new views of a particular scene from unobserved angles. DreamFusion employs a novel method termed Score Distillation Sampling (SDS) to optimize a 3D scene given a text caption. SDS allows for the generation of samples from a diffusion model by optimizing a loss function. This method demonstrates the versatility of pre-trained image diffusion models as priors, enabling the optimization of samples in an arbitrary parameter space such as a 3D space, provided there is a mapping back mechanism. Understanding the underlying principles of Neural Radiance Fields (NeRF), Score Distillation Sampling (SDS), and the functionality of the Imagen model is crucial for a comprehensive grasp of DreamFusion's architecture. The primary application of DreamFusion is the generation of 3D models from textual descriptions. This capability has vast potential across various fields including, but not limited to, virtual reality, gaming, and educational domains where interactive 3D models can enhance user engagement and learning experiences. 
+The primary SDS function used in DreamFusion can be summarized as:
 
-Moreover, DreamFusion's ability to create relightable 3D objects and merge multiple 3D models into one scene opens avenues for more complex applications, enabling the creation of intricate, text-driven 3D scenes and animations.
+\[
+\nabla_{\theta}\mathcal{L}_{\text{SDS}}(\phi,\mathbf{x}=g(\theta))\triangleq\mathbb{E}_{t,\epsilon}\left[w(t)\left(\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)-\epsilon\right){\partial\mathbf{x}\frac\partial\theta}\right]
+\]
 
+Here, \( w(t) \) is a weighting term, \( \hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t) \) is the predicted noise, and \( \epsilon \) is the actual noise. The gradient of the image with respect to the parameters is denoted by \( {\partial\mathbf{x}\frac\partial\theta} \). This formula efficiently guides the optimization of the parameters \( \theta \), aligning the generated data with the predictions of the diffusion model.
 
+Furthermore, the KL Divergence, as represented in the equation 
 
-Benefits:
-- **Data Efficiency**: DreamFusion circumvents the need for large-scale 3D labeled datasets, which are often a bottleneck in 3D synthesis projects.
-- **Generative Capability**: The generation of high-quality, relightable 3D objects based on textual input extends the boundaries of generative models.
+\[
+\nabla_{\theta}\mathcal{L}_{\text{SDS}}(\phi, \mathbf{x} = g(\theta)) = \nabla_{\theta}\mathbb{E}_t \left[ \frac{\sigma_t}{\alpha_t} w(t) \text{KL}(q(\mathbf{z}_t | g(\theta); y, t) || p_{\phi}(\mathbf{z}_t; y, t)) \right]
+\]
 
-Limitations:
-- **Model Maturity**: The generated 3D models, although promising, may not yet attain a high level of accuracy, indicating a scope for further refinement.
-- **Computational Resources**: The processing power required for the generation of 3D models could be substantial, posing challenges for resource-constrained environments.
-
-
-DreamFusion marks a significant stride in bridging textual descriptions with 3D visualization using artificial intelligence. Its innovative architecture, built upon the synergy between Google's Imagen and NeRF, alongside the introduction of Score Distillation Sampling, lays a solid foundation for future advancements in text-to-3D synthesis. While the journey towards perfecting this technology continues, the potential applications and benefits of DreamFusion are vast and poised to have a lasting impact on the fields of computer vision and artificial intelligence.
-
-
-Score Distillation Sampling (SDS) is a technique introduced in DreamFusion to generate samples from a diffusion model by optimizing a loss function, allowing for the optimization of samples in an arbitrary parameter space, such as a 3D space. The core idea is to leverage the structure of diffusion models to enable tractable sampling via optimization. This is achieved by optimizing over parameters \( \theta \) such that \( \mathbf{x} = g(\theta) \) appears as a sample from the frozen diffusion model. A differentiable loss function is employed where plausible images incur a low loss, and implausible images incur a high loss.
-
-Mathematically, the process can be broken down into several steps:
-
-1. **Loss Function Optimization**:
-    - The objective is to minimize a diffusion training loss with respect to a generated datapoint \( \mathbf{x} = g(\theta) \), expressed as:
-     \[ \theta^{*} = \text{arg min}_{\theta} \mathcal{L}_{\text{Diff}}(\phi, \mathbf{x} = g(\theta)) \]
-   
-    - In this step, DreamFusion tries to find the best set of parameters (denoted by \( \theta \)) that would generate a 3D model from text. It does this by minimizing a "loss function," which is a way to measure how far off the generated model is from what is desired. The goal is to adjust the parameters \( \theta \) so that this loss is as small as possible.
-
-2. **Gradient Computation**:
-   - The gradient of \( \mathcal{L}_{\text{Diff}} \) is given by:
-     \[ \nabla_{\theta}\mathcal{L}_{\text{Diff}}(\phi,\mathbf{x}=g(\theta))=\mathbb{E}_{t,\epsilon}\Bigg[w(t)\left(\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)-\epsilon\right)\frac{\partial\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)}{\mathbf{z}_t}\frac{\partial\mathbf{x}}{\partial\theta}\Bigg] \]
-   - Here, \( w(t) \) is a weighting term, \( \hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t) \) is the predicted noise, \( \epsilon \) is the true noise, and \( \frac{\partial\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)}{\mathbf{z}_t} \) and \( \frac{\partial\mathbf{x}}{\partial\theta} \) are Jacobian terms. 
-
-   - To minimize the loss, DreamFusion needs to know in which direction to adjust the parameters \( \theta \). This is done by computing the gradient, which tells us the direction in which the loss function is increasing. By moving the parameters in the opposite direction, the loss can be decreased. In the formula, the terms involving \( \hat{\epsilon}_{\phi} \) and \( \epsilon \) are comparing the predicted noise to the actual noise in the model, which helps in understanding how to adjust the parameters to get a better model.
-
-3. **Effective Gradient**:
-   - To bypass the computation of certain Jacobian terms, an effective gradient is proposed:
-     \[ \nabla_{\theta}\mathcal{L}_{\text{SDS}}(\phi,\mathbf{x}=g(\theta))\triangleq\mathbb{E}_{t,\epsilon}\left[w(t)\left(\hat{\epsilon}_{\phi}({\mathbf{z}}_{t};y,t)-\epsilon\right){\partial\mathbf{x}\frac\partial\theta}\right] \]
-
-    - The original gradient computation can be quite complex and computationally expensive. So, an alternative, simplified version of the gradient is used to make the optimization process more manageable. This simplified gradient still gives a good direction to adjust the parameters \( \theta \) to minimize the loss, but without some of the computational overhead of the original gradient computation.
-
-
-In practice, the diffusion model predicts the update direction, obviating the need to backpropagate through the diffusion model. Hence, the model acts like an efficient, frozen critic that predicts image-space edits.
-
-When compared to a method like Collaborative Score Distillation (CSD), it's noted that while SDS optimizes a single 3D representation to maintain a high likelihood as evaluated by the diffusion model, CSD tends to excel in capturing coherent geometry and allows for the learning of finer details. Moreover, CSD can produce diverse, high-quality samples without requiring changes in random seeds, indicating some of the areas where SDS might have room for improvement.
+quantifies the divergence between two probability distributions, further refining the process of parameter optimization in DreamFusion. This KL Divergence term helps in fine-tuning the model's alignment with the textual input and enhances the fidelity of the generated 3D models.
 
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/Dreamfusion.png}
     \caption{Summatized functionality of Dreamfusion}\label{fig:figureDreamfusion}
   \end{figure}
+

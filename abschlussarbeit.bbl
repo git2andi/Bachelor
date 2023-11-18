@@ -131,6 +131,11 @@ Mildenhall, B., Srinivasan, P.~P., Tancik, M., Barron, J.~T., Ramamoorthi, R.,
   synthesis.
 \newblock In {\em ECCV}.
 
+\bibitem[Mordvintsev et~al., 2018]{mordvintsevDIP}
+Mordvintsev, A., Pezzotti, N., Schubert, L., and Olah, C. (2018).
+\newblock Differentiable image parameterizations.
+\newblock {\em Distill}, 3.
+
 \bibitem[Nichol et~al., 2021]{nicholGLIDE}
 Nichol, A., Dhariwal, P., Ramesh, A., Shyam, P., Mishkin, P., McGrew, B.,
   Sutskever, I., and Chen, M. (2021).
@@ -172,10 +177,6 @@ Roberts, G.~O. and Tweedie, R.~L. (1996).
   approximations.
 \newblock {\em Bernoulli}, pages 341--363.
 
-\bibitem[Rombach et~al., 2021]{rombachStableDiffusion}
-Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021).
-\newblock High-resolution image synthesis with latent diffusion models.
-
 \bibitem[Salimans et~al., 2016]{salimansNIPS}
 Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., Chen, X.,
   and Chen, X. (2016).
@@ -207,11 +208,6 @@ Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
 \newblock Score-based generative modeling through stochastic differential
   equations.
 \newblock {\em arXiv preprint arXiv:2011.13456}.
-
-\bibitem[Tang, 2022]{stable-dreamfusion}
-Tang, J. (2022).
-\newblock Stable-dreamfusion: Text-to-3d with stable-diffusion.
-\newblock https://github.com/ashawkey/stable-dreamfusion.
 
 \bibitem[Vaswani et~al., 2023]{vaswani2023attention}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
