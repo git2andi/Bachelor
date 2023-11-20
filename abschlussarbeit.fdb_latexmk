@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex abschlussarbeit"] 1700320327 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1700320336 0
-  "./bibl.bib" 1700310442 19328 bdf4306cc2e0ea07cd3585221bb552c9 ""
+["bibtex abschlussarbeit"] 1700495479 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1700495488 0
+  "./bibl.bib" 1700491488 20509 47cee4319cd1cf67523c68f41d57b70f ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "abschlussarbeit.aux" 1700320335 17580 92c0fdcf88d8666724feec42bb84f80c "pdflatex"
+  "abschlussarbeit.aux" 1700495486 17727 8f1d72d1c4a85b735288fbed71a883c4 "pdflatex"
   (generated)
   "abschlussarbeit.bbl"
   "abschlussarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1700320327 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1700320336 0
+["pdflatex"] 1700495479 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1700495488 0
   "C:/Users/andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696237784 81677 c379ed05e4814e4747cf0f6640850008 ""
   "C:/Users/andi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695627327 24141436 f5ceb816a26d4adc78fbb0bd7a7be1f4 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -44,6 +44,7 @@
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247593066 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247593066 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1247593066 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247593067 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247593067 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247593067 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -103,12 +104,12 @@
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1686252040 13231 df28b16cc1506f657b947b66cabad463 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "abschlussarbeit.aux" 1700320335 17580 92c0fdcf88d8666724feec42bb84f80c "pdflatex"
-  "abschlussarbeit.bbl" 1700320327 10212 2f3488b2787c73f35669561d726a9d40 "bibtex abschlussarbeit"
-  "abschlussarbeit.lof" 1700320335 2078 a1208d5aa226ec1d25e8786d5ac5c09e "pdflatex"
-  "abschlussarbeit.lot" 1700320335 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
+  "abschlussarbeit.aux" 1700495486 17727 8f1d72d1c4a85b735288fbed71a883c4 "pdflatex"
+  "abschlussarbeit.bbl" 1700495479 10413 d3f2b9f9149949d44c713469415ccedb "bibtex abschlussarbeit"
+  "abschlussarbeit.lof" 1700495486 2012 66c45aece21675f077fe55178c1d9b87 "pdflatex"
+  "abschlussarbeit.lot" 1700495486 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
   "abschlussarbeit.tex" 1699265481 1542 af18b422f2004e0e269ca710e5feb9d9 ""
-  "abschlussarbeit.toc" 1700320335 2602 a66626433f0380f3df4f34017408056d "pdflatex"
+  "abschlussarbeit.toc" 1700495486 2602 ad8ea4bdc4dff20d34966a23045a0193 "pdflatex"
   "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" 1699265481 1542 af18b422f2004e0e269ca710e5feb9d9 ""
   "chapters/Basics/3Drepresentation.tex" 1697210267 170 a2edd68f055b49f0ab0f4ff52d0abf79 ""
   "chapters/Basics/CLIP.tex" 1697210267 2940 10167b7f514dd2ba2896e56cf1308cbd ""
@@ -122,8 +123,8 @@
   "chapters/Models/Magic3D.tex" 1700306778 534 0a813901fdf05743dff540bac446d717 ""
   "chapters/Models/NeRF.tex" 1699274217 11075 cc64a2791d798af08d4dc2b4151292a7 ""
   "chapters/Models/dreamfields.tex" 1700307959 7172 ad8a731b25a158f992cb869ae185e098 ""
-  "chapters/Models/dreamfusion.tex" 1700320317 4238 df1f537d692bec22a321eff03c566ce3 ""
-  "chapters/Models/fantasia3D.tex" 1700306778 641 a89085ecd2f5edb8c35612606fe9b83a ""
+  "chapters/Models/dreamfusion.tex" 1700495468 7424 99eccb9e91dd5fa615f5fbd84755fa60 ""
+  "chapters/Models/fantasia3D.tex" 1700493030 576 bdff7a22557b376f663172e77ced795c ""
   "chapters/abstract.tex" 1697210267 1789 c25f838f8b4e9227863a9090b0aa7787 ""
   "chapters/basics.tex" 1699273103 2264 2718736666a40df78404e9bc5c8921b4 ""
   "chapters/compare.tex" 1697210267 343 f45ffefb719635407ecd0a6a241efa16 ""
@@ -137,7 +138,6 @@
   "figures/BasicTrilemma.png" 1699270132 594312 0edaa2b59dc7d64b6b8205d484f30e8b ""
   "figures/DiffusionModels_SDEs.png" 1699286639 1256756 64516171b352a2df7ddfccfda5be3ce3 ""
   "figures/Dreamfusion.png" 1699868151 634997 000eadbc07b8cad9769a61f7bb872882 ""
-  "figures/Fantasia3D.png" 1699868151 278917 7be3216bb90a9a7ac4472d64f45eb86f ""
   "figures/Generator.png" 1697210267 55199 41edb92169199b30b108ba570d30a250 ""
   "figures/Magic123.png" 1699868151 521107 c500358e80e99792957e694dddfdbf81 ""
   "figures/Magic3D.png" 1699868151 545801 d3a3fcc9f31f3f8a48db5771ad5771a5 ""

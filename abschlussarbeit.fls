@@ -319,13 +319,6 @@ INPUT .\chapters\Models\fantasia3D.tex
 INPUT .\chapters\Models\fantasia3D.tex
 INPUT .\chapters\Models\fantasia3D.tex
 INPUT chapters\Models\fantasia3D.tex
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
-INPUT .\figures\Fantasia3D.png
 INPUT .\chapters\Models\Magic3D.tex
 INPUT .\chapters\Models\Magic3D.tex
 INPUT chapters\Models\Magic3D.tex
@@ -369,6 +362,8 @@ INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb

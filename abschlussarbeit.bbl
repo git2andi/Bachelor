@@ -9,11 +9,21 @@ Anderson, B.~D. (1982).
 Arandjelović, R. and Zisserman, A. (2021).
 \newblock Nerf in detail: Learning to sample for view synthesis.
 
+\bibitem[Barron et~al., 2022]{barron2022mipnerf}
+Barron, J.~T., Mildenhall, B., Verbin, D., Srinivasan, P.~P., and Hedman, P.
+  (2022).
+\newblock Mip-nerf 360: Unbounded anti-aliased neural radiance fields.
+
 \bibitem[Brophy et~al., 2023]{brophyGAN}
 Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
 \newblock Generative adversarial networks in time series: A systematic
   literature review.
 \newblock {\em ACM Computing Surveys}, 55(10):1--31.
+
+\bibitem[Chen et~al., 2023]{chen2023fantasia3d}
+Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
+\newblock Fantasia3d: Disentangling geometry and appearance for high-quality
+  text-to-3d content creation.
 
 \bibitem[Croitoru et~al., 2023]{croitoru2023diffusion}
 Croitoru, F.-A., Hondru, V., Ionescu, R.~T., and Shah, M. (2023).
@@ -136,19 +146,6 @@ Mordvintsev, A., Pezzotti, N., Schubert, L., and Olah, C. (2018).
 \newblock Differentiable image parameterizations.
 \newblock {\em Distill}, 3.
 
-\bibitem[Nichol et~al., 2021]{nicholGLIDE}
-Nichol, A., Dhariwal, P., Ramesh, A., Shyam, P., Mishkin, P., McGrew, B.,
-  Sutskever, I., and Chen, M. (2021).
-\newblock Glide: Towards photorealistic image generation and editing with
-  text-guided diffusion models.
-\newblock {\em arXiv preprint arXiv:2112.10741}.
-
-\bibitem[Nichol et~al., 2022]{nicholPointE}
-Nichol, A., Jun, H., Dhariwal, P., Mishkin, P., and Chen, M. (2022).
-\newblock Point-e: A system for generating 3d point clouds from complex
-  prompts.
-\newblock {\em arXiv preprint arXiv:2212.08751}.
-
 \bibitem[Poole et~al., 2022]{pooleDreamfusion}
 Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
 \newblock Dreamfusion: Text-to-3d using 2d diffusion.
@@ -176,6 +173,13 @@ Roberts, G.~O. and Tweedie, R.~L. (1996).
 \newblock Exponential convergence of langevin distributions and their discrete
   approximations.
 \newblock {\em Bernoulli}, pages 341--363.
+
+\bibitem[Saharia et~al., 2022]{saharia2022imagen}
+Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour,
+  S. K.~S., Ayan, B.~K., Mahdavi, S.~S., Lopes, R.~G., Salimans, T., Ho, J.,
+  Fleet, D.~J., and Norouzi, M. (2022).
+\newblock Photorealistic text-to-image diffusion models with deep language
+  understanding.
 
 \bibitem[Salimans et~al., 2016]{salimansNIPS}
 Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., Chen, X.,
