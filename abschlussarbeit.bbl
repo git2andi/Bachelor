@@ -130,6 +130,12 @@ Martínez, G., Watson, L., Reviriego, P., Hernández, J.~A., Juarez, M., and
 \newblock Towards understanding the interplay of generative artificial
   intelligence and the internet.
 
+\bibitem[Michalkiewicz et~al., 2019]{michalkiewicz2019deep}
+Michalkiewicz, M., Pontes, J.~K., Jack, D., Baktashmotlagh, M., and Eriksson,
+  A. (2019).
+\newblock Deep level sets: Implicit surface representations for 3d shape
+  inference.
+
 \bibitem[Michelucci, 2022]{michelucci2022introduction}
 Michelucci, U. (2022).
 \newblock An introduction to autoencoders.
@@ -174,6 +180,10 @@ Roberts, G.~O. and Tweedie, R.~L. (1996).
   approximations.
 \newblock {\em Bernoulli}, pages 341--363.
 
+\bibitem[Rombach et~al., 2021]{rombachStableDiffusion}
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021).
+\newblock High-resolution image synthesis with latent diffusion models.
+
 \bibitem[Saharia et~al., 2022]{saharia2022imagen}
 Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour,
   S. K.~S., Ayan, B.~K., Mahdavi, S.~S., Lopes, R.~G., Salimans, T., Ho, J.,
@@ -188,6 +198,11 @@ Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., Chen, X.,
 \newblock In Lee, D., Sugiyama, M., Luxburg, U., Guyon, I., and Garnett, R.,
   editors, {\em Advances in Neural Information Processing Systems}, volume~29.
   Curran Associates, Inc.
+
+\bibitem[Shen et~al., 2021]{shen2021DMTet}
+Shen, T., Gao, J., Yin, K., Liu, M.-Y., and Fidler, S. (2021).
+\newblock Deep marching tetrahedra: a hybrid representation for high-resolution
+  3d shape synthesis.
 
 \bibitem[Sohl-Dickstein et~al., 2015]{sohlDDPM}
 Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., and Ganguli, S. (2015).
