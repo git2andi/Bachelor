@@ -23,16 +23,16 @@
 \contentsline {subsection}{\numberline {3.4.3}Fantasia3D}{23}{}%
 \contentsline {subsection}{\numberline {3.4.4}Magic 3D}{24}{}%
 \contentsline {section}{\numberline {3.5}3D from Video}{24}{}%
-\contentsline {subsection}{\numberline {3.5.1}NERfs}{25}{}%
-\contentsline {chapter}{\numberline {4}Comparative Study}{26}{}%
-\contentsline {subsection}{\numberline {4.0.1}Experimental Setup}{26}{}%
-\contentsline {subsection}{\numberline {4.0.2}Performance Metrics}{26}{}%
-\contentsline {subsection}{\numberline {4.0.3}Results and Analysis}{26}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{27}{}%
-\contentsline {subsection}{\numberline {5.0.1}Emerging Trends in 3D Model Generation}{27}{}%
-\contentsline {subsection}{\numberline {5.0.2}Potential Research Directions}{27}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{28}{}%
-\contentsline {subsection}{\numberline {6.0.1}Summary of Findings}{28}{}%
-\contentsline {subsection}{\numberline {6.0.2}Contributions to the Field}{28}{}%
-\contentsline {subsection}{\numberline {6.0.3}Implications and Practical Applications}{28}{}%
-\contentsline {chapter}{Bibliographie}{28}{}%
+\contentsline {subsection}{\numberline {3.5.1}NERfs}{24}{}%
+\contentsline {chapter}{\numberline {4}Comparative Study}{25}{}%
+\contentsline {subsection}{\numberline {4.0.1}Experimental Setup}{25}{}%
+\contentsline {subsection}{\numberline {4.0.2}Performance Metrics}{25}{}%
+\contentsline {subsection}{\numberline {4.0.3}Results and Analysis}{25}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{26}{}%
+\contentsline {subsection}{\numberline {5.0.1}Emerging Trends in 3D Model Generation}{26}{}%
+\contentsline {subsection}{\numberline {5.0.2}Potential Research Directions}{26}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{27}{}%
+\contentsline {subsection}{\numberline {6.0.1}Summary of Findings}{27}{}%
+\contentsline {subsection}{\numberline {6.0.2}Contributions to the Field}{27}{}%
+\contentsline {subsection}{\numberline {6.0.3}Implications and Practical Applications}{27}{}%
+\contentsline {chapter}{Bibliographie}{27}{}%

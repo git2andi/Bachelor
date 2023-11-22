@@ -180,10 +180,6 @@ Roberts, G.~O. and Tweedie, R.~L. (1996).
   approximations.
 \newblock {\em Bernoulli}, pages 341--363.
 
-\bibitem[Rombach et~al., 2021]{rombachStableDiffusion}
-Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021).
-\newblock High-resolution image synthesis with latent diffusion models.
-
 \bibitem[Saharia et~al., 2022]{saharia2022imagen}
 Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour,
   S. K.~S., Ayan, B.~K., Mahdavi, S.~S., Lopes, R.~G., Salimans, T., Ho, J.,
