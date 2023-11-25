@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Aggarwal et~al., 2021]{AGGARWAL2021100004}
+Aggarwal, A., Mittal, M., and Battineni, G. (2021).
+\newblock Generative adversarial network: An overview of theory and
+  applications.
+\newblock {\em International Journal of Information Management Data Insights},
+  1(1):100004.
+
 \bibitem[Anderson, 1982]{anderson1982313}
 Anderson, B.~D. (1982).
 \newblock Reverse-time diffusion equation models.
@@ -28,12 +35,6 @@ Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
 \bibitem[Croitoru et~al., 2023]{croitoru2023diffusion}
 Croitoru, F.-A., Hondru, V., Ionescu, R.~T., and Shah, M. (2023).
 \newblock Diffusion models in vision: A survey.
-
-\bibitem[Diggle and Gratton, 1984]{diggleImplicitPrescribed}
-Diggle, P.~J. and Gratton, R.~J. (1984).
-\newblock Monte carlo methods of inference for implicit statistical models.
-\newblock {\em Journal of the Royal Statistical Society Series B: Statistical
-  Methodology}, 46(2):193--212.
 
 \bibitem[Doersch, 2016]{doerschVAE}
 Doersch, C. (2016).
