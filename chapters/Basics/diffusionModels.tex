@@ -54,46 +54,43 @@ Despite their effectiveness, DDPMs are not without challenges. The most signific
 
 \subsection{Score-Based Generative Models}
 
-SGMs, as introduced by \citeauthor{song2019SGM} take a unique approach to generative modeling by prioritizing the learning of a score function that plays a central role in guiding the generative process. This function aims to capture the Stein score \citep{steinScore}, which is essentially ``the gradient of the log-density function at the input data point'' \citep{song2019SGM}. The score can be viewed as a vector field that indicates the direction that increases the data density the most \citep{song2019SGM}. This reveals how slight adjustments within the data can affect the overall distribution, informing the model on how to proceed with sample generation in a way that matches the actual data structure.
+In the domain of generative modeling, Score-Based Generative Models (SGMs), as introduced by \citeauthor{song2019SGM} distinguish themselves by prioritizing the learning of a score function using the Stein score \citep{steinScore}. The score is ``the gradient of the log-density function at the input data point'' \citep{song2019SGM}, serving as a directional guide towards higher data density regions \citep{song2019SGM}. The score function is central in SGMs, akin to how DDPMs use a forward process of adding noise, but with a different purpose. In SGMs, the score guides the model to areas in the data space where the probability of finding similar data points to the training set is higher.
 
-~\citeauthor{song2019SGM} employ Score matching and Langevin dynamics \citep{hyvarinenScoreMatching} to train neural networks in SGMs.
-
-
-Score matching allows to train a neural network, referred to as a score network \( s_\theta(x) \), to predict the gradient of the logarithm of the probability density of the data \( \nabla_x \log p_{\text{data}}(x) \) directly without the need to first construct a model that can estimate the probability density \( p_{\text{data}}(x) \) itself \citep{song2019SGM}. The aim of this process is to minimize the difference between the predictions of the score network and the true gradient of the log-likelihood, the actual data distribution,  which under certain conditions ensures that the trained network approximates the true score ``almost surely'' \citep{song2019SGM}. The term \( \frac{1}{2} \|s_\theta(x)\|^2_2 \) is part of the objective function that needs to be minimized and is used to regularize the scores predicted by the neural network while the term \( tr(\nabla_x s_\theta(x)) \), involving the trace of the Jacobian \citep{song2019SGM} of the score function, further refines the objective function by capturing the divergence of the score vector field. 
+SGMs begin their learning process with a set of training data. Common data distributions indicate areas of high probability, while rare inputs usually result in low represented data regions. The role of SGMs is to learn how to work with that data space. In practice, the model \(s_\theta(x)\) is trained to replicate the score function \(\nabla_x \log{p(x)}\) of a data distribution \(p(x)\) using so called score matching  \citep{hyvarinenScoreMatching}. This method, as \citeauthor{song2021score} describes, offers architectural flexibility by not requiring a normalizing constant.~\citeauthor{song2021score} states that training of such models is achieved by ``minimizing the Fischer divergence between the model and the data distributions'' and represents this approach as: 
 
 \[
-\mathbb{E}_{p_{\text{data}}(x)} \left[ \text{tr}(\nabla_x s_\theta(x)) + \frac{1}{2} \|s_\theta(x)\|^2_2 \right]
+\mathbb{E}_{p_{(x)}} \left[ \| \nabla_x \log{p(x)} - s_\theta(x) \| ^2_2 \right]
+\] 
+
+This divergence assesses how closely the model's score aligns with the actual data score by calculating their squared differences. The integration of score matching into this process means that no precise knowledge of the true data value is required \citep{song2021score}. The goal here is to align the model's predictions with the real data's log-likelihood gradient as closely as possible. Under specific conditions, this method can reliably ensure that the model's score accurately reflects the true score of the data distribution \citep{song2019SGM}.
+
+In the generation of new samples, SGMs start with a random or noise image. Using Langevin dynamics, an iterative process described by \citep{robertsLangevin}, the model samples from a distribution \( p(x) \) using its score function \citep{song2021score}. Following \citeauthor{song2021score}, it starts with a random prior distribution \( x_0 \sim \pi(x) \), and iteratively updates the chain by:
+
+\[ 
+  x_{i+1} \leftarrow x_i + \epsilon \nabla_x \log p(x) + \sqrt{2 \epsilon} z_i,
 \]
 
-\citep{song2019SGM} However, scaling score matching to deep networks and high-dimensional data can be challenging due to the high computational effort required to compute certain matrix operations (such as the trace of the Jacobian matrix) \citep{song2019SGM}. 
-Denoising score matching and Sliced score matching could overcome these scalability issues for large applications \citep{song2019SGM}.
+where each iteration updates the sample \(x_i\) by a small step size \(\epsilon\) in the direction of the data's score function, guiding the sample towards the target data distribution. This process theoretically converges the distribution to \( p(x) \) as \( \epsilon \) becomes smaller and iterations increase \citep{song2019SGM,song2021score}.
 
-In order to generate Samples, Langevin dynamics \citep{robertsLangevin} is utilized for sampling from a probability distribution by employing the score function, \( \nabla_x \log p(x) \) \citep{song2019SGM}. The process begins with an initial guess \( \tilde{x}_0 \) from a prior distribution \( \pi(x) \), and iteratively updates this guess according to the rule:
+A notable challenge in SGMs arises when estimating the score function in less represented data regions. Inaccuracies here may hinder the convergence of Langevin Dynamics \citep{song2019SGM}. To mitigate this, \citeauthor{song2019SGM} recommend introducing Gaussian noise to the data and estimating scores for these noise-altered distributions, an approach termed Noise Conditional Score Networks (NCSNs). This strategy prevents the data distribution from collapsing into a lower-dimensional structure, ensuring more robust sample generation \citep{song2019SGM}.
 
-\[ \tilde{x}_t = \tilde{x}_{t-1} + \frac{\epsilon}{2} \nabla_x \log p(\tilde{x}_{t-1}) + \sqrt{\epsilon} z_t, \]
-
-\citep{song2019SGM} where \( z_t \) follows a standard normal distribution and \( \epsilon \) is a small step size. Theoretically, as \( \epsilon \) approaches zero and the number of iterations \( T \) becomes very large, the distribution of \( \tilde{x}_T \) will converge to \( p(x) \) \citep{song2019SGM}. The score network \( s_\theta(x) \) is trained to closely estimate \( \nabla_x \log p_{\text{data}}(x) \), thus allowing for the generation of new samples that approximate the desired data distribution through Langevin dynamics \citep{song2019SGM}.
-
-In the specific context of score-based generative modeling, there's a notable challenge to overcome. The estimated score function may not be entirely accurate in regions of the data space where there's minimal or no training data available \citep{song2019SGM}. In such cases, Langevin Dynamics might not converge correctly, resulting in complications during the sample generation process. To address this issue,~\cite{song2019SGM} suggest ``to perturb the data with random Gaussian noise of various magnitudes'', while simultaneously estimate the score functions for these noise-altered data distributions. This approach is called Noise Conditional Score Networks (NCSNs) and ensures that the resulting data distribution doesn't condense into a lower-dimensional structure \citep{song2019SGM}.
+The core idea of Noise Conditional Score Networks is to generate realistic data samples by effectively navigating through a series of noise-perturbed data distributions that gradually converge to the true data distribution. This process is facilitated by introducing Gaussian noise \(\sigma\) into the data at multiple levels \citep{song2019SGM}. The NCSN, represented \(s_\theta(x, \sigma)\),  is trained to estimate scores for these noise-perturbed distributions \citep{song2019SGM}. This training allows the network to adjust its predictions based on different noise levels to ensure accurate and relevant point estimates. Generating new samples begins with a state of pure noise and uses annealed Langevin dynamics in order to gradually reduce the noise level \(\sigma\) \citep{song2019SGM}. This method transforms the initial noise into realistic data points by iteratively gradually reducing noise, ending when a sufficiently low noise level yields a sample that accurately represents the modeled data \citep{song2019SGM}.
 
 
+\subsection{Score-Based Generative Modeling through Stochastic Differential Equations~--~SDEs}
 
-
-\subsection{Stochastic Differential Equations~--~SGMs}
-
-~\cite{song2020score} aim to combine both DDPMs and SGMs (NCSNs) using Stochastic Differential Equations (SDEs) to perturb data across an ``infinite spectrum of noise scales'' \citep{song2020score}. These SDEs are further used for sample generation \citep{yangdiffusionSummary}.
-
-The idea is to create a continuous diffusion process, indexed by time, that transforms a data distribution into a more tractable prior distribution. This is done through the following SDE
+~\citeauthor{song2020score} aim to combine both DDPMs and SGMs (NCSNs) using Stochastic Differential Equations (SDEs) to perturb data across ``infinite time steps or noise levels'' \citep{yangdiffusionSummary}. The idea is to create a continuous diffusion process, indexed by time, that transforms a data distribution into a more tractable prior distribution. This is described through the following function by \citeauthor{song2020score}:
 
 \[ dx = f(x, t)dt + g(t)dw, \]
 
-\citep{yangdiffusionSummary} where the data evolves as noise intensity increases over time. The process is governed by two coefficients: a drift coefficient \( f(x, t) \), governing the deterministic properties of the stochastic process, and a diffusion coefficient \( g(t) \), which scales the random noise introduced by Brownian motion \( dw \) (Wiener process) \citep{song2020score}. This Brownian motion represents the random movement of particles in a fluid as they collide with fast-moving molecules in the fluid. 
+The process is governed by two coefficients: a drift coefficient \( f(x, t) \), governing the deterministic properties of the stochastic process, guiding how data evolves over time, and a diffusion coefficient \( g(t) \), which scales the random noise introduced by Brownian motion \( dw \) (Wiener process) \citep{song2020score}. This Brownian motion represents the random movement of particles in a fluid as they collide with fast-moving molecules in the fluid. 
 
-``A remarkable result from Anderson \citep{anderson1982313} states that the reverse of a diffusion process is also a diffusion process, running backwards in time and given by the [following] reverse-time SDE:\@'' \citep{song2020score}
+
+For generating new samples, a  principle from Anderson \citep{anderson1982313} comes into play. It states that ``the reverse of a diffusion process is also a diffusion process, running backwards in time and given by the reverse-time SDE:\@'' \citep{song2020score}.
 
 \[ dx = \left[ f(x, t) - g(t)^2 \nabla_x \log p_t(x) \right] dt + g(t)d\bar{w} \]
 
-This equation describes the process of recovering data from noise by moving backward in time. Knowledge of the score function \( \nabla_x \log p_t(x) \) at each time enables this reverse process, allowing for the generation of data samples from the original distribution using numerical techniques \citep{song2020score}.
+This equation by \citeauthor{song2020score} describes the process of recovering data from noise by moving backward in time. Knowledge of the score function \( \nabla_x \log p_t(x) \) at each time enables this reverse process, allowing for the generation of data samples from the original distribution using numerical techniques \citep{song2020score}. This score function essentially captures the essence of the data's probability distribution at various stages of noise addition.
 
 \begin{figure}[ht]
   \centering
@@ -101,10 +98,9 @@ This equation describes the process of recovering data from noise by moving back
     \caption{Summary of the score-based generative modeling through SDEs \citep{song2020score}}\label{fig:DM_SDEs}
 \end{figure}
 
-Knowledge of the scores at each time requires the estimation of the scores for an SDE which involves training a model to approximate the gradient of the log probability of data at various noise levels \citep{song2020score}. The training objective is given by:
-
+Training a model to accurately estimate the score functions at various noise levels is a fundamental aspect of this process. To achieve this, the model is trained through score matching \citep{hyvarinenScoreMatching}, which involves fine-tuning the model to closely approximate these score functions across a spectrum of noise levels \citep{song2020score}. The training objective, as stated by \citeauthor{song2020score}, is formulated to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the estimated and true scores  over time, which are influenced by the noise \citep{song2020score}.
 \[
 \theta^* = \arg\min_\theta \mathbb{E}_t \left\{ \lambda(t) \mathbb{E}_{x_0} \mathbb{E}_{x_t|x_0} \left\| s_\theta(x_t, t) - \nabla_{x_t} \log p_{0t}(x_t | x_0) \right\|_2^2 \right\}
 \]
 
-\citep{song2020score} The equation presents a method to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the scores estimated by the model and the actual data transition scores over time, which are influenced by the noise \citep{song2020score}. The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_\theta*(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2020score}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.
+ The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_{\theta^*}(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2020score}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.

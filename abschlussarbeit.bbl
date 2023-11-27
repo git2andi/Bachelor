@@ -207,6 +207,13 @@ Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., and Ganguli, S. (2015).
 \newblock In {\em International conference on machine learning}, pages
   2256--2265. PMLR.
 
+\bibitem[Song, 2021]{song2021score}
+Song, Y. (2021).
+\newblock Score-based generative modeling through stochastic differential
+  equations.
+\newblock \url{https://yang-song.net/blog/2021/score/}.
+\newblock Accessed: [26.11.2023].
+
 \bibitem[Song et~al., 2021]{song2021maximum}
 Song, Y., Durkan, C., Murray, I., and Ermon, S. (2021).
 \newblock Maximum likelihood training of score-based diffusion models.

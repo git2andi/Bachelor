@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces The Generative Learning Trilemma: Balancing Quality, Speed, and Diversity in Generative Models.~\citep {xiao2022tackling}}}{3}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Schematic of an Autoencoder: Demonstrating the process of dimensionality reduction to a latent vector and subsequent reconstruction, aiming to minimize reconstruction loss. TODO\spacefactor \@m {} ADD LOSS\spacefactor \@m {} https://towardsdatascience.com/difference-between-autoencoder-ae-and-variational-autoencoder-vae-ed7be1c038f2}}{5}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Functionality of a Variational Autoencoder: This figure illustrates the incorporation of a latent distribution, characterized by mean and standard deviation, for enhancing latent space regularization, enabling more effective and diverse data generation.}}{7}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Illustration of the Generative Adversarial Network mechanism, highlighting the interplay between the generator and discriminator networks}}{8}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Illustration of the Forward Diffusion Process in DDPMs: This figure demonstrates the gradual addition of Gaussian noise to an image over multiple steps. Each subsequent image from left to right shows an increased level of noise, culminating in the far-right image, which represents a state of pure noise.}}{10}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Visual Representation of the Reverse Diffusion Process in DDPMs: This figure illustrates the progressive removal of noise from a noisy state (right) back to the original or newly generated image (left), demonstrating the model's capability to reconstruct or create images by reversing the noise addition process.}}{11}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Summary of the score-based generative modeling through SDEs \citep {song2020score}}}{13}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8}{\ignorespaces Neuronal Radiance Field. Figure taken From Mildenhall~\cite {mildenhallNERF}~--~Figure 2}}{16}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Summatized functionality of Magic123}}{20}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Summatized functionality of Dreamfusion, image by \citep {pooleDreamfusion}}}{24}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Outline of the method Fantasia3D. Figure taken From \citep {chen2023fantasia3d}}}{25}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Summatized functionality of Magic3D}}{26}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
