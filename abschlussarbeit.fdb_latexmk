@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex abschlussarbeit"] 1701110741 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1701110751 0
-  "./bibl.bib" 1701101550 23305 704f409f0319cdec67774c12325368c0 ""
+["bibtex abschlussarbeit"] 1701125210 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1701125221 0
+  "./bibl.bib" 1701116439 24724 f22dcaaf0ce4a11e3cde4f1c04d663a2 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "abschlussarbeit.aux" 1701110750 20519 bf0115f4ff9d37e73e1642552a730412 "pdflatex"
+  "abschlussarbeit.aux" 1701125220 21246 1a553ffd0a0bafa22c8c01dca66b63eb "pdflatex"
   (generated)
   "abschlussarbeit.bbl"
   "abschlussarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1701110742 "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1701110751 0
+["pdflatex"] 1701125210 "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1701125221 0
   "C:/Users/Andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699201326 97205 3fb51b557d06aae17c4f86c5a0b69e11 ""
   "C:/Users/Andi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695760713 24141436 661a5c95ddee6d6b4f60b01d225b322c ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -106,12 +106,12 @@
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1686252040 13231 df28b16cc1506f657b947b66cabad463 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "abschlussarbeit.aux" 1701110750 20519 bf0115f4ff9d37e73e1642552a730412 "pdflatex"
-  "abschlussarbeit.bbl" 1701110742 11351 df0d96566a4e98bf4e6b975dbe68642c "bibtex abschlussarbeit"
-  "abschlussarbeit.lof" 1701110750 3481 5f566660428f8535f9047dc77c73e509 "pdflatex"
-  "abschlussarbeit.lot" 1701110750 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
+  "abschlussarbeit.aux" 1701125220 21246 1a553ffd0a0bafa22c8c01dca66b63eb "pdflatex"
+  "abschlussarbeit.bbl" 1701125210 12355 f37c89517484f978717ed1fd950cec43 "bibtex abschlussarbeit"
+  "abschlussarbeit.lof" 1701125220 3521 acae91983d499e7f7ceba45b985b1ec5 "pdflatex"
+  "abschlussarbeit.lot" 1701125220 150 7460b00ca4c2d98f724b7acc062e00fd "pdflatex"
   "abschlussarbeit.tex" 1700867846 1564 b9f2214d5b79019ec196c5a58494647e ""
-  "abschlussarbeit.toc" 1701110750 2714 9a6307d2ac29c92b488df0196d9795bb "pdflatex"
+  "abschlussarbeit.toc" 1701125220 2713 32786b99887310f55841245127f4299b "pdflatex"
   "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" 1700867846 1564 b9f2214d5b79019ec196c5a58494647e ""
   "chapters/Basics/3Drepresentation.tex" 1701109138 164 bf2c530f93d5e2c37d900077c0ef95a0 ""
   "chapters/Basics/CLIP.tex" 1701109951 2945 1f9b6e510fb968f5cb1fcc376c6e517a ""
@@ -126,10 +126,10 @@
   "chapters/Models/3dFromText.tex" 1701108590 208 1295f23e8b7e08269675b301d1cf0714 ""
   "chapters/Models/3dFromVideo.tex" 1700772365 99 bda4d8f762593423d63d4937a1bb0400 ""
   "chapters/Models/Magic123.tex" 1701109694 246 f4af76992ece083bf69ffbe089ffcecf ""
-  "chapters/Models/Magic3D.tex" 1700772365 534 0a813901fdf05743dff540bac446d717 ""
+  "chapters/Models/Magic3D.tex" 1701125200 4706 c2d4a4536b04e29a094338ebe9b1f790 ""
   "chapters/Models/Wonder3D.tex" 1701109951 240 39b51e0893e6c6cacea7ba0748fb121c ""
-  "chapters/Models/dreamfusion.tex" 1701110424 7213 8bf9f616d54555c5eabbb9201cd40474 ""
-  "chapters/Models/fantasia3D.tex" 1701110723 4364 ae3d8b72a99cb3846d03dd390e2c03e4 ""
+  "chapters/Models/dreamfusion.tex" 1701115526 7236 26bd7579d9eecab54fb7a740dd8f00a7 ""
+  "chapters/Models/fantasia3D.tex" 1701110842 4364 ae3d8b72a99cb3846d03dd390e2c03e4 ""
   "chapters/abstract.tex" 1700772365 1789 c25f838f8b4e9227863a9090b0aa7787 ""
   "chapters/basics.tex" 1701101783 2755 f51f09e7f09358149f85501361141784 ""
   "chapters/compare.tex" 1700772365 343 f45ffefb719635407ecd0a6a241efa16 ""
@@ -137,7 +137,7 @@
   "chapters/erklaerung.tex" 1700772365 340 3d148dfd75a10e229b6e6798b5708dd8 ""
   "chapters/future.tex" 1700783661 4452 b283f82ed7a78bca5bd53e73e41d305f ""
   "chapters/introduction.tex" 1700865874 3635 1826fe01a942aa998d455a6e9f99142d ""
-  "chapters/models.tex" 1701109951 310 59bcf65de52a47c7d545dccde824d7e3 ""
+  "chapters/models.tex" 1701110844 310 59bcf65de52a47c7d545dccde824d7e3 ""
   "chapters/titelseite.tex" 1700772365 881 c54d5a9fc64d30c62baf769de6d2d977 ""
   "figures/Autoencoder.png" 1700772365 100482 367d17f10c2a5ceb2675be06279c73c8 ""
   "figures/BasicTrilemma.png" 1700772365 594312 0edaa2b59dc7d64b6b8205d484f30e8b ""

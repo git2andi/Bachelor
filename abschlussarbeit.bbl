@@ -16,6 +16,14 @@ Anderson, B.~D. (1982).
 Arandjelović, R. and Zisserman, A. (2021).
 \newblock Nerf in detail: Learning to sample for view synthesis.
 
+\bibitem[Balaji et~al., 2022]{balaji2022eDiff-I}
+Balaji, Y., Nah, S., Huang, X., Vahdat, A., Song, J., Zhang, Q., Kreis, K.,
+  Aittala, M., Aila, T., Laine, S., Catanzaro, B., Karras, T., and Liu, M.-Y.
+  (2022).
+\newblock ediff-i: Text-to-image diffusion models with ensemble of expert
+  denoisers.
+\newblock {\em arXiv preprint arXiv:2211.01324}.
+
 \bibitem[Barron et~al., 2022]{barron2022mipnerf}
 Barron, J.~T., Mildenhall, B., Verbin, D., Srinivasan, P.~P., and Hedman, P.
   (2022).
@@ -99,10 +107,6 @@ Hyv{\"a}rinen, A. and Dayan, P. (2005).
 \newblock Estimation of non-normalized statistical models by score matching.
 \newblock {\em Journal of Machine Learning Research}, 6(4).
 
-\bibitem[Jun and Nichol, 2023]{junShapeE}
-Jun, H. and Nichol, A. (2023).
-\newblock Shap-e: Generating conditional 3d implicit functions.
-
 \bibitem[Kingma et~al., 2023]{kingma2023variationalDM}
 Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
 \newblock Variational diffusion models.
@@ -110,6 +114,17 @@ Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
 \bibitem[Kingma and Welling, 2022]{kingmaVAE}
 Kingma, D.~P. and Welling, M. (2022).
 \newblock Auto-encoding variational bayes.
+
+\bibitem[Lin et~al., 2022]{lin2022magic3d}
+Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
+  Fidler, S., Liu, M.-Y., and Lin, T.-Y. (2022).
+\newblock Magic3d: High-resolution text-to-3d content creation.
+\newblock {\em arXiv preprint arXiv:2211.10440}.
+
+\bibitem[Lin et~al., 2023]{lin2023magic3d}
+Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
+  Fidler, S., Liu, M.-Y., and Lin, T.-Y. (2023).
+\newblock Magic3d: High-resolution text-to-3d content creation.
 
 \bibitem[Liu et~al., 2016]{steinScore}
 Liu, Q., Lee, J., and Jordan, M. (2016).
@@ -146,6 +161,12 @@ Mildenhall, B., Srinivasan, P.~P., Tancik, M., Barron, J.~T., Ramamoorthi, R.,
 Mordvintsev, A., Pezzotti, N., Schubert, L., and Olah, C. (2018).
 \newblock Differentiable image parameterizations.
 \newblock {\em Distill}, 3.
+
+\bibitem[M\"uller et~al., 2022]{mueller2022instant}
+M\"uller, T., Evans, A., Schied, C., and Keller, A. (2022).
+\newblock Instant neural graphics primitives with a multiresolution hash
+  encoding.
+\newblock {\em ACM Trans. Graph.}, 41(4):102:1--102:15.
 
 \bibitem[Murtagh, 1991]{MurtaghMLP}
 Murtagh, F. (1991).
