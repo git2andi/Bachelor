@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  27 NOV 2023 03:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  27 NOV 2023 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -349,19 +349,19 @@ Overfull \hbox (62.57178pt too wide) in paragraph at lines 5--5
  \OT1/cmr/m/n/10.95 mize re-con-struc-tion loss. TODO ADD LOSS https://towardsdatascience.com/difference- 
  []
 
-)
+[6
+
+])
 \tf@lof=\write5
 \openout5 = `abschlussarbeit.lof'.
 
- [6
-
-] (chapters/introduction.tex
+ [7] (chapters/introduction.tex
 Chapter 1.
 [1
 
 ]) (chapters/basics.tex [2]
 Chapter 2.
-<figures/BasicTrilemma.png, id=35, 575.52516pt x 516.80579pt>
+<figures/BasicTrilemma.png, id=40, 575.52516pt x 516.80579pt>
 File: figures/BasicTrilemma.png Graphic file (type png)
 <use figures/BasicTrilemma.png>
 Package pdftex.def Info: figures/BasicTrilemma.png  used on input line 9.
@@ -369,25 +369,25 @@ Package pdftex.def Info: figures/BasicTrilemma.png  used on input line 9.
 [3
 
  <./figures/BasicTrilemma.png>] (chapters/Basics/VAEs.tex [4]
-<figures/Autoencoder.png, id=43, 2258.4375pt x 1129.21875pt>
+<figures/Autoencoder.png, id=48, 2258.4375pt x 1129.21875pt>
 File: figures/Autoencoder.png Graphic file (type png)
 <use figures/Autoencoder.png>
 Package pdftex.def Info: figures/Autoencoder.png  used on input line 17.
 (pdftex.def)             Requested size: 298.75264pt x 149.37093pt.
  [5 <./figures/Autoencoder.png>]
-<figures/VAE.png, id=49, 3011.25pt x 1129.21875pt>
+<figures/VAE.png, id=53, 3011.25pt x 1129.21875pt>
 File: figures/VAE.png Graphic file (type png)
 <use figures/VAE.png>
 Package pdftex.def Info: figures/VAE.png  used on input line 39.
 (pdftex.def)             Requested size: 384.1096pt x 144.02948pt.
 ) (chapters/Basics/GANs.tex [6]
-<figures/Generator.png, id=57, 813.0375pt x 225.84375pt>
+<figures/Generator.png, id=61, 813.0375pt x 225.84375pt>
 File: figures/Generator.png Graphic file (type png)
 <use figures/Generator.png>
 Package pdftex.def Info: figures/Generator.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 118.5525pt.
  [7 <./figures/VAE.png>]) (chapters/Basics/diffusionModels.tex [8 <./figures/Generator.png>] [9]
-<figures/manta_DDMP3.png, id=72, 14446.0503pt x 2078.4852pt>
+<figures/manta_DDMP3.png, id=75, 14446.0503pt x 2078.4852pt>
 File: figures/manta_DDMP3.png Graphic file (type png)
 <use figures/manta_DDMP3.png>
 Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 29.
@@ -398,70 +398,75 @@ File: figures/manta_DDMP3.png Graphic file (type png)
 Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 45.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
  [11] [12]
-<figures/DiffusionModels_SDEs.png, id=85, 983.92593pt x 344.03531pt>
+<figures/DiffusionModels_SDEs.png, id=89, 983.92593pt x 344.03531pt>
 File: figures/DiffusionModels_SDEs.png Graphic file (type png)
 <use figures/DiffusionModels_SDEs.png>
 Package pdftex.def Info: figures/DiffusionModels_SDEs.png  used on input line 97.
 (pdftex.def)             Requested size: 426.79135pt x 149.22893pt.
-) (chapters/Basics/CLIP.tex [13 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/3Drepresentation.tex [14])) (chapters/models.tex [15]
-Chapter 3.
-(chapters/Models/NeRF.tex
-<figures/NeRF_Fig_2_Mildenhall.png, id=98, 943.27406pt x 411.78844pt>
+) (chapters/Basics/CLIP.tex [13 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/MLP.tex [14]) (chapters/Basics/3Drepresentation.tex (chapters/Basics/MPCV.tex) (chapters/Basics/NeRF.tex
+<figures/NeRF_Fig_2_Mildenhall.png, id=98, 1718.42pt x 475.7775pt>
 File: figures/NeRF_Fig_2_Mildenhall.png Graphic file (type png)
 <use figures/NeRF_Fig_2_Mildenhall.png>
 Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 7.
-(pdftex.def)             Requested size: 426.79135pt x 186.32098pt.
- [16
+(pdftex.def)             Requested size: 426.79135pt x 118.16002pt.
+ [15] [16 <./figures/NeRF_Fig_2_Mildenhall.png>]) (chapters/Basics/DMTet.tex [17]))) (chapters/models.tex [18]
+Chapter 3.
+(chapters/Models/3dFromText.tex (chapters/Models/dreamfusion.tex [19
 
- <./figures/NeRF_Fig_2_Mildenhall.png>] [17] [18]) (chapters/Models/DMTet.tex [19]) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex
-<figures/Magic123.png, id=113, 1086.30844pt x 428.35031pt>
-File: figures/Magic123.png Graphic file (type png)
-<use figures/Magic123.png>
-Package pdftex.def Info: figures/Magic123.png  used on input line 8.
-(pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
-)) (chapters/Models/3dFromText.tex (chapters/Models/dreamfields.tex [20 <./figures/Magic123.png>] [21]) (chapters/Models/dreamfusion.tex [22]
-<figures/Dreamfusion.png, id=124, 1254.93843pt x 405.76593pt>
+]
+<figures/Dreamfusion.png, id=117, 1254.93843pt x 405.76593pt>
 File: figures/Dreamfusion.png Graphic file (type png)
 <use figures/Dreamfusion.png>
 Package pdftex.def Info: figures/Dreamfusion.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79135pt x 137.99573pt.
- [23]) (chapters/Models/fantasia3D.tex [24 <./figures/Dreamfusion.png>]
-<figures/Fantasia3D.png, id=134, 1227.83719pt x 301.125pt>
+ [20 <./figures/Dreamfusion.png>]) (chapters/Models/fantasia3D.tex
+<figures/Fantasia3D.png, id=123, 1227.83719pt x 301.125pt>
 File: figures/Fantasia3D.png Graphic file (type png)
 <use figures/Fantasia3D.png>
 Package pdftex.def Info: figures/Fantasia3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 104.66934pt.
- [25 <./figures/Fantasia3D.png>]) (chapters/Models/Magic3D.tex
-<figures/Magic3D.png, id=140, 1135.99406pt x 371.88937pt>
+ [21]) (chapters/Models/Magic3D.tex
+<figures/Magic3D.png, id=127, 1135.99406pt x 371.88937pt>
 File: figures/Magic3D.png Graphic file (type png)
 <use figures/Magic3D.png>
 Package pdftex.def Info: figures/Magic3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 139.7192pt.
-)) (chapters/Models/3dFromVideo.tex)) (chapters/compare.tex [26 <./figures/Magic3D.png>]
+)) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex [22 <./figures/Fantasia3D.png>]
+<figures/Magic123.png, id=132, 1086.30844pt x 428.35031pt>
+File: figures/Magic123.png Graphic file (type png)
+<use figures/Magic123.png>
+Package pdftex.def Info: figures/Magic123.png  used on input line 7.
+(pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
+) (chapters/Models/Wonder3D.tex
+File: figures/Magic123.png Graphic file (type png)
+<use figures/Magic123.png>
+Package pdftex.def Info: figures/Magic123.png  used on input line 7.
+(pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
+)) (chapters/Models/3dFromVideo.tex [23 <./figures/Magic3D.png> <./figures/Magic123.png>])) (chapters/compare.tex [24]
 Chapter 4.
-) (chapters/future.tex [27
+) (chapters/future.tex [25
 
 ]
 Chapter 5.
-[28
+[26
 
-]) (chapters/conclusion.tex [29]
+]) (chapters/conclusion.tex [27]
 Chapter 6.
-) (abschlussarbeit.bbl [30
+) (abschlussarbeit.bbl [28
 
 ]
 Underfull \hbox (badness 4291) in paragraph at lines 40--43
 []\OT1/cmr/m/n/10.95 Doersch, C. (2016).  Tu-to-rial on vari-a-tional au-toen-coders.  \OT1/cmr/m/it/10.95 arXiv preprint
  []
 
-[31
+[29
 
-] [32] [33]) [34] (chapters/erklaerung.tex
+] [30] [31]) [32] (chapters/erklaerung.tex
 Overfull \hbox (33.26138pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10.95 [TODO: F^^?ugen Sie hier die Erkl^^?arung zur selb-stst^^?andi-gen Bear-beitung gem^^?a^^Y Ihrer Themabest^^?ati-
  []
 
-) [35
+) [33
 
 ] (abschlussarbeit.aux)
  ***********
@@ -470,17 +475,17 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8635 strings out of 475248
- 151065 string characters out of 5758285
+ 8665 strings out of 475248
+ 151817 string characters out of 5758285
  1931785 words of memory out of 5000000
- 29980 multiletter control sequences out of 15000+600000
+ 30004 multiletter control sequences out of 15000+600000
  571190 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,73p,2589b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,73p,1727b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on abschlussarbeit.pdf (41 pages, 27368417 bytes).
+Output written on abschlussarbeit.pdf (40 pages, 27221582 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 252 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,32 +7,31 @@
 \contentsline {subsection}{\numberline {2.3.1}Denoising Diffusion Probabilistic Models}{9}{}%
 \contentsline {subsection}{\numberline {2.3.2}Score-Based Generative Models}{11}{}%
 \contentsline {subsection}{\numberline {2.3.3}Score-Based Generative Modeling through Stochastic Differential Equations~--~SDEs}{12}{}%
-\contentsline {section}{\numberline {2.4}Contrastive Language-Image Pre-training - CLIP}{14}{}%
-\contentsline {section}{\numberline {2.5}Representation forms of 3D Data}{15}{}%
-\contentsline {subsection}{\numberline {2.5.1}Meshes}{15}{}%
-\contentsline {subsection}{\numberline {2.5.2}Point-Clouds}{15}{}%
-\contentsline {subsection}{\numberline {2.5.3}Voxels}{15}{}%
-\contentsline {chapter}{\numberline {3}Models}{16}{}%
-\contentsline {section}{\numberline {3.1}Neural Radiance Fields~--~NeRFs}{16}{}%
-\contentsline {section}{\numberline {3.2}Deep Marching tetraheda~--~DMTet}{19}{}%
-\contentsline {section}{\numberline {3.3}3D from Image}{20}{}%
-\contentsline {subsection}{\numberline {3.3.1}Magic 123}{20}{}%
-\contentsline {section}{\numberline {3.4}3D from Text input}{21}{}%
-\contentsline {subsection}{\numberline {3.4.1}Dreamfields}{21}{}%
-\contentsline {subsection}{\numberline {3.4.2}Dreamfusion}{23}{}%
-\contentsline {subsection}{\numberline {3.4.3}Fantasia3D}{25}{}%
-\contentsline {subsection}{\numberline {3.4.4}Magic 3D}{26}{}%
-\contentsline {section}{\numberline {3.5}3D from Video}{26}{}%
-\contentsline {subsection}{\numberline {3.5.1}NERfs}{26}{}%
-\contentsline {chapter}{\numberline {4}Comparative Study}{27}{}%
-\contentsline {subsection}{\numberline {4.0.1}Experimental Setup}{27}{}%
-\contentsline {subsection}{\numberline {4.0.2}Performance Metrics}{27}{}%
-\contentsline {subsection}{\numberline {4.0.3}Results and Analysis}{27}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{28}{}%
-\contentsline {subsection}{\numberline {5.0.1}Emerging Trends in 3D Model Generation}{28}{}%
-\contentsline {subsection}{\numberline {5.0.2}Potential Research Directions}{29}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{30}{}%
-\contentsline {subsection}{\numberline {6.0.1}Summary of Findings}{30}{}%
-\contentsline {subsection}{\numberline {6.0.2}Contributions to the Field}{30}{}%
-\contentsline {subsection}{\numberline {6.0.3}Implications and Practical Applications}{30}{}%
-\contentsline {chapter}{Bibliographie}{30}{}%
+\contentsline {section}{\numberline {2.4}Contrastive Language-Image Pre-training~--~CLIP}{14}{}%
+\contentsline {section}{\numberline {2.5}Multilayer Perceptron~--~MLP}{15}{}%
+\contentsline {section}{\numberline {2.6}Representation forms of 3D Data}{15}{}%
+\contentsline {subsection}{\numberline {2.6.1}Meshes, Point-Clouds, Vocels}{15}{}%
+\contentsline {subsection}{\numberline {2.6.2}Neural Radiance Fields~--~NeRFs}{15}{}%
+\contentsline {subsection}{\numberline {2.6.3}Deep Marching tetraheda~--~DMTet}{18}{}%
+\contentsline {chapter}{\numberline {3}Models}{19}{}%
+\contentsline {section}{\numberline {3.1}3D from Text input}{19}{}%
+\contentsline {subsection}{\numberline {3.1.1}Dreamfusion}{19}{}%
+\contentsline {subsection}{\numberline {3.1.2}Fantasia3D}{21}{}%
+\contentsline {subsection}{\numberline {3.1.3}Magic 3D}{22}{}%
+\contentsline {section}{\numberline {3.2}3D from Image}{23}{}%
+\contentsline {subsection}{\numberline {3.2.1}Magic 123}{23}{}%
+\contentsline {subsection}{\numberline {3.2.2}Wonder 3D}{23}{}%
+\contentsline {section}{\numberline {3.3}3D from Video}{24}{}%
+\contentsline {subsection}{\numberline {3.3.1}NERfs}{24}{}%
+\contentsline {chapter}{\numberline {4}Comparative Study}{25}{}%
+\contentsline {subsection}{\numberline {4.0.1}Experimental Setup}{25}{}%
+\contentsline {subsection}{\numberline {4.0.2}Performance Metrics}{25}{}%
+\contentsline {subsection}{\numberline {4.0.3}Results and Analysis}{25}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{26}{}%
+\contentsline {subsection}{\numberline {5.0.1}Emerging Trends in 3D Model Generation}{26}{}%
+\contentsline {subsection}{\numberline {5.0.2}Potential Research Directions}{27}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{28}{}%
+\contentsline {subsection}{\numberline {6.0.1}Summary of Findings}{28}{}%
+\contentsline {subsection}{\numberline {6.0.2}Contributions to the Field}{28}{}%
+\contentsline {subsection}{\numberline {6.0.3}Implications and Practical Applications}{28}{}%
+\contentsline {chapter}{Bibliographie}{28}{}%

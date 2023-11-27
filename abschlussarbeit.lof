@@ -7,13 +7,14 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Illustration of the Generative Adversarial Network mechanism, highlighting the interplay between the generator and discriminator networks}}{8}{}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Illustration of the Forward Diffusion Process in DDPMs: This figure demonstrates the gradual addition of Gaussian noise to an image over multiple steps. Each subsequent image from left to right shows an increased level of noise, culminating in the far-right image, which represents a state of pure noise.}}{10}{}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Visual Representation of the Reverse Diffusion Process in DDPMs: This figure illustrates the progressive removal of noise from a noisy state (right) back to the original or newly generated image (left), demonstrating the model's capability to reconstruct or create images by reversing the noise addition process.}}{11}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Summary of the score-based generative modeling through SDEs \citep {song2020score}}}{13}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces This figure illustrates the two-fold process in score-based generative modeling through SDEs. On the left, the Forward SDE represents the gradual transformation of data into noise, guided by the drift and diffusion coefficients. On the right, the Reverse SDE depicts the process of reconstituting original data from noise, leveraging the known score of each marginal distribution~\citep {song2020score}}}{13}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Sumamrized workflow of a NeRF\spacefactor \@m {}: 5D input (Position + Direction) is processed by the MLP \(F_\theta \) to output color and density. Volume rendering integrates predictions along rays to generate an image from the specified viewpoint. The rendering loss, comparing the rendered and actual images, guides the network's training and refinement process~\cite {mildenhallNERF}}}{16}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8}{\ignorespaces Neuronal Radiance Field. Figure taken From Mildenhall~\cite {mildenhallNERF}~--~Figure 2}}{16}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Summatized functionality of Magic123}}{20}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Summatized functionality of Dreamfusion, image by \citep {pooleDreamfusion}}}{24}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Outline of the method Fantasia3D. Figure taken From \citep {chen2023fantasia3d}}}{25}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Summatized functionality of Magic3D}}{26}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Summatized functionality of Dreamfusion, image by \citep {pooleDreamfusion}}}{20}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Outline of the method Fantasia3D. Figure taken From \citep {chen2023fantasia3d}}}{22}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Summatized functionality of Magic3D}}{23}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Summatized functionality of Magic123}}{23}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Summatized functionality of Wonder3D}}{24}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

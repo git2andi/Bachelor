@@ -99,12 +99,6 @@ Hyv{\"a}rinen, A. and Dayan, P. (2005).
 \newblock Estimation of non-normalized statistical models by score matching.
 \newblock {\em Journal of Machine Learning Research}, 6(4).
 
-\bibitem[Jain et~al., 2022]{jainDreamFields}
-Jain, A., Mildenhall, B., Barron, J.~T., Abbeel, P., and Poole, B. (2022).
-\newblock Zero-shot text-guided object generation with dream fields.
-\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
-  Pattern Recognition (CVPR)}, pages 867--876.
-
 \bibitem[Jun and Nichol, 2023]{junShapeE}
 Jun, H. and Nichol, A. (2023).
 \newblock Shap-e: Generating conditional 3d implicit functions.
@@ -153,6 +147,16 @@ Mordvintsev, A., Pezzotti, N., Schubert, L., and Olah, C. (2018).
 \newblock Differentiable image parameterizations.
 \newblock {\em Distill}, 3.
 
+\bibitem[Murtagh, 1991]{MurtaghMLP}
+Murtagh, F. (1991).
+\newblock Multilayer perceptrons for classification and regression.
+\newblock {\em Neurocomputing}, 2(5):183--197.
+
+\bibitem[Noriega, 2005]{noriega2005multilayer}
+Noriega, L. (2005).
+\newblock Multilayer perceptron tutorial.
+\newblock {\em School of Computing. Staffordshire University}, 4(5):444.
+
 \bibitem[Poole et~al., 2022]{pooleDreamfusion}
 Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
 \newblock Dreamfusion: Text-to-3d using 2d diffusion.
@@ -180,6 +184,10 @@ Roberts, G.~O. and Tweedie, R.~L. (1996).
 \newblock Exponential convergence of langevin distributions and their discrete
   approximations.
 \newblock {\em Bernoulli}, pages 341--363.
+
+\bibitem[Rombach et~al., 2021]{rombachStableDiffusion}
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., and Ommer, B. (2021).
+\newblock High-resolution image synthesis with latent diffusion models.
 
 \bibitem[Saharia et~al., 2022]{saharia2022imagen}
 Saharia, C., Chan, W., Saxena, S., Li, L., Whang, J., Denton, E., Ghasemipour,

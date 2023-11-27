@@ -79,7 +79,7 @@ The core idea of Noise Conditional Score Networks is to generate realistic data 
 
 \subsection{Score-Based Generative Modeling through Stochastic Differential Equations~--~SDEs}
 
-~\citeauthor{song2020score} aim to combine both DDPMs and SGMs (NCSNs) using Stochastic Differential Equations (SDEs) to perturb data across ``infinite time steps or noise levels'' \citep{yangdiffusionSummary}. The idea is to create a continuous diffusion process, indexed by time, that transforms a data distribution into a more tractable prior distribution. This is described through the following function by \citeauthor{song2020score}:
+~\citeauthor{song2020score} aim to combine both DDPMs and SGMs (NCSNs) using Stochastic Differential Equations (SDEs). The idea is to create a continuous diffusion process, indexed by time, that transforms a data distribution into a more tractable prior distribution. This is described through the following function by \citeauthor{song2020score}:
 
 \[ dx = f(x, t)dt + g(t)dw, \]
 
@@ -88,19 +88,20 @@ The process is governed by two coefficients: a drift coefficient \( f(x, t) \), 
 
 For generating new samples, a  principle from Anderson \citep{anderson1982313} comes into play. It states that ``the reverse of a diffusion process is also a diffusion process, running backwards in time and given by the reverse-time SDE:\@'' \citep{song2020score}.
 
-\[ dx = \left[ f(x, t) - g(t)^2 \nabla_x \log p_t(x) \right] dt + g(t)d\bar{w} \]
+\[ dx = \left[ f(x, t) - g{(t)}^2 \nabla_x \log p_t(x) \right] dt + g(t)d\bar{w} \]
 
-This equation by \citeauthor{song2020score} describes the process of recovering data from noise by moving backward in time. Knowledge of the score function \( \nabla_x \log p_t(x) \) at each time enables this reverse process, allowing for the generation of data samples from the original distribution using numerical techniques \citep{song2020score}. This score function essentially captures the essence of the data's probability distribution at various stages of noise addition.
+This equation by \citeauthor{song2020score} describes the process of recovering data from noise by moving backward in time. ``Once the score of each marginal distribution, \(\nabla_x \log p_t(x) \), is known for all t, we can derive the reverse diffusion process from [the above equation] and simulate it to sample from \(p_0\)'' \citep{song2019SGM}. This score function essentially captures the essence of the data's probability distribution at various stages of noise addition.
 
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/DiffusionModels_SDEs.png}
-    \caption{Summary of the score-based generative modeling through SDEs \citep{song2020score}}\label{fig:DM_SDEs}
+    \caption{This figure illustrates the two-fold process in score-based generative modeling through SDEs. On the left, the Forward SDE represents the gradual transformation of data into noise, guided by the drift and diffusion coefficients. On the right, the Reverse SDE depicts the process of reconstituting original data from noise, leveraging the known score of each marginal distribution~\citep{song2020score}}\label{fig:DM_SDEs}
 \end{figure}
 
-Training a model to accurately estimate the score functions at various noise levels is a fundamental aspect of this process. To achieve this, the model is trained through score matching \citep{hyvarinenScoreMatching}, which involves fine-tuning the model to closely approximate these score functions across a spectrum of noise levels \citep{song2020score}. The training objective, as stated by \citeauthor{song2020score}, is formulated to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the estimated and true scores  over time, which are influenced by the noise \citep{song2020score}.
+Training a model to accurately estimate the score functions at various noise levels is a fundamental aspect of this process. To achieve this, the model is trained through score matching \citep{hyvarinenScoreMatching}, which involves fine-tuning the model to closely approximate these score functions across a spectrum of noise levels \citep{song2020score}. The training objective, as stated below by \citeauthor{song2020score}, is formulated to find optimal model parameters \( \theta^* \) that minimize the expected discrepancy between the estimated and true scores over time, which are influenced by the noise.
+
 \[
 \theta^* = \arg\min_\theta \mathbb{E}_t \left\{ \lambda(t) \mathbb{E}_{x_0} \mathbb{E}_{x_t|x_0} \left\| s_\theta(x_t, t) - \nabla_{x_t} \log p_{0t}(x_t | x_0) \right\|_2^2 \right\}
 \]
 
- The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_{\theta^*}(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2020score}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.
+ The expectations are taken over time and modulated by a time-varying weighting function \( \lambda(t) \). ``With sufficient data and model capacity, score matching ensures that the optimal solution for the above equation, denoted by \(s_{\theta^*}(x, t)\) equals \(\nabla_{x_(t)} \log p_{t}(x)\) for almost all \( x \) and \( t \)'' \citep{song2019SGM}. The score matching process matches the output of the score network with the true gradient of the log-likelihood over the course of the SDE, enabling the generation of realistic data samples from complex distributions \citep{yangdiffusionSummary}.
