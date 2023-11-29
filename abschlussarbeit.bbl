@@ -115,12 +115,6 @@ Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
 Kingma, D.~P. and Welling, M. (2022).
 \newblock Auto-encoding variational bayes.
 
-\bibitem[Lin et~al., 2022]{lin2022magic3d}
-Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
-  Fidler, S., Liu, M.-Y., and Lin, T.-Y. (2022).
-\newblock Magic3d: High-resolution text-to-3d content creation.
-\newblock {\em arXiv preprint arXiv:2211.10440}.
-
 \bibitem[Lin et~al., 2023]{lin2023magic3d}
 Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
   Fidler, S., Liu, M.-Y., and Lin, T.-Y. (2023).
@@ -133,6 +127,16 @@ Liu, Q., Lee, J., and Jordan, M. (2016).
   The 33rd International Conference on Machine Learning}, volume~48 of {\em
   Proceedings of Machine Learning Research}, pages 276--284, New York, New
   York, USA. PMLR.
+
+\bibitem[Liu et~al., 2023]{liu2023zero1to3}
+Liu, R., Wu, R., Hoorick, B.~V., Tokmakov, P., Zakharov, S., and Vondrick, C.
+  (2023).
+\newblock Zero-1-to-3: Zero-shot one image to 3d object.
+
+\bibitem[Long et~al., 2023]{long2023wonder3d}
+Long, X., Guo, Y.-C., Lin, C., Liu, Y., Dou, Z., Liu, L., Ma, Y., Zhang, S.-H.,
+  Habermann, M., Theobalt, C., and Wang, W. (2023).
+\newblock Wonder3d: Single image to 3d using cross-domain diffusion.
 
 \bibitem[Martínez et~al., 2023]{martinez2023understanding}
 Martínez, G., Watson, L., Reviriego, P., Hernández, J.~A., Juarez, M., and
@@ -168,10 +172,21 @@ M\"uller, T., Evans, A., Schied, C., and Keller, A. (2022).
   encoding.
 \newblock {\em ACM Trans. Graph.}, 41(4):102:1--102:15.
 
+\bibitem[M\"{u}ller et~al., 2021]{oneBlob_mueller}
+M\"{u}ller, T., Rousselle, F., Nov\'{a}k, J., and Keller, A. (2021).
+\newblock Real-time neural radiance caching for path tracing.
+\newblock {\em ACM Trans. Graph.}, 40(4).
+
 \bibitem[Murtagh, 1991]{MurtaghMLP}
 Murtagh, F. (1991).
 \newblock Multilayer perceptrons for classification and regression.
 \newblock {\em Neurocomputing}, 2(5):183--197.
+
+\bibitem[Müller et~al., 2022]{M_ller_2022}
+Müller, T., Evans, A., Schied, C., and Keller, A. (2022).
+\newblock Instant neural graphics primitives with a multiresolution hash
+  encoding.
+\newblock {\em ACM Transactions on Graphics}, 41(4):1–15.
 
 \bibitem[Noriega, 2005]{noriega2005multilayer}
 Noriega, L. (2005).
@@ -182,6 +197,12 @@ Noriega, L. (2005).
 Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
 \newblock Dreamfusion: Text-to-3d using 2d diffusion.
 \newblock {\em arXiv preprint arXiv:2209.14988}.
+
+\bibitem[Qian et~al., 2023]{qian2023magic123}
+Qian, G., Mai, J., Hamdi, A., Ren, J., Siarohin, A., Li, B., Lee, H.-Y.,
+  Skorokhodov, I., Wonka, P., Tulyakov, S., and Ghanem, B. (2023).
+\newblock Magic123: One image to high-quality 3d object generation using both
+  2d and 3d diffusion priors.
 
 \bibitem[Rabby and Zhang, 2023]{rabby2023beyondpixels}
 Rabby, A. S.~A. and Zhang, C. (2023).
@@ -194,6 +215,15 @@ Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
   (2021).
 \newblock Learning transferable visual models from natural language
   supervision.
+
+\bibitem[Ranftl et~al., 2021]{ranftl2021vision}
+Ranftl, R., Bochkovskiy, A., and Koltun, V. (2021).
+\newblock Vision transformers for dense prediction.
+
+\bibitem[Ranftl et~al., 2020]{ranftl2020robust}
+Ranftl, R., Lasinger, K., Hafner, D., Schindler, K., and Koltun, V. (2020).
+\newblock Towards robust monocular depth estimation: Mixing datasets for
+  zero-shot cross-dataset transfer.
 
 \bibitem[Rezende et~al., 2014]{rezendeVAE}
 Rezende, D.~J., Mohamed, S., and Wierstra, D. (2014).
@@ -265,6 +295,12 @@ Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., and Polosukhin, I. (2023).
 \newblock Attention is all you need.
+
+\bibitem[Verbin et~al., 2021]{verbin2021refnerf}
+Verbin, D., Hedman, P., Mildenhall, B., Zickler, T., Barron, J.~T., and
+  Srinivasan, P.~P. (2021).
+\newblock Ref-nerf: Structured view-dependent appearance for neural radiance
+  fields.
 
 \bibitem[Wei et~al., 2021]{wei2021nerfingmvs}
 Wei, Y., Liu, S., Rao, Y., Zhao, W., Lu, J., and Zhou, J. (2021).

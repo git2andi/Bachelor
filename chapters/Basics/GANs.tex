@@ -7,7 +7,7 @@ The unique adversarial nature of GANs arises from the game-like competition betw
 \begin{figure}[ht]
 \centering
   \includegraphics[width=1\columnwidth]{figures/Generator.png}
-  \caption{Illustration of the Generative Adversarial Network mechanism, highlighting the interplay between the generator and discriminator networks}\label{fig:figureGAN}
+  \caption{Schematic representation of Generative Adversarial Networks showcasing the interaction between the generator and discriminator networks in generating new data.}\label{fig:figureGAN}
 \end{figure}
 
 In the initial training phase, the discriminator is trained on a dataset of real, unlabeled data, learning to identify the characteristics of authentic samples. As the discriminator becomes adept at recognizing genuine articles, the generator starts creating counterfeits, using random input vectors to produce imitations. The discriminator then evaluates these fakes and provides feedback. This feedback loop, involving sample creation and model adjustments, gradually refines the generator's output. Eventually, the generator becomes so proficient that its fakes are indistinguishable from real data, achieving what is known as a zero-sum game, where one network's gain is the other's loss \citep{goodfellowGAN}.

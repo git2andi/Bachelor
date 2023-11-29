@@ -6,7 +6,7 @@ This method offers a more detailed rendering quality compared to conventional Ne
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/Fantasia3D.png}
-    \caption{Outline of the method Fantasia3D. Figure taken From \citep{chen2023fantasia3d}}\label{fig:figureFantasia}
+    \caption{Overview of Fantasia3D's workflow, disentangling geometry from appearance modeling and iteratively enhancing the quality using a refinment process \citep{chen2023fantasia3d}.}\label{fig:figureFantasia}
 \end{figure}
 
 In the geometry stage, Fantasia3D relies on a Deformable Mesh Tetrahedralization (DMTet), which parametrizes the 3D geometry as a Multi-Layer Perceptron (MLP) \(\Psi\). Initially, Fantasia3D renders and encodes surface normals and object masks extracted from DMTet. However, in later stages, the model refines its approach by using only the rendered normal map for shape encoding \citep{chen2023fantasia3d}. The default initialization of DMTet is an ellipsoid, but the model also accepts custom inputs.
