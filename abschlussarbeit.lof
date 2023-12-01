@@ -14,7 +14,7 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Overview of Fantasia3D's workflow, disentangling geometry from appearance modeling and iteratively enhancing the quality using a refinment process \citep {chen2023fantasia3d}.}}{23}{}%
 \contentsline {figure}{\numberline {11}{\ignorespaces This illustration from \citep {lin2023magic3d} showcases the Magic3D process, beginning with the InstantNGP for initial 3D representation. It then details the coarse-to-fine procedure, evolving to a refined high-resolution 3D mesh model.}}{24}{}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Overview of Magic123's two-stage process, which starts with the initial image and illustrates the transition from coarse geometry capture with Instant-NGP to high-resolution mesh refinement with DMTet \citep {qian2023magic123}.}}{26}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Summarized functionality of Wonder3D, depicting the method's unique approach to generating high-fidelity textured meshes from single images using cross-domain diffusion models \citep {long2023wonder3d}.}}{27}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Summarized functionality of Wonder3D, illustrating its unique approach in generating high-fidelity textured meshes from single images using cross-domain diffusion models \citep {long2023wonder3d}.}}{27}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

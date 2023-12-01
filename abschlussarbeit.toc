@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.4}Contrastive Language-Image Pre-training~--~CLIP}{14}{}%
 \contentsline {section}{\numberline {2.5}Multilayer Perceptron~--~MLP}{15}{}%
 \contentsline {section}{\numberline {2.6}Representation forms of 3D Data}{15}{}%
-\contentsline {subsection}{\numberline {2.6.1}Meshes, Point-Clouds, Vocels}{15}{}%
+\contentsline {subsection}{\numberline {2.6.1}Meshes, Point-Clouds and Voxels}{15}{}%
 \contentsline {subsection}{\numberline {2.6.2}Neural Radiance Fields~--~NeRFs}{15}{}%
 \contentsline {subsection}{\numberline {2.6.3}Deep Marching tetraheda~--~DMTet}{18}{}%
 \contentsline {subsection}{\numberline {2.6.4}Instant Neual Graphics Primitives}{18}{}%
@@ -22,17 +22,15 @@
 \contentsline {section}{\numberline {3.2}3D from Image}{25}{}%
 \contentsline {subsection}{\numberline {3.2.1}Magic 123}{26}{}%
 \contentsline {subsection}{\numberline {3.2.2}Wonder 3D}{27}{}%
-\contentsline {section}{\numberline {3.3}3D from Video}{29}{}%
-\contentsline {subsection}{\numberline {3.3.1}NERfs}{29}{}%
 \contentsline {chapter}{\numberline {4}Comparative Study}{30}{}%
-\contentsline {subsection}{\numberline {4.0.1}Experimental Setup}{30}{}%
-\contentsline {subsection}{\numberline {4.0.2}Performance Metrics}{30}{}%
-\contentsline {subsection}{\numberline {4.0.3}Results and Analysis}{30}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{31}{}%
-\contentsline {subsection}{\numberline {5.0.1}Emerging Trends in 3D Model Generation}{31}{}%
-\contentsline {subsection}{\numberline {5.0.2}Potential Research Directions}{32}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{33}{}%
-\contentsline {subsection}{\numberline {6.0.1}Summary of Findings}{33}{}%
-\contentsline {subsection}{\numberline {6.0.2}Contributions to the Field}{33}{}%
-\contentsline {subsection}{\numberline {6.0.3}Implications and Practical Applications}{33}{}%
-\contentsline {chapter}{Bibliographie}{33}{}%
+\contentsline {section}{\numberline {4.1}Experimental Setup}{30}{}%
+\contentsline {section}{\numberline {4.2}Performance Metrics}{31}{}%
+\contentsline {section}{\numberline {4.3}Results and Analysis}{31}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{32}{}%
+\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{32}{}%
+\contentsline {section}{\numberline {5.2}Potential Research Directions}{33}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{34}{}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{34}{}%
+\contentsline {section}{\numberline {6.2}Contributions to the Field}{34}{}%
+\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{34}{}%
+\contentsline {chapter}{Bibliographie}{34}{}%

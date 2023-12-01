@@ -73,6 +73,18 @@ Goodfellow, I.~J., Bengio, Y., and Courville, A. (2016).
 \newblock MIT Press, Cambridge, MA, USA.
 \newblock \url{http://www.deeplearningbook.org}.
 
+\bibitem[{Google LLC}, 2023]{googlecolab}
+{Google LLC} (2023).
+\newblock Google colaboratory.
+\newblock \url{https://colab.research.google.com/}.
+\newblock Accessed: [1.11.2023].
+
+\bibitem[Guo et~al., 2023]{threestudio2023}
+Guo, Y.-C., Liu, Y.-T., Shao, R., Laforte, C., Voleti, V., Luo, G., Chen,
+  C.-H., Zou, Z.-X., Wang, C., Cao, Y.-P., and Zhang, S.-H. (2023).
+\newblock threestudio: A unified framework for 3d content generation.
+\newblock \url{https://github.com/threestudio-project/threestudio}.
+
 \bibitem[He et~al., 2016]{heResnet}
 He, K., Zhang, X., Ren, S., and Sun, J. (2016).
 \newblock Deep residual learning for image recognition.
