@@ -1,0 +1,51 @@
+\subsection{Denoising Diffusion Probabilistic Models}\label{DDPMs}
+
+Central to the concept of Denoising Diffusion Probabilistic Models (DDPMs) are two Markov chains: the forward chain and the reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}. These processes are illustrated in Figures~\ref{fig:figureForwardProcess} and~\ref{fig:figureReverseProcess}. 
+
+The forward diffusion process, sharing some similarities with VAEs, focuses on a latent feature space of the initial data distribution. However, DDPMs differ in that the forward process in DDPMs ``is fixed to a Markov chain that gradually [over a span of T steps] adds Gaussian noise to the data according to a variance schedule \(\beta_1, \ldots, \beta_T \)''~\cite{hoDDPMs}. This process gradually pertubes the data's structure, eventually resulting in an image of pure noise, with the aim of gradually steering the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. 
+
+The mathematical formulation of the forward process is given by \citeauthor{martinez2023understanding}:
+
+\[
+q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t}x_{t-1}, \beta_t I) \quad \text{where} \quad \sqrt{1 - \beta_t}x_{t-1} = \mu_t \quad \text{and} \quad \beta_t I = \Sigma_t
+\] 
+
+In this equation, the model first adjusts the previous data point \( x_{t-1} \) to get \( x_t \), the data point at the current step. This adjustment follows a Gaussian distribution and is done using the term \( \sqrt{1 - \beta_t} x_{t-1} \), which slightly reduces the intensity or strength of the previous data point \citep{sohlDDPM, hoDDPMs}. This controlled approach helps maintain a balance between the original data and the noise, ensuring that the noise doesn't overwhelm the data too quickly. Once this preparatory step is completed, the model then introduces noise. The level of noise added at each step is determined by the parameter \( \beta_t \), where a higher value means more noise is added \citep{kingma2023variationalDM}. The way noise is added is described by the covariance matrix \( \beta_t I \), where \( I \) is the identity matrix. This matrix ensures that noise is added to each element of the data in an independent and uniform manner, evenly distributing the noise across all parts of the data. The importance of this noise-adding process lies in its role in teaching the model the structure and characteristics of noise. By gradually adding noise to the data, the model learns how images degrade step by step, knowledge that is crucial for the reverse process of DDPMs.
+
+%identity matrix \citep{croitoru2023diffusion}.
+
+The process of adding noise over the entire sequence from the original data point \( x_0 \) to \( x_T \) is captured another formular by \citeauthor{martinez2023understanding}:
+
+\[q(x_{1:T} | x_0) = \prod_{t=1}^T q(x_t | x_{t-1}) \] 
+
+Built upon the Markov property, the formula implies that each step depends solely on the previous step, allowing for a systematic and gradual transformation from \( x_0 \) to \( x_T \) \citep{martinez2023understanding}. This methodical approach provides a detailed understanding of the data's evolution at each noise addition stage, giving a complete view of the transition probabilities throughout the forward diffusion process.
+
+\begin{figure}[ht]
+\centering
+  \includegraphics[width=1\columnwidth]{figures/manta_DDMP3.png}
+  \caption{Illustration of the Forward Diffusion Process in DDPMs: This figure demonstrates the gradual addition of Gaussian noise to an image over multiple steps. Each subsequent image from left to right shows an increased level of noise, culminating in the far-right image, which represents a state of pure noise.}\label{fig:figureForwardProcess}
+\end{figure}
+
+The reverse diffusion process, illustrated in Figure~\ref{fig:figureReverseProcess}, employs a neural network parameterized by \(\Theta\), to approximate the inverse of the forward process \citep{sohlDDPM, yangdiffusionSummary}. It estimates the prior state of data points, \( x_{t-1} \), from their current noisy state, \( x_t \), using the probability distribution function \( p_\theta(x_{t-1} | x_t) \), as given by \citeauthor{martinez2023understanding}. This process is modeled as a normal distribution where the mean \( \mu_\theta(x_t, t) \) and covariance \( \Sigma_\theta(x_t, t) \) are determined by the neural network \citep{yangdiffusionSummary}.
+
+\[
+  p_\theta(x_{t-1} | x_t) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t), \Sigma_\theta(x_t, t))
+\] 
+
+\[p_\theta(x_{0:T}) = p_\theta(x_{T}) \prod_{t=1}^T p_\theta(x_{t-1} | x_t) \]
+
+The latter function \(p_\theta(x_{0:T})\) is also taken from \citeauthor{martinez2023understanding} and captures the probability of the entire data sequence under the reverse process, beginning with an estimate of the final noisy data point \(p_\theta(x_{T})\) and progressively reconstructing the data by removing noise at each step \citep{hoDDPMs,martinez2023understanding}. Unlike the forward process that adds noise, the reverse process, starting from a state of random noise, uses the learned noise patterns to iteratively generate coherent images. The reverse process is also a Markov chain and involves the neural network learning to predict the reverse diffusion parameters \(\Theta\) at each timestep \citep{yangdiffusionSummary}. The goal here is to ensure that the new samples it generates are statistically similar to the original data it was trained on. This is done by maximizing the likelihood that these new samples belong to the same overall data distribution as the original set \citep{yangdiffusionSummary}.
+
+\begin{figure}[ht]
+  \centering
+    \includegraphics[width=1\columnwidth]{figures/manta_DDMP3.png}
+    \caption{Visual Representation of the Reverse Diffusion Process in DDPMs: This figure illustrates the progressive removal of noise from a noisy state (right) back to the original or newly generated image (left), demonstrating the model's capability to reconstruct or create images by reversing the noise addition process.}\label{fig:figureReverseProcess}
+\end{figure}
+
+\begin{comment}
+[
+In the reverse process, the neural network can be trained to predict one of three possibilities: the mean of the noise at each time step, the original image itself, or the noise of the image \citep{hoDDPMs}. The second approach is not as advantageous as the ``estimating small perturbations is easier than explicitly describing the entire distribution with a single, non-analytically normalizable potential function'' \citep{sohlDDPM}. Focusing on the prediction of image noise is preferable because it allows a simple subtraction of the noise from the image, resulting in a less noisy version and thus also allowing an iterative generation of an image from the noise.
+]
+\end{comment}
+
+Despite their effectiveness, DDPMs are not without challenges. The most significant of these is the computational time required for generating new samples, which is due to ``a Markov process [that] has to be simulated at each generation step, which greatly slows down the process'' \citep{martinez2023understanding}.

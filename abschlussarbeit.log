@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  1 DEC 2023 03:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.26)  2 DEC 2023 04:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -236,27 +236,29 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box55
 \@float@everytoks=\toks28
 \@floatcapt=\box56
-) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box57
 ) (abschlussarbeit.aux)
 \openout1 = `abschlussarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -335,12 +337,12 @@ Overfull \hbox (12.00002pt too wide) in paragraph at lines 32--32
 {C:/Users/Andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/ub_logo.png>]) (chapters/abstract.tex [1]) (abschlussarbeit.toc [3
 
 ])
-\tf@toc=\write3
-\openout3 = `abschlussarbeit.toc'.
+\tf@toc=\write4
+\openout4 = `abschlussarbeit.toc'.
 
  [4] (abschlussarbeit.lot)
-\tf@lot=\write4
-\openout4 = `abschlussarbeit.lot'.
+\tf@lot=\write5
+\openout5 = `abschlussarbeit.lot'.
 
  [5
 
@@ -352,8 +354,8 @@ Overfull \hbox (62.57178pt too wide) in paragraph at lines 5--5
 [6
 
 ])
-\tf@lof=\write5
-\openout5 = `abschlussarbeit.lof'.
+\tf@lof=\write6
+\openout6 = `abschlussarbeit.lof'.
 
  [7] (chapters/introduction.tex
 Chapter 1.
@@ -364,7 +366,7 @@ Chapter 2.
 <figures/BasicTrilemma.png, id=40, 575.52516pt x 516.80579pt>
 File: figures/BasicTrilemma.png Graphic file (type png)
 <use figures/BasicTrilemma.png>
-Package pdftex.def Info: figures/BasicTrilemma.png  used on input line 9.
+Package pdftex.def Info: figures/BasicTrilemma.png  used on input line 7.
 (pdftex.def)             Requested size: 170.71393pt x 153.29228pt.
 [3
 
@@ -374,100 +376,100 @@ File: figures/Autoencoder.png Graphic file (type png)
 <use figures/Autoencoder.png>
 Package pdftex.def Info: figures/Autoencoder.png  used on input line 17.
 (pdftex.def)             Requested size: 298.75264pt x 149.37093pt.
- [5 <./figures/Autoencoder.png>]
+ [5 <./figures/Autoencoder.png>] Excluding 'comment' comment.
 <figures/VAE.png, id=53, 3011.25pt x 1129.21875pt>
 File: figures/VAE.png Graphic file (type png)
 <use figures/VAE.png>
-Package pdftex.def Info: figures/VAE.png  used on input line 39.
+Package pdftex.def Info: figures/VAE.png  used on input line 42.
 (pdftex.def)             Requested size: 384.1096pt x 144.02948pt.
-) (chapters/Basics/GANs.tex [6]
-<figures/Generator.png, id=61, 813.0375pt x 225.84375pt>
+) (chapters/Basics/GANs.tex [6 <./figures/VAE.png>]
+<figures/Generator.png, id=59, 813.0375pt x 225.84375pt>
 File: figures/Generator.png Graphic file (type png)
 <use figures/Generator.png>
 Package pdftex.def Info: figures/Generator.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 118.5525pt.
- [7 <./figures/VAE.png>]) (chapters/Basics/diffusionModels.tex [8 <./figures/Generator.png>] [9]
-<figures/manta_DDMP3.png, id=75, 14446.0503pt x 2078.4852pt>
+) (chapters/Basics/diffusionModels.tex [7 <./figures/Generator.png>] (chapters/Basics/DDPM.tex [8]
+<figures/manta_DDMP3.png, id=71, 14446.0503pt x 2078.4852pt>
 File: figures/manta_DDMP3.png Graphic file (type png)
 <use figures/manta_DDMP3.png>
-Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 29.
+Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
- [10 <./figures/manta_DDMP3.png>]
+ [9 <./figures/manta_DDMP3.png>]
 File: figures/manta_DDMP3.png Graphic file (type png)
 <use figures/manta_DDMP3.png>
-Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 45.
+Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 41.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
- [11] [12]
-<figures/DiffusionModels_SDEs.png, id=89, 983.92593pt x 344.03531pt>
+ Excluding 'comment' comment.) (chapters/Basics/SGM.tex [10]) (chapters/Basics/SDE.tex [11]
+<figures/DiffusionModels_SDEs.png, id=85, 983.92593pt x 344.03531pt>
 File: figures/DiffusionModels_SDEs.png Graphic file (type png)
 <use figures/DiffusionModels_SDEs.png>
-Package pdftex.def Info: figures/DiffusionModels_SDEs.png  used on input line 97.
+Package pdftex.def Info: figures/DiffusionModels_SDEs.png  used on input line 18.
 (pdftex.def)             Requested size: 426.79135pt x 149.22893pt.
-) (chapters/Basics/CLIP.tex [13 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/MLP.tex [14]) (chapters/Basics/3Drepresentation.tex (chapters/Basics/MPCV.tex) (chapters/Basics/NeRF.tex
-<figures/NeRF_Fig_2_Mildenhall.png, id=98, 1718.42pt x 475.7775pt>
+ Excluding 'comment' comment.)) (chapters/Basics/CLIP.tex [12 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/MLP.tex [13]) (chapters/Basics/3Drepresentation.tex (chapters/Basics/MPCV.tex) (chapters/Basics/NeRF.tex
+<figures/NeRF_Fig_2_Mildenhall.png, id=94, 1718.42pt x 475.7775pt>
 File: figures/NeRF_Fig_2_Mildenhall.png Graphic file (type png)
 <use figures/NeRF_Fig_2_Mildenhall.png>
 Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 7.
 (pdftex.def)             Requested size: 426.79135pt x 118.16002pt.
- [15] [16 <./figures/NeRF_Fig_2_Mildenhall.png>]) (chapters/Basics/DMTet.tex [17]) (chapters/Basics/InstantNGP.tex [18]))) (chapters/models.tex [19]
+ [14 <./figures/NeRF_Fig_2_Mildenhall.png>] [15]) (chapters/Basics/DMTet.tex [16]) (chapters/Basics/InstantNGP.tex))) (chapters/models.tex [17]
 Chapter 3.
-(chapters/Models/3dFromText.tex (chapters/Models/dreamfusion.tex [20
+(chapters/Models/3dFromText.tex (chapters/Models/dreamfusion.tex [18
 
 ]
-<figures/Dreamfusion.png, id=119, 1254.93843pt x 405.76593pt>
+<figures/Dreamfusion.png, id=112, 1254.93843pt x 405.76593pt>
 File: figures/Dreamfusion.png Graphic file (type png)
 <use figures/Dreamfusion.png>
-Package pdftex.def Info: figures/Dreamfusion.png  used on input line 13.
+Package pdftex.def Info: figures/Dreamfusion.png  used on input line 11.
 (pdftex.def)             Requested size: 426.79135pt x 137.99573pt.
- [21 <./figures/Dreamfusion.png>]) (chapters/Models/fantasia3D.tex [22]
-<figures/Fantasia3D.png, id=129, 1227.83719pt x 301.125pt>
+ [19 <./figures/Dreamfusion.png>]) (chapters/Models/fantasia3D.tex
+<figures/Fantasia3D.png, id=117, 1227.83719pt x 301.125pt>
 File: figures/Fantasia3D.png Graphic file (type png)
 <use figures/Fantasia3D.png>
 Package pdftex.def Info: figures/Fantasia3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 104.66934pt.
- [23 <./figures/Fantasia3D.png>]) (chapters/Models/Magic3D.tex
-<figures/Magic3D.png, id=134, 1135.99406pt x 371.88937pt>
+ [20]) (chapters/Models/Magic3D.tex [21 <./figures/Fantasia3D.png>]
+<figures/Magic3D.png, id=127, 1135.99406pt x 371.88937pt>
 File: figures/Magic3D.png Graphic file (type png)
 <use figures/Magic3D.png>
 Package pdftex.def Info: figures/Magic3D.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 139.7192pt.
- [24 <./figures/Magic3D.png>])) (chapters/Models/3dFromImage.tex [25] (chapters/Models/Magic123.tex
-<figures/Magic123.png, id=143, 1086.30844pt x 428.35031pt>
+ [22 <./figures/Magic3D.png>])) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex [23]
+<figures/Magic123.png, id=135, 1086.30844pt x 428.35031pt>
 File: figures/Magic123.png Graphic file (type png)
 <use figures/Magic123.png>
 Package pdftex.def Info: figures/Magic123.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
- [26 <./figures/Magic123.png>]) (chapters/Models/Wonder3D.tex
-<figures/Wonder3D.png, id=148, 1368.61313pt x 357.58594pt>
+ [24 <./figures/Magic123.png>]) (chapters/Models/Wonder3D.tex
+<figures/Wonder3D.png, id=141, 1368.61313pt x 357.58594pt>
 File: figures/Wonder3D.png Graphic file (type png)
 <use figures/Wonder3D.png>
 Package pdftex.def Info: figures/Wonder3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 111.5107pt.
- [27 <./figures/Wonder3D.png>]))) (chapters/compare.tex [28] [29]
+ [25 <./figures/Wonder3D.png>]))) (chapters/compare.tex [26]
 Chapter 4.
-(chapters/comparison/experimentalSetup.tex [30
+(chapters/comparison/experimentalSetup.tex [27
 
-]) (chapters/comparison/performanceMetrics.tex) (chapters/comparison/ResultsAndAnalysis.tex)) (chapters/future.tex [31]
+]) (chapters/comparison/performanceMetrics.tex) (chapters/comparison/ResultsAndAnalysis.tex)) (chapters/future.tex [28]
 Chapter 5.
-[32
+[29
 
-]) (chapters/conclusion.tex [33]
+]) (chapters/conclusion.tex [30]
 Chapter 6.
-) (abschlussarbeit.bbl [34
+) (abschlussarbeit.bbl [31
 
 ]
-Underfull \hbox (badness 4291) in paragraph at lines 48--51
+Underfull \hbox (badness 4291) in paragraph at lines 37--40
 []\OT1/cmr/m/n/10.95 Doersch, C. (2016).  Tu-to-rial on vari-a-tional au-toen-coders.  \OT1/cmr/m/it/10.95 arXiv preprint
  []
 
-[35
+[32
 
-] [36] [37]) [38] (chapters/erklaerung.tex
+] [33] [34]) [35] (chapters/erklaerung.tex
 Overfull \hbox (33.26138pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10.95 [TODO: F^^?ugen Sie hier die Erkl^^?arung zur selb-stst^^?andi-gen Bear-beitung gem^^?a^^Y Ihrer Themabest^^?ati-
  []
 
-) [39
+) [36
 
 ] (abschlussarbeit.aux)
  ***********
@@ -476,17 +478,17 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8732 strings out of 475248
- 153804 string characters out of 5758285
- 1931785 words of memory out of 5000000
- 30060 multiletter control sequences out of 15000+600000
+ 8787 strings out of 475248
+ 154907 string characters out of 5758285
+ 1929785 words of memory out of 5000000
+ 30102 multiletter control sequences out of 15000+600000
  571190 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,73p,1734b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on abschlussarbeit.pdf (46 pages, 27757029 bytes).
+ 57i,12n,70p,1734b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on abschlussarbeit.pdf (43 pages, 27735337 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
+ 259 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

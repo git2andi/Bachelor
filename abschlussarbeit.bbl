@@ -1,12 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Aggarwal et~al., 2021]{AGGARWAL2021100004}
-Aggarwal, A., Mittal, M., and Battineni, G. (2021).
-\newblock Generative adversarial network: An overview of theory and
-  applications.
-\newblock {\em International Journal of Information Management Data Insights},
-  1(1):100004.
-
 \bibitem[Anderson, 1982]{anderson1982313}
 Anderson, B.~D. (1982).
 \newblock Reverse-time diffusion equation models.
@@ -40,10 +33,6 @@ Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
 \newblock Fantasia3d: Disentangling geometry and appearance for high-quality
   text-to-3d content creation.
 
-\bibitem[Croitoru et~al., 2023]{croitoru2023diffusion}
-Croitoru, F.-A., Hondru, V., Ionescu, R.~T., and Shah, M. (2023).
-\newblock Diffusion models in vision: A survey.
-
 \bibitem[Doersch, 2016]{doerschVAE}
 Doersch, C. (2016).
 \newblock Tutorial on variational autoencoders.
@@ -55,11 +44,6 @@ Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
   Uszkoreit, J., and Houlsby, N. (2021).
 \newblock An image is worth 16x16 words: Transformers for image recognition at
   scale.
-
-\bibitem[Gerats et~al., 2023]{gerats2023dynamic}
-Gerats, B. G.~A., Wolterink, J.~M., and Broeders, I. A. M.~J. (2023).
-\newblock Dynamic depth-supervised nerf for multi-view rgb-d operating room
-  images.
 
 \bibitem[Goodfellow et~al., 2020]{goodfellowGAN}
 Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
@@ -184,11 +168,6 @@ M\"uller, T., Evans, A., Schied, C., and Keller, A. (2022).
   encoding.
 \newblock {\em ACM Trans. Graph.}, 41(4):102:1--102:15.
 
-\bibitem[M\"{u}ller et~al., 2021]{oneBlob_mueller}
-M\"{u}ller, T., Rousselle, F., Nov\'{a}k, J., and Keller, A. (2021).
-\newblock Real-time neural radiance caching for path tracing.
-\newblock {\em ACM Trans. Graph.}, 40(4).
-
 \bibitem[Murtagh, 1991]{MurtaghMLP}
 Murtagh, F. (1991).
 \newblock Multilayer perceptrons for classification and regression.
@@ -308,17 +287,6 @@ Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., and Polosukhin, I. (2023).
 \newblock Attention is all you need.
 
-\bibitem[Verbin et~al., 2021]{verbin2021refnerf}
-Verbin, D., Hedman, P., Mildenhall, B., Zickler, T., Barron, J.~T., and
-  Srinivasan, P.~P. (2021).
-\newblock Ref-nerf: Structured view-dependent appearance for neural radiance
-  fields.
-
-\bibitem[Wei et~al., 2021]{wei2021nerfingmvs}
-Wei, Y., Liu, S., Rao, Y., Zhao, W., Lu, J., and Zhou, J. (2021).
-\newblock Nerfingmvs: Guided optimization of neural radiance fields for indoor
-  multi-view stereo.
-
 \bibitem[Xiao et~al., 2022]{xiao2022tackling}
 Xiao, Z., Kreis, K., and Vahdat, A. (2022).
 \newblock Tackling the generative learning trilemma with denoising diffusion
@@ -329,11 +297,5 @@ Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
   Cui, B., and Yang, M.-H. (2022).
 \newblock Diffusion models: A comprehensive survey of methods and applications.
 \newblock {\em arXiv preprint arXiv:2209.00796}.
-
-\bibitem[Yariv et~al., 2020]{yariv2020multiview}
-Yariv, L., Kasten, Y., Moran, D., Galun, M., Atzmon, M., Basri, R., and Lipman,
-  Y. (2020).
-\newblock Multiview neural surface reconstruction by disentangling geometry and
-  appearance.
 
 \end{thebibliography}
