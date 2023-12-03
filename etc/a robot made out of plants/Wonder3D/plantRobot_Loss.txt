@@ -1,0 +1,136 @@
+/content/Wonder3D/instant-nsr-pl
+Global seed set to 42
+/usr/local/lib/python3.10/dist-packages/torch/nn/utils/weight_norm.py:30: UserWarning: torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.
+  warnings.warn("torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.")
+Using finite difference to compute gradients with eps=progressive
+Using 16bit None Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(limit_train_batches=1.0)` was configured so 100% of the batches per epoch will be used..
+[rank: 0] Global seed set to 42
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name  | Type             | Params
+-------------------------------------------
+0 | cos   | CosineSimilarity | 0     
+1 | model | NeuSModel        | 7.7 M 
+-------------------------------------------
+7.7 M     Trainable params
+0         Non-trainable params
+7.7 M     Total params
+15.371    Total estimated model params size (MB)
+2023-12-03 00:44:03.644985: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-12-03 00:44:03.645060: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-12-03 00:44:03.645090: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-12-03 00:44:04.851331: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Epoch 0: : 0it [00:00, ?it/s]Update finite_difference_eps to 0.027204705103003882
+Epoch 0: : 480it [03:08,  2.55it/s, loss=0.101, train/loss_rgb_mse=0.0907, train/loss_normal=0.0217, train/loss_eikonal=0.0194, train/loss_mask=0.0133, train/loss_sparsity=0.005, train/loss_3d_normal_smooth=0.0164, train/inv_s=116.0, train/num_rays=2748.0] /usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:149: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch 0: : 1000it [04:06,  4.06it/s, loss=0.0828, train/loss_rgb_mse=0.0726, train/loss_normal=0.0166, train/loss_eikonal=0.0153, train/loss_mask=0.0078, train/loss_sparsity=0.00326, train/loss_3d_normal_smooth=0.0143, train/inv_s=217.0, train/num_rays=4691.0]Update grid level to 5
+Update finite_difference_eps to 0.02061731110582648
+Epoch 0: : 2000it [05:22,  6.20it/s, loss=0.0627, train/loss_rgb_mse=0.0512, train/loss_normal=0.0146, train/loss_eikonal=0.0136, train/loss_mask=0.000679, train/loss_sparsity=0.00493, train/loss_3d_normal_smooth=0.0122, train/inv_s=293.0, train/num_rays=8192.0]Update grid level to 6
+Update finite_difference_eps to 0.015625000000000003
+Epoch 0: : 3000it [06:24,  7.81it/s, loss=0.0548, train/loss_rgb_mse=0.0472, train/loss_normal=0.0146, train/loss_eikonal=0.012, train/loss_mask=0.000681, train/loss_sparsity=0.00485, train/loss_3d_normal_smooth=0.0119, train/inv_s=293.0, train/num_rays=8192.0]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/2 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/2 [00:00<?, ?it/s]Update grid level to 7
+Update finite_difference_eps to 0.011841535675862488
+
+Validation DataLoader 0: 100% 2/2 [00:10<00:00,  5.12s/it]ortho scale is:  1.35
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:539: PossibleUserWarning: It is recommended to use `self.log('val/psnr', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+  warning_cache.warn(
+Epoch 0: : 3000it [06:41,  7.48it/s, loss=0.0548, train/loss_rgb_mse=0.0472, train/loss_normal=0.0146, train/loss_eikonal=0.012, train/loss_mask=0.000681, train/loss_sparsity=0.00485, train/loss_3d_normal_smooth=0.0119, train/inv_s=293.0, train/num_rays=8192.0, val/psnr=24.00]
+Epoch 0: : 4000it [07:44,  8.61it/s, loss=0.0522, train/loss_rgb_mse=0.0415, train/loss_normal=0.0144, train/loss_eikonal=0.0113, train/loss_mask=0.00069, train/loss_sparsity=0.00476, train/loss_3d_normal_smooth=0.0116, train/inv_s=252.0, train/num_rays=8192.0, val/psnr=24.00] Update grid level to 8
+Update finite_difference_eps to 0.008974205898414338
+Epoch 0: : 5000it [08:50,  9.42it/s, loss=0.0478, train/loss_rgb_mse=0.0324, train/loss_normal=0.0133, train/loss_eikonal=0.011, train/loss_mask=0.000725, train/loss_sparsity=0.00724, train/loss_3d_normal_smooth=0.0113, train/inv_s=228.0, train/num_rays=8192.0, val/psnr=24.00] Update grid level to 9
+Update finite_difference_eps to 0.006801176275750972
+Epoch 0: : 6000it [09:58, 10.02it/s, loss=0.0443, train/loss_rgb_mse=0.0307, train/loss_normal=0.0115, train/loss_eikonal=0.0108, train/loss_mask=0.00158, train/loss_sparsity=0.00389, train/loss_3d_normal_smooth=0.00977, train/inv_s=216.0, train/num_rays=8192.0, val/psnr=24.00]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/2 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/2 [00:00<?, ?it/s]Update grid level to 10
+Update finite_difference_eps to 0.00515432777645662
+
+Validation DataLoader 0: 100% 2/2 [00:10<00:00,  5.41s/it]ortho scale is:  1.35
+Epoch 0: : 6000it [10:16,  9.73it/s, loss=0.0444, train/loss_rgb_mse=0.0273, train/loss_normal=0.0142, train/loss_eikonal=0.0107, train/loss_mask=0.00099, train/loss_sparsity=0.00667, train/loss_3d_normal_smooth=0.0117, train/inv_s=216.0, train/num_rays=8192.0, val/psnr=21.10] 
+Epoch 0: : 9000it [13:43, 10.92it/s, loss=0.0386, train/loss_rgb_mse=0.0217, train/loss_normal=0.0108, train/loss_eikonal=0.00945, train/loss_mask=0.00097, train/loss_sparsity=0.00545, train/loss_3d_normal_smooth=0.00996, train/inv_s=220.0, train/num_rays=8192.0, val/psnr=21.10]
+Validation: 0it [00:00, ?it/s]
+Validation:   0% 0/2 [00:00<?, ?it/s]
+Validation DataLoader 0:   0% 0/2 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 2/2 [00:10<00:00,  5.46s/it]ortho scale is:  1.35
+Epoch 0: : 9000it [14:01, 10.69it/s, loss=0.0387, train/loss_rgb_mse=0.0189, train/loss_normal=0.0105, train/loss_eikonal=0.00969, train/loss_mask=0.000803, train/loss_sparsity=0.00713, train/loss_3d_normal_smooth=0.0109, train/inv_s=220.0, train/num_rays=8192.0, val/psnr=21.20]
+Epoch 0: : 10000it [15:11, 10.97it/s, loss=0.0389, train/loss_rgb_mse=0.0217, train/loss_normal=0.0108, train/loss_eikonal=0.0092, train/loss_mask=0.00131, train/loss_sparsity=0.00492, train/loss_3d_normal_smooth=0.00978, train/inv_s=222.0, train/num_rays=8192.0, val/psnr=21.20]`Trainer.fit` stopped: `max_steps=10000` reached.
+Epoch 0: : 10000it [15:11, 10.97it/s, loss=0.0389, train/loss_rgb_mse=0.0217, train/loss_normal=0.0108, train/loss_eikonal=0.0092, train/loss_mask=0.00131, train/loss_sparsity=0.00492, train/loss_3d_normal_smooth=0.00978, train/inv_s=222.0, train/num_rays=8192.0, val/psnr=21.20]
+[rank: 0] Global seed set to 42
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+/content/Wonder3D/outputs/cropsize-192-cfg3.0/plantRobot
+(1024, 1024, 3)
+the loaded normals are defined in the system of front view
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Testing DataLoader 0: 100% 6/6 [00:30<00:00,  5.11s/it]ortho scale is:  1.35
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:539: PossibleUserWarning: It is recommended to use `self.log('test/psnr', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+  warning_cache.warn(
+Testing DataLoader 0: 100% 6/6 [00:38<00:00,  6.39s/it]
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/psnr         │     21.11928939819336     │
+└───────────────────────────┴───────────────────────────┘
+
