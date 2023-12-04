@@ -39,10 +39,10 @@ To effectively demonstrate the generation process of each method, an example pro
     \caption{The generation process of Dreamfusion using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}~\label{fig:generationDreamFusion}
 \end{figure}
 
-As can be seen in Figure~\ref{fig:generationDreamFusion} parts a and b, the object and its texture are generated simultaneously. The process starts with a small dot that gradually transforms into a more complex shape. At the 100th iteration, the original dot begins to transform into a recognizable shape, and a green hue resembling plant coloration is created. At the 5000th iteration, distinct features such as two legs, a square body and a square head become visible, all retaining the same shade of green. At the last, 10,000th iteration, the model shows a background and small arms sticking out of the robot's body.
+As seen in Figure~\ref{fig:generationDreamFusion} parts (a) and (b), the object and its texture are generated simultaneously. The process starts with a small dot that gradually transforms into a more complex shape. At the 100th iteration, the original dot begins to transform into a recognizable shape, and a green hue resembling plant coloration is created. At the 5000th iteration, distinct features such as two legs, a square body and a square head become visible, all retaining the same shade of green. At the last, 10,000th iteration, the model shows a background and small arms sticking out of the robot's body.
 Part c of the figure showcases the rendered mesh opened in Meshlab \citep{meshLab}, highlighting alterations made by Threestudio, such as duplicate removal and hole filling. These modifications account for the slight differences between the final mesh and the validation images produced during training. Interestingly, the final mesh lacks detailed plant-like features, one could only assume that the legs kind of resemble moss, but this remains speculation. The mesh primarily shows basic shapes, including a square head, a torso with small protruding rods that could be arms, and large legs. Remarkably, the upper half of the body in the final mesh takes on a yellowish color that differs from the green of the earlier validation images. The reason for this color change remains unclear.
 
-\textbf{Fantasia3D}~--~Generating 3D models can be initialised in multiple ways. The first is to just use the prompt. For this approach, Fantasia3D automatically uses a perfect sphere to initialise its mesh and begins its trainig from there. The second approach is to initially already specify this spheres initial values \([0.5, 0.5, 0.5]\) with differnet ones which would roughly describe the desired object by modifying its values according to \([depth, width, height]\). The last approach would be to initialise the mesh with a custom .obj that already acts as a rough shape input.~\ref{fig:generationFantasia} shows its approach for using nothing but the prompt for generating the plant Robot. 
+\textbf{Fantasia3D}~--~There are several ways to initiate the generation of 3D models in Fantasia3D. The most straightforward method, used in this section, is to begin with just the prompt, wherein Fantasia3D defaults to using a sphere as the initial mesh, shaping the training process from this starting point. Alternatively, one can customize the sphere's initial values  \([0.5, 0.5, 0.5]\) to better represent the desired object by adjusting the parameters to correspond to \([depth, width, height]\). The final approach involves initializing the mesh with a custom~.obj file, providing a rough outline of the intended shape. An example of the latter approach can be seen in Figure~\ref{fig:generationFantasia2} in the appendix, where the generation process was started with a rough human figure.
 
 \begin{figure}[ht]
     \centering
@@ -76,18 +76,128 @@ Part c of the figure showcases the rendered mesh opened in Meshlab \citep{meshLa
     \caption{a: Fantasia3D starting with only a perfect square and refining this according to the prompt ``a robot made out of plants''. In b: only the appearance of the model gets refined. Image c shows the rendered model }~\label{fig:generationFantasia}
 \end{figure}
 
+Part (a) of Figure~\ref{fig:generationFantasia} illustrates the geometry stage of the method. Since only the prompt was used for initialization, Fantasia3D automatically selected a sphere as the base, influencing the overall quadratic shape of the final model. The figure reveals that the majority of the transformations occur between iterations 0 and 5000, where the sphere evolves, gaining corners and forming smaller blobs at the bottom, potentially interpreted as the robot's feet. However, at this geometry stage, it's challenging to discern the robot, especially as one made of plants. The changes from iteration 5000 to 10000 are more subtle, with slight smoothing in certain areas, such as the blob on the top left side of the robot or parts of the left foot, but these alterations are not significantly transformative.
+
+Part (b) of the figure displays the appearance stage, where the model is textured. Starting with a greyscale base derived from the previous stage, the model gains color and texture as iterations progress. By iteration 5000, the texture, surprisingly resembling grass, enhances the model's detail and color, diminishing the prominence of the earlier clunky geometry. From iteration 5000 to 10000, this texture is further refined, introducing more detailed color variations and shadows, simulating light effects. Additionally, certain areas of the model exhibit metallic grey tones, particularly noticeable at the top right side and between the main body and the feet. 
+
+However, some of these textural details are lost in the final mesh extraction, as seen in part (c). The model takes on a more yellowish hue, and the previously distinct lighting and shadows are reduced. Similar to the geometry stage, the final model does not clearly represent a robot made of plants; it more closely resembles a box with feet, akin to robots designed for food delivery. Throughout the training, Fantasia3D also generates various textures, including diffuse, roughness, metallic, and normals, as depicted in Figure~\ref{fig:generationFantasia}.
 
 \begin{figure}[ht]
     \centering
-      \includegraphics[width=.2\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd}
-      \includegraphics[width=.2\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness}
-      \includegraphics[width=.2\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic}
-      \includegraphics[width=.2\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal}
-      \caption{generated textures from Fantasia3D}~\label{fig:texturesFantasia}
+      \includegraphics[width=.15\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd}
+      \includegraphics[width=.15\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness}
+      \includegraphics[width=.15\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic}
+      \includegraphics[width=.15\columnwidth]{etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal}
+      \caption{Generated textures from Fantasia3D\@; from left to right:  diffuse, roughness, metallic, and normal.}~\label{fig:texturesFantasia}
   \end{figure}
 
-\textbf{Magic3D}~--~Test 
+
+\textbf{Magic3D}~--~Magic3D employs a coarse-to-fine methodology, aiming to first construct a basic outline of the target object, which is then refined in subsequent stages to more accurately align with the text prompt. The mesh initialization is random, mirroring the approach used in DreamFusion.
+
+\begin{figure}[ht]
+    \centering
+    % Subfigure for textual description
+    \begin{subfigure}[b]{0.15\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 200}\vspace{3cm}
+        \fontsize{9pt}{7pt}\selectfont\text{It. 5000}\vspace{2.85cm}
+        \fontsize{9pt}{7pt}\selectfont\text{It. 10000}\vspace{1.95cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Magic3D generation process from coarse (a, b) to fine (c, d)}~\label{fig:generationMagic3D}
+\end{figure} 
+
+The coarse stage can be seen in Figure~\ref{fig:generationMagic3D} parts (a) and (b). From a random start, a rough shape starts emerging by Iteration 200, accompanied by a plant-like green hue, setting the foundation for further refinement. By Iteration 5000, significant transformations have occurred from the initial stage: a distinct circular head, a neck, the upper body of the robot, and one arm have formed. The lower body, however, was omitted during training, forcing subsequent refinements on the upper half. At this point, the arm's color diverges from the green base, taking on a rough, grey-metallic appearance. Progressing to Iteration 10000, the neck and certain parts of the hip also adopt this metallic color. Despite these changes, the overall shape of the model sees only minor adjustments between Iteration 5000 and 10000, such as a thicker left arm and a more pronounced hip, but the right arm remains entirely absent. From the coarse stage alone, the model vaguely indicates a robotic form, with the plant aspect being derived primarily from the green coloring.
+
+In the refinement stage, parts (c) and (d), the process starts from the model generated in the coarse stage. Initially, the mesh appears blocky but retains its original shape, with the neck, shoulder, and hip areas acquiring a purple hue between Iterations 0 and 200. By Iteration 5000, the model is smoother, with minor modifications to the head, losing some of its roundness. However, not much else changes in shape. The texture, though, sees significant refinement; the arms, hip, and neck gain more detail, resembling parts of an actual robot. The chest acquires grass-like detail and coloration. By Iteration 10000, some of these textural details diminish, as evidenced by the stomach area reverting to a plain green. However, the model gains light reflections, particularly noticeable on the shoulders. Despite these changes, the model's shape remains largely unchanged from Iteration 5000 to 10000, and the missing arm issue persists through the refinement stage.
+
+The final mesh, as displayed in Figure~\ref{fig:texturesMagic3D}, is recognizable as a robot, and with close inspection, one might discern its grass-like chest, suggesting a plant-themed robot. For immediate and clear identification, the model would benefit from enhanced detail, particularly a more developed lower body extending beyond the hips. The left side of the figure displays the albedo generated during training.
+
+\begin{figure}[ht]
+    \centering
+      \includegraphics[width=.25\columnwidth]{etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture}
+      \includegraphics[width=.14\columnwidth]{etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png}
+      \caption{Magic3D also generates an albedo during training. The right side shows the extracted mesh.}~\label{fig:texturesMagic3D}
+  \end{figure}
+
+
 
 \textbf{magic123}~--~Test
 
 \textbf{Wonder3D}~--~Test
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front_right.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front_right.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_right.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_right.png}
+        \caption{}
+    \end{subfigure}
+    \hspace{5cm}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_back.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_back.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_left.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_left.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front_left.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front_left.png}
+        \caption{}
+    \end{subfigure}
+    \caption{(a) front, (b) front right, (c) right, (d) back, (e) left, (f) front left}~\label{fig:generationWonder3D}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+      \includegraphics[width=.36\columnwidth]{etc/a robot made out of plants/wonder3d/plantRobot}
+      \includegraphics[width=.25\columnwidth]{etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized}
+      \caption{Generation of a 3D model (b) based on an imput image (a)}~\label{fig:inputWonder3d}
+  \end{figure}

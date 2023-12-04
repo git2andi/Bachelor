@@ -18,8 +18,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {14}{\ignorespaces The generation process of Dreamfusion using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}}{29}{}%
 \contentsline {figure}{\numberline {15}{\ignorespaces a: Fantasia3D starting with only a perfect square and refining this according to the prompt ``a robot made out of plants''. In b: only the appearance of the model gets refined. Image c shows the rendered model }}{30}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces generated textures from Fantasia3D}}{31}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Generated textures from Fantasia3D\spacefactor \@m {}; from left to right: diffuse, roughness, metallic, and normal.}}{31}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Magic3D generation process from coarse (a, b) to fine (c, d)}}{32}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Magic3D also generates an albedo during training. The right side shows the extracted mesh.}}{33}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces (a) front, (b) front right, (c) right, (d) back, (e) left, (f) front left}}{33}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Generation of a 3D model (b) based on an imput image (a)}}{34}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {17}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{35}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{38}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{39}{}%
