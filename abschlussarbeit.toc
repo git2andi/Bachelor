@@ -24,13 +24,14 @@
 \contentsline {subsection}{\numberline {3.2.2}Wonder 3D}{25}{}%
 \contentsline {chapter}{\numberline {4}Comparative Study}{27}{}%
 \contentsline {section}{\numberline {4.1}Experimental Setup}{27}{}%
-\contentsline {section}{\numberline {4.2}Performance Metrics}{28}{}%
-\contentsline {section}{\numberline {4.3}Results and Analysis}{28}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{30}{}%
-\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{30}{}%
-\contentsline {section}{\numberline {5.2}Potential Research Directions}{31}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{32}{}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{32}{}%
-\contentsline {section}{\numberline {6.2}Contributions to the Field}{32}{}%
-\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{32}{}%
-\contentsline {chapter}{Bibliographie}{32}{}%
+\contentsline {section}{\numberline {4.2}Individual Generation Process}{28}{}%
+\contentsline {section}{\numberline {4.3}Results and Analysis}{30}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{32}{}%
+\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{32}{}%
+\contentsline {section}{\numberline {5.2}Potential Research Directions}{33}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{34}{}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{34}{}%
+\contentsline {section}{\numberline {6.2}Contributions to the Field}{34}{}%
+\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{34}{}%
+\contentsline {chapter}{\numberline {A}Additional Images}{35}{}%
+\contentsline {chapter}{Bibliographie}{35}{}%

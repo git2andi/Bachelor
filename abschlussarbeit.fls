@@ -392,12 +392,9 @@ INPUT chapters\compare.tex
 INPUT .\chapters\comparison\experimentalSetup.tex
 INPUT .\chapters\comparison\experimentalSetup.tex
 INPUT chapters\comparison\experimentalSetup.tex
-INPUT .\chapters\comparison\performanceMetrics.tex
-INPUT .\chapters\comparison\performanceMetrics.tex
-INPUT chapters\comparison\performanceMetrics.tex
-INPUT .\chapters\comparison\ResultsAndAnalysis.tex
-INPUT .\chapters\comparison\ResultsAndAnalysis.tex
-INPUT chapters\comparison\ResultsAndAnalysis.tex
+INPUT .\chapters\comparison\generationProcess.tex
+INPUT .\chapters\comparison\generationProcess.tex
+INPUT chapters\comparison\generationProcess.tex
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT .\etc\a robot made out of plants\dreamfusion\dreamfusion_plantrobot_1_part2.png
 INPUT .\etc\a robot made out of plants\dreamfusion\dreamfusion_plantrobot_1_part2.png
@@ -469,20 +466,6 @@ INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_coarse_robot_10000_pa
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_coarse_robot_10000_part2.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_coarse_robot_10000_part2.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_coarse_robot_10000_part2.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
-INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part3.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part1.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part1.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_0_part1.png
@@ -497,6 +480,13 @@ INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_par
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part1.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part1.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_5000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_10000_part1.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
@@ -504,6 +494,33 @@ INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resi
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
 INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_kd.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_roughness.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_metallic.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\etc\a robot made out of plants\fantasia3d\fantasia_refine_robot_normal.jpg
+INPUT .\chapters\comparison\resultAnalysis.tex
+INPUT .\chapters\comparison\resultAnalysis.tex
+INPUT chapters\comparison\resultAnalysis.tex
 INPUT .\chapters\future.tex
 INPUT .\chapters\future.tex
 INPUT .\chapters\future.tex
@@ -514,6 +531,58 @@ INPUT .\chapters\conclusion.tex
 INPUT .\chapters\conclusion.tex
 INPUT .\chapters\conclusion.tex
 INPUT chapters\conclusion.tex
+INPUT .\chapters\appendix\additionaImages.tex
+INPUT .\chapters\appendix\additionaImages.tex
+INPUT chapters\appendix\additionaImages.tex
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part2.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_1_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_5000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_10000_part1.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
+INPUT .\etc\a robot made out of plants\dreamfusion2\dreamfusion_plantrobot_model_resized.png
 INPUT .\abschlussarbeit.bbl
 INPUT .\abschlussarbeit.bbl
 INPUT abschlussarbeit.bbl

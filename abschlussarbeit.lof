@@ -17,6 +17,9 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces Summarized functionality of Wonder3D, illustrating its unique approach in generating high-fidelity textured meshes from single images using cross-domain diffusion models \citep {long2023wonder3d}.}}{25}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {14}{\ignorespaces The generation process of Dreamfusion using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}}{29}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces The generation process of Fantasia3D using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}}{29}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces a: Fantasia3D starting with only a perfect square and refining this according to the prompt ``a robot made out of plants''. In b: only the appearance of the model gets refined. Image c shows the rendered model }}{30}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces generated textures from Fantasia3D}}{31}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {17}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{35}{}%

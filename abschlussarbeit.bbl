@@ -33,6 +33,13 @@ Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
 \newblock Fantasia3d: Disentangling geometry and appearance for high-quality
   text-to-3d content creation.
 
+\bibitem[Cignoni et~al., 2008]{meshLab}
+Cignoni, P., Callieri, M., Corsini, M., Dellepiane, M., Ganovelli, F., and
+  Ranzuglia, G. (2008).
+\newblock {MeshLab: an Open-Source Mesh Processing Tool}.
+\newblock In Scarano, V., Chiara, R.~D., and Erra, U., editors, {\em
+  Eurographics Italian Chapter Conference}. The Eurographics Association.
+
 \bibitem[Doersch, 2016]{doerschVAE}
 Doersch, C. (2016).
 \newblock Tutorial on variational autoencoders.
@@ -206,6 +213,12 @@ Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
   (2021).
 \newblock Learning transferable visual models from natural language
   supervision.
+
+\bibitem[Ramesh et~al., 2023]{dalle3}
+Ramesh, A., Pavlov, M., Goh, G., Gray, S., et~al. (2023).
+\newblock Dall-e 3.
+\newblock \url{https://openai.com/dall-e-3}.
+\newblock Accessed: [25.11.2023].
 
 \bibitem[Ranftl et~al., 2021]{ranftl2021vision}
 Ranftl, R., Bochkovskiy, A., and Koltun, V. (2021).
