@@ -2,7 +2,7 @@
 
 If not mentioned differently, each model was trained for 10,000 iterations using a single T4 GPU in Google Colab with the High-Ram setting enabled. It is important to note that this hardware configuration does not match the specifications used in the official implementations of these models. Consequently, the results generated in this study may not be as detailed and precise. Despite these limitations, the primary purpose here is to evaluate the basic capabilities of each model, which is possible even with comparatively modest hardware standards.
 
-To effectively demonstrate the generation process of each method, an example prompt was used: ``a robot made of plants''. The choice of this prompt was strategic as concept of a robot is inherently versatile and does not have a rigid definition in terms of appearance or composition. Furthermore, it was assumed that a simple prompt such as ``a robot'' would lead to bland models, reflecting the results observed when applying such a prompt to a 2D diffusion model, specifically Dall-E 3 \citep{dalle3}. To mitigate this, the phrase ``made out of plants'' was added. This not only countered the potential monotony of the models, but also tested the models' ability to represent intricate detail and incorporate color, particularly the various hues associated with plants. The expectation was that this addition would enrich the output of the models and provide a more comprehensive basis for evaluating their detail rendering capabilities.
+To effectively demonstrate the generation process of each method, an example prompt was used: ``a robot made of plants''. The choice of this prompt was strategic as concept of a robot is inherently versatile and does not have a rigid definition in terms of appearance or composition. Furthermore, it was assumed that a simple prompt such as ``a robot'' would lead to bland models, reflecting the results observed when applying such a prompt to a text-to-image model, specifically Dall-E 3 \citep{dalle3}. To mitigate this, the phrase ``made out of plants'' was added. This not only countered the potential monotony of the models, but also tested the models' ability to represent intricate detail and incorporate color, particularly the various hues associated with plants. The expectation was that this addition would enrich the output of the models and provide a more comprehensive basis for evaluating their detail rendering capabilities.
 
 \textbf{Dreamfusion}~--~The model begins by initializing an object randomly and then refines it throughout the training process. Each prompt initiates the creation of a distinct scene, meaning that even repeated usage of the same text input generates unique objects. This phenomenon is evident in the results presented in Figure~\ref{fig:generationDreamFusion}, and Figure~\ref{fig:secondRobotDreamfusion} included in the Appendix. The entire training process typically spans approximately 1.5 hours, with each iteration consuming a consistent amount of time.
 
@@ -80,7 +80,7 @@ Part (a) of Figure~\ref{fig:generationFantasia} illustrates the geometry stage o
 
 Part (b) of the figure displays the appearance stage, where the model is textured. Starting with a greyscale base derived from the previous stage, the model gains color and texture as iterations progress. By iteration 5000, the texture, surprisingly resembling grass, enhances the model's detail and color, diminishing the prominence of the earlier clunky geometry. From iteration 5000 to 10000, this texture is further refined, introducing more detailed color variations and shadows, simulating light effects. Additionally, certain areas of the model exhibit metallic grey tones, particularly noticeable at the top right side and between the main body and the feet. 
 
-However, some of these textural details are lost in the final mesh extraction, as seen in part (c). The model takes on a more yellowish hue, and the previously distinct lighting and shadows are reduced. Similar to the geometry stage, the final model does not clearly represent a robot made of plants; it more closely resembles a box with feet, akin to robots designed for food delivery. Throughout the training, Fantasia3D also generates various textures, including diffuse, roughness, metallic, and normals, as depicted in Figure~\ref{fig:generationFantasia}.
+However, some of these textural details are lost in the final mesh extraction, as seen in part (c). The model takes on a more yellowish hue, and the previously distinct lighting and shadows are reduced. Similar to the geometry stage, the final model does not clearly represent a robot made of plants; it more closely resembles a box with feet, akin to robots designed for food delivery. Throughout the training, Fantasia3D also generates various textures, including diffuse, roughness, metallic, and normals, as depicted in Figure~\ref{fig:texturesFantasia}.
 
 \begin{figure}[ht]
     \centering
@@ -145,59 +145,134 @@ The final mesh, as displayed in Figure~\ref{fig:texturesMagic3D}, is recognizabl
       \includegraphics[width=.25\columnwidth]{etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture}
       \includegraphics[width=.14\columnwidth]{etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png}
       \caption{Magic3D also generates an albedo during training. The right side shows the extracted mesh.}~\label{fig:texturesMagic3D}
+\end{figure}
+
+
+\textbf{Magic123} – Magic123 employs a unique approach that integrates both 2D and 3D priors for generating 3D objects. The method initiates by processing an input image, creating multiple perspectives of the intended object. The initial phase involves constructing a low-quality, coarse model complete with texture, forming a basic representation of the object. Subsequently, this model undergoes a refinement stage, where additional details are added to both the object and its texture.
+
+\begin{figure}[ht]
+    \centering
+    % Subfigure for textual description
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 100}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 5000}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 10000}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Front view of the coarse stage of Magic123}~\label{fig:generationFrontCoarseMagic123}
+\end{figure}
+
+The front view of the coarse generation process is depicted in Figure~\ref{fig:generationFrontCoarseMagic123}. Even at an early stage like Iteration 100, the method efficiently produces an outline that resonates well with the input image, including the incorporation of a green hue to represent the plant aspects. Progressing to Iteration 5000, the model becomes more detailed, with sharper edges and a more defined robotic shape. Elements suggestive of overgrowth, such as leaves and vines, begin to emerge, and the texture convincingly integrates plant-like features, covering the model with grass and vine patterns. By Iteration 10000 in this stage, the model's shape does not evolve significantly, but some color variation in the plant textures and distinct features like a white spot on the right shoulder and a bright red dot above the left knee emerge, hinting at metallic robot parts and a blooming flower, respectively.
+
+During the refinement stage, showcased in Figure~\ref{fig:generationFrontRefineMagic123}, the model initially loses some of its detailed and mossy character from the coarse stage. Floating parts disconnected from the main body become noticeable, particularly on the right arm and the left leg. Compared to the 10000th iteration of the coarse stage, the texture seems less detailed initially. However, by Iteration 5000, the texture regains and even surpasses its former level of detail, presenting a more realistic plant-like structure. The model appears covered in grass, moss, and vines, with enhanced features like a more pronounced blooming flower and more defined hands, knees, shoulders, and feet. Further into Iteration 10000, the model becomes smoother, particularly around the thighs and chest, though the floating parts persist. The texture at this stage is remarkably detailed, offering a realistic plant appearance with effective light and shadow interplay, particularly around the stomach area.
+
+\begin{figure}[ht]
+    \centering
+    % Subfigure for textual description
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 100}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 5000}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 10000}\vspace{.1cm}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Front view of the refine stage of Magic123}~\label{fig:generationFrontRefineMagic123}
+\end{figure}
+
+As Magic123 generates multiple views during training, additional perspectives of the object for each iteration can be seen in Figures~\ref{fig:generationCoarseMagic123} and~\ref{fig:generationRefineMagic123} in the appendix, which include the right, back, and left views. In there one can see the difficulties magic123 had in the beginning while determining the side views of the model. These problems however quickly dissapeared until Iteration 5000. 
+
+The final mesh, as illustrated in part (a) of Figure~\ref{fig:inputAndModel}, exhibits reasonable quality. Some white spots, particularly around the floating parts, suggest that these areas may remain textureless due to rendering issues. In comparison, the final model does a commendable job in mirroring the overall shape of the input image, as seen in part (b) of the same figure. Despite this, it becomes evident that Magic123 struggles to replicate the complex details of the plants. This shortcoming highlights the limitations of the method when it comes to fully capturing and translating the details in the input image into the 3D model. However, longer training iterations and higher computing power could mitigate this.
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.23\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png}
+        \caption{Magic123}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.38\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png}
+        \caption{Input Image}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.21\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized}
+        \caption{Wonder3D}
+    \end{subfigure}
+    \caption{3D models generated by Magic123 and Wonder3D based on an imput image}~\label{fig:inputAndModel}
   \end{figure}
 
 
+\textbf{Wonder3D}~--~Given an Image, this Method makes use of its Dommain switcher where it generates color images and normal maps for various viewpoints of this image. This allows for consistency accross multiple views in order to have good insights of the model not only for the front side. For this test, the same Input image as for Magic123 was used, seen in Figure~\ref{fig:inputAndModel} part (b). Figure~\ref{fig:initializationWonder3D} in the appendix shows the six viewpoints generated; the front, front right, right, back, left and fron left views with its normal maps and color images. The model then uses these outputs to generate a consistent 3D model. 
 
-\textbf{magic123}~--~Test
-
-\textbf{Wonder3D}~--~Test
-
-\begin{figure}[ht]
-    \centering
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front.png}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front_right.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front_right.png}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_right.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_right.png}
-        \caption{}
-    \end{subfigure}
-    \hspace{5cm}
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_back.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_back.png}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_left.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_left.png}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.22\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/rgb_000_front_left.png}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3D/normals_000_front_left.png}
-        \caption{}
-    \end{subfigure}
-    \caption{(a) front, (b) front right, (c) right, (d) back, (e) left, (f) front left}~\label{fig:generationWonder3D}
-\end{figure}
+Unlike the other Methods, Wonder3D does provide any detailed validation images during training yet. There are only some outputs for every 3000 iteration, seen in Figure~\ref{fig:generationWonder3D} and I am uncaertain on how one would change that on the original code. From the images that were available, one can see that there is not much of improvement  form the generated normals and color images from the beginning compared to iteration step 10000. Only minor changes have ermerged which slightly improved detail and overall shape of the model.
 
 \begin{figure}[ht]
     \centering
-      \includegraphics[width=.36\columnwidth]{etc/a robot made out of plants/wonder3d/plantRobot}
-      \includegraphics[width=.25\columnwidth]{etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized}
-      \caption{Generation of a 3D model (b) based on an imput image (a)}~\label{fig:inputWonder3d}
+    \begin{subfigure}[b]{0.18\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 0}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/rgb_000_front}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/normals_000_front}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.18\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 3000}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.18\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 6000}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.18\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 9000}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.18\textwidth}
+        \centering
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 10000}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1}
+        \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4}
+        \caption{}
+    \end{subfigure}
+    \caption{Wonder3D generation process}~\label{fig:generationWonder3D}
   \end{figure}

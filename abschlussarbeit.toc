@@ -25,13 +25,13 @@
 \contentsline {chapter}{\numberline {4}Comparative Study}{27}{}%
 \contentsline {section}{\numberline {4.1}Experimental Setup}{27}{}%
 \contentsline {section}{\numberline {4.2}Individual Generation Process}{28}{}%
-\contentsline {section}{\numberline {4.3}Results and Analysis}{32}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{35}{}%
-\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{35}{}%
-\contentsline {section}{\numberline {5.2}Potential Research Directions}{36}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{37}{}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{37}{}%
-\contentsline {section}{\numberline {6.2}Contributions to the Field}{37}{}%
-\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{37}{}%
-\contentsline {chapter}{\numberline {A}Additional Images}{38}{}%
-\contentsline {chapter}{Bibliographie}{38}{}%
+\contentsline {section}{\numberline {4.3}Results and Analysis}{34}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{37}{}%
+\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{37}{}%
+\contentsline {section}{\numberline {5.2}Potential Research Directions}{38}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{39}{}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{39}{}%
+\contentsline {section}{\numberline {6.2}Contributions to the Field}{39}{}%
+\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{39}{}%
+\contentsline {chapter}{\numberline {A}Additional Images}{40}{}%
+\contentsline {chapter}{Bibliographie}{40}{}%
