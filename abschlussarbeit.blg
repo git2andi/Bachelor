@@ -5,44 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: bibl.bib
-You've used 55 entries,
+Warning--entry type for "trimesh" isn't style-file defined
+--line 1457 of file bibl.bib
+You've used 60 entries,
             1935 wiz_defined-function locations,
-            756 strings with 14715 characters,
-and the built_in function-call counts, 23160 in all, are:
-= -- 2107
-> -- 1609
-< -- 19
-+ -- 582
-- -- 576
-* -- 2094
-:= -- 4311
-add.period$ -- 149
-call.type$ -- 55
-change.case$ -- 556
-chr.to.int$ -- 55
-cite$ -- 55
-duplicate$ -- 707
-empty$ -- 1164
-format.name$ -- 645
-if$ -- 4259
+            779 strings with 15414 characters,
+and the built_in function-call counts, 24846 in all, are:
+= -- 2269
+> -- 1692
+< -- 22
++ -- 610
+- -- 604
+* -- 2233
+:= -- 4628
+add.period$ -- 162
+call.type$ -- 60
+change.case$ -- 595
+chr.to.int$ -- 60
+cite$ -- 60
+duplicate$ -- 765
+empty$ -- 1265
+format.name$ -- 680
+if$ -- 4572
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 258
-num.names$ -- 171
-pop$ -- 509
+missing$ -- 30
+newline$ -- 281
+num.names$ -- 186
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 557
+purify$ -- 596
 quote$ -- 0
-skip$ -- 542
+skip$ -- 589
 stack$ -- 0
-substring$ -- 976
-swap$ -- 59
+substring$ -- 1072
+swap$ -- 61
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 328
+type$ -- 358
 warning$ -- 0
-while$ -- 136
+while$ -- 148
 width$ -- 0
-write$ -- 646
+write$ -- 704
+(There was 1 warning)

@@ -40,6 +40,10 @@ Cignoni, P., Callieri, M., Corsini, M., Dellepiane, M., Ganovelli, F., and
 \newblock In Scarano, V., Chiara, R.~D., and Erra, U., editors, {\em
   Eurographics Italian Chapter Conference}. The Eurographics Association.
 
+\bibitem[{Dawson-Haggerty et al.}, 2019]{trimesh}
+{Dawson-Haggerty et al.} (2019).
+\newblock trimesh.
+
 \bibitem[Doersch, 2016]{doerschVAE}
 Doersch, C. (2016).
 \newblock Tutorial on variational autoencoders.
@@ -117,6 +121,10 @@ Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
 \bibitem[Kingma and Welling, 2022]{kingmaVAE}
 Kingma, D.~P. and Welling, M. (2022).
 \newblock Auto-encoding variational bayes.
+
+\bibitem[Lahav and Tal, 2020]{lahav2020meshwalker}
+Lahav, A. and Tal, A. (2020).
+\newblock Meshwalker: Deep mesh understanding by random walks.
 
 \bibitem[Lin et~al., 2023]{lin2023magic3d}
 Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
@@ -295,6 +303,11 @@ Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
   equations.
 \newblock {\em arXiv preprint arXiv:2011.13456}.
 
+\bibitem[Tang, 2022]{stable-dreamfusion}
+Tang, J. (2022).
+\newblock Stable-dreamfusion: Text-to-3d with stable-diffusion.
+\newblock https://github.com/ashawkey/stable-dreamfusion.
+
 \bibitem[Vaswani et~al., 2023]{vaswani2023attention}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
   Kaiser, L., and Polosukhin, I. (2023).
@@ -305,10 +318,22 @@ Xiao, Z., Kreis, K., and Vahdat, A. (2022).
 \newblock Tackling the generative learning trilemma with denoising diffusion
   gans.
 
+\bibitem[Xu et~al., 2021]{voxels}
+Xu, Y., Tong, X., and Stilla, U. (2021).
+\newblock Voxel-based representation of 3d point clouds: Methods, applications,
+  and its potential use in the construction industry.
+\newblock {\em Automation in Construction}, 126:103675.
+
 \bibitem[Yang et~al., 2022]{yangdiffusionSummary}
 Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Shao, Y., Zhang, W.,
   Cui, B., and Yang, M.-H. (2022).
 \newblock Diffusion models: A comprehensive survey of methods and applications.
 \newblock {\em arXiv preprint arXiv:2209.00796}.
+
+\bibitem[Zhang et~al., 2023]{Zhang_2023}
+Zhang, H., Wang, C., Tian, S., Lu, B., Zhang, L., Ning, X., and Bai, X. (2023).
+\newblock Deep learning-based 3d point cloud classification: A systematic
+  survey and outlook.
+\newblock {\em Displays}, 79:102456.
 
 \end{thebibliography}
