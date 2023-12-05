@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex abschlussarbeit"] 1701807178 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1701807191 0
-  "./bibl.bib" 1701806867 29223 d7371fe1bc934415abbe91306b5b7899 ""
+["bibtex abschlussarbeit"] 1701809205 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1701810282 0
+  "./bibl.bib" 1701808870 29193 e97a671cae8d4d102f9473d976efe0a8 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "abschlussarbeit.aux" 1701807190 29962 c2bf37586ae85831349b4171c8177cdb "pdflatex"
+  "abschlussarbeit.aux" 1701810281 29946 1d2587950f82b6028bfa260ca8c39ceb "pdflatex"
   (generated)
   "abschlussarbeit.bbl"
   "abschlussarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1701807179 "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1701807191 0
+["pdflatex"] 1701810270 "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1701810282 0
   "C:/Users/Andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1701789463 97205 3fb51b557d06aae17c4f86c5a0b69e11 ""
   "C:/Users/Andi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1701790362 24141436 784e389894ade43a1aeda6490b98d080 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -111,12 +111,12 @@
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1686255640 13231 df28b16cc1506f657b947b66cabad463 ""
   "C:/Users/Andi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "abschlussarbeit.aux" 1701807190 29962 c2bf37586ae85831349b4171c8177cdb "pdflatex"
-  "abschlussarbeit.bbl" 1701807179 14372 5c3fb0ad36f0f20f5a3eba5a8520f304 "bibtex abschlussarbeit"
-  "abschlussarbeit.lof" 1701807190 7060 a169a347030e0e2cc334504388b2f4f2 "pdflatex"
-  "abschlussarbeit.lot" 1701807190 170 5172fc40d96ddf0ade05c2687a3253b9 "pdflatex"
+  "abschlussarbeit.aux" 1701810281 29946 1d2587950f82b6028bfa260ca8c39ceb "pdflatex"
+  "abschlussarbeit.bbl" 1701809205 14343 cae39bbf70f5eb0b45c8f6d72eb020cb "bibtex abschlussarbeit"
+  "abschlussarbeit.lof" 1701810281 7060 a169a347030e0e2cc334504388b2f4f2 "pdflatex"
+  "abschlussarbeit.lot" 1701810281 170 5172fc40d96ddf0ade05c2687a3253b9 "pdflatex"
   "abschlussarbeit.tex" 1701645879 1619 5475b6e897d6ad9a759b28baa10fdc4d ""
-  "abschlussarbeit.toc" 1701807190 2716 73ce65c93e06cf0ada8b468f0e1dc2ef "pdflatex"
+  "abschlussarbeit.toc" 1701810281 2716 73ce65c93e06cf0ada8b468f0e1dc2ef "pdflatex"
   "c:/Users/Andi/Desktop/Bachelor/abschlussarbeit.tex" 1701645879 1619 5475b6e897d6ad9a759b28baa10fdc4d ""
   "chapters/Basics/3Drepresentation.tex" 1701549910 200 fe103f5cf6494e2e783f6601d4f88795 ""
   "chapters/Basics/CLIP.tex" 1701804647 2292 d9d4684a226ed6aaba4e95ae0059f798 ""
@@ -144,11 +144,11 @@
   "chapters/compare.tex" 1701790952 1606 3002462b83979855082dfea5b1e83043 ""
   "chapters/comparison/comparativeAnalysis.tex" 1701802845 4422 82ee654fdd42c9db0d588841552e28c4 ""
   "chapters/comparison/experimentalSetup.tex" 1701795574 3110 ca02b62fc22e206bdbb932e03f375468 ""
-  "chapters/comparison/generationDreamFusion.tex" 1701796327 4215 3c191c896f4120249a2881b5d8da4aec ""
+  "chapters/comparison/generationDreamFusion.tex" 1701809484 4237 279d232252156c2bf63e0e661eb83b8e ""
   "chapters/comparison/generationFantasia3D.tex" 1701796447 5402 5c6dc5fa3033efaed9702354c15d461c ""
-  "chapters/comparison/generationMagic123.tex" 1701803299 7474 979fc44d34d2b4019ef8b62272b64792 ""
-  "chapters/comparison/generationMagic3D.tex" 1701796338 5550 60b213fecee61d7f79c59e00ad71f2f9 ""
-  "chapters/comparison/generationProcess.tex" 1701796264 1832 28c67234d6d683e635618bfef5d50bf2 ""
+  "chapters/comparison/generationMagic123.tex" 1701810269 7555 d05bdbef12f16e13d3a0aa4f16a51718 ""
+  "chapters/comparison/generationMagic3D.tex" 1701809659 5550 60b213fecee61d7f79c59e00ad71f2f9 ""
+  "chapters/comparison/generationProcess.tex" 1701809204 1846 2eed6b894b12ff59425781ff5a3e15cb ""
   "chapters/comparison/generationWonder3D.tex" 1701803238 3854 5d4f8ea41aa03d315416c7042ce7b392 ""
   "chapters/conclusion.tex" 1701549910 312 288325fcb0be16e9aea3c99619de7c6a ""
   "chapters/erklaerung.tex" 1701549910 340 3d148dfd75a10e229b6e6798b5708dd8 ""
