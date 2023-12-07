@@ -5,7 +5,7 @@ Conducting a comparative analysis of 3D models presents a challenging endeavor, 
 In light of these diverse requirements, this analysis of Section~\ref{comparativeAnalysis} evaluates the generated models across multiple dimensions:
 
 \begin{enumerate}
-    \item \textbf{Prompt/Image Fidelity:} Investigates how closely each model aligns with the provided prompt or image. Can the intended subject be identified without prior knowledge of the input?
+    \item \textbf{Prompt/Result Fidelity:} Investigates how closely each model aligns with the provided prompt or image. Can the intended subject be identified without prior knowledge of the input?
     \item \textbf{Detail Level:} Examines the intricacy of each model. Are the models finely detailed or do they exhibit a more generalized structure?
     \item \textbf{Texture Realism:} Assesses the authenticity and quality of the model textures. How `real' do they look like?
     \item \textbf{Topology:} Looks into the smoothness or blockiness of the model's surface. Is the topology uniformly smooth or does it exhibit a more fragmented appearance?
@@ -42,3 +42,32 @@ In the preceding section, it was observed that the methods yielded diverse outco
     \caption{Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''}~\label{fig:resultPlaymobil}
 \end{figure}
 
+
+
+\begin{table}[h]
+    \centering
+    \small 
+    \begin{tabular}{lcccccccc}
+    \toprule
+    Prompt & Dreamfusion & \multicolumn{2}{c}{Magic3D} & \multicolumn{2}{c}{Fantasia3D} & \multicolumn{2}{c}{Magic123} & Wonder3D \\
+    \cmidrule(r){3-4} \cmidrule(lr){5-6} \cmidrule(l){7-8}
+    & & \multicolumn{1}{c}{Coarse} & \multicolumn{1}{c}{Refine} & \multicolumn{1}{c}{Geom.} & \multicolumn{1}{c}{Appear.} & \multicolumn{1}{c}{C.} & \multicolumn{1}{c}{R.} &  \\
+    \midrule
+    Robot & 1:24 & 1:23 & 1:20 & 1:15 & 1:18 & 1:46 & 1:47 & 0:15 \\
+    Playmobil & 1:17 & 1:17 & 1:18 & 1:14 & 1:17 & 1:46 & 1:46 & 0:15 \\
+    Fern & 1:25 & 1:24 & 1:19 & 1:17 & 1:20 & 1:52 & 1:48 & 0:15 \\
+    Bread & 1:25 & 1:21 & 1:21 & 1:17 & 1:20 & 1:54 & 1:52 & 0:15 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Comparison of Generation Times for Different Prompts Across Methods (Hours:Minutes). Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
+\end{table}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    

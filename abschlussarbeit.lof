@@ -9,30 +9,30 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Visual Representation of the Reverse Diffusion Process in DDPMs: This figure illustrates the progressive removal of noise from a noisy state (right) back to the original or newly generated image (left), demonstrating the model's capability to reconstruct or create images by reversing the noise addition process.}}{10}{}%
 \contentsline {figure}{\numberline {7}{\ignorespaces This figure illustrates the two-fold process in score-based generative modeling through SDEs. On the left, the Forward SDE represents the gradual transformation of data into noise, guided by the drift and diffusion coefficients. On the right, the Reverse SDE depicts the process of reconstituting original data from noise, leveraging the known score of each marginal distribution~\citep {song2020score}}}{12}{}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Representation forms of 3D data, adapted from~\cite {Zhang_2023}.}}{14}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Sumamrized workflow of a NeRF\spacefactor \@m {}: 5D input (Position + Direction) is processed by the MLP \(F_\theta \) to output color and density. Volume rendering integrates predictions along rays to generate an image from the specified viewpoint. The rendering loss, comparing the rendered and actual images, guides the network's training and refinement process~\cite {mildenhallNERF}}}{15}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Sumamrized workflow of a NeRF\spacefactor \@m {}: 5D input (Position + Direction) is processed by the MLP \(F_\theta \) to output color and density. Volume rendering integrates predictions along rays to generate an image from the specified viewpoint. The rendering loss, comparing the rendered and actual images, guides the network's training and refinement process~\cite {mildenhallNERF}}}{14}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces Timeline of generative 3D modeling technologies: This figure outlines important milestones in the development of the key methods discussed in this thesis.}}{19}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Overview of DreamFusion's process for transforming text into 3D models, illustrating the integration of Neural Radiance Fields, Score Distillation Sampling, and diffusion models. Image adapted from \citep {pooleDreamfusion}.}}{20}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces This illustration from \citep {lin2023magic3d} showcases the Magic3D process, beginning with the InstantNGP for initial 3D representation. It then details the coarse-to-fine procedure, evolving to a refined high-resolution 3D mesh model.}}{22}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Overview of Fantasia3D's workflow, disentangling geometry from appearance modeling and iteratively enhancing the quality using a refinment process \citep {chen2023fantasia3d}.}}{23}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Overview of Magic123's two-stage process, which starts with the initial image and illustrates the transition from coarse geometry capture with Instant-NGP to high-resolution mesh refinement with DMTet \citep {qian2023magic123}.}}{25}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Summarized functionality of Wonder3D, illustrating its unique approach in generating high-fidelity textured meshes from single images using cross-domain diffusion models \citep {long2023wonder3d}.}}{26}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Timeline of generative 3D modeling technologies: This figure outlines important milestones in the development of the key methods discussed in this thesis.}}{18}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Overview of DreamFusion's process for transforming text into 3D models, illustrating the integration of Neural Radiance Fields, Score Distillation Sampling, and diffusion models. Image adapted from \citep {pooleDreamfusion}.}}{19}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces This illustration from \citep {lin2023magic3d} showcases the Magic3D process, beginning with the InstantNGP for initial 3D representation. It then details the coarse-to-fine procedure, evolving to a refined high-resolution 3D mesh model.}}{21}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Overview of Fantasia3D's workflow, disentangling geometry from appearance modeling and iteratively enhancing the quality using a refinment process \citep {chen2023fantasia3d}.}}{22}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Overview of Magic123's two-stage process, which starts with the initial image and illustrates the transition from coarse geometry capture with Instant-NGP to high-resolution mesh refinement with DMTet \citep {qian2023magic123}.}}{24}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Summarized functionality of Wonder3D, illustrating its unique approach in generating high-fidelity textured meshes from single images using cross-domain diffusion models \citep {long2023wonder3d}.}}{25}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16}{\ignorespaces The generation process of Dreamfusion using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}}{30}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Magic3D generation process from coarse (a, b) to fine (c, d)}}{31}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Magic3D also generates an albedo during training. The right side shows the extracted mesh.}}{32}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces a: Fantasia3D starting with only a perfect square and refining this according to the prompt ``a robot made out of plants''. In b: only the appearance of the model gets refined. Image c shows the rendered model }}{33}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Generated textures from Fantasia3D\spacefactor \@m {}; from left to right: diffuse, roughness, metallic, and normal.}}{34}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Front view of the coarse stage of Magic123}}{34}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Front view of the refine stage of Magic123}}{35}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces 3D models generated by Magic123 and Wonder3D based on an imput image}}{36}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Front view of the Wonder3D generation process. Only minor changes can be seen between initialization and iteration 10000.}}{37}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''}}{38}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces The generation process of Dreamfusion using the prompt ``a robot made out of plants''. Section (c) shows a snapshot of the final mesh generated.}}{29}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Magic3D generation process from coarse (a, b) to fine (c, d)}}{30}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Magic3D also generates an albedo during training. The right side shows the extracted mesh.}}{31}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces a: Fantasia3D starting with only a perfect square and refining this according to the prompt ``a robot made out of plants''. In b: only the appearance of the model gets refined. Image c shows the rendered model }}{32}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Generated textures from Fantasia3D\spacefactor \@m {}; from left to right: diffuse, roughness, metallic, and normal.}}{33}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Front view of the coarse stage of Magic123}}{33}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Front view of the refine stage of Magic123}}{34}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces 3D models generated by Magic123 and Wonder3D based on an imput image}}{35}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Front view of the Wonder3D generation process. Only minor changes can be seen between initialization and iteration 10000.}}{36}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''}}{37}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {26}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{44}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{45}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{46}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{47}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{48}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{43}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{44}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{45}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{46}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{47}{}%

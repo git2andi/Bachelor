@@ -5,46 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 Database file #1: bibl.bib
-Warning--to sort, need author or key in Midjourney2023
-You've used 66 entries,
+You've used 65 entries,
             1935 wiz_defined-function locations,
-            809 strings with 16260 characters,
-and the built_in function-call counts, 26866 in all, are:
-= -- 2474
-> -- 1776
-< -- 25
-+ -- 638
-- -- 632
-* -- 2388
-:= -- 4991
-add.period$ -- 184
-call.type$ -- 66
-change.case$ -- 639
-chr.to.int$ -- 66
-cite$ -- 68
-duplicate$ -- 846
-empty$ -- 1393
-format.name$ -- 715
-if$ -- 4964
+            844 strings with 17162 characters,
+and the built_in function-call counts, 29694 in all, are:
+= -- 2803
+> -- 1749
+< -- 34
++ -- 626
+- -- 620
+* -- 2575
+:= -- 5266
+add.period$ -- 211
+call.type$ -- 65
+change.case$ -- 621
+chr.to.int$ -- 65
+cite$ -- 65
+duplicate$ -- 1024
+empty$ -- 1725
+format.name$ -- 704
+if$ -- 5707
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 314
-num.names$ -- 201
-pop$ -- 572
+missing$ -- 57
+newline$ -- 337
+num.names$ -- 203
+pop$ -- 583
 preamble$ -- 1
-purify$ -- 640
+purify$ -- 622
 quote$ -- 0
-skip$ -- 653
+skip$ -- 804
 stack$ -- 0
-substring$ -- 1169
-swap$ -- 71
-text.length$ -- 6
+substring$ -- 1607
+swap$ -- 176
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 394
-warning$ -- 1
-while$ -- 161
+type$ -- 388
+warning$ -- 0
+while$ -- 196
 width$ -- 0
-write$ -- 784
-(There was 1 warning)
+write$ -- 845

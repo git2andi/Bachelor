@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.5)  7 DEC 2023 01:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.12.5)  8 DEC 2023 00:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -262,27 +262,121 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count289
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count290
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip64
+\multirow@cntb=\count291
+\multirow@dima=\skip65
+\bigstrutjot=\dimen173
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen174
+\ar@mcellbox=\box57
+\extrarowheight=\dimen175
+\NC@list=\toks29
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
+\TX@cols=\count292
+\TX@ftn=\toks30
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen181
+\lightrulewidth=\dimen182
+\cmidrulewidth=\dimen183
+\belowrulesep=\dimen184
+\belowbottomsep=\dimen185
+\aboverulesep=\dimen186
+\abovetopsep=\dimen187
+\cmidrulesep=\dimen188
+\cmidrulekern=\dimen189
+\defaultaddspace=\dimen190
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen191
+\@belowrulesep=\dimen192
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen193
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen194
+\c@nlinenum=\count297
+\TeXr@lab=\toks31
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count298
+\l__siunitx_number_exponent_fixed_int=\count299
+\l__siunitx_number_min_decimal_int=\count300
+\l__siunitx_number_min_integer_int=\count301
+\l__siunitx_number_round_precision_int=\count302
+\l__siunitx_number_lower_threshold_int=\count303
+\l__siunitx_number_upper_threshold_int=\count304
+\l__siunitx_number_group_first_int=\count305
+\l__siunitx_number_group_size_int=\count306
+\l__siunitx_number_group_minimum_int=\count307
+\l__siunitx_angle_tmp_dim=\dimen195
+\l__siunitx_angle_marker_box=\box59
+\l__siunitx_angle_unit_box=\box60
+\l__siunitx_compound_count_int=\count308
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count309
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box61
+\l__siunitx_table_tmp_dim=\dimen196
+\l__siunitx_table_column_width_dim=\dimen197
+\l__siunitx_table_integer_box=\box62
+\l__siunitx_table_decimal_box=\box63
+\l__siunitx_table_uncert_box=\box64
+\l__siunitx_table_before_box=\box65
+\l__siunitx_table_after_box=\box66
+\l__siunitx_table_before_dim=\dimen198
+\l__siunitx_table_carry_dim=\dimen199
+\l__siunitx_unit_tmp_int=\count310
+\l__siunitx_unit_position_int=\count311
+\l__siunitx_unit_total_int=\count312
 ) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box67
 ) (abschlussarbeit.aux)
 \openout1 = `abschlussarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -320,26 +414,30 @@ LaTeX Font Info:    ... okay on input line 33.
 
 (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen173
-\scratchbox=\box58
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen174
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count314
+\scratchdimen=\dimen256
+\scratchbox=\box68
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen257
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count298
+\c@lstlisting=\count320
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ (C:\Users\Andi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 37.
  (chapters/titelseite.tex
 <figures/ub_logo.png, id=1, 170.7981pt x 170.7981pt>
 File: figures/ub_logo.png Graphic file (type png)
@@ -360,518 +458,1423 @@ Overfull \hbox (12.00002pt too wide) in paragraph at lines 32--32
 
 [1
 
-{C:/Users/Andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/ub_logo.png>]) (chapters/abstract.tex [1]) (abschlussarbeit.toc [3
-
-])
+{C:/Users/Andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/ub_logo.png>]) (chapters/abstract.tex [1])
+No file abschlussarbeit.toc.
 \tf@toc=\write4
 \openout4 = `abschlussarbeit.toc'.
 
- [4] (abschlussarbeit.lot)
+[3
+
+]
+No file abschlussarbeit.lot.
 \tf@lot=\write5
 \openout5 = `abschlussarbeit.lot'.
 
- [5
+[4
 
-] (abschlussarbeit.lof
-Overfull \hbox (62.57178pt too wide) in paragraph at lines 5--5
- \OT1/cmr/m/n/10.95 mize re-con-struc-tion loss. TODO ADD LOSS https://towardsdatascience.com/difference- 
- []
-
-[6
-
-])
+]
+No file abschlussarbeit.lof.
 \tf@lof=\write6
 \openout6 = `abschlussarbeit.lof'.
 
- [7] (chapters/introduction.tex
+[5
+
+] (chapters/introduction.tex
 Chapter 1.
+
+LaTeX Warning: Reference `ch:models' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `kingmaVAE' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `rezendeVAE' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `goodfellowGAN' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `sohlDDPM' on page 1 undefined on input line 10.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 1 undefined on input line 10.
+
 [1
 
 ]) (chapters/basics.tex [2]
 Chapter 2.
-<figures/BasicTrilemma.png, id=40, 575.52516pt x 516.80579pt>
+<figures/BasicTrilemma.png, id=32, 575.52516pt x 516.80579pt>
 File: figures/BasicTrilemma.png Graphic file (type png)
 <use figures/BasicTrilemma.png>
 Package pdftex.def Info: figures/BasicTrilemma.png  used on input line 7.
 (pdftex.def)             Requested size: 170.71393pt x 153.29228pt.
+
+Package natbib Warning: Citation `xiao2022tackling' on page 3 undefined on input line 8.
+
+
+Package natbib Warning: Citation `xiao2022tackling' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:generativeTrilemma' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `xiao2022tackling' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `kingmaVAE' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `rezendeVAE' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `goodfellowGAN' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `sohlDDPM' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `song2020score' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `song2021maximum' on page 3 undefined on input line 11.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 3 undefined on input line 13.
+
 [3
 
- <./figures/BasicTrilemma.png>] (chapters/Basics/VAEs.tex [4]
-<figures/Autoencoder.png, id=48, 2258.4375pt x 1129.21875pt>
+ <./figures/BasicTrilemma.png>] (chapters/Basics/VAEs.tex
+
+Package natbib Warning: Citation `hintonCode' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `hintonCode' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `michelucci2022introduction' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `michelucci2022introduction' on page 4 undefined on input line 7.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 4 undefined on input line 7.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 4 undefined on input line 7.
+
+
+Package natbib Warning: Citation `michelucci2022introduction' on page 4 undefined on input line 10.
+
+[4]
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 5 undefined on input line 12.
+
+<figures/Autoencoder.png, id=40, 2258.4375pt x 1129.21875pt>
 File: figures/Autoencoder.png Graphic file (type png)
 <use figures/Autoencoder.png>
 Package pdftex.def Info: figures/Autoencoder.png  used on input line 17.
 (pdftex.def)             Requested size: 298.75264pt x 149.37093pt.
- [5 <./figures/Autoencoder.png>] Excluding 'comment' comment.
-<figures/VAE.png, id=53, 3011.25pt x 1129.21875pt>
+
+Package natbib Warning: Citation `doerschVAE' on page 5 undefined on input line 21.
+
+Excluding 'comment' comment.
+<figures/VAE.png, id=41, 3011.25pt x 1129.21875pt>
 File: figures/VAE.png Graphic file (type png)
 <use figures/VAE.png>
 Package pdftex.def Info: figures/VAE.png  used on input line 42.
 (pdftex.def)             Requested size: 384.1096pt x 144.02948pt.
-) (chapters/Basics/GANs.tex [6 <./figures/VAE.png>]
-<figures/Generator.png, id=59, 813.0375pt x 225.84375pt>
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 5 undefined on input line 46.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 5 undefined on input line 46.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 5 undefined on input line 46.
+
+
+Package natbib Warning: Citation `kingmaVAE' on page 5 undefined on input line 46.
+
+
+Package natbib Warning: Citation `higginsVAE' on page 5 undefined on input line 46.
+
+[5 <./figures/Autoencoder.png>]) (chapters/Basics/GANs.tex
+
+Package natbib Warning: Citation `goodfellowGAN' on page 6 undefined on input line 3.
+
+
+Package natbib Warning: Citation `goodfellowGAN' on page 6 undefined on input line 3.
+
+
+Package natbib Warning: Citation `goodfellowGAN' on page 6 undefined on input line 3.
+
+<figures/Generator.png, id=47, 813.0375pt x 225.84375pt>
 File: figures/Generator.png Graphic file (type png)
 <use figures/Generator.png>
 Package pdftex.def Info: figures/Generator.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 118.5525pt.
-) (chapters/Basics/diffusionModels.tex [7 <./figures/Generator.png>] (chapters/Basics/DDPM.tex [8]
-<figures/manta_DDMP3.png, id=71, 14446.0503pt x 2078.4852pt>
+
+Package natbib Warning: Citation `goodfellowGAN' on page 6 undefined on input line 13.
+
+[6 <./figures/VAE.png>]
+
+Package natbib Warning: Citation `goodfellowGAN' on page 7 undefined on input line 15.
+
+
+Package natbib Warning: Citation `GoodfellowDeepLearning' on page 7 undefined on input line 15.
+
+
+Package natbib Warning: Citation `goodfellowGAN' on page 7 undefined on input line 19.
+
+
+Package natbib Warning: Citation `brophyGAN' on page 7 undefined on input line 19.
+
+
+Package natbib Warning: Citation `brophyGAN' on page 7 undefined on input line 19.
+
+
+Package natbib Warning: Citation `brophyGAN' on page 7 undefined on input line 19.
+
+
+Package natbib Warning: Citation `salimansNIPS' on page 7 undefined on input line 19.
+
+
+Package natbib Warning: Citation `brophyGAN' on page 7 undefined on input line 19.
+
+) (chapters/Basics/diffusionModels.tex [7 <./figures/Generator.png>]
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `sohlDDPM' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `song2020score' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `song2021maximum' on page 8 undefined on input line 5.
+
+(chapters/Basics/DDPM.tex
+
+Package natbib Warning: Citation `sohlDDPM' on page 8 undefined on input line 3.
+
+
+LaTeX Warning: Reference `fig:figureForwardProcess' on page 8 undefined on input line 3.
+
+
+LaTeX Warning: Reference `fig:figureReverseProcess' on page 8 undefined on input line 3.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 8 undefined on input line 5.
+
+
+Package natbib Warning: Citation `martinez2023understanding' on page 8 undefined on input line 7.
+
+
+Package natbib Warning: Citation `sohlDDPM' on page 8 undefined on input line 13.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 8 undefined on input line 13.
+
+
+Package natbib Warning: Citation `kingma2023variationalDM' on page 8 undefined on input line 13.
+
+
+Package natbib Warning: Citation `martinez2023understanding' on page 8 undefined on input line 17.
+
+[8]
+
+Package natbib Warning: Citation `martinez2023understanding' on page 9 undefined on input line 21.
+
+<figures/manta_DDMP3.png, id=65, 14446.0503pt x 2078.4852pt>
 File: figures/manta_DDMP3.png Graphic file (type png)
 <use figures/manta_DDMP3.png>
 Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
- [9 <./figures/manta_DDMP3.png>]
+
+LaTeX Warning: Reference `fig:figureReverseProcess' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `sohlDDPM' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `martinez2023understanding' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 9 undefined on input line 29.
+
+
+Package natbib Warning: Citation `martinez2023understanding' on page 9 undefined on input line 37.
+
+
+Package natbib Warning: Citation `hoDDPMs' on page 9 undefined on input line 37.
+
+
+Package natbib Warning: Citation `martinez2023understanding' on page 9 undefined on input line 37.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 9 undefined on input line 37.
+
+
+Package natbib Warning: Citation `yangdiffusionSummary' on page 9 undefined on input line 37.
+
 File: figures/manta_DDMP3.png Graphic file (type png)
 <use figures/manta_DDMP3.png>
 Package pdftex.def Info: figures/manta_DDMP3.png  used on input line 41.
 (pdftex.def)             Requested size: 426.79135pt x 61.4004pt.
- Excluding 'comment' comment.) (chapters/Basics/SGM.tex [10]) (chapters/Basics/SDE.tex [11]
-<figures/DiffusionModels_SDEs.png, id=85, 983.92593pt x 344.03531pt>
+Excluding 'comment' comment.
+
+Package natbib Warning: Citation `martinez2023understanding' on page 9 undefined on input line 51.
+
+) (chapters/Basics/SGM.tex [9 <./figures/manta_DDMP3.png>]
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 3.
+
+
+Package natbib Warning: Citation `steinScore' on page 10 undefined on input line 3.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 3.
+
+
+Package natbib Warning: Citation `hyvarinenScoreMatching' on page 10 undefined on input line 5.
+
+
+Package natbib Warning: Citation `song2021score' on page 10 undefined on input line 5.
+
+
+Package natbib Warning: Citation `song2021score' on page 10 undefined on input line 11.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 11.
+
+
+Package natbib Warning: Citation `robertsLangevin' on page 10 undefined on input line 13.
+
+
+Package natbib Warning: Citation `song2021score' on page 10 undefined on input line 13.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 19.
+
+
+Package natbib Warning: Citation `song2021score' on page 10 undefined on input line 19.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 21.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 21.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 10 undefined on input line 21.
+
+[10]
+
+Package natbib Warning: Citation `song2019SGM' on page 11 undefined on input line 23.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 11 undefined on input line 23.
+
+) (chapters/Basics/SDE.tex
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 3.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 3.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 7.
+
+
+Package natbib Warning: Citation `anderson1982313' on page 11 undefined on input line 10.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 10.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 14.
+
+
+Package natbib Warning: Citation `song2019SGM' on page 11 undefined on input line 14.
+
+<figures/DiffusionModels_SDEs.png, id=76, 983.92593pt x 344.03531pt>
 File: figures/DiffusionModels_SDEs.png Graphic file (type png)
 <use figures/DiffusionModels_SDEs.png>
 Package pdftex.def Info: figures/DiffusionModels_SDEs.png  used on input line 18.
 (pdftex.def)             Requested size: 426.79135pt x 149.22893pt.
- Excluding 'comment' comment.)) (chapters/Basics/CLIP.tex [12 <./figures/DiffusionModels_SDEs.png>]) (chapters/Basics/MLP.tex) (chapters/Basics/3Drepresentation.tex (chapters/Basics/MPCV.tex [13]
-<figures/mpcv.png, id=94, 1208.26407pt x 475.02469pt>
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 19.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 19.
+
+
+Package natbib Warning: Citation `hyvarinenScoreMatching' on page 11 undefined on input line 22.
+
+
+Package natbib Warning: Citation `song2020score' on page 11 undefined on input line 22.
+
+Excluding 'comment' comment.)) (chapters/Basics/CLIP.tex [11]
+
+Package natbib Warning: Citation `radfordCLIP' on page 12 undefined on input line 3.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 12 undefined on input line 3.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 12 undefined on input line 5.
+
+
+Package natbib Warning: Citation `heResnet' on page 12 undefined on input line 5.
+
+
+Package natbib Warning: Citation `dosovitskiyViT' on page 12 undefined on input line 5.
+
+
+Package natbib Warning: Citation `vaswani2023attention' on page 12 undefined on input line 5.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 12 undefined on input line 7.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 12 undefined on input line 9.
+
+) (chapters/Basics/MLP.tex [12 <./figures/DiffusionModels_SDEs.png>]
+
+Package natbib Warning: Citation `noriega2005multilayer' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `MurtaghMLP' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `MurtaghMLP' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `noriega2005multilayer' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `noriega2005multilayer' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `MurtaghMLP' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `MurtaghMLP' on page 13 undefined on input line 3.
+
+) (chapters/Basics/3Drepresentation.tex (chapters/Basics/MPCV.tex
+
+Package natbib Warning: Citation `lahav2020meshwalker' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `Zhang_2023' on page 13 undefined on input line 3.
+
+
+Package natbib Warning: Citation `voxels' on page 13 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Zhang_2023' on page 13 undefined on input line 5.
+
+
+Package natbib Warning: Citation `voxels' on page 13 undefined on input line 7.
+
+
+Package natbib Warning: Citation `Zhang_2023' on page 13 undefined on input line 7.
+
+<figures/mpcv.png, id=84, 1208.26407pt x 475.02469pt>
 File: figures/mpcv.png Graphic file (type png)
 <use figures/mpcv.png>
 Package pdftex.def Info: figures/mpcv.png  used on input line 11.
 (pdftex.def)             Requested size: 341.43437pt x 134.23096pt.
-) (chapters/Basics/NeRF.tex
-<figures/NeRF_Fig_2_Mildenhall.png, id=95, 1718.42pt x 475.7775pt>
+
+Package natbib Warning: Citation `Zhang_2023' on page 13 undefined on input line 12.
+
+
+Package natbib Warning: Citation `Zhang_2023' on page 13 undefined on input line 12.
+
+) (chapters/Basics/NeRF.tex [13]
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 3.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 3.
+
+<figures/NeRF_Fig_2_Mildenhall.png, id=88, 1718.42pt x 475.7775pt>
 File: figures/NeRF_Fig_2_Mildenhall.png Graphic file (type png)
 <use figures/NeRF_Fig_2_Mildenhall.png>
 Package pdftex.def Info: figures/NeRF_Fig_2_Mildenhall.png  used on input line 7.
 (pdftex.def)             Requested size: 426.79135pt x 118.16002pt.
- [14 <./figures/mpcv.png>] [15 <./figures/NeRF_Fig_2_Mildenhall.png>]) (chapters/Basics/DMTet.tex [16]) (chapters/Basics/InstantNGP.tex [17]))) (chapters/models.tex [18]
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 8.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 8.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 11.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 14 undefined on input line 11.
+
+[14 <./figures/mpcv.png> <./figures/NeRF_Fig_2_Mildenhall.png>]
+
+Package natbib Warning: Citation `mildenhallNERF' on page 15 undefined on input line 19.
+
+
+LaTeX Warning: Reference `fig:figureNeRF' on page 15 undefined on input line 19.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 15 undefined on input line 19.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 15 undefined on input line 21.
+
+
+Package natbib Warning: Citation `hu2023consistentnerf' on page 15 undefined on input line 23.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 15 undefined on input line 25.
+
+
+Package natbib Warning: Citation `arandjelović2021nerf' on page 15 undefined on input line 25.
+
+[15]
+
+Package natbib Warning: Citation `mildenhallNERF' on page 16 undefined on input line 27.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 16 undefined on input line 27.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 16 undefined on input line 27.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 16 undefined on input line 29.
+
+
+Package natbib Warning: Citation `rabby2023beyondpixels' on page 16 undefined on input line 29.
+
+
+Package natbib Warning: Citation `rabby2023beyondpixels' on page 16 undefined on input line 29.
+
+) (chapters/Basics/DMTet.tex
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 3.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 16 undefined on input line 3.
+
+
+Package natbib Warning: Citation `michalkiewicz2019deep' on page 16 undefined on input line 3.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 5.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 5.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 7.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 7.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 7.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 16 undefined on input line 7.
+
+[16]
+
+Package natbib Warning: Citation `shen2021DMTet' on page 17 undefined on input line 9.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 17 undefined on input line 9.
+
+) (chapters/Basics/InstantNGP.tex
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 3.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 3.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 5.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 5.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 5.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 7.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 9.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 9.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 17 undefined on input line 9.
+
+))) (chapters/models.tex [17]
 Chapter 3.
-<figures/timelineMethods.png, id=114, 1061.46562pt x 231.86626pt>
+<figures/timelineMethods.png, id=104, 1061.46562pt x 231.86626pt>
 File: figures/timelineMethods.png Graphic file (type png)
 <use figures/timelineMethods.png>
 Package pdftex.def Info: figures/timelineMethods.png  used on input line 7.
 (pdftex.def)             Requested size: 426.79135pt x 93.22955pt.
-(chapters/Models/3dFromText.tex (chapters/Models/dreamfusion.tex [19
+(chapters/Models/3dFromText.tex (chapters/Models/dreamfusion.tex
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 18 undefined on input line 3.
+
+[18
 
  <./figures/timelineMethods.png>]
-<figures/Dreamfusion.png, id=119, 1254.93843pt x 405.76593pt>
+
+Package natbib Warning: Citation `mordvintsevDIP' on page 19 undefined on input line 5.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 19 undefined on input line 5.
+
+
+LaTeX Warning: Reference `fig:figureDreamfusion' on page 19 undefined on input line 7.
+
+
+Package natbib Warning: Citation `saharia2022imagen' on page 19 undefined on input line 7.
+
+
+Package natbib Warning: Citation `barron2022mipnerf' on page 19 undefined on input line 7.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 19 undefined on input line 7.
+
+<figures/Dreamfusion.png, id=109, 1254.93843pt x 405.76593pt>
 File: figures/Dreamfusion.png Graphic file (type png)
 <use figures/Dreamfusion.png>
 Package pdftex.def Info: figures/Dreamfusion.png  used on input line 11.
 (pdftex.def)             Requested size: 426.79135pt x 137.99573pt.
- [20 <./figures/Dreamfusion.png>]) (chapters/Models/Magic3D.tex [21]
-<figures/Magic3D.png, id=129, 1135.99406pt x 371.88937pt>
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 19 undefined on input line 12.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 19 undefined on input line 12.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 19 undefined on input line 17.
+
+[19 <./figures/Dreamfusion.png>]
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 19.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 21.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 23.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 20 undefined on input line 27.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 27.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 27.
+
+
+Package natbib Warning: Citation `pooleDreamfusion' on page 20 undefined on input line 27.
+
+) (chapters/Models/Magic3D.tex
+
+Package natbib Warning: Citation `lin2023magic3d' on page 20 undefined on input line 4.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 20 undefined on input line 6.
+
+[20]
+<figures/Magic3D.png, id=120, 1135.99406pt x 371.88937pt>
 File: figures/Magic3D.png Graphic file (type png)
 <use figures/Magic3D.png>
 Package pdftex.def Info: figures/Magic3D.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 139.7192pt.
- [22 <./figures/Magic3D.png>]) (chapters/Models/fantasia3D.tex
-<figures/Fantasia3D.png, id=134, 1227.83719pt x 301.125pt>
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 11.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 11.
+
+
+Package natbib Warning: Citation `balaji2022eDiff-I' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `saharia2022imagen' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `M_ller_2022' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 15.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 21 undefined on input line 18.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 18.
+
+
+Package natbib Warning: Citation `rombachStableDiffusion' on page 21 undefined on input line 18.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 18.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 21 undefined on input line 18.
+
+[21 <./figures/Magic3D.png>]
+
+Package natbib Warning: Citation `lin2023magic3d' on page 22 undefined on input line 20.
+
+
+Package natbib Warning: Citation `lin2023magic3d' on page 22 undefined on input line 20.
+
+) (chapters/Models/fantasia3D.tex
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 3.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 4.
+
+<figures/Fantasia3D.png, id=125, 1227.83719pt x 301.125pt>
 File: figures/Fantasia3D.png Graphic file (type png)
 <use figures/Fantasia3D.png>
 Package pdftex.def Info: figures/Fantasia3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 104.66934pt.
- [23 <./figures/Fantasia3D.png>])) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex [24]
-<figures/Magic123.png, id=143, 1086.30844pt x 428.35031pt>
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 9.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 9.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 12.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 14.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 14.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 22 undefined on input line 14.
+
+[22 <./figures/Fantasia3D.png>]
+
+Package natbib Warning: Citation `rombachStableDiffusion' on page 23 undefined on input line 16.
+
+
+Package natbib Warning: Citation `mildenhallNERF' on page 23 undefined on input line 16.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 23 undefined on input line 18.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 23 undefined on input line 18.
+
+
+Package natbib Warning: Citation `chen2023fantasia3d' on page 23 undefined on input line 18.
+
+)) (chapters/Models/3dFromImage.tex (chapters/Models/Magic123.tex
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 3.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 3.
+
+
+Package natbib Warning: Citation `ranftl2021vision' on page 23 undefined on input line 5.
+
+
+Package natbib Warning: Citation `ranftl2020robust' on page 23 undefined on input line 5.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 5.
+
+<figures/Magic123.png, id=130, 1086.30844pt x 428.35031pt>
 File: figures/Magic123.png Graphic file (type png)
 <use figures/Magic123.png>
 Package pdftex.def Info: figures/Magic123.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 168.29126pt.
- [25 <./figures/Magic123.png>]) (chapters/Models/Wonder3D.tex
-<figures/Wonder3D.png, id=148, 1368.61313pt x 357.58594pt>
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 10.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 10.
+
+
+Package natbib Warning: Citation `rombachStableDiffusion' on page 23 undefined on input line 14.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 14.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 23 undefined on input line 14.
+
+[23]
+
+Package natbib Warning: Citation `qian2023magic123' on page 24 undefined on input line 16.
+
+
+Package natbib Warning: Citation `shen2021DMTet' on page 24 undefined on input line 16.
+
+
+Package natbib Warning: Citation `liu2023zero1to3' on page 24 undefined on input line 16.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 24 undefined on input line 16.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 24 undefined on input line 18.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 24 undefined on input line 18.
+
+[24 <./figures/Magic123.png>]
+
+Package natbib Warning: Citation `qian2023magic123' on page 25 undefined on input line 20.
+
+) (chapters/Models/Wonder3D.tex
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 3.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 3.
+
+<figures/Wonder3D.png, id=138, 1368.61313pt x 357.58594pt>
 File: figures/Wonder3D.png Graphic file (type png)
 <use figures/Wonder3D.png>
 Package pdftex.def Info: figures/Wonder3D.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79135pt x 111.5107pt.
- [26 <./figures/Wonder3D.png>]))) (chapters/compare.tex [27]
-Chapter 4.
-(chapters/comparison/experimentalSetup.tex [28
 
-]) (chapters/comparison/generationProcess.tex (chapters/comparison/generationDreamFusion.tex [29]
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png, id=162, 513.92pt x 513.92pt>
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 9.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 9.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 25 undefined on input line 12.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 12.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 14.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 16.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 16.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 18.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 25 undefined on input line 18.
+
+[25 <./figures/Wonder3D.png>]
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 20.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 20.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 22.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 24.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 26.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 26.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 26.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 28.
+
+
+Package natbib Warning: Citation `long2023wonder3d' on page 26 undefined on input line 28.
+
+))) (chapters/compare.tex [26]
+Chapter 4.
+(chapters/comparison/experimentalSetup.tex
+
+Package natbib Warning: Citation `threestudio2023' on page 27 undefined on input line 5.
+
+
+Package natbib Warning: Citation `qian2023magic123' on page 27 undefined on input line 5.
+
+
+Package natbib Warning: Citation `threestudio2023' on page 27 undefined on input line 5.
+
+
+Package natbib Warning: Citation `googlecolab' on page 27 undefined on input line 7.
+
+[27
+
+]
+
+Package natbib Warning: Citation `long2023wonder3d' on page 28 undefined on input line 9.
+
+) (chapters/comparison/generationProcess.tex
+
+Package natbib Warning: Citation `dalle3' on page 28 undefined on input line 5.
+
+(chapters/comparison/generationDreamFusion.tex
+
+LaTeX Warning: Reference `fig:generationDreamFusion' on page 28 undefined on input line 1.
+
+
+LaTeX Warning: Reference `fig:secondRobotDreamfusion' on page 28 undefined on input line 1.
+
+
+Package natbib Warning: Citation `stable-dreamfusion' on page 28 undefined on input line 2.
+
+[28]
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png, id=153, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png, id=163, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png, id=154, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png, id=164, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png, id=155, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png  used on input line 17.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png, id=165, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png, id=156, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png  used on input line 22.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png, id=166, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png, id=157, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png  used on input line 23.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png, id=167, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png, id=158, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png  used on input line 24.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png, id=168, 642.4pt x 1541.76pt>
+<etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png, id=159, 642.4pt x 1541.76pt>
 File: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png  used on input line 31.
 (pdftex.def)             Requested size: 107.55095pt x 258.11995pt.
-) (chapters/comparison/generationMagic3D.tex [30 <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png>]
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png, id=175, 513.92pt x 513.92pt>
+
+
+LaTeX Warning: Reference `fig:generationDreamFusion' on page 29 undefined on input line 37.
+
+
+Package natbib Warning: Citation `meshLab' on page 29 undefined on input line 38.
+
+) (chapters/comparison/generationMagic3D.tex [29 <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_1_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion/dreamfusion_plantrobot_model_resized.png>]
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png, id=165, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png  used on input line 14.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png, id=176, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png, id=166, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png, id=177, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png, id=167, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png, id=178, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png, id=168, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png  used on input line 21.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png, id=179, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png, id=169, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png  used on input line 22.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png, id=180, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png, id=170, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png  used on input line 23.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png, id=181, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png, id=171, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png  used on input line 28.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png, id=182, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png, id=172, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png  used on input line 29.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png, id=183, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png, id=173, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png  used on input line 30.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png, id=184, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png, id=174, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png  used on input line 35.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png, id=185, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png, id=175, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png  used on input line 36.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png, id=186, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png, id=176, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png  used on input line 37.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
- [31 <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png (PNG copy)>]
-<etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg, id=190, 1027.84pt x 1027.84pt>
+
+
+LaTeX Warning: Reference `fig:generationMagic3D' on page 30 undefined on input line 43.
+
+[30 <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_coarse_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic3d/magic3D_refine_robot_10000_part1.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:texturesMagic3D' on page 31 undefined on input line 47.
+
+<etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg, id=180, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg Graphic file (type jpg)
 <use etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg>
 Package pdftex.def Info: etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg  used on input line 51.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png, id=191, 771.88374pt x 1541.76pt>
+<etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png, id=181, 771.88374pt x 1541.76pt>
 File: etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png  used on input line 52.
 (pdftex.def)             Requested size: 59.75052pt x 119.34401pt.
 ) (chapters/comparison/generationFantasia3D.tex
-<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png, id=192, 513.92pt x 513.92pt>
+
+LaTeX Warning: Reference `fig:generationFantasia2' on page 31 undefined on input line 1.
+
+<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png, id=182, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png  used on input line 14.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png, id=193, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png, id=183, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png, id=194, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png, id=184, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png, id=195, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png, id=185, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png  used on input line 21.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png, id=196, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png, id=186, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png  used on input line 22.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png, id=197, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png, id=187, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png  used on input line 23.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png, id=198, 1343.0175pt x 1541.76pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png, id=188, 1343.0175pt x 1541.76pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png  used on input line 29.
 (pdftex.def)             Requested size: 157.9107pt x 181.26268pt.
- [32 <./etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg> <./etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png>] [33 <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png>]
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg, id=207, 1027.84pt x 1027.84pt>
+[31 <./etc/a robot made out of plants/magic3D/magic3D_refine_robot_texture.jpg> <./etc/a robot made out of plants/magic3d/magic3d_plantRobot_model_resized.png>]
+
+LaTeX Warning: Reference `fig:generationFantasia' on page 32 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:texturesFantasia' on page 32 undefined on input line 39.
+
+[32 <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d/fantasia_plantrobot_model_resized.png>]
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg, id=198, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg Graphic file (type jpg)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg  used on input line 43.
 (pdftex.def)             Requested size: 64.01608pt x 64.00458pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg, id=208, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg, id=199, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg Graphic file (type jpg)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg  used on input line 44.
 (pdftex.def)             Requested size: 64.01608pt x 64.00458pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg, id=209, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg, id=200, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg Graphic file (type jpg)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg  used on input line 45.
 (pdftex.def)             Requested size: 64.01608pt x 64.00458pt.
-<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg, id=210, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg, id=201, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg Graphic file (type jpg)
 <use etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg  used on input line 46.
 (pdftex.def)             Requested size: 64.01608pt x 64.00458pt.
 ) (chapters/comparison/generationMagic123.tex
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png, id=211, 513.92pt x 513.92pt>
+
+LaTeX Warning: Reference `fig:inputAndModel' on page 33 undefined on input line 1.
+
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png, id=202, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png  used on input line 9.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png, id=212, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png, id=203, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png  used on input line 10.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png, id=213, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png, id=204, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png  used on input line 16.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png, id=214, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png, id=205, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png  used on input line 17.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png, id=215, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png, id=206, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png  used on input line 23.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png, id=216, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png, id=207, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png  used on input line 24.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
- [34 <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png (PNG copy)>]
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png, id=220, 513.92pt x 513.92pt>
+
+LaTeX Warning: Reference `fig:generationFrontCoarseMagic123' on page 33 undefined on input line 30.
+
+[33 <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_kd.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_roughness.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_metallic.jpg> <./etc/a robot made out of plants/fantasia3d/fantasia_refine_robot_normal.jpg> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:generationFrontRefineMagic123' on page 34 undefined on input line 32.
+
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png, id=211, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png  used on input line 40.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png, id=221, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png, id=212, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png  used on input line 41.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png, id=222, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png, id=213, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png  used on input line 47.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png, id=223, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png, id=214, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png  used on input line 48.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png, id=224, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png, id=215, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png  used on input line 54.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png, id=225, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png, id=216, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png  used on input line 55.
 (pdftex.def)             Requested size: 106.69783pt x 106.69522pt.
- [35 <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png (PNG copy)>]
-<etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png, id=229, 925.4575pt x 1541.76pt>
+
+LaTeX Warning: Reference `fig:generationCoarseMagic123' on page 34 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:generationRefineMagic123' on page 34 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:inputAndModel' on page 34 undefined on input line 63.
+
+[34 <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png (PNG copy)>]
+<etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png, id=220, 925.4575pt x 1541.76pt>
 File: etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png  used on input line 69.
 (pdftex.def)             Requested size: 98.16019pt x 163.52458pt.
-<etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png, id=230, 1541.76pt x 1541.76pt>
+<etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png, id=221, 1541.76pt x 1541.76pt>
 File: etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png  used on input line 74.
 (pdftex.def)             Requested size: 162.18279pt x 162.16011pt.
-<etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png, id=231, 846.16125pt x 1541.76pt>
+<etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png, id=222, 846.16125pt x 1541.76pt>
 File: etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png  used on input line 79.
 (pdftex.def)             Requested size: 89.62904pt x 163.28934pt.
 ) (chapters/comparison/generationWonder3D.tex
-<etc/a robot made out of plants/wonder3d/rgb_000_front.png, id=232, 256.96pt x 256.96pt>
+
+LaTeX Warning: Reference `fig:inputAndModel' on page 35 undefined on input line 1.
+
+
+LaTeX Warning: Reference `fig:initializationWonder3D' on page 35 undefined on input line 1.
+
+
+LaTeX Warning: Reference `fig:generationWonder3D' on page 35 undefined on input line 3.
+
+<etc/a robot made out of plants/wonder3d/rgb_000_front.png, id=223, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3d/rgb_000_front.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/rgb_000_front.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/rgb_000_front.png  used on input line 10.
 (pdftex.def)             Requested size: 76.8193pt x 76.81804pt.
-<etc/a robot made out of plants/wonder3d/normals_000_front.png, id=233, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3d/normals_000_front.png, id=224, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3d/normals_000_front.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/normals_000_front.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/normals_000_front.png  used on input line 11.
 (pdftex.def)             Requested size: 76.8193pt x 76.81804pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png, id=234, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png, id=225, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png  used on input line 17.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png, id=235, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png, id=226, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png  used on input line 18.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png, id=236, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png, id=227, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png  used on input line 24.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png, id=237, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png, id=228, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png  used on input line 25.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png, id=238, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png, id=229, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png  used on input line 31.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png, id=239, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png, id=230, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png  used on input line 32.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png, id=240, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png, id=231, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png  used on input line 38.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-<etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png, id=241, 1027.84pt x 1027.84pt>
+<etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png, id=232, 1027.84pt x 1027.84pt>
 File: etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png  used on input line 39.
 (pdftex.def)             Requested size: 76.8193pt x 76.81805pt.
-)) (chapters/comparison/comparativeAnalysis.tex [36 <./etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png> <./etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png> <./etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png>] [37 <./etc/a robot made out of plants/wonder3d/rgb_000_front.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/normals_000_front.png> <./etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png (PNG copy)>]
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png, id=253, 513.92pt x 513.92pt>
+)) (chapters/comparison/comparativeAnalysis.tex [35 <./etc/a robot made out of plants/magic123/magic123_plantRobot_model_resized.png> <./etc/a robot made out of plants/magic123/robot made out of plants_noBG_resized.png> <./etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized.png>]
+
+LaTeX Warning: Reference `comparativeAnalysis' on page 36 undefined on input line 5.
+
+[36 <./etc/a robot made out of plants/wonder3d/rgb_000_front.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/normals_000_front.png> <./etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_3000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_6000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_9000_front_part4.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part1.png (PNG copy)> <./etc/a robot made out of plants/wonder3d/test/wonder3D_10000_front_part4.png (PNG copy)>]
+
+Package natbib Warning: Citation `trimesh' on page 37 undefined on input line 17.
+
+
+LaTeX Warning: Reference `fig:resultPlaymobil' on page 37 undefined on input line 19.
+
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png, id=243, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png  used on input line 27.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png, id=254, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png, id=244, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png  used on input line 33.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png, id=255, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png, id=245, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png  used on input line 39.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-)) (chapters/future.tex [38 <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png (PNG copy)>]
+)) (chapters/future.tex [37 <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png (PNG copy)>]
 Chapter 5.
-(chapters/future/emergingTrends.tex [39
 
-]) (chapters/future/handleBias.tex)) (chapters/conclusion.tex [40] [41]
+Package natbib Warning: Citation `LumaAIGenie2023' on page 38 undefined on input line 3.
+
+
+Package natbib Warning: Citation `kerbl3Dgaussians' on page 38 undefined on input line 3.
+
+(chapters/future/emergingTrends.tex
+
+Package natbib Warning: Citation `LumaAIGenie2023' on page 38 undefined on input line 3.
+
+
+Package natbib Warning: Citation `Midjourney2023' on page 38 undefined on input line 5.
+
+
+Package natbib Warning: Citation `discord' on page 38 undefined on input line 5.
+
+
+Package natbib Warning: Citation `kerbl3Dgaussians' on page 38 undefined on input line 9.
+
+[38
+
+]
+
+LaTeX Warning: Reference `ch:models' on page 39 undefined on input line 11.
+
+) (chapters/future/handleBias.tex
+
+Package natbib Warning: Citation `luccioni2023stable' on page 39 undefined on input line 3.
+
+
+Package natbib Warning: Citation `radfordCLIP' on page 39 undefined on input line 3.
+
+
+Package natbib Warning: Citation `buolamwini2018gender' on page 39 undefined on input line 3.
+
+
+Package natbib Warning: Citation `luccioni2023stable' on page 39 undefined on input line 9.
+
+)) (chapters/conclusion.tex [39] [40]
 Chapter 6.
-[42
+[41
 
-]) (chapters/appendix/additionaImages.tex [43]
+]) (chapters/appendix/additionaImages.tex [42]
 Appendix A.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png, id=275, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png, id=265, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png  used on input line 13.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png, id=276, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png, id=266, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png  used on input line 14.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png, id=277, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png, id=267, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png, id=278, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png, id=268, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png, id=279, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png, id=269, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png  used on input line 21.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png, id=280, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png, id=270, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png  used on input line 22.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png, id=281, 801.99625pt x 1541.76pt>
+<etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png, id=271, 801.99625pt x 1541.76pt>
 File: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png  used on input line 28.
 (pdftex.def)             Requested size: 107.55095pt x 206.74062pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png, id=282, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png, id=272, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png  used on input line 47.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png, id=283, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png, id=273, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png  used on input line 48.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png, id=284, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png, id=274, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png  used on input line 49.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png, id=285, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png, id=275, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png  used on input line 54.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png, id=286, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png, id=276, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png  used on input line 55.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png, id=287, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png, id=277, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png  used on input line 56.
 (pdftex.def)             Requested size: 85.35696pt x 85.3499pt.
-<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png, id=288, 1176.395pt x 1541.76pt>
+<etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png, id=278, 1176.395pt x 1541.76pt>
 File: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png Graphic file (type png)
 <use etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png>
 Package pdftex.def Info: etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png  used on input line 61.
@@ -880,27 +1883,27 @@ File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png  used on input line 75.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png, id=289, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png, id=279, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png  used on input line 76.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png, id=290, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png, id=280, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png  used on input line 77.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png, id=291, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png, id=281, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png  used on input line 78.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png, id=292, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png, id=282, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png  used on input line 79.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png, id=293, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png, id=283, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png  used on input line 80.
@@ -909,27 +1912,27 @@ File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_p
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png  used on input line 86.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png, id=294, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png, id=284, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png  used on input line 87.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png, id=295, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png, id=285, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png  used on input line 88.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png, id=296, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png, id=286, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png  used on input line 89.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png, id=297, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png, id=287, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png  used on input line 90.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png, id=298, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png, id=288, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png  used on input line 91.
@@ -938,220 +1941,236 @@ File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png  used on input line 97.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png, id=299, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png, id=289, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png  used on input line 98.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png, id=300, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png, id=290, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png  used on input line 99.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png, id=301, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png, id=291, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png  used on input line 100.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png, id=302, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png, id=292, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png  used on input line 101.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png, id=303, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png, id=293, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png  used on input line 102.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png, id=304, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png, id=294, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png  used on input line 113.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png, id=305, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png, id=295, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png  used on input line 114.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png, id=306, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png, id=296, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png  used on input line 115.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png, id=307, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png, id=297, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png  used on input line 116.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png, id=308, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png, id=298, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png  used on input line 117.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png, id=309, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png, id=299, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png  used on input line 118.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png, id=310, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png, id=300, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png  used on input line 124.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png, id=311, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png, id=301, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png  used on input line 125.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png, id=312, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png, id=302, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png  used on input line 126.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png, id=313, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png, id=303, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png  used on input line 127.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png, id=314, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png, id=304, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png  used on input line 128.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png, id=315, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png, id=305, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png  used on input line 129.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png, id=316, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png, id=306, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png  used on input line 135.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png, id=317, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png, id=307, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png  used on input line 136.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png, id=318, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png, id=308, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png  used on input line 137.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png, id=319, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png, id=309, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png  used on input line 138.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png, id=320, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png, id=310, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png  used on input line 139.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png, id=321, 513.92pt x 513.92pt>
+<etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png, id=311, 513.92pt x 513.92pt>
 File: etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png Graphic file (type png)
 <use etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png>
 Package pdftex.def Info: etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png  used on input line 140.
 (pdftex.def)             Requested size: 94.74773pt x 94.74435pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_front.png, id=322, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_front.png, id=312, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_front.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_front.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_front.png  used on input line 153.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_front.png, id=323, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_front.png, id=313, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_front.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_front.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_front.png  used on input line 154.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_front_right.png, id=324, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_front_right.png, id=314, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_front_right.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_front_right.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_front_right.png  used on input line 159.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_front_right.png, id=325, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_front_right.png, id=315, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_front_right.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_front_right.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_front_right.png  used on input line 160.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_right.png, id=326, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_right.png, id=316, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_right.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_right.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_right.png  used on input line 165.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_right.png, id=327, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_right.png, id=317, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_right.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_right.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_right.png  used on input line 166.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_back.png, id=328, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_back.png, id=318, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_back.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_back.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_back.png  used on input line 172.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_back.png, id=329, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_back.png, id=319, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_back.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_back.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_back.png  used on input line 173.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_left.png, id=330, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_left.png, id=320, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_left.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_left.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_left.png  used on input line 178.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_left.png, id=331, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_left.png, id=321, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_left.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_left.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_left.png  used on input line 179.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/rgb_000_front_left.png, id=332, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/rgb_000_front_left.png, id=322, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/rgb_000_front_left.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/rgb_000_front_left.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/rgb_000_front_left.png  used on input line 184.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-<etc/a robot made out of plants/wonder3D/normals_000_front_left.png, id=333, 256.96pt x 256.96pt>
+<etc/a robot made out of plants/wonder3D/normals_000_front_left.png, id=323, 256.96pt x 256.96pt>
 File: etc/a robot made out of plants/wonder3D/normals_000_front_left.png Graphic file (type png)
 <use etc/a robot made out of plants/wonder3D/normals_000_front_left.png>
 Package pdftex.def Info: etc/a robot made out of plants/wonder3D/normals_000_front_left.png  used on input line 185.
 (pdftex.def)             Requested size: 128.0387pt x 128.04054pt.
-) (abschlussarbeit.bbl [44
+) (abschlussarbeit.bbl [43
 
- <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png>] [45 <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png>] [46 <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png (PNG copy)>] [47 <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png (PNG copy)>] [48 <./etc/a robot made out of plants/wonder3D/rgb_000_front.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front.png> <./etc/a robot made out of plants/wonder3D/rgb_000_front_right.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front_right.png> <./etc/a robot made out of plants/wonder3D/rgb_000_right.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_right.png> <./etc/a robot made out of plants/wonder3D/rgb_000_back.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_back.png> <./etc/a robot made out of plants/wonder3D/rgb_000_left.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_left.png> <./etc/a robot made out of plants/wonder3D/rgb_000_front_left.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front_left.png>]
-Underfull \hbox (badness 4291) in paragraph at lines 63--66
+ <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_1_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/dreamfusion2/dreamfusion_plantrobot_model_resized.png>] [44 <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_0_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_coarse_robot_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_0_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_refine_robot_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/fantasia3d_fromMesh/fantasia_plantrobot_model_resized.png>] [45 <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_back_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_coarse_robot_left_10000_part1.png (PNG copy)>] [46 <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_0_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_5000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_right_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_back_10000_part1.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part2.png (PNG copy)> <./etc/a robot made out of plants/magic123/magic123_refine_robot_left_10000_part1.png (PNG copy)>] [47 <./etc/a robot made out of plants/wonder3D/rgb_000_front.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front.png> <./etc/a robot made out of plants/wonder3D/rgb_000_front_right.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front_right.png> <./etc/a robot made out of plants/wonder3D/rgb_000_right.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_right.png> <./etc/a robot made out of plants/wonder3D/rgb_000_back.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_back.png> <./etc/a robot made out of plants/wonder3D/rgb_000_left.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_left.png> <./etc/a robot made out of plants/wonder3D/rgb_000_front_left.png (PNG copy)> <./etc/a robot made out of plants/wonder3D/normals_000_front_left.png>]
+Underfull \hbox (badness 4291) in paragraph at lines 61--64
 []\OT1/cmr/m/n/10.95 Doersch, C. (2016).  Tu-to-rial on vari-a-tional au-toen-coders.  \OT1/cmr/m/it/10.95 arXiv preprint
  []
 
-[49
+[48
 
-] [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 342--345
+] [49] [50] [51]
+Underfull \hbox (badness 10000) in paragraph at lines 374--377
 []\OT1/cmr/m/n/10.95 Tang, J. (2022).  Stable-dreamfusion: Text-to-3d with stable-diffusion.
  []
 
-[52]) [53] (chapters/erklaerung.tex
+) [52] (chapters/erklaerung.tex
 Overfull \hbox (33.26138pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10.95 [TODO: F^^?ugen Sie hier die Erkl^^?arung zur selb-stst^^?andi-gen Bear-beitung gem^^?a^^Y Ihrer Themabest^^?ati-
  []
 
-) [54
+)
 
-] (abschlussarbeit.aux)
+Package natbib Warning: There were undefined citations.
+
+[53
+
+] (abschlussarbeit.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11270 strings out of 475248
- 262761 string characters out of 5758285
- 1932785 words of memory out of 5000000
- 32548 multiletter control sequences out of 15000+600000
- 571489 words of font info for 84 fonts, out of 8000000 for 9000
+ 15960 strings out of 475248
+ 394380 string characters out of 5758285
+ 1933785 words of memory out of 5000000
+ 37190 multiletter control sequences out of 15000+600000
+ 575945 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,70p,1727b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,80p,1736b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Andi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on abschlussarbeit.pdf (61 pages, 56054418 bytes).
+Output written on abschlussarbeit.pdf (58 pages, 56049110 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
+ 449 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  671 words of extra memory for PDF output out of 10000 (max. 10000000)
 

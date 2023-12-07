@@ -1,0 +1,48 @@
+Prompt: a zoomed out DSLR of a robot made out of plants
+Dreamfusion		1:24:17	
+Magic3D-coarse		1:23:20
+Magic3D-refine		1:20:03
+Fantasia3D-geometry	1:15:14
+Fantasia3D-appearance	1:18:45
+Magic123-coarse		1:46:11
+Magic123-refine		1:47:48
+
+
+Prompt: a high-quality rendering of a Playmobil firefighter
+Dreamfusion		1:17:47
+Magic3D-coarse		1:17:22
+Magic3D-refine		1:18:34
+Fantasia3D-geometry	1:14:44
+Fantasia3D-appearance	1:17:28
+Magic123-coarse		1:46:07
+Magic123-refine		1:46:24
+Wonder3D		15:01
+
+
+Prompt: a high-quality rendering of a fern in a wooden pot
+Dreamfusion		1:25:07
+Magic3D-coarse		1:24:34
+Magic3D-refine		1:19:55
+Fantasia3D-geometry	1:17:30
+Fantasia3D-appearance	1:20:08
+Magic123-coarse		1:52:46
+Magic123-refine		1:48:49
+
+Prompt: a rendering of a highly symmetrical loaf of bread
+DreamFusion		1:25:11
+Magic3D-coarse		1:21:59
+Magic3D-refine		1:21:34
+Fantasia3D-geometry	1:17:14
+Fantasia3D-appearance	1:20:44
+Magic123-coarse		1:54:14
+Magic123-refine		1:49:33
+
+Prompt: Dog
+
+DreamFusion
+Magic3D-coarse
+Magic3D-refine
+Fantasia3D-geometry
+Fantasia3D-appearance
+Magic123-coarse		1:52:32
+Magic123-refine
