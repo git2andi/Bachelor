@@ -1,0 +1,151 @@
+2023-12-03 19:48:08.093442: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-12-03 19:48:08.093493: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-12-03 19:48:08.093531: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-12-03 19:48:09.376507: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_5m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_5m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_11m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_11m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_384 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_512 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_512. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+Seed set to 0
+[INFO] Using 16bit Automatic Mixed Precision (AMP)
+[INFO] GPU available: True (cuda), used: True
+[INFO] TPU available: False, using: 0 TPU cores
+[INFO] IPU available: False, using: 0 IPUs
+[INFO] HPU available: False, using: 0 HPUs
+[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[INFO] 
+  | Name       | Type                 | Params
+----------------------------------------------------
+0 | geometry   | ImplicitSDF          | 12.6 M
+1 | material   | NoMaterial           | 0     
+2 | background | SolidColorBackground | 0     
+3 | renderer   | NVDiffRasterizer     | 0     
+----------------------------------------------------
+12.6 M    Trainable params
+0         Non-trainable params
+12.6 M    Total params
+50.417    Total estimated model params size (MB)
+[INFO] Validation results will be saved to outputs/fantasia3d/a_zoomed_out_DSLR_of_a_robot_made_out_of_plants@20231203-194811/save
+[INFO] Using prompt [a zoomed out DSLR of a robot made out of plants] and negative prompt []
+[INFO] Using view-dependent prompts [side]:[a zoomed out DSLR of a robot made out of plants, side view] [front]:[a zoomed out DSLR of a robot made out of plants, front view] [back]:[a zoomed out DSLR of a robot made out of plants, back view] [overhead]:[a zoomed out DSLR of a robot made out of plants, overhead view]
+[INFO] Loading Stable Diffusion ...
+Loading pipeline components...: 100% 4/4 [00:01<00:00,  2.58it/s]
+[INFO] Loaded Stable Diffusion!
+Initializing SDF to a(n) sphere:: 100% 1000/1000 [00:07<00:00, 141.30it/s]
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Epoch 0: |          | 0/? [00:00<?, ?it/s] /usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:212: You called `self.log('train/min_step', ...)` in your `training_step` but the value needs to be floating to be reduced. Converting it to torch.float32. You can silence this warning by converting the value to floating point yourself. If you don't intend to reduce the value (for instance when logging the global step or epoch) then you can use `self.logger.log_metrics({'train/min_step': ...})` instead.
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:212: You called `self.log('train/max_step', ...)` in your `training_step` but the value needs to be floating to be reduced. Converting it to torch.float32. You can silence this warning by converting the value to floating point yourself. If you don't intend to reduce the value (for instance when logging the global step or epoch) then you can use `self.logger.log_metrics({'train/max_step': ...})` instead.
+Epoch 0: |          | 500/? [01:33<00:00,  5.32it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.64it/s]
+Epoch 0: |          | 1000/? [03:11<00:00,  5.23it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 32.05it/s]
+Epoch 0: |          | 1500/? [07:13<00:00,  3.46it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.57it/s]
+Epoch 0: |          | 2000/? [11:14<00:00,  2.96it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.62it/s]
+Epoch 0: |          | 2500/? [15:16<00:00,  2.73it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.35it/s]
+Epoch 0: |          | 3000/? [19:17<00:00,  2.59it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.68it/s]
+Epoch 0: |          | 3500/? [23:18<00:00,  2.50it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.35it/s]
+Epoch 0: |          | 4000/? [27:19<00:00,  2.44it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.63it/s]
+Epoch 0: |          | 4500/? [31:20<00:00,  2.39it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.24it/s]
+Epoch 0: |          | 5000/? [35:20<00:00,  2.36it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.47it/s]
+Epoch 0: |          | 5500/? [39:21<00:00,  2.33it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.38it/s]
+Epoch 0: |          | 6000/? [43:22<00:00,  2.31it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.64it/s]
+Epoch 0: |          | 6500/? [47:23<00:00,  2.29it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.11it/s]
+Epoch 0: |          | 7000/? [51:24<00:00,  2.27it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.13it/s]
+Epoch 0: |          | 7500/? [55:25<00:00,  2.26it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.78it/s]
+Epoch 0: |          | 8000/? [59:26<00:00,  2.24it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.42it/s]
+Epoch 0: |          | 8500/? [1:03:27<00:00,  2.23it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.64it/s]
+Epoch 0: |          | 9000/? [1:07:28<00:00,  2.22it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 31.35it/s]
+Epoch 0: |          | 9500/? [1:11:29<00:00,  2.21it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.50it/s]
+Epoch 0: |          | 10000/? [1:15:30<00:00,  2.21it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 30.90it/s]
+Epoch 0: |          | 10000/? [1:15:31<00:00,  2.21it/s][INFO] `Trainer.fit` stopped: `max_steps=10000` reached.
+Epoch 0: |          | 10000/? [1:15:31<00:00,  2.21it/s]
+[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Testing DataLoader 0: 100% 120/120 [00:06<00:00, 18.23it/s]
+[INFO] Test results saved to outputs/fantasia3d/a_zoomed_out_DSLR_of_a_robot_made_out_of_plants@20231203-194811/save
+

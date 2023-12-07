@@ -1,0 +1,168 @@
+2023-12-03 21:05:45.931775: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-12-03 21:05:45.931850: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-12-03 21:05:45.931879: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-12-03 21:05:47.257508: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_5m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_5m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_11m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_11m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_224 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_224. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_384 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_384. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+/usr/local/lib/python3.10/dist-packages/controlnet_aux/segment_anything/modeling/tiny_vit_sam.py:654: UserWarning: Overwriting tiny_vit_21m_512 in registry with controlnet_aux.segment_anything.modeling.tiny_vit_sam.tiny_vit_21m_512. This is because the name being registered conflicts with an existing name. Please check if this is not expected.
+  return register_model(fn_wrapper)
+Seed set to 0
+[INFO] Initializing geometry from a given checkpoint ...
+/usr/local/lib/python3.10/dist-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Using /root/.cache/torch_extensions/py310_cu118 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py310_cu118/renderutils_plugin/build.ninja...
+Building extension module renderutils_plugin...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+[1/8] c++ -MMD -MF common.o.d -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++17 -DNVDR_TORCH -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/common.cpp -o common.o 
+[2/8] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' -DNVDR_TORCH -std=c++17 -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/mesh.cu -o mesh.cuda.o 
+[3/8] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' -DNVDR_TORCH -std=c++17 -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/loss.cu -o loss.cuda.o 
+[4/8] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' -DNVDR_TORCH -std=c++17 -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/normal.cu -o normal.cuda.o 
+[5/8] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' -DNVDR_TORCH -std=c++17 -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/cubemap.cu -o cubemap.cuda.o 
+[6/8] /usr/local/cuda/bin/nvcc  -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_75,code=compute_75 -gencode=arch=compute_75,code=sm_75 --compiler-options '-fPIC' -DNVDR_TORCH -std=c++17 -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/bsdf.cu -o bsdf.cuda.o 
+[7/8] c++ -MMD -MF torch_bindings.o.d -DTORCH_EXTENSION_NAME=renderutils_plugin -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -isystem /usr/local/lib/python3.10/dist-packages/torch/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/torch/csrc/api/include -isystem /usr/local/lib/python3.10/dist-packages/torch/include/TH -isystem /usr/local/lib/python3.10/dist-packages/torch/include/THC -isystem /usr/local/cuda/include -isystem /usr/include/python3.10 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++17 -DNVDR_TORCH -c /usr/local/lib/python3.10/dist-packages/envlight/renderutils/c_src/torch_bindings.cpp -o torch_bindings.o 
+[8/8] c++ mesh.cuda.o loss.cuda.o bsdf.cuda.o normal.cuda.o cubemap.cuda.o common.o torch_bindings.o -shared -lcuda -lnvrtc -L/usr/local/lib/python3.10/dist-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/local/cuda/lib64 -lcudart -o renderutils_plugin.so
+Loading extension module renderutils_plugin...
+[INFO] Using 16bit Automatic Mixed Precision (AMP)
+[INFO] GPU available: True (cuda), used: True
+[INFO] TPU available: False, using: 0 TPU cores
+[INFO] IPU available: False, using: 0 IPUs
+[INFO] HPU available: False, using: 0 HPUs
+[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[INFO] 
+  | Name       | Type                 | Params
+----------------------------------------------------
+0 | geometry   | TetrahedraSDFGrid    | 12.6 M
+1 | material   | PBRMaterial          | 4.7 M 
+2 | background | SolidColorBackground | 0     
+3 | renderer   | NVDiffRasterizer     | 0     
+----------------------------------------------------
+12.6 M    Trainable params
+4.7 M     Non-trainable params
+17.3 M    Total params
+69.284    Total estimated model params size (MB)
+[INFO] Validation results will be saved to outputs/fantasia3d-texture/a_zoomed_out_DSLR_of_a_robot_made_out_of_plants@20231203-210549/save
+[INFO] Using prompt [a zoomed out DSLR of a robot made out of plants] and negative prompt []
+[INFO] Using view-dependent prompts [side]:[a zoomed out DSLR of a robot made out of plants, side view] [front]:[a zoomed out DSLR of a robot made out of plants, front view] [back]:[a zoomed out DSLR of a robot made out of plants, back view] [overhead]:[a zoomed out DSLR of a robot made out of plants, overhead view]
+[INFO] Loading Stable Diffusion ...
+Loading pipeline components...: 100% 4/4 [00:01<00:00,  2.56it/s]
+[INFO] Loaded Stable Diffusion!
+Sanity Checking: |          | 0/? [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Sanity Checking DataLoader 0:   0% 0/1 [00:00<?, ?it/s][INFO] Using xatlas to perform UV unwrapping, may take a while ...
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Epoch 0: |          | 0/? [00:00<?, ?it/s] /usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:212: You called `self.log('train/min_step', ...)` in your `training_step` but the value needs to be floating to be reduced. Converting it to torch.float32. You can silence this warning by converting the value to floating point yourself. If you don't intend to reduce the value (for instance when logging the global step or epoch) then you can use `self.logger.log_metrics({'train/min_step': ...})` instead.
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:212: You called `self.log('train/max_step', ...)` in your `training_step` but the value needs to be floating to be reduced. Converting it to torch.float32. You can silence this warning by converting the value to floating point yourself. If you don't intend to reduce the value (for instance when logging the global step or epoch) then you can use `self.logger.log_metrics({'train/max_step': ...})` instead.
+Epoch 0: |          | 500/? [03:55<00:00,  2.13it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 28.03it/s]
+Epoch 0: |          | 1000/? [07:51<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 25.21it/s]
+Epoch 0: |          | 1500/? [11:47<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 25.92it/s]
+Epoch 0: |          | 2000/? [15:43<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 27.70it/s]
+Epoch 0: |          | 2500/? [19:38<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 28.20it/s]
+Epoch 0: |          | 3000/? [23:34<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 26.36it/s]
+Epoch 0: |          | 3500/? [27:30<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 28.19it/s]
+Epoch 0: |          | 4000/? [31:26<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 26.08it/s]
+Epoch 0: |          | 4500/? [35:23<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 27.15it/s]
+Epoch 0: |          | 5000/? [39:19<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 21.68it/s]
+Epoch 0: |          | 5500/? [43:16<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 26.54it/s]
+Epoch 0: |          | 6000/? [47:12<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 26.52it/s]
+Epoch 0: |          | 6500/? [51:09<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 19.06it/s]
+Epoch 0: |          | 7000/? [55:05<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 27.66it/s]
+Epoch 0: |          | 7500/? [59:02<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 27.70it/s]
+Epoch 0: |          | 8000/? [1:02:58<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 27.17it/s]
+Epoch 0: |          | 8500/? [1:06:55<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 25.59it/s]
+Epoch 0: |          | 9000/? [1:10:51<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 26.77it/s]
+Epoch 0: |          | 9500/? [1:14:48<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 25.20it/s]
+Epoch 0: |          | 10000/? [1:18:44<00:00,  2.12it/s]
+Validation: |          | 0/? [00:00<?, ?it/s]
+Validation:   0% 0/1 [00:00<?, ?it/s]        
+Validation DataLoader 0:   0% 0/1 [00:00<?, ?it/s]
+Validation DataLoader 0: 100% 1/1 [00:00<00:00, 23.22it/s]
+Epoch 0: |          | 10000/? [1:18:45<00:00,  2.12it/s][INFO] `Trainer.fit` stopped: `max_steps=10000` reached.
+Epoch 0: |          | 10000/? [1:18:45<00:00,  2.12it/s]
+[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/usr/local/lib/python3.10/dist-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Testing DataLoader 0: 100% 120/120 [00:07<00:00, 15.61it/s]
+[INFO] Test results saved to outputs/fantasia3d-texture/a_zoomed_out_DSLR_of_a_robot_made_out_of_plants@20231203-210549/save
+

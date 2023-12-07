@@ -31,8 +31,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {26}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{42}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{43}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{44}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{45}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{46}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{44}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{45}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{46}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{47}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{48}{}%

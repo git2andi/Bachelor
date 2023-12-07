@@ -27,11 +27,11 @@
 \contentsline {section}{\numberline {4.2}Individual Generation Process}{29}{}%
 \contentsline {section}{\numberline {4.3}Comparative Analysis}{37}{}%
 \contentsline {chapter}{\numberline {5}Future Directions}{39}{}%
-\contentsline {section}{\numberline {5.1}Emerging Trends in 3D Model Generation}{39}{}%
-\contentsline {section}{\numberline {5.2}Potential Research Directions}{40}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{41}{}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{41}{}%
-\contentsline {section}{\numberline {6.2}Contributions to the Field}{41}{}%
-\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{41}{}%
-\contentsline {chapter}{\numberline {A}Additional Images}{42}{}%
-\contentsline {chapter}{Bibliographie}{42}{}%
+\contentsline {section}{\numberline {5.1}Emerging Trends and Future Directions}{39}{}%
+\contentsline {section}{\numberline {5.2}Handle Generative Bias}{40}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{42}{}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{42}{}%
+\contentsline {section}{\numberline {6.2}Contributions to the Field}{42}{}%
+\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{43}{}%
+\contentsline {chapter}{\numberline {A}Additional Images}{44}{}%
+\contentsline {chapter}{Bibliographie}{44}{}%

@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Mid, 2023]{Midjourney2023}
+ (2023).
+\newblock {Midjourney}.
+\newblock \url{https://docs.midjourney.com}.
+\newblock Accessed: [2023-12-06].
+
 \bibitem[Anderson, 1982]{anderson1982313}
 Anderson, B.~D. (1982).
 \newblock Reverse-time diffusion equation models.
@@ -28,6 +34,13 @@ Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
   literature review.
 \newblock {\em ACM Computing Surveys}, 55(10):1--31.
 
+\bibitem[Buolamwini and Gebru, 2018]{buolamwini2018gender}
+Buolamwini, J. and Gebru, T. (2018).
+\newblock Gender shades: Intersectional accuracy disparities in commercial
+  gender classification.
+\newblock In {\em Conference on fairness, accountability and transparency},
+  pages 77--91. PMLR.
+
 \bibitem[Chen et~al., 2023]{chen2023fantasia3d}
 Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
 \newblock Fantasia3d: Disentangling geometry and appearance for high-quality
@@ -39,6 +52,12 @@ Cignoni, P., Callieri, M., Corsini, M., Dellepiane, M., Ganovelli, F., and
 \newblock {MeshLab: an Open-Source Mesh Processing Tool}.
 \newblock In Scarano, V., Chiara, R.~D., and Erra, U., editors, {\em
   Eurographics Italian Chapter Conference}. The Eurographics Association.
+
+\bibitem[{Discord Inc.}, 2023]{discord}
+{Discord Inc.} (2023).
+\newblock Discord.
+\newblock \url{https://discord.com}.
+\newblock Accessed: [2023-12-06].
 
 \bibitem[Doersch, 2016]{doerschVAE}
 Doersch, C. (2016).
@@ -114,6 +133,17 @@ Hyv{\"a}rinen, A. and Dayan, P. (2005).
 \newblock Estimation of non-normalized statistical models by score matching.
 \newblock {\em Journal of Machine Learning Research}, 6(4).
 
+\bibitem[Jain et~al., 2023]{LumaAIGenie2023}
+Jain, Yu, and et~al. (2023).
+\newblock {Genie}.
+\newblock \url{https://lumalabs.ai/genie}.
+\newblock Accessed: [2023-12-06].
+
+\bibitem[Kerbl et~al., 2023]{kerbl3Dgaussians}
+Kerbl, B., Kopanas, G., Leimk{\"u}hler, T., and Drettakis, G. (2023).
+\newblock 3d gaussian splatting for real-time radiance field rendering.
+\newblock {\em ACM Transactions on Graphics}, 42(4).
+
 \bibitem[Kingma et~al., 2023]{kingma2023variationalDM}
 Kingma, D.~P., Salimans, T., Poole, B., and Ho, J. (2023).
 \newblock Variational diffusion models.
@@ -148,6 +178,11 @@ Liu, R., Wu, R., Hoorick, B.~V., Tokmakov, P., Zakharov, S., and Vondrick, C.
 Long, X., Guo, Y.-C., Lin, C., Liu, Y., Dou, Z., Liu, L., Ma, Y., Zhang, S.-H.,
   Habermann, M., Theobalt, C., and Wang, W. (2023).
 \newblock Wonder3d: Single image to 3d using cross-domain diffusion.
+
+\bibitem[Luccioni et~al., 2023]{luccioni2023stable}
+Luccioni, A.~S., Akiki, C., Mitchell, M., and Jernite, Y. (2023).
+\newblock Stable bias: Analyzing societal representations in diffusion models.
+\newblock {\em arXiv preprint arXiv:2303.11408}.
 
 \bibitem[Martínez et~al., 2023]{martinez2023understanding}
 Martínez, G., Watson, L., Reviriego, P., Hernández, J.~A., Juarez, M., and

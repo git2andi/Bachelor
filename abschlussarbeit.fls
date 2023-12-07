@@ -837,6 +837,12 @@ INPUT .\chapters\future.tex
 INPUT .\chapters\future.tex
 INPUT .\chapters\future.tex
 INPUT chapters\future.tex
+INPUT .\chapters\future\emergingTrends.tex
+INPUT .\chapters\future\emergingTrends.tex
+INPUT chapters\future\emergingTrends.tex
+INPUT .\chapters\future\handleBias.tex
+INPUT .\chapters\future\handleBias.tex
+INPUT chapters\future\handleBias.tex
 INPUT .\chapters\conclusion.tex
 INPUT .\chapters\conclusion.tex
 INPUT .\chapters\conclusion.tex
@@ -1273,8 +1279,8 @@ INPUT .\etc\a robot made out of plants\wonder3D\normals_000_front_left.png
 INPUT .\abschlussarbeit.bbl
 INPUT .\abschlussarbeit.bbl
 INPUT abschlussarbeit.bbl
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\chapters\erklaerung.tex
 INPUT .\chapters\erklaerung.tex
 INPUT chapters\erklaerung.tex
