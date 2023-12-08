@@ -45,4 +45,4 @@ Magic3D-refine
 Fantasia3D-geometry
 Fantasia3D-appearance
 Magic123-coarse		1:52:32
-Magic123-refine
+Magic123-refine		1:49:43

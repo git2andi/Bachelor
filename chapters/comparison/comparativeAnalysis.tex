@@ -2,7 +2,7 @@
 
 Conducting a comparative analysis of 3D models presents a challenging endeavor, as the parameters defining their success vary widely based on the intended application. For instance, low-resolution models suffice for real-time rendering in virtual reality or gaming contexts, whereas the film industry demands high-quality renderings. Similarly, in industrial applications, precision down to the millimeter is crucial, necessitating extremely detailed and accurate meshes.
 
-In light of these diverse requirements, this analysis of Section~\ref{comparativeAnalysis} evaluates the generated models across multiple dimensions:
+In light of these diverse requirements, this analysis of Section evaluates the generated models across multiple dimensions:
 
 \begin{enumerate}
     \item \textbf{Prompt/Result Fidelity:} Investigates how closely each model aligns with the provided prompt or image. Can the intended subject be identified without prior knowledge of the input?
@@ -18,29 +18,249 @@ The technical metrics for this analysis are derived from the tensorboard and out
 
 In the preceding section, it was observed that the methods yielded diverse outcomes when tasked with a broad prompt, such as creating a `robot made of plants'. The text-to-3D methods faced challenges in initially generating an object, a stark contrast to the image-to-3D methods that benefited from having a reference image, offering some directional guidance and hence a slight advantage. To establish a more leveled playing field for the various methods, the next prompt chosen for testing was ``a high-quality rendering of a Playmobil firefighter''. Playmobil figures are known for their uniform base structures, differing primarily in clothing or texture. This prompt was therefore selected to assess whether a method could accurately capture the fundamental structure dictated by the prompt. The outcomes of each method, applied to this specific prompt, are illustrated in Figure~\ref{fig:resultPlaymobil}.
 
-% Magic123
+
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}[b]{0.222\textwidth}
+    \small
+    \begin{subfigure}[b]{0.18\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 100}\vspace{.1cm}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_right_0_part2.png}
-        \caption{}
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/dreamfusion/dreamfusion_playmobil_result_resize.png}
+        \caption{DreamFusion}
     \end{subfigure}
-    \begin{subfigure}[b]{0.222\textwidth}
+    \begin{subfigure}[b]{0.179\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{It. 5000}\vspace{.1cm}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_right_5000_part2.png}
-        \caption{}
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic3d/magic3d_playmobil_result_resize.png}
+        \caption{Magic3D}
     \end{subfigure}
-    \begin{subfigure}[b]{0.222\textwidth}
+    \begin{subfigure}[b]{0.227\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{It. 10000}\vspace{.1cm}
-        \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_right_10000_part2.png}
-        \caption{}
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/fantasia3d_Magic3DInput/fantasia_playmobil_result_resize.png}
+        \caption{Fantasta3D}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.192\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic123/magic123_playmobil_result_resize.png}
+        \caption{Magic123}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.181\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/wonder3D/wonder3d_playmobil_result_resize.png}
+        \caption{Wonder3D}
     \end{subfigure}
     \caption{Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''}~\label{fig:resultPlaymobil}
 \end{figure}
+
+
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Images/playmobil.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic123/magic123_playmobil_refine_back_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic123/magic123_playmobil_coarse_right_10000_part1.png}
+        \caption{}
+    \end{subfigure}
+    \caption{(a) displays the original image for the playmobil figure derived form Dall-E 3; (b and c) show the side and back view of Magic123, resectively}~\label{fig:inputPlaymobil}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a rendering of a highly symmetrical loaf of bread/dreamfusion/dreamfusion_bread_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a rendering of a highly symmetrical loaf of bread/magic3d/magic3D_bread_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a rendering of a highly symmetrical loaf of bread/fantasia3d/fantasia_bread_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.269\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a rendering of a highly symmetrical loaf of bread/magic123/magic123_bread_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.23\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a rendering of a highly symmetrical loaf of bread/wonder3D/wonder3d_bread_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.23\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Images/bread.png}
+        \caption{Original Image}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{Results obtained using the prompt ``a rendering of a highly symmetrical loaf of bread''. Part (f) is the input image for Magic123 and Wonder3D, generated with Dall-E 3}~\label{fig:resultBread}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/dreamfusion/dreamfusion_fern_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic3d/magic3d_fern_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/fantasia3d/fantasia_fern_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic123/magic123_fern_front_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.27\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/wonder3D/wonder3d_fern_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Images/fern.png}
+        \caption{Original Image}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{Results obtained using the prompt ``a high-quality rendering of a fern in a wooden pot''.}~\label{fig:resultFern}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic123/magic123_fern_side_result.png}
+        \caption{Magic123}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/wonder3D/rgb_000_right.png}
+        \caption{Wonder3D}
+    \end{subfigure}
+    \caption{The side view of the fern showcasing the limitations of Magic123 in deriving the correct angles}\label{fig:fernSideview}
+  \end{figure}
+
+
+
+  \begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.295\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_front_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_front_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_front_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.267\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_front_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.27\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_front_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Images/dog.png}
+        \caption{Original Image}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{Results obtained using the prompt ``a high-quality rendering of a big dog sleeping on a chair''.}~\label{fig:resultDogFront}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.291\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_back_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_back_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.34\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_back_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.261\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_back_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.27\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_back_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{Results obtained using the prompt ``a high-quality rendering of a big dog sleeping on a chair''.}~\label{fig:resultDogBack}
+\end{figure}
+
 
 
 
@@ -62,11 +282,6 @@ In the preceding section, it was observed that the methods yielded diverse outco
     \caption{Comparison of Generation Times for Different Prompts Across Methods (Hours:Minutes). Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
 \end{table}
 
-    
-    
-    
-    
-    
     
     
     

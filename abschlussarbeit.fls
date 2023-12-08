@@ -191,8 +191,24 @@ INPUT chapters\abstract.tex
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\abschlussarbeit.toc
+INPUT .\abschlussarbeit.toc
+INPUT abschlussarbeit.toc
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 OUTPUT abschlussarbeit.toc
+INPUT .\abschlussarbeit.lot
+INPUT .\abschlussarbeit.lot
+INPUT abschlussarbeit.lot
 OUTPUT abschlussarbeit.lot
+INPUT .\abschlussarbeit.lof
+INPUT .\abschlussarbeit.lof
+INPUT abschlussarbeit.lof
 OUTPUT abschlussarbeit.lof
 INPUT .\chapters\introduction.tex
 INPUT .\chapters\introduction.tex
@@ -227,13 +243,6 @@ INPUT .\figures\Autoencoder.png
 INPUT .\figures\Autoencoder.png
 INPUT .\figures\Autoencoder.png
 INPUT .\figures\Autoencoder.png
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT .\figures\VAE.png
 INPUT .\figures\VAE.png
 INPUT .\figures\VAE.png
@@ -827,27 +836,237 @@ INPUT .\etc\a robot made out of plants\wonder3d\test\wonder3D_10000_front_part4.
 INPUT .\chapters\comparison\comparativeAnalysis.tex
 INPUT .\chapters\comparison\comparativeAnalysis.tex
 INPUT chapters\comparison\comparativeAnalysis.tex
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
-INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\dreamfusion\dreamfusion_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic3d\magic3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\fantasia3d_Magic3DInput\fantasia_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\wonder3D\wonder3d_playmobil_result_resize.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\Images\playmobil.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_refine_back_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a high quality rendering of a playmobil firefighter\magic123\magic123_playmobil_coarse_right_10000_part1.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\dreamfusion\dreamfusion_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic3d\magic3D_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\fantasia3d\fantasia_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\magic123\magic123_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\a rendering of a highly symmetrical loaf of bread\wonder3D\wonder3d_bread_result.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\Images\bread.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\dreamfusion\dreamfusion_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic3d\magic3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\fantasia3d\fantasia_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_front_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\wonder3d_fern_result.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\Images\fern.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\magic123\magic123_fern_side_result.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a fern in a wooden pot\wonder3D\rgb_000_right.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_front_result.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\Images\dog.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\dreamfusion\dreamfusion_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic3d\magic3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\fantasia3d\fantasia_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\magic123\magic123_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
+INPUT .\etc\a high-quality rendering of a big dog sleeping on a chair\wonder3D\wonder3D_dog_back_result.png
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -986,6 +1205,9 @@ INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_pa
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_0_part1.png
@@ -1025,6 +1247,9 @@ INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_5000_part1.png
@@ -1060,6 +1285,9 @@ INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_left_5000_
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_left_5000_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_left_5000_part1.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_left_5000_part1.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
+INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
 INPUT .\etc\a robot made out of plants\magic123\magic123_coarse_robot_right_10000_part2.png
