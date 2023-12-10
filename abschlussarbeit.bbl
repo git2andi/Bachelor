@@ -79,7 +79,7 @@ Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
 \bibitem[Goodfellow et~al., 2016]{GoodfellowDeepLearning}
 Goodfellow, I.~J., Bengio, Y., and Courville, A. (2016).
 \newblock {\em Deep Learning}.
-\newblock MIT Press, Cambridge, MA, USA.
+\newblock MIT Press, Cambridge, USA.
 \newblock \url{http://www.deeplearningbook.org}.
 
 \bibitem[{Google LLC}, 2023]{googlecolab}
@@ -175,8 +175,8 @@ Liu, Q., Lee, J., and Jordan, M. (2016).
 \newblock A kernelized stein discrepancy for goodness-of-fit tests.
 \newblock In Balcan, M.~F. and Weinberger, K.~Q., editors, {\em Proceedings of
   The 33rd International Conference on Machine Learning}, volume~48 of {\em
-  Proceedings of Machine Learning Research}, pages 276--284, New York, New
-  York, USA. PMLR.
+  Proceedings of Machine Learning Research}, pages 276--284, New York, USA.
+  PMLR.
 
 \bibitem[Liu et~al., 2023]{liu2023zero1to3}
 Liu, R., Wu, R., Van~Hoorick, B., Tokmakov, P., Zakharov, S., and Vondrick, C.
@@ -202,6 +202,13 @@ Mart{\'\i}nez, G., Watson, L., Reviriego, P., Hern{\'a}ndez, J.~A., Juarez, M.,
 \newblock Towards understanding the interplay of generative artificial
   intelligence and the internet.
 \newblock {\em arXiv preprint arXiv:2306.06130}.
+
+\bibitem[McAuley et~al., 2012]{mcauley2012practical}
+McAuley, S., Hill, S., Hoffman, N., Gotanda, Y., Smits, B., Burley, B., and
+  Martinez, A. (2012).
+\newblock Practical physically-based shading in film and game production.
+\newblock In {\em ACM SIGGRAPH 2012 Courses}, SIGGRAPH '12, New York, USA.
+  Association for Computing Machinery.
 
 \bibitem[Michalkiewicz et~al., 2019]{michalkiewicz2019deep}
 Michalkiewicz, M., Pontes, J.~K., Jack, D., Baktashmotlagh, M., and Eriksson,
