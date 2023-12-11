@@ -35,9 +35,7 @@ In the preceding section, it was observed that the methods yielded diverse outco
 
 \textbf{Prompt/Result Fidelity:} There is a clear split in the results when looking at fidelity to the prompt. DreamFusion and Magic123 tend to stick to the red clothing, while Fantasta3D, Magic123 and Wonder3D opt for a more realistic yellow and black firefighter uniform. Wonder3D and Magic123 adapt their results to the expected color scheme of the input image, given in Figure~\ref{fig:inputPlaymobil} part (a). Of particular interest is Fantasta3D's deviation from the red color scheme, although all models were refined with Stable Diffusion. This can be attributed to the physically based material model in the appearance stage, which has learned to associate firefighter clothing with yellow and black rather than red. Each model successfully reproduces identifiable Playmobil features such as helmets and uniforms, although the extent to which they reproduce the Playmobil style varies.
 
-\textbf{Geometry:} The geometric shape of the models varies significantly. DreamFusion and Wonder3D present the most deviations from the expected Playmobil figure geometry. Both exhibit overly smooth shapes with ambiguous edges and floating elements, such as the hands in DreamFusion and around the right foot in Wonder3D, giving an unfinished appearance. In contrast, Fantasta3D achieves a promising silhouette but includes unintended additional objects, like a presumed fire extinguisher on the back and an ambiguous `thing' at the front, possibly an attempt at rendering a fire hose. Magic123, while delivering a solid representation, introduces a large bag on the figure's back, which, unlike the extraneous parts of Fantasta3D, integrates well with the overall model. A closer look of this bag is given in Figure~\ref{fig:inputPlaymobil} parts (b) and (c). Uniquely, Magic123 recreates the iconic Playmobil hand structure, complete with thumb, fingers, and the characteristic gap between them, capturing the essence of the figure's appendages. Magic3D impresses with a near-perfect rendering of the Playmobil figure, capturing the sharp transitions at the joints and maintaining smoothness elsewhere, except for a slight distortion around the feet. This result seems like one could bend and move it like it is possible with an original figure.
-
-\textbf{Texture Realism:} In terms of texture, Magic3D again stands out with a level of realism that surpasses the others for the Playmobil prompt. It boasts clear demarcation between the colors, such as the black of the shoes against the red of the uniform, and the face retains the characteristic Playmobil look. The model's interaction with light, evidenced by chest reflections and inner leg shadows, adds to the plastic appearance. DreamFusion's model lacks such light interplay, resulting in a flat appearance, which is also caused due to the overall smoothened geometry. Fantasta3D, Magic123, and Wonder3D diverge from the red texture, opting for a black and yellow combination with realistic reflective stripes. Fantasta3D's texture is sound despite some geometric artifacts, with light reflection indicating a clear light source and giving the helmet a metallic sheen. Magic123 captures a plastic-like sheen, particularly on the arm's reflection, which underscores the roundness and smoothness of the figure. In contrast, Wonder3D's texture is not very detailed, blurs differences like the separation between jacket and shirt and does not render the character's face, similar to DreamFusion. The whole model looks strange, decayed and unfinished.
+\textbf{Geometry:} The geometric shape of the models varies significantly. DreamFusion and Wonder3D present the most deviations from the expected Playmobil figure geometry. Both exhibit overly smooth shapes with ambiguous edges and floating elements, such as the hands in DreamFusion and around the right foot in Wonder3D, giving an unfinished appearance. Magic3D impresses with a near-perfect rendering of the Playmobil figure, capturing the sharp transitions at the joints and maintaining smoothness elsewhere, except for a slight distortion around the feet. This result seems like one could bend and move it like it is possible with an original figure. For this prompt, Fantasia3D was initialized with the model derived from Magic3D due to its solid performance, and not with a sphere as is typical. However, this Method still encountered issues with rendering unintended additional objects. These included a presumed fire extinguisher on the back and an ambiguous `thing' at the front, possibly an attempt at rendering a fire hose. Magic123, while delivering a solid representation, introduces a large bag on the figure's back, which, unlike the extraneous parts of Fantasta3D, integrates well with the overall model. A closer look of this bag is given in Figure~\ref{fig:inputPlaymobil} parts (b) and (c). Uniquely, Magic123 recreates the iconic Playmobil hand structure, complete with thumb, fingers, and the characteristic gap between them, capturing the essence of the figure's appendages.
 
 \begin{figure}[ht]
     \centering
@@ -57,12 +55,17 @@ In the preceding section, it was observed that the methods yielded diverse outco
         \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic123/magic123_playmobil_coarse_right_10000_part1.png}
         \caption{}
     \end{subfigure}
-    \caption{(a) displays the original image for the playmobil figure derived form Dall-E 3; (b and c) show the side and back view of Magic123, resectively}~\label{fig:inputPlaymobil}
+    \caption{(a) displays the original image for the playmobil figure derived form Dall-E 3; (b) and (c) show the side and back view of Magic123, resectively.}~\label{fig:inputPlaymobil}
 \end{figure}
 
-The next prompt used for the various methods was \textbf{``a rendering of a highly symmetrical loaf of bread''}. This prompt was selected to test the precision of each method in replicating detailed, specific requests while still producing coherent results. In this case, the model was tested for its symmetric result capability, which is discussed later in the technical section. The generated models are displayed in Figure~\ref{fig:resultBread}, which includes the original input image created by Dall-E 3 for reference.
+\textbf{Texture Realism:} In terms of texture, Magic3D again stands out with a level of realism that surpasses the others for the Playmobil prompt. It is characterized by a clear distinction between the colors, such as the black of the shoes against the red of the uniform, and the face retains the characteristic Playmobil look. The model's interaction with light, evidenced by chest reflections and inner leg shadows, adds to the plastic appearance. DreamFusion's model lacks such light interplay, resulting in a flat appearance, which is also caused due to the overall smoothened geometry. Fantasta3D, Magic123, and Wonder3D diverge from the red texture, opting for a black and yellow combination with realistic reflective stripes. Fantasta3D's texture is sound despite some geometric artifacts, with light reflection indicating a clear light source and giving the helmet a metallic sheen. Magic123 captures a plastic-like sheen, particularly on the arm's reflection, which underscores the roundness and smoothness of the figure. In contrast, Wonder3D's texture is not very detailed, blurs differences like the separation between jacket and shirt and does not render the character's face, similar to DreamFusion. The whole model looks strange, decayed and unfinished.
 
-Regarding \textbf{Prompt/Result Fidelity}, the outcomes varied. Magic123 and Magic3D successfully captured the essence of a bread, while Wonder3D produced an image that only vaguely suggested a loaf of bread. DreamFusion and Fantasia3D, however, were less successful; the former's result was indistinct, resembling a nondescript lump, while the latter's output more closely resembled a pineapple or an explosion when viewed without context.
+The results of this prompt show that DreamFusion struggles with detailed geometry, resulting in smooth and inaccurate shapes, but still offers good color fidelity. Magic3D, on the other hand, excels in both realistic textures and geometric accuracy, especially when the prompt specifies a flat structure and no intricate detail is required. Fantasta3D tends to render overly realistic models, often at the expense of key prompt features, resulting in unnecessary additions in both geometry and appearance. Similarly, Magic123, while generally rendering the essence of the prompt well, tends to add unnecessary elements such as the unexpected bag. Finally, Wonder3D fails to produce even basic details, resulting in models that look unfinished and incomplete.\\
+
+
+
+
+The next prompt used for the various methods was \textbf{``a rendering of a highly symmetrical loaf of bread''}. This prompt was selected to test the precision of each method in replicating detailed, specific requests while still producing coherent results. In this case, the model was tested for its symmetric result capability, which is discussed later in the technical section. The generated models are displayed in Figure~\ref{fig:resultBread}, which includes the original input image created by Dall-E 3 for reference.
 
 \begin{figure}[ht]
     \centering
@@ -107,24 +110,114 @@ Regarding \textbf{Prompt/Result Fidelity}, the outcomes varied. Magic123 and Mag
     \caption{Results obtained using the prompt ``a rendering of a highly symmetrical loaf of bread''. Part (f) is the input image for Magic123 and Wonder3D, generated with Dall-E 3}~\label{fig:resultBread}
 \end{figure}
 
+Regarding \textbf{Prompt/Result Fidelity}, the outcomes varied. Magic123 and Magic3D successfully captured the essence of a bread, while Wonder3D produced an image that only vaguely suggested a loaf of bread. DreamFusion and Fantasia3D, however, were less successful; the former's result was indistinct, resembling a nondescript lump, while the latter's output more closely resembled a pineapple or an explosion when viewed without context.
+
 In terms of \textbf{Geometry}, DreamFusion's model lacked meaningful structure, while Magic3D's bread model achieved good geometry, with a realistically carved top resembling fresh black bread. Fantasia3D, on the other hand, produced a model with a spikey appearance, potentially due to overfitting or difficulty in determining a starting point for the flat bottom of the bread. Magic123 excelled in replicating the geometry of the input image, closely matching the cuts and overall shape of the bread. Conversely, Wonder3D's model, like Fantasia3D's, had a roughly bread-like shape but suffered from spikey edges, possibly due to small adjustments during 3D mesh generation.
 
 When considering \textbf{Texture Realism}, only the textures from Magic3D, Fantasia3D, and Magic123 seemed noteworthy. Magic3D's texture gave the impression of a burnt, dark loaf, with a realistic color gradient on the top. Although Fantasia3D's texture had a pleasing color combination, it resembled a cluster of breadsticks unless contextual information was provided. Magic123 accurately replicated the texture of the original image, demonstrating its proficiency in handling low-detail requirements.
 
-To assess the methods' capability in reproducing smooth and reflective textures along with complex environmental details, the prompt \textbf{``a highly polished, seamless chrome sphere reflecting a complex cityscape in bright daylight''} was employed.
+To summarize, DreamFusion continues to have issues with structure, suggesting that direct prompts for certain features such as symmetry may lead to confusion rather than better results. Magic3D maintained its solid performance, suggesting that some level of directives in the prompt can be beneficial. Fantasia3D appeared to be thrown off by the specific prompt, resulting in poorer results compared to previous tasks. Magic123's exact replication of the input image leaves the impact of the specific prompt on its performance unclear. Wonder3D again struggled to accurately generate the overall structure, reflecting ongoing challenges in model training.\\
 
 
 
 
 
-For a comprehensive evaluation of the methods' ability to render lifelike organic forms and textures, the prompt \textbf{``a high-quality rendering of a big dog sleeping on a chair''} was used. This particular prompt aims to test the realism in fur texture and the anatomical precision of the rendered dog.
+To evaluate the capability of various methods in rendering organic forms and textures, the prompt \textbf{``a high-quality rendering of a big dog sleeping on a chair''} was used. This prompt was specifically chosen to test the realism of fur texture and the anatomical accuracy of a resting dog. This setup also provided an opportunity to observe the effectiveness of multiview-consistency, a feature in Wonder3D, in enhancing the quality of the outputs.
+
+For \textbf{Prompt/Result Fidelity}, most models, except Dreamfusion, produced a recognizable dog, as evidenced in Figure~\ref{fig:resultDogFront} and~\ref{fig:resultDogBack}. However, all text-to-3D methods struggled with accurately rendering the chair's backrest, with Fantasia3D notably failing to make it clear what the dog was even resting on. Image-to-3D methods, Magic123 and Wonder3D, provided solid front views of the scene, though Magic123's representation from behind showed an unusually inflated and rounded chair shape.
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.295\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_front_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_front_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_front_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.267\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_front_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.27\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_front_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Images/dog.png}
+        \caption{Original Image}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{The front view of the generated objects with the prompt ``a high-quality rendering of a big dog sleeping on a chair''.}~\label{fig:resultDogFront}
+\end{figure}
+
+In the aspect of \textbf{Geometry}, DreamFusion had difficulty rendering a recognizable dog shape, unlike the other methods. Magic3D's output was more successful, clearly differentiating between the dog and the chair from both front and back views, although an anomaly was noted where the dog appeared to have a total of four back legs in different views. This issue could stem from Magic3D's lack of multi-view consistency, in contrast to Wonder3D. Fantasia3D's model showed a dog, but with less detail and shape accuracy, especially in the front view where the legs seemed to emerge directly from the neck. Both Magic123 and Wonder3D did an impressive job of capturing the main features of the input image in the front view, as can be seen in part (f) of Figure~\ref{fig:resultDogFront}. However, viewing from the back side, Magic123's rendering of the chair was less convincing, whereas Wonder3D's multi-view consistency resulted in a more accurate and flat back of the chair, despite some missing chair legs and floating parts.\\
+
+For \textbf{Texture Realism}, each method displayed distinct capabilities and limitations. DreamFusion's texture lacked explicit detail, resulting in a smoothed-out appearance that made it difficult to discern a dog lying on a chair. This lack of detail in texture diminished the overall realism of the scene. Magic3D, while not offering much depth in texture of the fur, managed to convey the impression of a dog through its effective use of color variations. The distinctions between the brown fur, black nose, paw gaps, shadows, and the white of the dog's neck and belly were clear, creating a convincing representation of a dog despite the geometric inaccuracies. Fantasia3D, although its geometric output was less accurate, excelled in texture detail. The color variations across the dog's face were more nuanced compared to Magic3D, adding a layer of realism. Even with the structural issues, the texture applied depth to the model and gave it a lifelike appearance of a dog. Magic123 and Wonder3D both achieved similar levels of detail in texture, closely mirroring the input image. Magic123, however, introduced additional lighting into the scene. This was evident in the reflections on the dog's back and face, enhancing the vitality of the overall scene. The texture of the chair's backrest was much finer Wonder3D and benefited from the interplay between shadow and light. This attention to detail made the fabric of the chair appear better.
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.291\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_back_result.png}
+        \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_back_result.png}
+        \caption{Magic3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.34\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_back_result.png}
+        \caption{Fantasta3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.261\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_back_result.png}
+        \caption{Magic123}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.27\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_back_result.png}
+        \caption{Wonder3D}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \caption{The back view of the prompt ``a high-quality rendering of a big dog sleeping on a chair''}~\label{fig:resultDogBack}
+\end{figure}
+
+DreamFusion again presented the lowest level of detail, failing to recognize the object specified in the prompt. Magic3D effectively captured the required elements, including the dog's resting anatomy, yet produced a flat, depthless texture for the fur. Fantasia3D accurately rendered parts of the prompt, focusing on the dog, striving for realistic texture but faltering in basic geometric accuracy. Magic123 performed well in replicating the shape from the original image but struggled with rendering views different from the input. Wonder3D solidly recreated the input image, offering a consistent shape and texture from multiple viewpoints.\\
 
 
 
 
 
-To further explore each method's proficiency in rendering detailed natural elements and contrasting materials, the prompt \textbf{``a high-quality rendering of a fern in a wooden pot''} was introduced. This prompt serves to assess the handling of complex details in natural subjects, as well as the accuracy of color gradients and lighting in various levels of depth.
 
+To delve deeper into each method's ability to render complex elements and contrasting materials, the prompt \textbf{``a high-quality rendering of a fern in a wooden pot''} was introduced. While plants had been used previously to illustrate each method's generation process, there hadn't been a comparison between the various Methods. This prompt aimed to evaluate how each method handled intricate details in natural subjects and the accuracy of color gradients and lighting in varying depths. The outcomes of this exercise are displayed in Figure~\ref{fig:resultFern}.
 
 \begin{figure}[ht]
     \centering
@@ -169,9 +262,20 @@ To further explore each method's proficiency in rendering detailed natural eleme
     \caption{Results obtained using the prompt ``a high-quality rendering of a fern in a wooden pot''.}~\label{fig:resultFern}
 \end{figure}
 
+In terms of \textbf{Prompt/Result Fidelity}, DreamFusion presented a fern and wooden pot that were recognizable, though it was debatable whether the plant could be distinctly identified as a fern. Magic3D struggled, failing to generate the fern and only displaying the pot with a texture vaguely resembling a fern. Interestingly, earlier in the coarse training, the fern was part of the model and was rendered, as seen in Figure~\ref{fig:fernSideview}, part (a). Fantasia3D showed a detailed fern but didn't render the wooden pot well. Magic123's front view effectively depicted both the fern and pot, but the side view lacked volume, making the plant appear flat compared to Wonder3D, which displayed a solid result for both the plant and pot from all angles, thanks to its multi-view consistency. The side views of Magic123 and Wonder3D are depicted in part (b) and (c) in Figure\ref{fig:fernSideview}.\\
+
+Regarding \textbf{Geometry}, DreamFusion's model convincingly resembled a plant from all angles, with clear distinction between the pot and plant. Magic3D's pot was well-rendered with true shape and structure, but the plant was completely missing after the refinment stage. Fantasia3D exhibited detailed fern parts but failed to accurately portray the pot. Magic3D's model had a good pot shape, but the plant appeared flat and overly smoothed, possibly due to limitations in the input image, as white parts remained at the edges after the background was removed. Wonder3D presented a well-formed fern and pot from all views, although some floating parts and mixed-up sections were noticeable at a closer look.
+
+For \textbf{Texture Realism}, DreamFusion's model allowed for basic identification of the pot as brown and the plant as green but lacked in shading and detail. Magic3D displayed three detailed fern leaves on the pot, but with incorrect positioning and lack of color variation due to the shape flaws. Fantasia3D achieved a realistic plant texture with significant depth and color variation, although the pot's color was less distinct. Magic123's texture appeared smooth with low detail in the plants, though the shadows and pot color matched well with the original image. Wonder3D showed detailed and varied colors within the plant, indicating depth, but the overall texture quality diminished upon closer inspection. However, the color consistency across all viewpoints and the well-rendered pot compared to the original image were notable strengths.
 
 \begin{figure}[ht]
     \centering
+    \small
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic3d/magic3D_fern_coarse_part1.png}
+        \caption{Magic3D~-~coarse}
+    \end{subfigure}
     \begin{subfigure}[b]{0.2\textwidth}
         \centering
         \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic123/magic123_fern_side_result.png}
@@ -182,88 +286,63 @@ To further explore each method's proficiency in rendering detailed natural eleme
         \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/wonder3D/rgb_000_right.png}
         \caption{Wonder3D}
     \end{subfigure}
-    \caption{The side view of the fern showcasing the limitations of Magic123 in deriving the correct angles}\label{fig:fernSideview}
+    \caption{Part (a) shows the result of the coarse stage of Magic3D, where the actual fern was still present; (b and c) show the side view of the fern showcasing the limitations of Magic123 in deriving the correct angles in contrast to Wonder3D}\label{fig:fernSideview}
   \end{figure}
 
+Summed up, DreamFusion captured the basic shape and texture but lacked fine details, depth, and color variation, suggesting difficulty with intricate requests. Magic3D failed to accurately render detailed objects from the prompt, leading to an unsatisfactory output. Fantasia3D again achieved the most realistic texture but fell short in basic geometric aspects. Magic123 covered the basics, mirroring the view from the input image, but lacked detail, resulting in a flat, undetailed appearance. Wonder3D succeeded in capturing the basic form from all angles, with reasonable depth and structure. However, upon closer inspection, the texture appeared undetailed, and floating parts were noticeable.\\
 
+
+
+
+The last Prompt all Methods were given was \textbf{``a detailed rendering of a snow globe containing a snowman''} where to goal was to determine if each model can handle transparency and also assess difficult reflections of glass. The results are shown in Figure~\ref{fig:resultGlobe}
 
   \begin{figure}[ht]
     \centering
     \small
-    \begin{subfigure}[b]{0.295\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_front_result.png}
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/dreamfusion/dreamfusion_fern_result.png}
         \caption{DreamFusion}
+        \vspace{0.1cm}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic3d/magic3d_fern_result.png}
+        \caption{Magic3D}
         \vspace{0.1cm}
     \end{subfigure}
     \begin{subfigure}[b]{0.32\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_front_result.png}
-        \caption{Magic3D}
-        \vspace{0.1cm}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.33\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_front_result.png}
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/fantasia3d/fantasia_fern_result.png}
         \caption{Fantasta3D}
         \vspace{0.1cm}
     \end{subfigure}
 
-    \begin{subfigure}[b]{0.267\textwidth}
+    \begin{subfigure}[b]{0.28\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_front_result.png}
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/magic123/magic123_fern_front_result.png}
         \caption{Magic123}
         \vspace{0.1cm}
     \end{subfigure}
     \begin{subfigure}[b]{0.27\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_front_result.png}
+        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a fern in a wooden pot/wonder3D/wonder3d_fern_result.png}
         \caption{Wonder3D}
         \vspace{0.1cm}
     \end{subfigure}
     \begin{subfigure}[b]{0.28\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/Images/dog.png}
+        \includegraphics[width=\textwidth]{etc/Images/fern.png}
         \caption{Original Image}
         \vspace{0.1cm}
     \end{subfigure}
-    \caption{Results obtained using the prompt ``a high-quality rendering of a big dog sleeping on a chair''.}~\label{fig:resultDogFront}
+    \caption{Using the Prompt ``a detailed rendering of a snow globe containing a snowman'' to assess transparency and difficult reflections between various methods.}~\label{fig:resultGlobe}
 \end{figure}
 
 
-\begin{figure}[ht]
-    \centering
-    \small
-    \begin{subfigure}[b]{0.291\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/dreamfusion/dreamfusion_dog_back_result.png}
-        \caption{DreamFusion}
-        \vspace{0.1cm}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic3d/magic3D_dog_back_result.png}
-        \caption{Magic3D}
-        \vspace{0.1cm}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.34\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/fantasia3d/fantasia_dog_back_result.png}
-        \caption{Fantasta3D}
-        \vspace{0.1cm}
-    \end{subfigure}
+\textbf{Prompt/Result Fidelity}
 
-    \begin{subfigure}[b]{0.261\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/magic123/magic123_dog_back_result.png}
-        \caption{Magic123}
-        \vspace{0.1cm}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.27\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high-quality rendering of a big dog sleeping on a chair/wonder3D/wonder3D_dog_back_result.png}
-        \caption{Wonder3D}
-        \vspace{0.1cm}
-    \end{subfigure}
-    \caption{Results obtained using the prompt ``a high-quality rendering of a big dog sleeping on a chair''.}~\label{fig:resultDogBack}
-\end{figure}
+\textbf{Geometry}
+
+\textbf{Texture Realism}
+
