@@ -1,0 +1,9 @@
+\section{Stable Diffusion}\label{stableDiffusion}
+
+Stable Diffusion \citep{rombachStableDiffusion} is a type of latent diffusion model specifically designed to generate AI images from text prompts. It operates by compressing images into a latent space, which is substantially smaller than the high-dimensional image space, making the process faster and more efficient.
+
+The core of Stable Diffusion lies in its diffusion process, which includes both forward and reverse diffusion. The model uses a Variational Autoencoder (VAE) to manage the compression and decompression of images into and from the latent space. Training involves teaching a noise predictor, part of the U-Net model, to estimate the noise added at each step of the forward diffusion process. This predictor is then used in reverse diffusion to subtract the estimated noise from the noisy images, thus recreating a clear image.
+
+Conditioning is an important aspect of Stable Diffusion, especially for text-to-image generation \citep{rombachStableDiffusion}. Text prompts are tokenized by CLIP and converted into embeddings, which are then processed by a text transformer. This processed data steers the noise predictor, influencing the image generation process to align with the textual input.
+
+Stable Diffusion also includes functions like image-to-image transformation, inpainting, and depth-to-image generation, each with specific steps and mechanisms. CFG (Classifier-Free Guidance) value \citep{ho2022classifier} is an important parameter that determines how closely the generated image should follow the text prompt.

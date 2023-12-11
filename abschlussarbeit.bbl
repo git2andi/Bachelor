@@ -25,6 +25,12 @@ Barron, J.~T., Mildenhall, B., Verbin, D., Srinivasan, P.~P., and Hedman, P.
 \newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
   Pattern Recognition}, pages 5470--5479.
 
+\bibitem[Betker et~al., 2023]{Dall-E-3}
+Betker, J., Goh, G., Jing, L., Ramesh, A., et~al. (2023).
+\newblock Improving image generation with better captions.
+\newblock \url{https://cdn.openai.com/papers/dall-e-3.pdf}.
+\newblock Accessed: [25.11.2023].
+
 \bibitem[Brophy et~al., 2023]{brophyGAN}
 Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
 \newblock Generative adversarial networks in time series: A systematic
@@ -42,7 +48,9 @@ Buolamwini, J. and Gebru, T. (2018).
 Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
 \newblock Fantasia3d: Disentangling geometry and appearance for high-quality
   text-to-3d content creation.
-\newblock {\em arXiv preprint arXiv:2303.13873}.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}.
+\newblock GitHub: \url{https://github.com/Gorilla-Lab-SCUT/Fantasia3D}.
 
 \bibitem[Cignoni et~al., 2008]{meshLab}
 Cignoni, P., Callieri, M., Corsini, M., Dellepiane, M., Ganovelli, F., and
@@ -123,6 +131,11 @@ Ho, J., Jain, A., and Abbeel, P. (2020).
 \newblock Denoising diffusion probabilistic models.
 \newblock {\em Advances in neural information processing systems},
   33:6840--6851.
+
+\bibitem[Ho and Salimans, 2022]{ho2022classifier}
+Ho, J. and Salimans, T. (2022).
+\newblock Classifier-free diffusion guidance.
+\newblock {\em arXiv preprint arXiv:2207.12598}.
 
 \bibitem[Hu et~al., 2023]{hu2023consistentnerf}
 Hu, S., Zhou, K., Li, K., Yu, L., Hong, L., Hu, T., Li, Z., Lee, G.~H., and

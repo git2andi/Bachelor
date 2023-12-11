@@ -1,6 +1,6 @@
 \subsection{Denoising Diffusion Probabilistic Models}\label{DDPMs}
 
-Central to the concept of Denoising Diffusion Probabilistic Models (DDPMs) are two Markov chains: the forward chain and the reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}. These processes are illustrated in Figures~\ref{fig:figureForwardProcess} and~\ref{fig:figureReverseProcess}. 
+Central to the concept of Denoising Diffusion Probabilistic Models (DDPMs) are two Markov chains: the forward chain and the reverse chain, also known as the forward and reverse diffusion processes \citep{sohlDDPM}.
 
 The forward diffusion process, sharing some similarities with VAEs, focuses on a latent feature space of the initial data distribution. However, DDPMs differ in that the forward process in DDPMs ``is fixed to a Markov chain that gradually [over a span of T steps] adds Gaussian noise to the data according to a variance schedule \(\beta_1, \ldots, \beta_T \)''~\cite{hoDDPMs}. This process gradually pertubes the data's structure, eventually resulting in an image of pure noise, with the aim of gradually steering the data distribution towards a more manageable prior distribution \citep{yangdiffusionSummary, pooleDreamfusion}. 
 

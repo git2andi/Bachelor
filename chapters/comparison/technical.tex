@@ -1,0 +1,61 @@
+\subsection{Technical Review}~\label{technical}
+
+playmobil
+
+The effectiveness of Evaluate3D is further enhanced by the integration of OpenAI's CLIP-score, a metric that quantifies the correspondence between an image and a given prompt \citep{radfordCLIP}. This is achieved by encoding both the prompt and the image into high-dimensional vectors within the same embedding space, and then determining the cosine similarity between these vectors. Cosine similarity is a measure of orientation rather than magnitude, with the cosine of the angle between two vectors indicating how closely the content of the image mirrors that of the text prompt. Despite its sophisticated design, this score is not without limitations and at times cannot rival the discerning capabilities of the human eye, occasionally leading to outcomes that may seem counterintuitive.
+
+For convenience and to streamline the evaluation process, portions of the code using this metric have been integrated into Evaluate3D. This enables an immediate calculation of the CLIP-score post-rendering. Utilizing this feature, scores for the Playmobil figures have been computed and are presented in Table~\ref{table:scorePlaymobil}. In an intriguing turn, Magic123 ranks highest when assessed against the original prompt, followed by Fantasia3D, Wonder3D, DreamFusion, and finally, Magic3D. These findings are not entirely in concordance with the subjective analysis provided earlier. However, when the prompt is changed to ``a high-quality rendering of a red Playmobil firefighter'', there is a marked reversal in scores. This suggests that the CLIP-score may exhibit a bias towards the color black in the context of firefighter apparel, as opposed to the more toy-like red. The discrepancies highlighted by the CLIP-score accentuate the need for the development of new, more precise evaluation metrics tailored for assessing the output of 3D generative AI, as there currently exists no standard method that is universally recognized as reliable.
+
+\begin{table}[h]
+    \centering
+    \small
+    \begin{tabular}{lccccc}
+    \toprule
+    Prompt & DreamFusion & Magic3D & Fantasia3D & Magic123 & Wonder3D \\
+    \midrule
+    a Playmobil firefighter & 0.337 & 0.320 & 0.503 & 0.827 & 0.482 \\
+    a red Playmobil firefighter & 0.501 & 0.604 & 0 & 0 & 0.216 \\
+    \bottomrule
+    \end{tabular}
+    \caption{CLIP-scores for Playmobil firefighter models based on different prompts.}~\label{table:scorePlaymobil}
+\end{table}
+
+
+Bread
+
+To quantitatively assess the symmetry of each model, the study employed Evaluate3D. This tool uses a function from trimesh to mirror a model along an axis and checks for corresponding vertices on the mirrored side. This process is repeated for all vertices, and a symmetry score is derived based on the number of matching pairs found. The findings of this assessment are detailed in Table~\ref{table:symmetrieBread}.
+
+\begin{table}[ht]
+    \centering
+    \small
+    \begin{tabular}{lccccc}
+    \toprule
+    {} & DreamFusion & Magic3D & Fantasia3D & Magic123 & Wonder3D \\
+    \midrule
+    Symmetrie Score & 0.337 & 0.320 & 0.503 & 0.827 & 0.482 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Symmetrie-scores for bread models demanding a symmetrical output.}~\label{table:symmetrieBread}
+\end{table}
+
+
+
+The blow table shows the rendering times required for each prmompt with each model. 
+
+\begin{table}[ht]
+    \centering
+    \small 
+    \begin{tabular}{lcccccccc}
+    \toprule
+    Prompt & DreamFusion & \multicolumn{2}{c}{Magic3D} & \multicolumn{2}{c}{Fantasia3D} & \multicolumn{2}{c}{Magic123} & Wonder3D \\
+    \cmidrule(r){3-4} \cmidrule(lr){5-6} \cmidrule(l){7-8}
+    & & \multicolumn{1}{c}{Coarse} & \multicolumn{1}{c}{Refine} & \multicolumn{1}{c}{Geom.} & \multicolumn{1}{c}{Appear.} & \multicolumn{1}{c}{C.} & \multicolumn{1}{c}{R.} &  \\
+    \midrule
+    Robot & 1:24 & 1:23 & 1:20 & 1:15 & 1:18 & 1:46 & 1:47 & 0:15 \\
+    Playmobil & 1:17 & 1:17 & 1:18 & 1:14 & 1:17 & 1:46 & 1:46 & 0:15 \\
+    Fern & 1:25 & 1:24 & 1:19 & 1:17 & 1:20 & 1:52 & 1:48 & 0:15 \\
+    Bread & 1:25 & 1:21 & 1:21 & 1:17 & 1:20 & 1:54 & 1:52 & 0:15 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Comparison of Generation Times for Different Prompts Across Methods (Hours:Minutes). Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
+\end{table}
