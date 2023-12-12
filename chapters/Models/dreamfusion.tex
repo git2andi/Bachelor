@@ -9,7 +9,7 @@ This method offers an innovative approach to transforming text into 3D models, a
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/Dreamfusion.png}
-    \caption{Overview of DreamFusion's process for transforming text into 3D models, illustrating the integration of Neural Radiance Fields, Score Distillation Sampling, and diffusion models. Image adapted from \citep{pooleDreamfusion}.}\label{fig:figureDreamfusion}
+    \caption{Overview of DreamFusion's process for transforming text into 3D models, illustrating the integration of Neural Radiance Fields, Score Distillation Sampling, and diffusion models. Image adapted from Poole et al.~\citep{pooleDreamfusion}.}\label{fig:figureDreamfusion}
 \end{figure}
 
 At the center of the rendering process is the Neural Radiation Field, which is represented as \( \text{MLP}(\cdot; \theta) \), where the dot \(\cdot\) denotes the input of 3D coordinates and viewing directions. This input is important to determine how light and color interact in 3D space.~\(\theta\) symbolizes the parameters of the MLP that are fine-tuned during training. These parameters determine how the MLP interprets its input (the 3D coordinates and viewing directions) to produce the final output, such as the color and density at each point in the 3D model.

@@ -70,14 +70,6 @@ Doersch, C. (2016).
 \newblock Tutorial on variational autoencoders.
 \newblock {\em arXiv preprint arXiv:1606.05908}.
 
-\bibitem[Dosovitskiy et~al., 2020]{dosovitskiyViT}
-Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X.,
-  Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., et~al.
-  (2020).
-\newblock An image is worth 16x16 words: Transformers for image recognition at
-  scale.
-\newblock {\em arXiv preprint arXiv:2010.11929}.
-
 \bibitem[Goodfellow et~al., 2020]{goodfellowGAN}
 Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair,
   S., Courville, A., and Bengio, Y. (2020).
@@ -107,12 +99,6 @@ Haggerty, D. et~al. (2019).
 \newblock trimesh.
 \newblock \url{https://trimsh.org/}.
 \newblock Accessed: [2019-12-8].
-
-\bibitem[He et~al., 2016]{heResnet}
-He, K., Zhang, X., Ren, S., and Sun, J. (2016).
-\newblock Deep residual learning for image recognition.
-\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition (CVPR)}.
 
 \bibitem[Higgins et~al., 2017]{higginsVAE}
 Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M.,
@@ -394,12 +380,6 @@ Song, Y., Sohl-Dickstein, J., Kingma, D.~P., Kumar, A., Ermon, S., and Poole,
 Tang, J. (2022).
 \newblock Stable-dreamfusion: Text-to-3d with stable-diffusion.
 \newblock https://github.com/ashawkey/stable-dreamfusion.
-
-\bibitem[Vaswani et~al., 2017]{vaswani2023attention}
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
-  Kaiser, {\L}., and Polosukhin, I. (2017).
-\newblock Attention is all you need.
-\newblock {\em Advances in neural information processing systems}, 30.
 
 \bibitem[Xiao et~al., 2021]{xiao2022tackling}
 Xiao, Z., Kreis, K., and Vahdat, A. (2021).

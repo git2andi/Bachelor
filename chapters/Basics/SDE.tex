@@ -16,7 +16,7 @@ This equation by \citeauthor{song2020score} describes the process of recovering 
 \begin{figure}[ht]
   \centering
     \includegraphics[width=1\columnwidth]{figures/DiffusionModels_SDEs.png}
-    \caption{This figure illustrates the two-fold process in score-based generative modeling through SDEs. On the left, the Forward SDE represents the gradual transformation of data into noise, guided by the drift and diffusion coefficients. On the right, the Reverse SDE depicts the process of reconstituting original data from noise, leveraging the known score of each marginal distribution~\citep{song2020score}}\label{fig:DM_SDEs}
+    \caption{This figure, adapted from Song et al.~\citep{song2020score}, illustrates the two-fold process in score-based generative modeling through SDEs. On the left, the Forward SDE represents the gradual transformation of data into noise, guided by the drift and diffusion coefficients. On the right, the Reverse SDE depicts the process of reconstituting original data from noise, leveraging the known score of each marginal distribution.}\label{fig:DM_SDEs}
 \end{figure}
 
 Training a model to accurately estimate the score functions at various noise levels is a fundamental aspect of this process. To achieve this, the model is trained through score matching \citep{hyvarinenScoreMatching}, which involves fine-tuning the model to closely approximate these score functions across a spectrum of noise levels \citep{song2020score}. 
