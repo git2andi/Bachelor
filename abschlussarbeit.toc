@@ -28,14 +28,14 @@
 \contentsline {section}{\numberline {4.2}Individual Generation Process}{29}{}%
 \contentsline {section}{\numberline {4.3}Comparative Analysis}{37}{}%
 \contentsline {subsection}{\numberline {4.3.1}Subjective Evaluation}{38}{}%
-\contentsline {subsection}{\numberline {4.3.2}Technical Review}{45}{}%
-\contentsline {chapter}{\numberline {5}Future Directions}{48}{}%
-\contentsline {section}{\numberline {5.1}Emerging Trends and Future Directions}{48}{}%
-\contentsline {section}{\numberline {5.2}Handle Generative Bias}{49}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{51}{}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{51}{}%
-\contentsline {section}{\numberline {6.2}Contributions to the Field}{52}{}%
-\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{52}{}%
-\contentsline {chapter}{\numberline {A}Additional Images}{53}{}%
-\contentsline {chapter}{\numberline {B}Adaptive Modifications in Threestudio Implementations}{58}{}%
-\contentsline {chapter}{Bibliography}{59}{}%
+\contentsline {subsection}{\numberline {4.3.2}Technical Review}{47}{}%
+\contentsline {chapter}{\numberline {5}Future Directions}{49}{}%
+\contentsline {section}{\numberline {5.1}Emerging Trends and Future Directions}{49}{}%
+\contentsline {section}{\numberline {5.2}Handle Generative Bias}{50}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{52}{}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{52}{}%
+\contentsline {section}{\numberline {6.2}Contributions to the Field}{53}{}%
+\contentsline {section}{\numberline {6.3}Implications and Practical Applications}{53}{}%
+\contentsline {chapter}{\numberline {A}Additional Images}{54}{}%
+\contentsline {chapter}{\numberline {B}Adaptive Modifications in Threestudio Implementations}{59}{}%
+\contentsline {chapter}{Bibliography}{60}{}%
