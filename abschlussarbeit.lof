@@ -34,13 +34,20 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces Results obtained using the prompt ``a high-quality rendering of a fern in a wooden pot''.}}{44}{}%
 \contentsline {figure}{\numberline {30}{\ignorespaces Part (a) shows the result of the coarse stage of Magic3D, where the actual fern was still present; (b and c) show the side view of the fern showcasing the limitations of Magic123 in deriving the correct angles in contrast to Wonder3D}}{45}{}%
 \contentsline {figure}{\numberline {31}{\ignorespaces Using the Prompt ``a detailed rendering of a snow globe containing a snowman'' to assess transparency and difficult reflections between various methods.}}{46}{}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''.}}{50}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Figures (a) and (b) show the evaluation of the symmetry of the prototype on the 3D bread models of Magic3D and Magic123 and illustrate the approximate and non-uniform nature of the splitting process.}}{50}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Illustrating the outcomes of the symmetrical tennis ball prompt across various 3D model generation methods, this figure showcases the distinct capabilities and limitations in achieving geometric symmetry. }}{51}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {34}{\ignorespaces The sequence shows the progressive refinement of a plant-based robot, beginning with a coarse initial model (a) and evolving to a high-quality representation with consistent detail across multiple views (b, c, d). The prompt used for generation was ``a robot made out of plants''.}}{53}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Parts (a-d) display the initial coarse models produced from the text prompt, while parts (e) and (f) showcase selected refined outcomes. The utilized prompt was ``A cute manta ray, Pixar style, high detail texture, 4K''.}}{53}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Models generated for the prompt ``CEO'' (a-c) show predominantly male figures, while the prompt ``Teacher'' (d-f) often results in female figures. Sequentially from left to right: results from DreamFusion, Magic3D, and Fantasia3D.}}{54}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces All results are derived from LumaAI's Genie. The figure portrays a clear gender bias; nurse models (a-d) are exclusively female, while engineer models (e-h) are strictly male, reflecting the stereotypical gender roles present in the training data.}}{55}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {33}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{57}{}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{58}{}%
-\contentsline {figure}{\numberline {35}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{59}{}%
-\contentsline {figure}{\numberline {36}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{60}{}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{61}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces The generation process of DreamFusion using the prompt ``a robot made out of plants'' a second time.}}{59}{}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Initializing Fantasia3D with a coarse mesh representing a basic human figure}}{60}{}%
+\contentsline {figure}{\numberline {40}{\ignorespaces The coarse in Magic123; From top to bottom: right, back and left view}}{61}{}%
+\contentsline {figure}{\numberline {41}{\ignorespaces The refine in Magic123; From top to bottom: right, back and left view}}{62}{}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Wonder3D initialization of multi-view color images and normals; (a) front, (b) front left, (c) left, (d) back, (e) right, (f) front right}}{63}{}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Parts (a) and (b) illustrate results from DreamFusion and Fantasia3D for the ``rich person'' prompt, while Magic3D failed to converge to a reasonable output. Results for the prompt ``poor person'' by DreamFusion, Magic3D, and Fantasia3D are shown in parts (c-e). DreamFusion's model indicates a clear bias, correlating ``rich person'' with a white figure and ``poor person'' with a person of color. In contrast, Fantasia3D's outputs (b, e) demonstrate no distinct bias towards any socioeconomic status.}}{64}{}%
+\contentsline {figure}{\numberline {44}{\ignorespaces When LumaAI's Genie is prompted with ``poor person'', the results (a-d) predominantly depict male figures of color, while the ``rich person'' prompt (e-h) yields exclusively white male figures. This disparity indicates racial and gender biases within the generative models.}}{64}{}%
 \addvspace {10\p@ }

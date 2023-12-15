@@ -15,14 +15,16 @@ The rendering time for each method was notably lengthy compared to 2D generative
     \midrule
     Robot & 1:24 & 1:23 & 1:20 & 1:15 & 1:18 & 1:46 & 1:47 & 0:17 \\
     Playmobil & 1:17 & 1:17 & 1:18 & 1:14 & 1:17 & 1:46 & 1:46 & 0:15 \\
+    Bread & 1:25 & 1:21 & 1:21 & 1:17 & 1:20 & 1:54 & 1:49 & 0:15 \\
+    Dog & 1:19 & 1:20 & 1:18 & 1:16 & 1:19 & 1:52 & 1:49 & 0:16 \\
     Fern & 1:25 & 1:24 & 1:19 & 1:17 & 1:20 & 1:52 & 1:48 & 0:16 \\
-    Bread & 1:25 & 1:21 & 1:21 & 1:17 & 1:20 & 1:54 & 1:52 & 0:15 \\
+    Snow globe & 1:18 & 1:18 & 1:19 & 1:13 & 1:16 & 1:54 & 1:46 & 0:16 \\
     \bottomrule
     \end{tabular}
-    \caption{Comparison of Generation Times for Different Prompts Across Methods (Hours:Minutes). Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
+    \caption{Comparison of generation times (hours:minutes) for different prompts with different methods. Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
 \end{table}
 
-Among the methods, Wonder3D exhibited the most efficient performance, completing its training in approximately 15 minutes for 10,000 iterations. This is followed by Dreamfusion, which took about 1 hour and 15 minutes to 1 hour and 30 minutes. Magic3D and Fantasia3D demonstrated similar training times of around 1 hour and 15 minutes to 1 hour and 30 minutes each. However, it's worth noting that these two methods involve a two-staged process, resulting in a total training time of approximately 2.5 to 3 hours. The longest training duration was associated with Magic123, requiring approximately 1 hour and 45 minutes to 1 hour and 55 minutes for each coarse and refine stage, summing up to around 3.5 to 3 hours and 50 minutes for 10,000 iteration steps. 
+Among the methods, Wonder3D exhibited the most efficient performance, completing its training in approximately 15 minutes. This is followed by Dreamfusion, which took about 1 hour and 15 minutes to 1 hour and 30 minutes. Magic3D and Fantasia3D demonstrated similar training times of around 1 hour and 15 minutes to 1 hour and 30 minutes each. However, it's worth noting that these two methods involve a two-staged process, resulting in a total training time of approximately 2.5 to 3 hours. The longest training duration was associated with Magic123, requiring approximately 1 hour and 45 minutes to 1 hour and 55 minutes for each coarse and refine stage, summing up to around 3.5 to 3 hours and 50 minutes for 10,000 iteration steps. 
 Considering these timeframes within the context of high-performance computing, which encompasses the use of superior and multiple GPUs operating simultaneously, leads to a notable reduction in training duration.
 
 For reference, the setup used in the official papers is as follows:
@@ -42,62 +44,56 @@ For reference, the setup used in the official papers is as follows:
 
 The project Evaluate3D was then used in order to assess specific features of a given mesh, including the CLIP-Score and a rough symmetric value. 
 
-OpenAI's CLIP-score is a metric that quantifies the correspondence between an image and a given prompt \citep{radfordCLIP}. This is achieved by encoding both the prompt and the image into high-dimensional vectors within the same embedding space, and then determining the cosine similarity between these vectors. Despite its sophisticated design, this score is not without limitations and at times cannot rival the discerning capabilities of the human eye, occasionally leading to outcomes that may seem counterintuitive.
+OpenAI's CLIP-score is a metric that quantifies the correspondence between an image and various prompts \citep{radfordCLIP}. This is achieved by encoding both the prompts and the image into high-dimensional vectors within the same embedding space, and then determining the cosine similarity between these vectors. Despite its sophisticated design, this score is not without limitations and at times cannot rival the discerning capabilities of the human eye, occasionally leading to outcomes that may seem counterintuitive. 
 
-For convenience and to streamline the evaluation process, portions of the code using this metric have been integrated into Evaluate3D. Using this feature, scores for the Playmobil figures have been computed and are presented in Table~\ref{table:scorePlaymobil}. In an intriguing turn, Magic123 ranks highest when assessed against the original prompt, followed by Fantasia3D, Wonder3D, DreamFusion, and finally, Magic3D. These findings are not entirely in concordance with the subjective analysis provided earlier. However, when the prompt is changed to ``a high-quality rendering of a red Playmobil firefighter'', there is a marked reversal in scores. This suggests that the CLIP-score may exhibit a bias towards the color black in the context of firefighter apparel, as opposed to the more toy-like red. The discrepancies highlighted by the CLIP-score accentuate the need for the development of new, more precise evaluation metrics tailored for assessing the output of 3D generative AI, as there currently exists no standard method that is universally recognized as reliable.
+For convenience and to streamline the evaluation process, portions of the code using this metric have been integrated into Evaluate3D. Using this feature, scores for the Playmobil figures have been computed and are presented in Table~\ref{table:scorePlaymobil}. The evaluation process involved comparing each image against a set of underlying prompts, thereby determining the image's likelihood of matching each prompt. For example, with DreamFusion-generated playmobil model, the assessment focused on how well this image aligned with the original prompt and variations therof.
 
-\begin{table}[ht]
+The primary prompt, \textbf{``a high-quality rendering of a Playmobil firefighter''},  was chosen to directly test the models' ability to replicate the exact prompt used in their generation. The findings showed that Fantasia3D, Magic123, and Wonder3D scored highest in aligning with this prompt, suggesting their effectiveness in closely following the generation instructions. However, introducing a slightly altered prompt, such as one specifying the color red, resulted in a significant shift in scores. This shift indicates a potential color bias in the CLIP-Score, favoring black tones typically associated with firefighter uniforms over the more vibrant red found in toys.
+
+The prompt \textbf{``A green chair''} resulted in a score of 0.0 across all methods, confirming that none of the models mistakenly represented unrelated objects in their renderings. This is an important validation of the specificity and accuracy of the model generation process. Lastly, the prompt \textbf{“A high-quality rendering of a Playmobil police officer”} yielded very low scores for all methods, with the highest being only 0.0057 for Wonder3D. This indicates that all models were effective in differentiating between a firefighter and a police officer, even within the same toy series.
+
+\begin{table}[htbp]
     \centering
     \small
-    \begin{tabular}{lccccc}
+    \begin{tabular}{m{4cm}S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]}
     \toprule
-    Prompt & DreamFusion & Magic3D & Fantasia3D & Magic123 & Wonder3D \\
+    {Prompt} & {DreamFusion} & {Magic3D} & {Fantasia3D} & {Magic123} & {Wonder3D} \\
     \midrule
-    a Playmobil firefighter & 0.337 & 0.320 & 0.503 & 0.827 & 0.482 \\
-    a red Playmobil firefighter & 0.501 & 0.604 & 0 & 0 & 0.216 \\
-    \bottomrule
+    A high quality rendering of a playmobil firefighter & 0.2861 & 0.2246 & 0.6315 & 0.6295 & 0.6439 \\
+    \midrule
+    A high quality rendering of a red playmobil firefighter & 0.7136 & 0.7734 & 0.368 & 0.3694 & 0.3504 \\
+    \midrule
+    A green chair & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+    \midrule
+    A high quality rendering of a playmobil police officer & 0.0003 & 0.0002 & 0.0005 & 0.0012 & 0.0057 \\
+    \bottomrule 
     \end{tabular}
-    \caption{CLIP-scores for Playmobil firefighter models based on different prompts.}~\label{table:scorePlaymobil}
+    \caption{CLIP scores for Playmobil firefighter models based on different prompts}~\label{table:scorePlaymobil}
 \end{table}
 
-To assess the symmetry of 3D models, several steps were performed. First, an optional rotation of the model is applied for a uniform orientation, which is required for all objects created by DreamFusion, Magic3D, Fantasia3D and Magic123. Then, the given object is split along its X-axis into a left and a right part, creating two halves for the symmetry evaluation.
+In order to assess the symmetry of the 3D models, several steps were performed on them. First, an optional rotation is applied for a uniform orientation, which is required for all objects created by DreamFusion, Magic3D, Fantasia3D and Magic123. Then, the given object is split along its X-axis into a left and a right part, creating two halves for the symmetry evaluation.
 
 The core functionality is in the evaluation. Here, the process involves mirroring one half of the model and aligning it with the other. A KDTree structure is created from the vertices of the mirrored right part, facilitating efficient nearest neighbor searches. For each vertex in the left part, the KDTree's query method identifies the closest vertex in the mirrored right part. This method returns a tuple, with the first element being an array of distances between corresponding vertices of the two meshes. The symmetry is evaluated on the basis of these distances. The function counts the number of vertices in the left part whose nearest counterpart in the mirrored right part is within a certain tolerance distance, which is set here to 0.02, which corresponds to approximately 1.5\% of the model size. This count is then used to calculate a symmetry score, expressed as a percentage. The score represents the proportion of vertices in the left part that have a symmetric counterpart within the defined tolerance in the mirrored right part, providing a quantitative measure of the two parts' symmetrical alignment.
 
-However, it should be noted that this value is not an absolute measure of symmetry, as the implementation is currently more of a prototype. Instead, it serves as a rough guide to the relative symmetry between two objects. Reducing and increasing the tolerance will greatly alter the results of the symmetry evaluation. To my knowledge, there is no standardized method to effectively compare the symmetry of different 3D models, especially those with a different number of vertices. The challenge arises from the nature of the division and the properties of triangular 3D meshes. The splitting process is an approximation process that avoids the destruction of triangular surfaces and results in a non-uniform edge. This methodological limitation suggests that further research is needed to develop more precise techniques for the quantitative assessment of 3D models, which may lead to more accurate assessments and guidance in the future.
-
-When the models were prompted with ``a highly symmetrical loaf of bread'', the outcomes were generally unsatisfactory. Among the models tested, only Magic3D and Magic123 were able to create objects that were reasonably symmetrical. This observation is confirmed by the scores listed in Table~\ref{table:symmetryScores}. Given the underwhelming performance, it remains unclear if explicitly requesting symmetry in the prompt leads to improved symmetry in the results. To explore this further, a new prompt was introduced: \textbf{``a symmetrical tennis ball''}. This prompt was chosen with the rationale that a tennis ball, inherently symmetrical in nature, might encourage the generation of more geometrically consistent and thus, more meaningfully comparable results. The results derived from this modified prompt are displayed in Table~\ref{table:symmetryScores} and illustrated in Figure~\ref{fig:Ball}. Considering the relatively simple and detail-sparse nature of a ball, each method underwent a training of 3000 iteration steps, uniformly applied across all stages to ensure consistency in the evaluation process.
+However, it should be noted that this value is not an absolute measure of symmetry, as the implementation is currently more of a prototype. Instead, it serves as a rough guide to the relative symmetry between two objects. Reducing and increasing the tolerance will greatly alter the results of the symmetry evaluation. To my knowledge, there is no standardized method to effectively compare the symmetry of different 3D models, especially those with a different number of vertices. The challenge arises from the nature of the division and the properties of triangular 3D meshes. The splitting process is an approximation process that avoids the destruction of triangular surfaces and results in a non-uniform edge, which can bee seen in Figure~\ref{fig:split}. This methodological limitation suggests that further research is needed to develop more precise techniques for the quantitative assessment of 3D models, which may lead to more accurate assessments and guidance in the future.
 
 \begin{figure}[ht]
     \centering
     \small
-    \begin{subfigure}[b]{0.18\textwidth}
+    \begin{subfigure}[b]{0.25\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/dreamfusion/dreamfusion_playmobil_result_resize.png}
-        \caption{DreamFusion}
+        \includegraphics[width=\textwidth]{etc/technical/bread/magic3d_split.png}
+        \caption{}
     \end{subfigure}
-    \begin{subfigure}[b]{0.179\textwidth}
+    \begin{subfigure}[b]{0.248\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic3d/magic3d_playmobil_result_resize.png}
-        \caption{Magic3D}
+        \includegraphics[width=\textwidth]{etc/technical/bread/magic123_split.png}
+        \caption{}
     \end{subfigure}
-    \begin{subfigure}[b]{0.227\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/fantasia3d_Magic3DInput/fantasia_playmobil_result_resize.png}
-        \caption{Fantasta3D}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.192\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/magic123/magic123_playmobil_result_resize.png}
-        \caption{Magic123}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.181\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{etc/a high quality rendering of a playmobil firefighter/wonder3D/wonder3d_playmobil_result_resize.png}
-        \caption{Wonder3D}
-    \end{subfigure}
-    \caption{Results obtained using the prompt ``a high-quality rendering of a Playmobil firefighter''.}~\label{fig:Ball}
+    \caption{Figures (a) and (b) show the evaluation of the symmetry of the prototype on the 3D bread models of Magic3D and Magic123 and illustrate the approximate and non-uniform nature of the splitting process.}~\label{fig:split}
 \end{figure}
+
+When the models were prompted with \textbf{``a highly symmetrical loaf of bread''}, the outcomes were generally unsatisfactory. Among the models tested, only Magic3D and Magic123 were able to create objects that were reasonably symmetrical. This observation is confirmed by the scores listed in Table~\ref{table:symmetryScores}. Given the underwhelming performance, it remains unclear if explicitly requesting symmetry in the prompt leads to improved symmetry in the results. To explore this further, a new prompt was introduced: \textbf{``a symmetrical tennis ball''}. This prompt was chosen with the rationale that a tennis ball, inherently symmetrical in nature, might encourage the generation of more geometrically consistent and thus, more meaningfully comparable results. The results derived from this modified prompt are displayed in Table~\ref{table:symmetryScores} and illustrated in Figure~\ref{fig:Ball}. Considering the relatively simple and detail-sparse nature of a ball, each method underwent a training of 3000 iteration steps, uniformly applied across all stages to ensure consistency in the evaluation process.
 
 \begin{table}[ht]
     \centering
@@ -106,14 +102,50 @@ When the models were prompted with ``a highly symmetrical loaf of bread'', the o
     \toprule
     {} & DreamFusion & Magic3D & Fantasia3D & Magic123 & Wonder3D \\
     \midrule
-    Loaf of Bread & 0.337 & 0.320 & 0.503 & 0.827 & 0.482 \\
-    Tennis Ball & 0.337 & 0.320 & 0.503 & 0.827 & 0.482 \\
+    Loaf of Bread & 0.4457 & 0.7088 & 0.2779 & 0.5122 & 0.2506 \\
+    Tennis Ball & 0.9537 & 0.8711 & 0.2925 & 0.4034 & 0.5056 \\
     \bottomrule
     \end{tabular}
-    \caption{Symmetrie-scores for various prompts demanding a symmetrical output.}~\label{table:symmetryScores}
+    \caption{Symmetrie-scores with a tolerance of 0.002 for various prompts demanding a symmetrical output.}~\label{table:symmetryScores}
 \end{table}
 
-Based on the new scores, 
+The prompt's intention to produce a geometrically consistent object seems to have been partially successful, with varying degrees of symmetry achieved by different methods.
+
+DreamFusion stands out with a high symmetry score of 0.9537, indicating a strong capability to produce highly symmetrical objects, particularly when the object in question has a simple and inherently symmetrical form like a tennis ball. In contrast, Magic3D, which previously performed well with the bread prompt, shows a decreased symmetry score of 0.5711 for the tennis ball. This drop implies that Magic3D's ability to generate symmetry may be more context-dependent or less consistent when dealing with complex shapes. In contrast to its previous performance with the bread prompt, Magic3D shows an increased symmetry score of 0.8711 for the tennis ball. This result suggests that Magic3D's proficiency in creating symmetrical objects may actually be more consistent and effective, when dealing with straightforward geometric shapes. Fantasia3D, Magic123 and Wonder3D, scoring 0.2925, 0.4034 and 0.5056 respectively, demonstrate challenges in achieving symmetry across various object complexities. This may point to inherent constraints within their algorithms, particularly in rendering symmetrical forms and the potential information loss during the final mesh extraction post-training.
+
+These results reveal that the ability to generate symmetrical 3D models varies significantly across different methods. While some methods excel in creating symmetrical objects for simple shapes, others may perform better with more complex forms. This disparity underscores the importance of method selection based on the specific requirements of the 3D model to be generated. Additionally, it highlights the need for further refinement in 3D model generation techniques, especially in achieving consistent symmetry across a range of shapes and complexities.
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/dreamfusion/dreamfusion_ball_result.png}
+        \caption{DreamFusion}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/magic3d/magic3d_ball_result.png}
+        \caption{Magic3D}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.218\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/fantasia3d/fantasia3d_ball_result.png}
+        \caption{Fantasta3D}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.22\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/magic123/magic123_ball_result.png}
+        \caption{Magic123}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/wonder3D/wonder3d_ball_result.png}
+        \caption{Wonder3D}
+    \end{subfigure}
+    \caption{Illustrating the outcomes of the symmetrical tennis ball prompt across various 3D model generation methods, this figure showcases the distinct capabilities and limitations in achieving geometric symmetry. }~\label{fig:Ball}
+\end{figure}
 
 
 

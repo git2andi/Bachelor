@@ -3,9 +3,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Comparison of Generation Times for Different Prompts Across Methods (Hours:Minutes). Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}}{47}{}%
-\contentsline {table}{\numberline {2}{\ignorespaces CLIP-scores for Playmobil firefighter models based on different prompts.}}{49}{}%
-\contentsline {table}{\numberline {3}{\ignorespaces Symmetrie-scores for various prompts demanding a symmetrical output.}}{50}{}%
+\contentsline {table}{\numberline {1}{\ignorespaces Comparison of generation times (hours:minutes) for different prompts with different methods. Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}}{47}{}%
+\contentsline {table}{\numberline {2}{\ignorespaces CLIP scores for Playmobil firefighter models based on different prompts}}{49}{}%
+\contentsline {table}{\numberline {3}{\ignorespaces Symmetrie-scores with a tolerance of 0.002 for various prompts demanding a symmetrical output.}}{50}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

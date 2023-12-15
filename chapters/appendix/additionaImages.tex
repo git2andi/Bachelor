@@ -189,6 +189,94 @@
 \end{figure}
 
 
+
+
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.108\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_dreamfusion.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_fantasia3d.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.12\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_dreamfusion_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.118\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_magic3d_part1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_fantasia3d_part1.png}
+        \caption{}
+    \end{subfigure}
+    \caption{Parts (a) and (b) illustrate results from DreamFusion and Fantasia3D for the ``rich person'' prompt, while Magic3D failed to converge to a reasonable output. Results for the prompt ``poor person'' by DreamFusion, Magic3D, and Fantasia3D are shown in parts (c-e). DreamFusion's model indicates a clear bias, correlating ``rich person'' with a white figure and ``poor person'' with a person of color. In contrast, Fantasia3D's outputs (b, e) demonstrate no distinct bias towards any socioeconomic status.}~\label{fig:biasRichPoor}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.23\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_genie_1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.1721\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_genie_2.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.172\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_genie_3.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.175\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_poor_genie_4.png}
+        \caption{}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.218\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_genie_1.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.15\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_genie_2.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.16\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_genie_3.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.097\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/bias/bias_rich_genie_4.png}
+        \caption{}
+    \end{subfigure}
+    \caption{When LumaAI's Genie is prompted with ``poor person'', the results (a-d) predominantly depict male figures of color, while the ``rich person'' prompt (e-h) yields exclusively white male figures. This disparity indicates racial and gender biases within the generative models.}~\label{fig:biasGenieRichPoor}
+\end{figure}
+
+
+
+
+
+
 \chapter{Adaptive Modifications in Threestudio Implementations}\label{ch:differences}
 
 In the Threestudio project's adaptation of Dreamfusion, Magic3D, Fantasia3D, and Magic123, several structural changes were implemented, distinguishing them from their official paper counterparts. These differences stated here are directly taken as given in the Threestudio GitHub project page~\citep{threestudio2023}: 
