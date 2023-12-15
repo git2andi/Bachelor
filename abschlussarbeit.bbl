@@ -189,6 +189,8 @@ Long, X., Guo, Y.-C., Lin, C., Liu, Y., Dou, Z., Liu, L., Ma, Y., Zhang, S.-H.,
   Habermann, M., Theobalt, C., et~al. (2023).
 \newblock Wonder3d: Single image to 3d using cross-domain diffusion.
 \newblock {\em arXiv preprint arXiv:2310.15008}.
+\newblock GitHub: \url{https://github.com/xxlong0/Wonder3D.git}, and
+  \url{https://github.com/camenduru/Wonder3D-colab.git}.
 
 \bibitem[Luccioni et~al., 2023]{luccioni2023stable}
 Luccioni, A.~S., Akiki, C., Mitchell, M., and Jernite, Y. (2023).
@@ -281,6 +283,7 @@ Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
   supervision.
 \newblock In {\em International conference on machine learning}, pages
   8748--8763. PMLR.
+\newblock GitHub: \url{https://github.com/openai/CLIP.git}.
 
 \bibitem[Ramesh et~al., 2023]{dalle3}
 Ramesh, A., Pavlov, M., Goh, G., Gray, S., et~al. (2023).
