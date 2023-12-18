@@ -1,6 +1,6 @@
 \subsection{Technical Review}~\label{technical}
 
-As already breifly introduced, each model was trained for 10,000 iteration steps, covering both the coarse and refine stages or geometry and appearance stages. Notably, the high RAM setting in Colab was enabled, primarily due to the substantial resource demands of Wonder3D. Even with this configuration, there were instances where the training process could be interrupted. Additionally, most of the settings were maintained as per the default Threestudio implementation, although there may have been some minor variations among the methods (some of these can bee seen in Appendix~\ref{ch:differences}). The reason for sticking to these default settings was primarily because altering them might have caused interruptions during training. Moreover, even with the preset configurations, the GPU RAM available on a T4 was often operating close to its maximum capacity.
+As already briefly introduced, each model was trained for 10,000 iteration steps, covering both the coarse and refine stages or geometry and appearance stages. Notably, the high RAM setting in Colab was enabled, primarily due to the substantial resource demands of Wonder3D. Even with this configuration, there were instances where the training process could be interrupted. Additionally, most of the settings were maintained as per the default Threestudio implementation, although there may have been some minor variations among the methods (some of these can bee seen in Appendix~\ref{ch:differences}). The reason for sticking to these default settings was primarily because altering them might have caused interruptions during training. Moreover, even with the preset configurations, the GPU RAM available on a T4 was often operating close to its maximum capacity.
 
 The rendering time for each method was notably lengthy compared to 2D generative models, which can produce outputs in mere seconds, even with modest computational resources. Detailed information on the training times required for each method, along with various prompts, can be found in Table~\ref{table:generation_times_complex}.
 
@@ -11,7 +11,7 @@ The rendering time for each method was notably lengthy compared to 2D generative
     \toprule
     Prompt & DreamFusion & \multicolumn{2}{c}{Magic3D} & \multicolumn{2}{c}{Fantasia3D} & \multicolumn{2}{c}{Magic123} & Wonder3D \\
     \cmidrule(r){3-4} \cmidrule(lr){5-6} \cmidrule(l){7-8}
-    & & \multicolumn{1}{c}{Coarse} & \multicolumn{1}{c}{Refine} & \multicolumn{1}{c}{Geom.} & \multicolumn{1}{c}{Appear.} & \multicolumn{1}{c}{C.} & \multicolumn{1}{c}{R.} &  \\
+    & & \multicolumn{1}{c}{C.} & \multicolumn{1}{c}{R.} & \multicolumn{1}{c}{G.} & \multicolumn{1}{c}{A.} & \multicolumn{1}{c}{C.} & \multicolumn{1}{c}{R.} &  \\
     \midrule
     Robot & 1:24 & 1:23 & 1:20 & 1:15 & 1:18 & 1:46 & 1:47 & 0:17 \\
     Playmobil & 1:17 & 1:17 & 1:18 & 1:14 & 1:17 & 1:46 & 1:46 & 0:15 \\
@@ -21,36 +21,32 @@ The rendering time for each method was notably lengthy compared to 2D generative
     Snow globe & 1:18 & 1:18 & 1:19 & 1:13 & 1:16 & 1:54 & 1:46 & 0:16 \\
     \bottomrule
     \end{tabular}
-    \caption{Comparison of generation times (hours:minutes) for different prompts with different methods. Legend: C = Coarse, R = Refine, Geom = Geometry, Appear = Appearance.}~\label{table:generation_times_complex}
+    \caption{Comparison of generation times (hours:minutes) for different prompts with different methods. Legend: C = Coarse, R = Refine, G = Geometry, A = Appearance.}~\label{table:generation_times_complex}
 \end{table}
 
-Among the methods, Wonder3D exhibited the most efficient performance, completing its training in approximately 15 minutes. This is followed by Dreamfusion, which took about 1 hour and 15 minutes to 1 hour and 30 minutes. Magic3D and Fantasia3D demonstrated similar training times of around 1 hour and 15 minutes to 1 hour and 30 minutes each. However, it's worth noting that these two methods involve a two-staged process, resulting in a total training time of approximately 2.5 to 3 hours. The longest training duration was associated with Magic123, requiring approximately 1 hour and 45 minutes to 1 hour and 55 minutes for each coarse and refine stage, summing up to around 3.5 to 3 hours and 50 minutes for 10,000 iteration steps. 
-Considering these timeframes within the context of high-performance computing, which encompasses the use of superior and multiple GPUs operating simultaneously, leads to a notable reduction in training duration.
-
-For reference, the setup used in the official papers is as follows:
+Among the methods, Wonder3D exhibited the most efficient performance, completing its training in approximately 15 minutes. This is followed by DreamFusion, which took about 1 hour and 15 minutes to 1 hour and 30 minutes. Magic3D and Fantasia3D demonstrated similar training times of around 1 hour and 15 minutes to 1 hour and 30 minutes each. However, it's worth noting that these two methods involve a two-staged process, resulting in a total training time of approximately 2.5 to 3 hours. The longest training duration was associated with Magic123, requiring approximately 1 hour and 45 minutes to 1 hour and 55 minutes for each coarse and refine stage, summing up to around 3.5 to 3 hours and 50 minutes for 10,000 iteration steps. 
+Considering these timeframes within the context of high-performance computing, which encompasses the use of superior and multiple GPUs operating simultaneously, leads to a notable reduction in training duration and result quality. To see what is possible with the high-end devices mentioned above, some examples of each method are shown in the Appendix~\ref{ch:additionalImages} in Figures~\ref{fig:dreamfusionOriginal}~-~\ref{fig:wonder3dOriginal}. For reference, the setup used in the official papers is as follows:
 
 \begin{itemize}
-    \item Dreamfusion: Utilized a single TPUv4, underwent 15,000 iterations, and completed training within 1.5 hours.
+    \item DreamFusion: Utilized a single TPUv4, underwent 15,000 iterations, and completed training within 1.5 hours.
     
     \item Fantasia3D\@: Utilized 8 Nvidia RTX 3090 GPUs, with approximately 15 minutes needed for the geometry stage and 16 minutes for the appearance stage.
     
     \item Magic3D\@: Employed 8 Nvidia A100 GPUs, involving 5,000 iterations for the coarse stage with 1,024 samples per ray, taking 15 minutes, and 3,000 iterations for the refine stage, requiring 25 minutes.
     
-    \item Magic123: Trained on a 32GB V100 GPU, with 5,000 iterations for both the coarse and fine stages. The coarse stage took around 40 minutes, while the refine stage needed approximately 20 minutes on a 32GB V100.
+    \item Magic123: Trained on a 32GB V100 GPU, with 5,000 iterations for both the coarse and fine stages. The coarse stage took around 40 minutes, while the refine stage took approximately 20 minutes on a 32GB V100.
     
     \item Wonder3D\@: The pretraining phase encompassed the LVIS model, which included over 30,000 objects, and underwent 30,000 iterations on 8 Nvidia Tesla A800 GPUs, spanning approximately 3 days. Subsequently, the extraction of meshes from images could be accomplished in only 2 to 3 minutes.
 \end{itemize}
 
-
 The project Evaluate3D was then used in order to assess specific features of a given mesh, including the CLIP-Score and a rough symmetric value. 
+OpenAI's CLIP-Score is a metric that quantifies the correspondence between an image and various prompts \citep{radfordCLIP}. This is achieved by encoding both the prompts and the image into high-dimensional vectors within the same embedding space, and then determining the cosine similarity between these vectors. Despite its sophisticated design, this score is not without limitations and at times cannot rival the discerning capabilities of the human eye, occasionally leading to outcomes that may seem counterintuitive. 
 
-OpenAI's CLIP-score is a metric that quantifies the correspondence between an image and various prompts \citep{radfordCLIP}. This is achieved by encoding both the prompts and the image into high-dimensional vectors within the same embedding space, and then determining the cosine similarity between these vectors. Despite its sophisticated design, this score is not without limitations and at times cannot rival the discerning capabilities of the human eye, occasionally leading to outcomes that may seem counterintuitive. 
+For convenience and to streamline the evaluation process, portions of the code using this metric have been integrated into Evaluate3D. Using this feature, scores for the Playmobil figures have been computed and are presented in Table~\ref{table:scorePlaymobil}. The evaluation process involved comparing each image against a set of underlying prompts, thereby determining the image's likelihood of matching each prompt. For example, with DreamFusion-generated playmobil model, the assessment focused on how well this image aligned with the original prompt and variations thereof.
 
-For convenience and to streamline the evaluation process, portions of the code using this metric have been integrated into Evaluate3D. Using this feature, scores for the Playmobil figures have been computed and are presented in Table~\ref{table:scorePlaymobil}. The evaluation process involved comparing each image against a set of underlying prompts, thereby determining the image's likelihood of matching each prompt. For example, with DreamFusion-generated playmobil model, the assessment focused on how well this image aligned with the original prompt and variations therof.
+The primary prompt, \textbf{``a high-quality rendering of a Playmobil firefighter''}, was chosen to directly test the models' ability to replicate the exact prompt used in the generation. The findings showed that all Methods efficiently aligning their results with the prompt, suggesting their effectiveness in closely following the generation instructions. 
 
-The primary prompt, \textbf{``a high-quality rendering of a Playmobil firefighter''},  was chosen to directly test the models' ability to replicate the exact prompt used in their generation. The findings showed that Fantasia3D, Magic123, and Wonder3D scored highest in aligning with this prompt, suggesting their effectiveness in closely following the generation instructions. However, introducing a slightly altered prompt, such as one specifying the color red, resulted in a significant shift in scores. This shift indicates a potential color bias in the CLIP-Score, favoring black tones typically associated with firefighter uniforms over the more vibrant red found in toys.
-
-The prompt \textbf{``A green chair''} resulted in a score of 0.0 across all methods, confirming that none of the models mistakenly represented unrelated objects in their renderings. This is an important validation of the specificity and accuracy of the model generation process. Lastly, the prompt \textbf{“A high-quality rendering of a Playmobil police officer”} yielded very low scores for all methods, with the highest being only 0.0057 for Wonder3D. This indicates that all models were effective in differentiating between a firefighter and a police officer, even within the same toy series.
+The prompt \textbf{``A green chair''} resulted in a score of 0.0 across all methods, confirming that none of the models mistakenly represented unrelated objects in their renderings. This is an important validation of the specificity and accuracy of the model generation process. Lastly, the prompt \textbf{“A high-quality rendering of a Playmobil police officer”} yielded very low scores for all methods, with the highest being only 0.0088 for Wonder3D. This indicates that all models were effective in differentiating between a firefighter and a police officer, even within the same toy series.
 
 \begin{table}[htbp]
     \centering
@@ -59,23 +55,44 @@ The prompt \textbf{``A green chair''} resulted in a score of 0.0 across all meth
     \toprule
     {Prompt} & {DreamFusion} & {Magic3D} & {Fantasia3D} & {Magic123} & {Wonder3D} \\
     \midrule
-    A high quality rendering of a playmobil firefighter & 0.2861 & 0.2246 & 0.6315 & 0.6295 & 0.6439 \\
-    \midrule
-    A high quality rendering of a red playmobil firefighter & 0.7136 & 0.7734 & 0.368 & 0.3694 & 0.3504 \\
+    A high-quality rendering of a playmobil firefighter & 0.9991 & 0.9912 & 0.9993 & 0.9983 & 0.9912 \\
     \midrule
     A green chair & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
     \midrule
-    A high quality rendering of a playmobil police officer & 0.0003 & 0.0002 & 0.0005 & 0.0012 & 0.0057 \\
+    A high-quality rendering of a playmobil police officer & 0.0009 & 0.0088 & 0.0007 & 0.0017 & 0.0088 \\
     \bottomrule 
     \end{tabular}
-    \caption{CLIP scores for Playmobil firefighter models based on different prompts}~\label{table:scorePlaymobil}
+    \caption{Comparative CLIP-Score analysis of Playmobil firefighter renderings across various 3D Model generation methods.}~\label{table:scorePlaymobil}
 \end{table}
 
-In order to assess the symmetry of the 3D models, several steps were performed on them. First, an optional rotation is applied for a uniform orientation, which is required for all objects created by DreamFusion, Magic3D, Fantasia3D and Magic123. Then, the given object is split along its X-axis into a left and a right part, creating two halves for the symmetry evaluation.
+The results in Table~\ref{table:scoreFern} from the score computation using the prompt \textbf{``a high-quality rendering of a fern in a wooden pot''} were quite surprising, particularly in how well each model performed specifically for the fern prompt. Contrary to initial expectations, the models scored better for the fern prompt than for a more general plant prompt. DreamFusion, for instance, demonstrated a surprisingly high score, indicating its ability to produce sufficiently accurate outputs.
+
+A notable observation was with Magic3D, which achieved the second-highest score despite only depicting three leaves. This outcome raises questions about the CLIP score's interpretation of the prompt and its scoring criteria. Fantasia3D, interestingly, registered a low probability of being mistaken for a green chair, possibly due to the absence of the wooden pot in its renderings, which might have added more structure to the image.
+
+The overall findings reinforce the notion that each model is quite adept at producing outputs that align closely with the initial prompt. Despite some unexpected results and variations in interpretation, the models consistently demonstrated their capability in generating images that meet the specific requirements of the given prompts.
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{m{4cm}S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]S[table-format=1.2]}
+    \toprule
+    {Prompt} & {DreamFusion} & {Magic3D} & {Fantasia3D} & {Magic123} & {Wonder3D} \\
+    \midrule
+    A high-quality rendering of a fern in a wooden pot & 0.6678 & 0.9295 & 0.8671 & 0.9731 & 0.8473 \\
+    \midrule
+    A green chair & 0.0 & 0.0 & 0.0046 & 0.0 & 0.0 \\
+    \midrule
+    A high-quality rendering of a plant in a wooden pot & 0.3322 & 0.0705 & 0.1283 & 0.0269 & 0.1527 \\
+    \bottomrule 
+    \end{tabular}
+    \caption{Evaluation of CLIP-Scores for renderings of a fern in a wooden pot.}~\label{table:scoreFern}
+\end{table}
+
+In order to assess the symmetry of the generated 3D models, several steps were performed on them. First, a rotation is applied for a uniform orientation, which is required for all objects created by DreamFusion, Magic3D, Fantasia3D and Magic123. Then, the given object is split along its X-axis into a left and a right part, creating two halves for the symmetry evaluation.
 
 The core functionality is in the evaluation. Here, the process involves mirroring one half of the model and aligning it with the other. A KDTree structure is created from the vertices of the mirrored right part, facilitating efficient nearest neighbor searches. For each vertex in the left part, the KDTree's query method identifies the closest vertex in the mirrored right part. This method returns a tuple, with the first element being an array of distances between corresponding vertices of the two meshes. The symmetry is evaluated on the basis of these distances. The function counts the number of vertices in the left part whose nearest counterpart in the mirrored right part is within a certain tolerance distance, which is set here to 0.02, which corresponds to approximately 1.5\% of the model size. This count is then used to calculate a symmetry score, expressed as a percentage. The score represents the proportion of vertices in the left part that have a symmetric counterpart within the defined tolerance in the mirrored right part, providing a quantitative measure of the two parts' symmetrical alignment.
 
-However, it should be noted that this value is not an absolute measure of symmetry, as the implementation is currently more of a prototype. Instead, it serves as a rough guide to the relative symmetry between two objects. Reducing and increasing the tolerance will greatly alter the results of the symmetry evaluation. To my knowledge, there is no standardized method to effectively compare the symmetry of different 3D models, especially those with a different number of vertices. The challenge arises from the nature of the division and the properties of triangular 3D meshes. The splitting process is an approximation process that avoids the destruction of triangular surfaces and results in a non-uniform edge, which can bee seen in Figure~\ref{fig:split}. This methodological limitation suggests that further research is needed to develop more precise techniques for the quantitative assessment of 3D models, which may lead to more accurate assessments and guidance in the future.
+However, it should be noted that this value is not an absolute measure of symmetry, as the implementation is currently more of a prototype. Instead, it serves as a rough guide to the relative symmetry between two objects. Reducing and increasing the tolerance will greatly alter the results of the symmetry evaluation. To my knowledge, there is no standardized method to effectively compare the symmetry of different 3D models, especially those with a different number of vertices. The challenge arises from the nature of the division and the properties of triangular 3D meshes. The splitting process is an approximation process that avoids the destruction of triangular surfaces and results in a non-uniform edge, which can be seen in Figure~\ref{fig:split}. This methodological limitation suggests that further research is needed to develop more precise techniques for the quantitative assessment of 3D models, which may lead to more accurate assessments and guidance in the future.
 
 \begin{figure}[ht]
     \centering
@@ -106,14 +123,14 @@ When the models were prompted with \textbf{``a highly symmetrical loaf of bread'
     Tennis Ball & 0.9537 & 0.8711 & 0.2925 & 0.4034 & 0.5056 \\
     \bottomrule
     \end{tabular}
-    \caption{Symmetrie-scores with a tolerance of 0.002 for various prompts demanding a symmetrical output.}~\label{table:symmetryScores}
+    \caption{Symmetry-scores with a tolerance of 0.002 for various prompts demanding a symmetrical output.}~\label{table:symmetryScores}
 \end{table}
 
 The prompt's intention to produce a geometrically consistent object seems to have been partially successful, with varying degrees of symmetry achieved by different methods.
 
-DreamFusion stands out with a high symmetry score of 0.9537, indicating a strong capability to produce highly symmetrical objects, particularly when the object in question has a simple and inherently symmetrical form like a tennis ball. In contrast, Magic3D, which previously performed well with the bread prompt, shows a decreased symmetry score of 0.5711 for the tennis ball. This drop implies that Magic3D's ability to generate symmetry may be more context-dependent or less consistent when dealing with complex shapes. In contrast to its previous performance with the bread prompt, Magic3D shows an increased symmetry score of 0.8711 for the tennis ball. This result suggests that Magic3D's proficiency in creating symmetrical objects may actually be more consistent and effective, when dealing with straightforward geometric shapes. Fantasia3D, Magic123 and Wonder3D, scoring 0.2925, 0.4034 and 0.5056 respectively, demonstrate challenges in achieving symmetry across various object complexities. This may point to inherent constraints within their algorithms, particularly in rendering symmetrical forms and the potential information loss during the final mesh extraction post-training.
+DreamFusion stands out with a high symmetry score of 0.9537, indicating a strong capability to produce highly symmetrical objects, particularly when the object in question has a simple and inherently symmetrical form like a tennis ball. In contrast, Magic3D, after showing reasonable success with the bread prompt, maintains good performance with a score of 0.8711 for the tennis ball, suggesting its effectiveness in handling straightforward geometric shapes. Fantasia3D, Magic123 and Wonder3D, scoring 0.2925, 0.4034 and 0.5056 respectively, demonstrate challenges in achieving symmetry across various object complexities. This may point to inherent constraints within their functionality, particularly in rendering symmetrical forms and the potential information loss during the final mesh extraction post-training.
 
-These results reveal that the ability to generate symmetrical 3D models varies significantly across different methods. While some methods excel in creating symmetrical objects for simple shapes, others may perform better with more complex forms. This disparity underscores the importance of method selection based on the specific requirements of the 3D model to be generated. Additionally, it highlights the need for further refinement in 3D model generation techniques, especially in achieving consistent symmetry across a range of shapes and complexities.
+These results reveal that the ability to generate symmetrical 3D models varies significantly across different methods. While some methods excel in creating symmetrical objects for simple shapes, others may perform better with more complex forms. This disparity underscores the importance of method selection based on the specific requirements of the 3D model to be generated. Additionally, it highlights the need for further refinement in 3D model generation techniques, especially in achieving consistent symmetry across a range of shapes and complexities, ig tasked to do so.
 
 \begin{figure}[ht]
     \centering
@@ -144,7 +161,7 @@ These results reveal that the ability to generate symmetrical 3D models varies s
         \includegraphics[width=\textwidth]{etc/a symmetrical tennis ball/wonder3D/wonder3d_ball_result.png}
         \caption{Wonder3D}
     \end{subfigure}
-    \caption{Illustrating the outcomes of the symmetrical tennis ball prompt across various 3D model generation methods, this figure showcases the distinct capabilities and limitations in achieving geometric symmetry. }~\label{fig:Ball}
+    \caption{Illustrating the outcomes of the symmetrical tennis ball prompt across various 3D model generation methods, this figure shows the distinct capabilities and limitations in achieving geometric symmetry.}~\label{fig:Ball}
 \end{figure}
 
 

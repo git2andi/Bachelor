@@ -24,7 +24,7 @@
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_coarse_robot_front_10000_part1.png}
         \caption{}
     \end{subfigure}
-    \caption{Front view of the coarse stage of Magic123}~\label{fig:generationFrontCoarseMagic123}
+    \caption{Front view of the coarse stage of Magic123.}~\label{fig:generationFrontCoarseMagic123}
 \end{figure}
 
 The front view of the coarse generation process is depicted in Figure~\ref{fig:generationFrontCoarseMagic123}. Even at an early stage like Iteration 100, the method efficiently produces an outline that resonates well with the input image, including the incorporation of a green hue to represent the plant aspects. Progressing to Iteration 5000, the model becomes more detailed, with sharper edges and a more defined robotic shape. Elements suggestive of overgrowth, such as leaves and vines, begin to emerge, and the texture convincingly integrates plant-like features, covering the model with grass and vine patterns. By Iteration 10000 in this stage, the model's shape does not evolve significantly, but some color variation in the plant textures and distinct features like a white spot on the right shoulder and a bright red dot above the left knee emerge, hinting at metallic robot parts and a blooming flower, respectively.
@@ -36,29 +36,29 @@ During the refinement stage, showcased in Figure~\ref{fig:generationFrontRefineM
     % Subfigure for textual description
     \begin{subfigure}[b]{0.25\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 100}\vspace{.1cm}
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 100}\vspace{.1cm}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part2.png}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_0_part1.png}
         \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.25\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 5000}\vspace{.1cm}
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 5000}\vspace{.1cm}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part2.png}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_5000_part1.png}
         \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.25\textwidth}
         \centering
-        \fontsize{9pt}{7pt}\selectfont\text{Iteration = 10000}\vspace{.1cm}
+        \fontsize{9pt}{7pt}\selectfont\text{Iteration 10000}\vspace{.1cm}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part2.png}
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/magic123/magic123_refine_robot_front_10000_part1.png}
         \caption{}
     \end{subfigure}
-    \caption{Front view of the refine stage of Magic123}~\label{fig:generationFrontRefineMagic123}
+    \caption{Front view of the refine stage of Magic123.}~\label{fig:generationFrontRefineMagic123}
 \end{figure}
 
-As Magic123 generates multiple views during training, additional perspectives of the object for each iteration can be seen in Figures~\ref{fig:generationCoarseMagic123} and~\ref{fig:generationRefineMagic123} in the appendix, which include the right, back, and left views. In there one can see the difficulties magic123 had in the beginning while determining the side views of the model. These problems however quickly dissapeared until Iteration 5000. 
+As Magic123 generates multiple views during training, additional perspectives of the object for each iteration can be seen in Figures~\ref{fig:generationCoarseMagic123} and~\ref{fig:generationRefineMagic123} in the appendix, which include the right, back, and left views. In there one can see the difficulties magic123 had in the beginning while determining the side views of the model. These problems however quickly disappeared until Iteration 5000. 
 
 The final mesh, as illustrated in part (a) of Figure~\ref{fig:inputAndModel}, exhibits reasonable quality. Some white spots, particularly around the floating parts, suggest that these areas may remain textureless due to rendering issues. In comparison, the final model does a commendable job in mirroring the overall shape of the input image. Despite this, it becomes evident that Magic123 struggles to replicate the complex details of the plants. This shortcoming highlights the limitations of the method when it comes to fully capturing and translating the details in the input image into the 3D model. However, longer training iterations and higher computing power could mitigate this.
 
@@ -79,5 +79,5 @@ The final mesh, as illustrated in part (a) of Figure~\ref{fig:inputAndModel}, ex
         \includegraphics[width=\textwidth]{etc/a robot made out of plants/wonder3d/wonder3d_plantrobot_model_resized}
         \caption{Wonder3D}
     \end{subfigure}
-    \caption{3D models generated by Magic123 and Wonder3D based on an imput image}~\label{fig:inputAndModel}
+    \caption{3D models generated by Magic123 and Wonder3D based on an imput image.}~\label{fig:inputAndModel}
   \end{figure}

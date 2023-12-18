@@ -275,13 +275,99 @@
 
 
 
+% Original Images
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/dreamfusion_a_yorkie_dog_wearing_extremely_cool_sneakers.PNG}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/dreamfusion_an_astronaut_playing_the_violin.PNG}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/dreamfusion_neuschwanstein.PNG}
+        \caption{}
+    \end{subfigure}
+    \caption{Possible results from DreamFusion using the original settings. Images taken from~\citep{pooleDreamfusion}. Part (a) prompt: ``a yorkie dog wearing extremely cool sneakers'', part (b) prmopt: ``an astronaut playing the violin'' and the prompt for part (c): ``Neuschwanstein Castle, areal view''.}\label{fig:dreamfusionOriginal}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.187\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/magic3D_astronaut.PNG}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/magic3D_schloss_neuschwanstein.PNG}
+        \caption{}
+    \end{subfigure}
+    \caption{Results derived from Magic3D \citep{lin2023magic3d} using the original settings.}\label{fig:magic3DOriginal}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/fantasia_a_mug_of_hot_chocolate_with_whipped_cream_and_marshmallows.PNG}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/fantasia_a_vintage_record_player.PNG}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/fantasia_ahighly_detailed_sandcastle.PNG}
+        \caption{}
+    \end{subfigure}
+    \caption{Fantasia3D's realistic 3D renderings: Images from \citep{chen2023fantasia3d}. Part (a) using the prompt ``a mug of hot chocolate with whipped cream and marshmallows'', part (b) ``a vintage record player'', and part (c) ``a highly detailed sandcastle''.}\label{fig:fantasia3DOriginal}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.9\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/magic123_examples.PNG}
+        \caption{}
+    \end{subfigure}
+    \caption{Diverse 3D models from Magic123, demonstrating varied rendering capabilities. Figure taken from \citep{qian2023magic123}. The first image of a series is the input image, the middle image is the 3D color perspective and the right part are the density maps.}\label{fig:magic123Original}
+\end{figure}
+
+
+\begin{figure}[ht]
+    \centering
+    \small
+    \begin{subfigure}[b]{0.9\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{etc/Original/wonder3d_animal_examples.PNG}
+        \caption{}
+    \end{subfigure}
+    \caption{Wonder3D's high-quality animal results from the official paper \citep{long2023wonder3d}.}\label{fig:wonder3dOriginal}
+\end{figure}
 
 
 \chapter{Adaptive Modifications in Threestudio Implementations}\label{ch:differences}
 
-In the Threestudio project's adaptation of Dreamfusion, Magic3D, Fantasia3D, and Magic123, several structural changes were implemented, distinguishing them from their official paper counterparts. These differences stated here are directly taken as given in the Threestudio GitHub project page~\citep{threestudio2023}: 
 
-For Dreamfusion, open-source Text-to-Image models like StableDiffusion and DeepFloyd IF are used instead of Imagen as in the original paper. A lower guidance scale of 20 is applied for DeepFloyd IF, as opposed to 100 used for Imagen. The normalization of albedo color deviates from the sigmoid approach; it's simply scaled from a range of [-1,1] to [0,1] to aid in convergence. The project employs HashGrid encoding and uniform ray sampling, contrasting with Integrated Positional Encoding and MipNeRF360's sampling strategy in the paper. Camera settings and density initialization are adopted from Magic3D, which slightly differ from the DreamFusion paper. Additionally, there are variations in hyperparameters like the weighting of loss terms.
+
+In the Threestudio project's adaptation of DreamFusion, Magic3D, Fantasia3D, and Magic123, several structural changes were implemented, distinguishing them from their official paper counterparts. These differences stated here are directly taken as given in the Threestudio GitHub Project Page~\citep{threestudio2023}: 
+
+For DreamFusion, open-source Text-to-Image models like StableDiffusion and DeepFloyd IF are used instead of Imagen as in the original paper. A lower guidance scale of 20 is applied for DeepFloyd IF, as opposed to 100 used for Imagen. The normalization of albedo color deviates from the sigmoid approach; it's simply scaled from a range of [-1,1] to [0,1] to aid in convergence. The project employs HashGrid encoding and uniform ray sampling, contrasting with Integrated Positional Encoding and MipNeRF360's sampling strategy in the paper. Camera settings and density initialization are adopted from Magic3D, which slightly differ from the DreamFusion paper. Additionally, there are variations in hyperparameters like the weighting of loss terms.
 
 In Magic3D's implementation within Threestudio, open-source T2I models are used for the coarse stage, as opposed to eDiff-I in the paper. The guidance scale for DeepFloyd IF is set at 20, contrasting with the paper's 100 for eDiff-I. The coarse stage utilizes analytic normal instead of predicted normal and includes orientation loss as in DreamFusion, which the paper does not incorporate. There are also omissions and potential differences in aspects like the weighting of loss terms and DMTet grid resolution.
 

@@ -29,7 +29,7 @@ Barron, J.~T., Mildenhall, B., Verbin, D., Srinivasan, P.~P., and Hedman, P.
 Betker, J., Goh, G., Jing, L., Ramesh, A., et~al. (2023).
 \newblock Improving image generation with better captions.
 \newblock \url{https://cdn.openai.com/papers/dall-e-3.pdf}.
-\newblock Accessed: [25.11.2023].
+\newblock Accessed: [2023-12-12].
 
 \bibitem[Brophy et~al., 2023]{brophyGAN}
 Brophy, E., Wang, Z., She, Q., and Ward, T. (2023).
@@ -50,7 +50,8 @@ Chen, R., Chen, Y., Jiao, N., and Jia, K. (2023).
   text-to-3d content creation.
 \newblock In {\em Proceedings of the IEEE/CVF International Conference on
   Computer Vision (ICCV)}.
-\newblock GitHub: \url{https://github.com/Gorilla-Lab-SCUT/Fantasia3D}.
+\newblock GitHub: \url{https://github.com/Gorilla-Lab-SCUT/Fantasia3D},
+  Accessed: [2023-12-12].
 
 \bibitem[Cignoni et~al., 2008]{meshLab}
 Cignoni, P., Callieri, M., Corsini, M., Dellepiane, M., Ganovelli, F., and
@@ -86,7 +87,7 @@ Goodfellow, I.~J., Bengio, Y., and Courville, A. (2016).
 {Google LLC} (2023).
 \newblock Google colaboratory.
 \newblock \url{https://colab.research.google.com/}.
-\newblock Accessed: [1.11.2023].
+\newblock Accessed: [2023-12-12].
 
 \bibitem[Guo et~al., 2023]{threestudio2023}
 Guo, Y.-C., Liu, Y.-T., Shao, R., Laforte, C., Voleti, V., Luo, G., Chen,
@@ -98,7 +99,7 @@ Guo, Y.-C., Liu, Y.-T., Shao, R., Laforte, C., Voleti, V., Luo, G., Chen,
 Haggerty, D. et~al. (2019).
 \newblock trimesh.
 \newblock \url{https://trimsh.org/}.
-\newblock Accessed: [2019-12-8].
+\newblock Accessed: [2023-12-12].
 
 \bibitem[Higgins et~al., 2017]{higginsVAE}
 Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M.,
@@ -146,12 +147,6 @@ Kerbl, B., Kopanas, G., Leimk{\"u}hler, T., and Drettakis, G. (2023).
 \newblock 3d gaussian splatting for real-time radiance field rendering.
 \newblock {\em ACM Transactions on Graphics}, 42(4).
 
-\bibitem[Kingma et~al., 2021]{kingma2023variationalDM}
-Kingma, D., Salimans, T., Poole, B., and Ho, J. (2021).
-\newblock Variational diffusion models.
-\newblock {\em Advances in neural information processing systems},
-  34:21696--21707.
-
 \bibitem[Kingma and Welling, 2013]{kingmaVAE}
 Kingma, D.~P. and Welling, M. (2013).
 \newblock Auto-encoding variational bayes.
@@ -168,6 +163,8 @@ Lin, C.-H., Gao, J., Tang, L., Takikawa, T., Zeng, X., Huang, X., Kreis, K.,
 \newblock Magic3d: High-resolution text-to-3d content creation.
 \newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
   Pattern Recognition}, pages 300--309.
+\newblock Project Page: \url{https://research.nvidia.com/labs/dir/magic3d/},
+  Accessed: [2023-12-12].
 
 \bibitem[Liu et~al., 2016]{steinScore}
 Liu, Q., Lee, J., and Jordan, M. (2016).
@@ -190,7 +187,8 @@ Long, X., Guo, Y.-C., Lin, C., Liu, Y., Dou, Z., Liu, L., Ma, Y., Zhang, S.-H.,
 \newblock Wonder3d: Single image to 3d using cross-domain diffusion.
 \newblock {\em arXiv preprint arXiv:2310.15008}.
 \newblock GitHub: \url{https://github.com/xxlong0/Wonder3D.git}, and
-  \url{https://github.com/camenduru/Wonder3D-colab.git}.
+  \url{https://github.com/camenduru/Wonder3D-colab.git}, Accessed:
+  [2023-12-12].
 
 \bibitem[Luccioni et~al., 2023]{luccioni2023stable}
 Luccioni, A.~S., Akiki, C., Mitchell, M., and Jernite, Y. (2023).
@@ -262,6 +260,8 @@ Noriega, L. (2005).
 Poole, B., Jain, A., Barron, J.~T., and Mildenhall, B. (2022).
 \newblock Dreamfusion: Text-to-3d using 2d diffusion.
 \newblock {\em arXiv preprint arXiv:2209.14988}.
+\newblock Project Page: \url{https://dreamfusion3d.github.io/}, Accessed:
+  [2023-12-12].
 
 \bibitem[Qian et~al., 2023]{qian2023magic123}
 Qian, G., Mai, J., Hamdi, A., Ren, J., Siarohin, A., Li, B., Lee, H.-Y.,
@@ -269,6 +269,8 @@ Qian, G., Mai, J., Hamdi, A., Ren, J., Siarohin, A., Li, B., Lee, H.-Y.,
 \newblock Magic123: One image to high-quality 3d object generation using both
   2d and 3d diffusion priors.
 \newblock {\em arXiv preprint arXiv:2306.17843}.
+\newblock Project Page: \url{https://guochengqian.github.io/project/magic123/},
+  Accessed: [2023-12-12].
 
 \bibitem[Rabby and Zhang, 2023]{rabby2023beyondpixels}
 Rabby, A. and Zhang, C. (2023).
@@ -289,7 +291,7 @@ Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
 Ramesh, A., Pavlov, M., Goh, G., Gray, S., et~al. (2023).
 \newblock Dall-e 3.
 \newblock \url{https://openai.com/dall-e-3}.
-\newblock Accessed: [25.11.2023].
+\newblock Accessed: [2023-12-12].
 
 \bibitem[Ranftl et~al., 2021]{ranftl2021vision}
 Ranftl, R., Bochkovskiy, A., and Koltun, V. (2021).
@@ -359,7 +361,7 @@ Song, Y. (2021).
 \newblock Score-based generative modeling through stochastic differential
   equations.
 \newblock \url{https://yang-song.net/blog/2021/score/}.
-\newblock Accessed: [26.11.2023].
+\newblock Accessed: [2023-12-12].
 
 \bibitem[Song et~al., 2021]{song2021maximum}
 Song, Y., Durkan, C., Murray, I., and Ermon, S. (2021).

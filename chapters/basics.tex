@@ -1,11 +1,11 @@
 \chapter{Basics}\label{ch:basics}
 
-This chapter provides the groundwork necessary for the comparative analysis of automatic 3D model generation techniques by introducing the key technologies that drive these methods. It is essential to have a common understanding of the 2D generative models and 3D data representations that form the basis of this field.
+This chapter lays the foundations for understanding automated 3D model generation by introducing the key technologies that underpin these methods. It is essential to have a common understanding of the 2D generative models and 3D data representations that form the basis of this field.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=.4\columnwidth]{figures/BasicTrilemma.png}
-  \caption{The Generative Learning Trilemma: Balancing Quality, Speed, and Diversity in Generative Models. Image taken from \citep{xiao2022tackling}.}~\label{fig:generativeTrilemma}
+  \caption{The Generative Learning Trilemma: Balancing Quality, Speed, and Diversity in Generative Models. Figure taken from \citep{xiao2022tackling}.}~\label{fig:generativeTrilemma}
 \end{figure}
 
 The chapter starts with a brief overview of the most common generative text-to-2D models, as they play a central role for 3D synthesis. The section aims to shed light on the ``generative learning trilemma'', a concept introduced in Figure~\ref{fig:generativeTrilemma} by \citeauthor{xiao2022tackling} that describes the balance between quality, speed and diversity in different generative models. The chapter includes Variational Autoencoders (VAEs) \citep{kingmaVAE,rezendeVAE}, which provide a basic probabilistic framework for learning complex data representations while balancing fast sampling and diversity in their results. Following this, Generative Adversarial Networks (GANs) \citep{goodfellowGAN} are presented, highlighting their fast training mechanisms for producing high-quality samples that include both generator and discriminator parts. In addition, the chapter explores the area of diffusion models, which are characterized by diversity and sample quality. A particular focus is on Denoising Diffusion Probabilistic Models (DDPMs) \citep{hoDDPMs,sohlDDPM}, while Score-Based generative Models (SGMs) \citep{song2019SGM} and Stochastic Differential Equations (SDEs) \citep{song2020score,song2021maximum} are also addressed. 
