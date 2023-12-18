@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex abschlussarbeit"] 1702871407 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1702872385 0
+["bibtex abschlussarbeit"] 1702894215 "abschlussarbeit.aux" "abschlussarbeit.bbl" "abschlussarbeit" 1702895402 0
   "./bibl.bib" 1702871407 28386 10a4b4bd97b680470997e64b8e3f4779 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "abschlussarbeit.aux" 1702872384 42098 28f9850286cbf7191e5e525d0a2e958a "pdflatex"
+  "abschlussarbeit.aux" 1702895401 42098 6da945c27460a5862b7c07d96756c671 "pdflatex"
   (generated)
   "abschlussarbeit.bbl"
   "abschlussarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1702872369 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1702872385 0
+["pdflatex"] 1702895387 "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" "abschlussarbeit.pdf" "abschlussarbeit" 1702895402 0
   "C:/Users/andi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702054470 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/andi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1702840790 12668 155973a7335cf208204e98e018c40ff6 ""
   "C:/Users/andi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699104179 24203285 a4b8cd483c206353b7c74d3cb14981e6 ""
@@ -133,12 +133,12 @@
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/andi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "abschlussarbeit.aux" 1702872384 42098 28f9850286cbf7191e5e525d0a2e958a "pdflatex"
-  "abschlussarbeit.bbl" 1702871407 17885 9df168374921f10059138df048b678de "bibtex abschlussarbeit"
-  "abschlussarbeit.lof" 1702872384 12601 ba0ce93ad46f00ee4f975c08c7396b77 "pdflatex"
-  "abschlussarbeit.lot" 1702872384 863 86e431984eda2a1d0e517c07405df05e "pdflatex"
+  "abschlussarbeit.aux" 1702895401 42098 6da945c27460a5862b7c07d96756c671 "pdflatex"
+  "abschlussarbeit.bbl" 1702894215 17885 9df168374921f10059138df048b678de "bibtex abschlussarbeit"
+  "abschlussarbeit.lof" 1702895401 12601 ba0ce93ad46f00ee4f975c08c7396b77 "pdflatex"
+  "abschlussarbeit.lot" 1702895401 863 86e431984eda2a1d0e517c07405df05e "pdflatex"
   "abschlussarbeit.tex" 1702841142 1735 6a762ca0e311aa2612963bf666073a60 ""
-  "abschlussarbeit.toc" 1702872384 2932 19e38f405eb601822f110d81d4fe9a3e "pdflatex"
+  "abschlussarbeit.toc" 1702895401 2932 19e38f405eb601822f110d81d4fe9a3e "pdflatex"
   "c:/Users/andi/Desktop/Bachelor/abschlussarbeit.tex" 1702841142 1735 6a762ca0e311aa2612963bf666073a60 ""
   "chapters/Basics/3Drepresentation.tex" 1702852262 198 f12d7b06f6987841c6060dd90e5f5d47 ""
   "chapters/Basics/CLIP.tex" 1702847001 1612 b9948e52be4512c4acb5415235b78d99 ""
@@ -166,7 +166,7 @@
   "chapters/basics.tex" 1702841466 3011 2762ae9c6562e24f3bb0c9a0e8b6fd11 ""
   "chapters/compare.tex" 1702836271 1484 357c8aeab5921bdd370e0387e33a25ce ""
   "chapters/comparison/comparativeAnalysis.tex" 1702836271 2317 10b3f7cf4d5d259e2f3ba2972432044a ""
-  "chapters/comparison/experimentalSetup.tex" 1702854515 3227 e92e73a3fca07ec3ae001a98f7c8b1cd ""
+  "chapters/comparison/experimentalSetup.tex" 1702895386 3356 d57ade776728e74653bae833ee8f6e15 ""
   "chapters/comparison/generationDreamFusion.tex" 1702856195 4229 e2bd1c40d5f9b04897413cf6aa0bcda4 ""
   "chapters/comparison/generationFantasia3D.tex" 1702856216 5403 21885461969b574cdd7b054f4e784d68 ""
   "chapters/comparison/generationMagic123.tex" 1702856522 7552 569667428522c3e4dd4376d2adaadd61 ""
@@ -175,7 +175,7 @@
   "chapters/comparison/generationWonder3D.tex" 1702856672 3674 885bb90c3f7007ff045631e66860479c ""
   "chapters/comparison/subjective.tex" 1702861935 34380 9a801fe9a617f38226af81854bbf03b7 ""
   "chapters/comparison/technical.tex" 1702871031 17540 fb160923fa68e4879696fa47c043a3da ""
-  "chapters/conclusion.tex" 1702869588 6969 e78ef437cc7c2f311736f4db83d576c4 ""
+  "chapters/conclusion.tex" 1702895117 6802 23a9cd82159c6a39b26349513d898b26 ""
   "chapters/erklaerung.tex" 1702836271 684 db7d4b0d867e217c26447b533f13e68b ""
   "chapters/future.tex" 1702054435 857 827bb3a83d0d990440b82c68e463efd9 ""
   "chapters/future/emergingTrends.tex" 1702836271 5374 c7d01fc6375bfb06a614f42f64d4c556 ""

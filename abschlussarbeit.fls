@@ -432,6 +432,7 @@ INPUT chapters\compare.tex
 INPUT .\chapters\comparison\experimentalSetup.tex
 INPUT .\chapters\comparison\experimentalSetup.tex
 INPUT chapters\comparison\experimentalSetup.tex
+INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\chapters\comparison\generationProcess.tex
 INPUT .\chapters\comparison\generationProcess.tex
 INPUT chapters\comparison\generationProcess.tex
@@ -2008,7 +2009,6 @@ INPUT .\abschlussarbeit.bbl
 INPUT .\abschlussarbeit.bbl
 INPUT abschlussarbeit.bbl
 INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\andi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\chapters\erklaerung.tex
 INPUT .\chapters\erklaerung.tex
 INPUT chapters\erklaerung.tex
