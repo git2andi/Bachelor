@@ -93,7 +93,7 @@ Goodfellow, I.~J., Bengio, Y., and Courville, A. (2016).
 Guo, Y.-C., Liu, Y.-T., Shao, R., Laforte, C., Voleti, V., Luo, G., Chen,
   C.-H., Zou, Z.-X., Wang, C., Cao, Y.-P., and Zhang, S.-H. (2023).
 \newblock threestudio: A unified framework for 3d content generation.
-\newblock \url{https://github.com/threestudio-project/threestudio}.
+\newblock GitHub: \url{https://github.com/threestudio-project/threestudio}.
 
 \bibitem[Haggerty et~al., 2019]{trimesh}
 Haggerty, D. et~al. (2019).
