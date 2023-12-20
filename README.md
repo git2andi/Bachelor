@@ -1,10 +1,12 @@
 # Bachelor
+All generated Models can be found in: https://drive.google.com/file/d/1rBeWdEHI0-uwz4myuyihKe1nbQ85m0pe/view?usp=sharing
+
+
 
 List of used Projects:
 
 **DreamFusion:**
 - [DreamFusion Official Website](https://dreamfusion3d.github.io/)
-- [Adapted GitHub Repository](https://github.com/ashawkey/stable-dreamfusion.git)
 
 **Magic3D:**
 - [Magic3D Official Website](https://research.nvidia.com/labs/dir/magic3d/)
